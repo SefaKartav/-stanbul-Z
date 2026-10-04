@@ -16,6 +16,10 @@
 
 </div>
 
+> [!NOTE]
+> 🤖 **Bu proje tamamen [Claude](https://claude.ai) (Anthropic'in yapay zekâ asistanı) tarafından yapılmıştır.**
+> Oyun kodu, şehir tasarımı, 785 tarif ve bütün oyun içeriği, ses paketi, testler, ekran görüntüleri ve bu sayfa Claude Code ile üretildi. Proje fikri, yönlendirme ve istekler [Sefa Kartav](https://github.com/SefaKartav)'a aittir.
+
 ---
 
 İstanbul-Z, İstanbul'un tarihî dokusundan ilham alan **kurgusal, 10 × 10 km'lik sabit bir şehirde** geçen birinci şahıs bir zombi hayatta kalma oyunudur. Her blok kırılabilir; her binaya kapısından girilir ve bütün katlarına merdivenle çıkılır. Kaynak topla, işle, üret, üssünü güçlendir ve her yedinci gecenin büyük dalgasından sağ çık.
@@ -110,6 +114,7 @@ fps/
 
 ## Lisanslar ve teşekkür
 
+- **Geliştirme:** bu projenin tamamı [Claude](https://claude.ai) (Anthropic) tarafından yapılmıştır. Proje sahibi ve yönlendiren: [Sefa Kartav](https://github.com/SefaKartav).
 - Motor: [Godot Engine](https://godotengine.org) (MIT)
 - Yazı tipi: [Barlow](https://github.com/jpt/barlow) (SIL OFL 1.1, `fps/assets/fonts/OFL.txt`)
 - Eski gerçek İstanbul haritaları (Maltepe–Beşiktaş koridoru, Kadıköy): © OpenStreetMap katkıcıları, ODbL. Varsayılan "Yeni İstanbul" şehri özgün tasarımdır ve gerçek harita verisi içermez.

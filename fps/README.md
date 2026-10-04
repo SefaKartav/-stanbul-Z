@@ -4,6 +4,8 @@ Birinci şahıs, voxel görünümlü zombi hayatta kalma ve koloni oyunu. Yeni o
 
 **Motor:** Godot 4.7.2-stable (GDScript) · **Eski haritaların verisi:** © OpenStreetMap katkıcıları, ODbL
 
+> 🤖 **Bu proje tamamen Claude (Anthropic'in yapay zekâ asistanı) tarafından yapılmıştır.** Kod, şehir, içerik, sesler, testler ve belgeler Claude Code ile üretildi; proje fikri ve yönlendirme Sefa Kartav'a aittir.
+
 > **30 Eylül 2026 — sabit kurgusal şehir, derin üretim, yumuşak grafik** (ayrıntı ve ölçümler: [docs/reports/TESLIM_RAPORU.md](docs/reports/TESLIM_RAPORU.md)).
 > - **Yeni İstanbul** (`data/map/yeni_istanbul.json`, dünya sürümü 1): su 20 km², tarihî 12 · konut 22 · ticaret 10 · sanayi 10 · yeşil 12 · kurumsal 14 km². 3 askerî alan + 8 kontrol noktası, 4 hastane + 8 sağlık ocağı, 24 eczane, 12 okul, 2 hapishane, 8 tarihî odak; her kurumun kendi loot'u ve zombi karışımı. Asma köprü + alçak geçitler + kara yolu. Doğuş: Rıhtım İskele Meydanı. Harita açılışta üretilmez; geliştirme aracıyla bir kez üretilip dosyada sabittir.
 > - **785 tarif** (önce 76), 10 aile, 12 istasyon; her çıktı gerçek bir işleve bağlı (kuşan, yerleştir, tüket, araca tak…). Elektrik ağı, tarım, toplama aletleri, yapı yükseltme/onarım/söküm, kapılar, üretim kuyruğu.
