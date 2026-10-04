@@ -1,0 +1,136 @@
+{
+  "layout_id": "historic_a",
+  "label_tr": "teraslı_saray_avlusu",
+  "type": "Tarihî Kompleks",
+  "coordinate_system": "local X/Z meters; +Y up; forward -Z",
+  "floors": 3,
+  "modules": [
+    {
+      "asset_id": "iz3_historic_palace_01",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_caravanserai_01",
+      "position_m": [
+        6,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_01",
+      "position_m": [
+        0,
+        0,
+        5
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_03",
+      "position_m": [
+        -3,
+        0,
+        3
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_02",
+      "position_m": [
+        1,
+        0,
+        -3
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_tower_01",
+      "position_m": [
+        8,
+        0,
+        5
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_dome_01",
+      "position_m": [
+        2,
+        4,
+        2
+      ],
+      "rotation_y_deg": 0,
+      "floor": 1
+    }
+  ],
+  "rooms": [
+    "revaklı avlu",
+    "iç salon",
+    "teras",
+    "kule merdiveni"
+  ],
+  "entries": [
+    {
+      "position_m": [
+        0,
+        0,
+        4
+      ],
+      "width_m": 1.4,
+      "access": "ground entrance"
+    },
+    {
+      "position_m": [
+        6,
+        0,
+        -4
+      ],
+      "width_m": 2.0,
+      "access": "service entrance"
+    }
+  ],
+  "loot_interaction_points": [
+    {
+      "type": "loot",
+      "position_m": [
+        4,
+        0.8,
+        -1
+      ]
+    },
+    {
+      "type": "interact",
+      "position_m": [
+        1,
+        1,
+        -3
+      ]
+    }
+  ],
+  "circulation_clearances": {
+    "main_corridor_min_m": 2.0,
+    "door_clear_m": [
+      1.1,
+      2.2
+    ],
+    "stair_clear_width_min_m": 1.4,
+    "accessible_route": "ground entrance to central corridor, stairs to upper floor and roof"
+  },
+  "footprint_m": [
+    18,
+    16
+  ]
+}

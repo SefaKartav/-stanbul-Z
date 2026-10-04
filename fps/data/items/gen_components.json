@@ -1,0 +1,793 @@
+{
+ "iron_bar": {
+  "name": "Demir Çubuk",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.8,
+  "value": 8,
+  "tags": [
+   "bar",
+   "structural_metal",
+   "metal"
+  ],
+  "description": "Hurdadan dövülmüş çubuk. Çivi, sap, kazma ve köşebentin hammaddesi."
+ },
+ "aluminum_ingot": {
+  "name": "Alüminyum Külçe",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.6,
+  "value": 12,
+  "tags": [
+   "ingot",
+   "light_metal",
+   "metal"
+  ],
+  "description": "Levha ve kutulardan eritilmiş hafif metal."
+ },
+ "copper_ingot": {
+  "name": "Bakır Külçe",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.9,
+  "value": 16,
+  "tags": [
+   "ingot",
+   "conductive_metal",
+   "metal"
+  ],
+  "description": "Kablo ve radyatörden. Bobin ve elektrik tesisatı için."
+ },
+ "steel_sheet": {
+  "name": "Çelik Sac",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 1.1,
+  "value": 30,
+  "tags": [
+   "plate",
+   "structural_metal",
+   "metal"
+  ],
+  "description": "Dövülüp düzlenmiş çelik. Çelik duvar, zırh ve alet bıçağı."
+ },
+ "rivets": {
+  "name": "Perçin",
+  "category": "material",
+  "tier": 1,
+  "stack": 99,
+  "weight": 0.01,
+  "value": 1,
+  "tags": [
+   "fastener",
+   "rivet",
+   "metal"
+  ],
+  "description": "Sac birleştirmenin en sağlam yolu.",
+  "quality": false
+ },
+ "metal_bracket": {
+  "name": "Metal Köşebent",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 6,
+  "tags": [
+   "bracket",
+   "structural",
+   "metal"
+  ],
+  "description": "Ahşabı güçlendiren, rafı taşıyan köşe parçası."
+ },
+ "hinge_heavy": {
+  "name": "Ağır Menteşe",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 10,
+  "tags": [
+   "mechanical",
+   "metal"
+  ],
+  "description": "Çelik kapı ve kepenk taşıyabilir."
+ },
+ "gear_large": {
+  "name": "Büyük Dişli",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.7,
+  "value": 25,
+  "tags": [
+   "mechanical",
+   "precision"
+  ],
+  "description": "Güç aktarımı: türbin, kırıcı ve araç şanzımanı."
+ },
+ "axle": {
+  "name": "Aks",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 2.0,
+  "value": 30,
+  "tags": [
+   "mechanical",
+   "heavy"
+  ],
+  "description": "Rulmanlı mil. Türbin ve kırıcıda döner."
+ },
+ "spring_heavy": {
+  "name": "Ağır Yay",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 12,
+  "tags": [
+   "elastic",
+   "mechanical"
+  ],
+  "description": "Kapan, kapı kapatıcı ve kalın silah yayı."
+ },
+ "blade_blank": {
+  "name": "Bıçak Taslağı",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 20,
+  "tags": [
+   "blade",
+   "sharp",
+   "metal"
+  ],
+  "description": "Balta, testere, orak ve bıçağın çeliği."
+ },
+ "pipe_fitting": {
+  "name": "Boru Bağlantısı",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.2,
+  "value": 4,
+  "tags": [
+   "fitting",
+   "tube"
+  ],
+  "description": "Dirsek, manşon, rakor. Su ve gaz tesisatı."
+ },
+ "valve": {
+  "name": "Vana",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 14,
+  "tags": [
+   "mechanical",
+   "fitting"
+  ],
+  "description": "Su ve gazı açıp kapatır."
+ },
+ "chain": {
+  "name": "Zincir",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.2,
+  "value": 12,
+  "tags": [
+   "chain",
+   "binding",
+   "metal"
+  ],
+  "description": "Kapı, kapan ve testere zinciri."
+ },
+ "welding_rod": {
+  "name": "Kaynak Çubuğu",
+  "category": "component",
+  "tier": 2,
+  "stack": 40,
+  "weight": 0.05,
+  "value": 3,
+  "tags": [
+   "welding",
+   "metal"
+  ],
+  "description": "Kaynak makinesiyle metal birleştirme ve araç tamiri."
+ },
+ "mesh_wire": {
+  "name": "Tel Örgü",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.0,
+  "value": 8,
+  "tags": [
+   "mesh",
+   "binding"
+  ],
+  "description": "Çit, filtre ve takviyeli cam."
+ },
+ "barbed_wire_coil": {
+  "name": "Dikenli Tel Rulosu",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.4,
+  "value": 12,
+  "tags": [
+   "barbed",
+   "binding"
+  ],
+  "description": "Dikenli tel tuzağının ve çitin hammaddesi."
+ },
+ "armor_plate_steel": {
+  "name": "Çelik Zırh Plakası",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 2.2,
+  "value": 55,
+  "tags": [
+   "armor_layer",
+   "plate",
+   "heavy"
+  ],
+  "description": "Araç zırhı ve ağır yelek için."
+ },
+ "reinforced_plate": {
+  "name": "Takviyeli Plaka",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.4,
+  "value": 24,
+  "tags": [
+   "plate",
+   "structural_metal"
+  ],
+  "description": "Araç revizyonu ve sac kapı için."
+ },
+ "wood_beam": {
+  "name": "Ahşap Kiriş",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 2.5,
+  "value": 5,
+  "tags": [
+   "beam",
+   "wood",
+   "structural"
+  ],
+  "description": "Kalın taşıyıcı. Kule, iskele ve palisat."
+ },
+ "plywood": {
+  "name": "Kontrplak",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.2,
+  "value": 8,
+  "tags": [
+   "panel",
+   "wood"
+  ],
+  "description": "Katmanlı levha: dolap, raf, kepenk."
+ },
+ "wooden_frame": {
+  "name": "Ahşap Çerçeve",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 6,
+  "tags": [
+   "frame",
+   "wood"
+  ],
+  "description": "Yatak, raf ve saksının iskeleti."
+ },
+ "dowels": {
+  "name": "Kavela",
+  "category": "material",
+  "tier": 1,
+  "stack": 99,
+  "weight": 0.01,
+  "value": 1,
+  "tags": [
+   "fastener",
+   "wood"
+  ],
+  "description": "Ahşap geçme çivisi: metalsiz birleştirme.",
+  "quality": false
+ },
+ "tool_handle": {
+  "name": "Alet Sapı",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 3,
+  "tags": [
+   "handle",
+   "wood"
+  ],
+  "description": "Balta, kazma, çekiç ve kürek sapı."
+ },
+ "wood_shingle": {
+  "name": "Ahşap Kiremit",
+  "category": "component",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.2,
+  "value": 1,
+  "tags": [
+   "roofing",
+   "wood"
+  ],
+  "description": "Ahşap çatı kaplaması."
+ },
+ "mortar": {
+  "name": "Harç",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.0,
+  "value": 3,
+  "tags": [
+   "mortar",
+   "mineral"
+  ],
+  "description": "Tuğla ve taşı birbirine bağlar.",
+  "quality": false
+ },
+ "concrete_mix": {
+  "name": "Beton Harcı",
+  "category": "material",
+  "tier": 2,
+  "stack": 12,
+  "weight": 2.0,
+  "value": 6,
+  "tags": [
+   "concrete",
+   "mineral"
+  ],
+  "description": "Çimento, agrega ve su. Beton ve betonarme duvar için.",
+  "quality": false
+ },
+ "fired_brick": {
+  "name": "Pişmiş Tuğla",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 1.3,
+  "value": 2,
+  "tags": [
+   "brick_material",
+   "mineral"
+  ],
+  "description": "Fırında pişmiş kil tuğla.",
+  "quality": false
+ },
+ "stone_block": {
+  "name": "Kesme Taş",
+  "category": "material",
+  "tier": 1,
+  "stack": 16,
+  "weight": 3.0,
+  "value": 4,
+  "tags": [
+   "stone_block",
+   "stone"
+  ],
+  "description": "Keskiyle düzgün kesilmiş taş.",
+  "quality": false
+ },
+ "rebar_mesh": {
+  "name": "Hasır Çelik",
+  "category": "component",
+  "tier": 2,
+  "stack": 10,
+  "weight": 3.0,
+  "value": 14,
+  "tags": [
+   "rebar_mesh",
+   "structural_metal"
+  ],
+  "description": "Betonarmenin iskeleti."
+ },
+ "cinder_block": {
+  "name": "Briket",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 2.0,
+  "value": 3,
+  "tags": [
+   "block_material",
+   "mineral"
+  ],
+  "description": "Beton harcından dökme blok.",
+  "quality": false
+ },
+ "roof_tile_item": {
+  "name": "Kiremit",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.6,
+  "value": 2,
+  "tags": [
+   "roofing",
+   "ceramic"
+  ],
+  "description": "Pişmiş kil kiremit.",
+  "quality": false
+ },
+ "tar": {
+  "name": "Zift",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.0,
+  "value": 4,
+  "tags": [
+   "sealant",
+   "bitumen"
+  ],
+  "description": "Isıtılmış asfalt: çatı ve depo yalıtımı.",
+  "quality": false
+ },
+ "twine": {
+  "name": "Sicim",
+  "category": "material",
+  "tier": 1,
+  "stack": 60,
+  "weight": 0.05,
+  "value": 1,
+  "tags": [
+   "binding",
+   "twine",
+   "fiber"
+  ],
+  "description": "Bitki lifinden bükülmüş sicim.",
+  "quality": false
+ },
+ "rope": {
+  "name": "Halat",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.5,
+  "value": 5,
+  "tags": [
+   "binding",
+   "rope"
+  ],
+  "description": "Sicimlerin örülmüşü. Merdiven, tuzak, iskele."
+ },
+ "cloth_bolt": {
+  "name": "Kumaş Top",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.6,
+  "value": 6,
+  "tags": [
+   "fabric",
+   "textile"
+  ],
+  "description": "Dikilmiş, birleştirilmiş kumaş."
+ },
+ "padding_pad": {
+  "name": "Dolgu Pedi",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.2,
+  "value": 5,
+  "tags": [
+   "padding",
+   "soft",
+   "insulator"
+  ],
+  "description": "Zırh astarı ve yatak dolgusu."
+ },
+ "leather_strap": {
+  "name": "Deri Kayış",
+  "category": "component",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.1,
+  "value": 5,
+  "tags": [
+   "strap",
+   "binding",
+   "leather"
+  ],
+  "description": "Kemer, askı, kabza sargısı."
+ },
+ "canvas_sheet": {
+  "name": "Branda",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.0,
+  "value": 12,
+  "tags": [
+   "tough_fabric",
+   "tarp",
+   "fabric"
+  ],
+  "description": "Su geçirmez örtü: yağmur toplayıcı, çadır, çatı."
+ },
+ "kevlar_panel": {
+  "name": "Kevlar Panel",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.6,
+  "value": 70,
+  "tags": [
+   "armor_layer",
+   "ballistic"
+  ],
+  "description": "Katmanlı aramid: mermi ve ısırık geçirmez."
+ },
+ "rubber_sheet": {
+  "name": "Kauçuk Levha",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.5,
+  "value": 6,
+  "tags": [
+   "polymer",
+   "elastic",
+   "rubber_sheet",
+   "insulator"
+  ],
+  "description": "Conta, yalıtım ve sapan için."
+ },
+ "plastic_sheet": {
+  "name": "Plastik Levha",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 4,
+  "tags": [
+   "polymer",
+   "plastic_sheet",
+   "insulator"
+  ],
+  "description": "Eritilmiş plastik: gövde, kasa, filtre."
+ },
+ "nitrate": {
+  "name": "Nitrat",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.2,
+  "value": 10,
+  "tags": [
+   "nitrate",
+   "chemical_oxidizer",
+   "chemical"
+  ],
+  "description": "Gübreden süzülmüş tuz: barut ve duman karışımı."
+ },
+ "ethanol": {
+  "name": "Etanol",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.5,
+  "value": 12,
+  "tags": [
+   "chemical_fuel",
+   "solvent",
+   "antiseptic_base",
+   "cook_fuel",
+   "chemical"
+  ],
+  "description": "Mayalanmış şekerden damıtılmış alkol: yakıt, antiseptik, çözücü.",
+  "effects": {
+   "supply": 1.5
+  },
+  "quality": false
+ },
+ "lye": {
+  "name": "Kostik",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 6,
+  "tags": [
+   "lye",
+   "chemical",
+   "corrosive"
+  ],
+  "description": "Kül suyundan: sabun ve biyodizel."
+ },
+ "soap": {
+  "name": "Sabun",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.2,
+  "value": 5,
+  "tags": [
+   "soap",
+   "antiseptic_base",
+   "hygiene"
+  ],
+  "description": "Yara temizliği ve antiseptik tabanı."
+ },
+ "glue": {
+  "name": "Tutkal",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.2,
+  "value": 4,
+  "tags": [
+   "adhesive",
+   "resin"
+  ],
+  "description": "Reçineden kaynatılmış doğal yapıştırıcı.",
+  "quality": false
+ },
+ "battery_acid": {
+  "name": "Akü Asidi",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.6,
+  "value": 12,
+  "tags": [
+   "electrolyte",
+   "chemical",
+   "corrosive"
+  ],
+  "description": "Kurşun akü ve akü şarjı için elektrolit."
+ },
+ "thermite": {
+  "name": "Termit",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 40,
+  "tags": [
+   "incendiary_filler",
+   "chemical"
+  ],
+  "description": "Alüminyum ve pas karışımı: çeliği eritir, suyla sönmez."
+ },
+ "smoke_compound": {
+  "name": "Duman Karışımı",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 14,
+  "tags": [
+   "smoke_filler",
+   "chemical"
+  ],
+  "description": "Şeker ve nitrat: yoğun beyaz duman."
+ },
+ "pulley": {
+  "name": "Makara",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.6,
+  "value": 12,
+  "tags": [
+   "mechanical",
+   "pulley"
+  ],
+  "description": "Kapan, asansör ve vinç için."
+ },
+ "piston": {
+  "name": "Piston",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.8,
+  "value": 30,
+  "tags": [
+   "mechanical",
+   "engine_part"
+  ],
+  "description": "Kırıcı ve motor için."
+ },
+ "pump_unit": {
+  "name": "Pompa Ünitesi",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 3.0,
+  "value": 45,
+  "tags": [
+   "pump",
+   "mechanical"
+  ],
+  "description": "Elektrikli arıtıcı ve sulama için."
+ },
+ "crank_shaft": {
+  "name": "Krank Mili",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 2.4,
+  "value": 40,
+  "tags": [
+   "mechanical",
+   "engine_part"
+  ],
+  "description": "Motor ayarı ve jeneratör için."
+ },
+ "filter_housing": {
+  "name": "Filtre Gövdesi",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 6,
+  "tags": [
+   "filter_part"
+  ],
+  "description": "Arıtıcı ve maske filtresi gövdesi."
+ },
+ "ceramic_filter": {
+  "name": "Seramik Filtre Mumu",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 14,
+  "tags": [
+   "ceramic_filter",
+   "filter"
+  ],
+  "description": "Pişmiş kil filtre: bakteriyi tutar."
+ },
+ "sand_filter_pack": {
+  "name": "Kum Filtre Paketi",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.0,
+  "value": 4,
+  "tags": [
+   "filter"
+  ],
+  "description": "Kum ve kömür katmanı."
+ },
+ "glass_lens": {
+  "name": "Mercek",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 18,
+  "tags": [
+   "optics",
+   "lens"
+  ],
+  "description": "Zımparalanmış cam: dürbün ve nişangâh."
+ }
+}

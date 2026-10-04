@@ -1,0 +1,1638 @@
+{
+ "r_wood_stock": {
+  "name": "Dipçik oyma",
+  "output": "wood_stock",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 8,
+  "category": "silah_parcasi",
+  "family": "weapons",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "wood_beam",
+    "count": 1
+   }
+  ],
+  "description": "Kirişten yontulmuş dipçik."
+ },
+ "r_trigger_group": {
+  "name": "Tetik grubu",
+  "output": "trigger_group",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 10,
+  "category": "silah_parcasi",
+  "family": "weapons",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "spring",
+    "count": 2
+   },
+   {
+    "item": "machined_part",
+    "count": 1
+   }
+  ],
+  "description": "Tek atış mekanizması."
+ },
+ "r_magazine_blank": {
+  "name": "Şarjör gövdesi",
+  "output": "magazine_blank",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 8,
+  "category": "silah_parcasi",
+  "family": "weapons",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 1
+   }
+  ],
+  "description": "Sac kutu ve besleme yayı."
+ },
+ "r_bowstring": {
+  "name": "Kiriş örme",
+  "output": "bowstring",
+  "count": 1,
+  "station": "hands",
+  "time": 5,
+  "category": "silah_parcasi",
+  "family": "weapons",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "twine",
+    "count": 3
+   }
+  ],
+  "description": "Sıkı örülmüş sicim."
+ },
+ "r_shell_casing": {
+  "name": "Kovan çekme",
+  "output": "shell_casing",
+  "count": 20,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 14,
+  "category": "silah_parcasi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 2
+   },
+   {
+    "item": "brass_stock",
+    "count": 1
+   }
+  ],
+  "description": "Pirinç levhadan yeni kovan."
+ },
+ "r_brass_stock": {
+  "name": "Pirinç dökme",
+  "output": "brass_stock",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 10,
+  "category": "silah_parcasi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "copper_ingot",
+    "count": 1
+   },
+   {
+    "item": "scrap_metal",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Bakır alaşımı levhaya dökülür."
+ },
+ "r_weapon_bat": {
+  "name": "Beyzbol Sopası",
+  "output": "weapon_bat",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "Beyzbol Sopası: 24 hasar."
+ },
+ "r_weapon_nail_bat": {
+  "name": "Çivili Sopa",
+  "output": "weapon_nail_bat",
+  "count": 1,
+  "station": "hands",
+  "time": 12,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "weapon_bat",
+    "count": 1
+   },
+   {
+    "item": "nail",
+    "count": 10
+   }
+  ],
+  "description": "Çivili Sopa: 32 hasar."
+ },
+ "r_weapon_spiked_club": {
+  "name": "Dikenli Topuz",
+  "output": "weapon_spiked_club",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 16,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "Dikenli Topuz: 38 hasar."
+ },
+ "r_weapon_machete": {
+  "name": "Pala",
+  "output": "weapon_machete",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Pala: 30 hasar."
+ },
+ "r_weapon_cleaver": {
+  "name": "Satır",
+  "output": "weapon_cleaver",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "leather_strap",
+    "count": 1
+   }
+  ],
+  "description": "Satır: 34 hasar."
+ },
+ "r_weapon_spear_wood": {
+  "name": "Sivri Mızrak",
+  "output": "weapon_spear_wood",
+  "count": 1,
+  "station": "hands",
+  "time": 12,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "wood_beam",
+    "count": 1
+   },
+   {
+    "tag": "sharp",
+    "count": 2
+   }
+  ],
+  "description": "Sivri Mızrak: 20 hasar."
+ },
+ "r_weapon_spear_steel": {
+  "name": "Çelik Mızrak",
+  "output": "weapon_spear_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "wood_beam",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 1
+   }
+  ],
+  "description": "Çelik Mızrak: 30 hasar."
+ },
+ "r_weapon_yatagan": {
+  "name": "Yatağan",
+  "output": "weapon_yatagan",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 20,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "leather_strap",
+    "count": 2
+   }
+  ],
+  "description": "Yatağan: 44 hasar.",
+  "learn": "level:12"
+ },
+ "r_weapon_mace": {
+  "name": "Gürz",
+  "output": "weapon_mace",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 20,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Gürz: 50 hasar.",
+  "learn": "level:12"
+ },
+ "r_weapon_war_hammer": {
+  "name": "Savaş Çekici",
+  "output": "weapon_war_hammer",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 20,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 2
+   },
+   {
+    "item": "wood_beam",
+    "count": 1
+   }
+  ],
+  "description": "Savaş Çekici: 58 hasar.",
+  "learn": "level:12"
+ },
+ "r_weapon_knife": {
+  "name": "Mutfak bıçağı",
+  "output": "weapon_knife",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 8,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Sessiz, hızlı, yakın."
+ },
+ "r_weapon_pipe": {
+  "name": "Demir boru sopa",
+  "output": "weapon_pipe",
+  "count": 1,
+  "station": "hands",
+  "time": 4,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 1
+   },
+   {
+    "item": "duct_tape",
+    "count": 1
+   }
+  ],
+  "description": "Sapı bantlanmış boru."
+ },
+ "r_weapon_axe": {
+  "name": "İtfaiye baltası",
+  "output": "weapon_axe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 2
+   },
+   {
+    "item": "wood_beam",
+    "count": 1
+   }
+  ],
+  "description": "Geniş savurur; zırhı yarar."
+ },
+ "r_weapon_sledge": {
+  "name": "Balyoz",
+  "output": "weapon_sledge",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "yakin_dovus",
+  "family": "weapons",
+  "subcategory": "Yakın dövüş",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 3
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Kalabalığı açar."
+ },
+ "r_weapon_pipe_pistol": {
+  "name": "Boru Tabanca",
+  "output": "weapon_pipe_pistol",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 26,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 1
+   },
+   {
+    "item": "trigger_group",
+    "count": 1
+   },
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   }
+  ],
+  "description": "Boru Tabanca."
+ },
+ "r_weapon_pipe_shotgun": {
+  "name": "Boru Tüfek",
+  "output": "weapon_pipe_shotgun",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 26,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 2
+   },
+   {
+    "item": "trigger_group",
+    "count": 1
+   },
+   {
+    "item": "wood_stock",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   }
+  ],
+  "description": "Boru Tüfek."
+ },
+ "r_weapon_pipe_rifle": {
+  "name": "Boru Karabina",
+  "output": "weapon_pipe_rifle",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 32,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "trigger_group",
+    "count": 1
+   },
+   {
+    "item": "wood_stock",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   }
+  ],
+  "description": "Boru Karabina.",
+  "learn": "level:9"
+ },
+ "r_weapon_smg_homemade": {
+  "name": "Atölye Makinelisi",
+  "output": "weapon_smg_homemade",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 32,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "magazine_blank",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 2
+   },
+   {
+    "item": "spring",
+    "count": 3
+   }
+  ],
+  "description": "Atölye Makinelisi.",
+  "learn": "level:9"
+ },
+ "r_weapon_crossbow": {
+  "name": "Arbalet",
+  "output": "weapon_crossbow",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 26,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "wood_stock",
+    "count": 1
+   },
+   {
+    "item": "spring_heavy",
+    "count": 2
+   },
+   {
+    "item": "bowstring",
+    "count": 1
+   },
+   {
+    "item": "pulley",
+    "count": 1
+   }
+  ],
+  "description": "Arbalet."
+ },
+ "r_weapon_bow_wood": {
+  "name": "Ahşap Yay",
+  "output": "weapon_bow_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 20,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "item": "bowstring",
+    "count": 1
+   }
+  ],
+  "description": "Ahşap Yay."
+ },
+ "r_weapon_bow_compound": {
+  "name": "Makaralı Yay",
+  "output": "weapon_bow_compound",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 32,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Atölye silahı",
+  "inputs": [
+   {
+    "item": "plywood",
+    "count": 1
+   },
+   {
+    "item": "bowstring",
+    "count": 1
+   },
+   {
+    "item": "pulley",
+    "count": 2
+   },
+   {
+    "item": "aluminum_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Makaralı Yay.",
+  "learn": "level:9"
+ },
+ "r_weapon_makarov": {
+  "name": "Makarov",
+  "output": "weapon_makarov",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 30,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Tabanca",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "trigger_group",
+    "count": 1
+   },
+   {
+    "item": "magazine_blank",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 2
+   }
+  ],
+  "description": "Basit, güvenilir tabanca.",
+  "learn": "schematic"
+ },
+ "r_weapon_revolver": {
+  "name": ".357 Toplu",
+  "output": "weapon_revolver",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 4,
+  "time": 40,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Tabanca",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "gear_small",
+    "count": 2
+   },
+   {
+    "item": "steel_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Altı atımlık toplu.",
+  "learn": "schematic"
+ },
+ "r_weapon_sawnoff": {
+  "name": "Kırma çifte",
+  "output": "weapon_sawnoff",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 30,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Pompalı",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 2
+   },
+   {
+    "item": "trigger_group",
+    "count": 1
+   },
+   {
+    "item": "wood_stock",
+    "count": 1
+   }
+  ],
+  "description": "İki namlu, iki tetik."
+ },
+ "r_weapon_hunting": {
+  "name": "Av tüfeği",
+  "output": "weapon_hunting",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 40,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Tüfek",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "wood_stock",
+    "count": 1
+   }
+  ],
+  "description": "Sürgülü av tüfeği.",
+  "learn": "schematic"
+ },
+ "r_weapon_auto_rifle": {
+  "name": "Piyade tüfeği",
+  "output": "weapon_auto_rifle",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 4,
+  "time": 60,
+  "category": "silah",
+  "family": "weapons",
+  "subcategory": "Tüfek",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "gun_frame",
+    "count": 1
+   },
+   {
+    "item": "magazine_blank",
+    "count": 2
+   },
+   {
+    "item": "machined_part",
+    "count": 3
+   }
+  ],
+  "description": "Otomatik askerî tüfek.",
+  "learn": "schematic"
+ },
+ "r_ammo_357": {
+  "name": ".357 fişek",
+  "output": "ammo_357",
+  "count": 16,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 12,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 8
+   },
+   {
+    "item": "refined_powder",
+    "count": 2
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Toplu tabanca fişeği."
+ },
+ "r_ammo_9mm_ap": {
+  "name": "9mm Zırh Delici",
+  "output": "ammo_9mm_ap",
+  "count": 30,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 14,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 10
+   },
+   {
+    "item": "refined_powder",
+    "count": 2
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "steel_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Çelik uç: zırhlı zombiyi ve ince duvarı deler."
+ },
+ "r_ammo_9mm_hp": {
+  "name": "9mm Oyuk Uçlu",
+  "output": "ammo_9mm_hp",
+  "count": 30,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 12,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 10
+   },
+   {
+    "item": "refined_powder",
+    "count": 2
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Açılan uç: çıplak hedefe büyük hasar, delmez."
+ },
+ "r_ammo_12ga_slug": {
+  "name": "12 Kalibre Tek Kurşun",
+  "output": "ammo_12ga_slug",
+  "count": 16,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 14,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 8
+   },
+   {
+    "item": "refined_powder",
+    "count": 3
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "iron_bar",
+    "count": 2
+   }
+  ],
+  "description": "Saçma değil tek iri kurşun: uzağa isabetli."
+ },
+ "r_ammo_12ga_dragon": {
+  "name": "Ejderha Nefesi",
+  "output": "ammo_12ga_dragon",
+  "count": 12,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 16,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 8
+   },
+   {
+    "item": "refined_powder",
+    "count": 2
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "thermite",
+    "count": 1
+   }
+  ],
+  "description": "Magnezyumlu saçma: vurduğu yanar.",
+  "learn": "level:14"
+ },
+ "r_ammo_762_ap": {
+  "name": "7.62 Zırh Delici",
+  "output": "ammo_762_ap",
+  "count": 20,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 16,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 8
+   },
+   {
+    "item": "refined_powder",
+    "count": 4
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "steel_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Duvarı ve arkasındakini deler."
+ },
+ "r_ammo_762_hp": {
+  "name": "7.62 Oyuk Uçlu",
+  "output": "ammo_762_hp",
+  "count": 20,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 14,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 8
+   },
+   {
+    "item": "refined_powder",
+    "count": 4
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Av mermisi: tek atışta devirir."
+ },
+ "r_ammo_357_hp": {
+  "name": ".357 Oyuk Uçlu",
+  "output": "ammo_357_hp",
+  "count": 16,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 14,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "shell_casing",
+    "count": 8
+   },
+   {
+    "item": "refined_powder",
+    "count": 2
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Toplu için ağır uç."
+ },
+ "r_arrow": {
+  "name": "Ok",
+  "output": "arrow",
+  "count": 6,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "tag": "sharp",
+    "count": 2
+   },
+   {
+    "item": "plant_fiber",
+    "count": 2
+   }
+  ],
+  "description": "Sessiz. Çoğu zaman geri toplanamaz ama ucuz."
+ },
+ "r_arrow_fire": {
+  "name": "Ateşli Ok",
+  "output": "arrow_fire",
+  "count": 3,
+  "station": "hands",
+  "time": 12,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "arrow",
+    "count": 3
+   },
+   {
+    "tag": "chemical_fuel",
+    "count": 1
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "Ucu yanar: vurduğunu tutuşturur."
+ },
+ "r_bolt": {
+  "name": "Arbalet Oku",
+  "output": "bolt",
+  "count": 8,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "wood_plank",
+    "count": 1
+   }
+  ],
+  "description": "Kısa, ağır ok."
+ },
+ "r_bolt_heavy": {
+  "name": "Çelik Arbalet Oku",
+  "output": "bolt_heavy",
+  "count": 6,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "mermi",
+  "family": "weapons",
+  "subcategory": "Cephane",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "wood_plank",
+    "count": 1
+   }
+  ],
+  "description": "Çelik uçlu: iki zombiyi deler."
+ },
+ "r_smoke_grenade": {
+  "name": "Duman Bombası",
+  "output": "smoke_grenade",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 12,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "smoke_compound",
+    "count": 1
+   },
+   {
+    "tag": "tube",
+    "count": 1
+   }
+  ],
+  "description": "16 sn duman: içindeyken zombiler seni göremez."
+ },
+ "r_shock_grenade": {
+  "name": "Şok Bombası",
+  "output": "shock_grenade",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 14,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "capacitor_salvaged",
+    "count": 2
+   },
+   {
+    "item": "battery_pack",
+    "count": 1
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   }
+  ],
+  "description": "Elektrik şoku: çevredeki zombiler 5 sn yavaşlar."
+ },
+ "r_frag_grenade": {
+  "name": "El Bombası",
+  "output": "frag_grenade",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 16,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "military_explosive",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   }
+  ],
+  "description": "Askerî el bombası: geniş parça tesiri."
+ },
+ "r_dynamite": {
+  "name": "Dinamit",
+  "output": "dynamite",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 14,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "nitrate",
+    "count": 2
+   },
+   {
+    "item": "paper",
+    "count": 2
+   },
+   {
+    "item": "primer_compound",
+    "count": 1
+   }
+  ],
+  "description": "Nitrat çubuğu: blokları da parçalar."
+ },
+ "r_napalm_bottle": {
+  "name": "Napalm Şişesi",
+  "output": "napalm_bottle",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 14,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "bottle_empty",
+    "count": 1
+   },
+   {
+    "item": "gasoline",
+    "count": 1
+   },
+   {
+    "item": "soap",
+    "count": 1
+   }
+  ],
+  "description": "Sabunla koyulaşmış benzin: uzun ve geniş yangın."
+ },
+ "r_thermite_charge": {
+  "name": "Termit Kalıbı",
+  "output": "thermite_charge",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 16,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "thermite",
+    "count": 1
+   },
+   {
+    "tag": "tube",
+    "count": 1
+   },
+   {
+    "item": "match_heads",
+    "count": 2
+   }
+  ],
+  "description": "Yoğun ve sönmez yangın: dar alanda ölümcül."
+ },
+ "r_tin_can_decoy": {
+  "name": "Teneke Yem",
+  "output": "tin_can_decoy",
+  "count": 2,
+  "station": "hands",
+  "time": 10,
+  "category": "atilabilir",
+  "family": "weapons",
+  "subcategory": "Fırlatılabilir",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 1
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "Çakıllı teneke: düştüğü yerde tıngırdar, sürüyü çeker."
+ },
+ "r_mod_compensator": {
+  "name": "Kompansatör",
+  "output": "mod_compensator",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "machined_part",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Geri tepmeyi %30 azaltır, biraz daha gürültülü."
+ },
+ "r_mod_choke": {
+  "name": "Daraltıcı (Şok)",
+  "output": "mod_choke",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "machined_part",
+    "count": 1
+   }
+  ],
+  "description": "Saçma dağılımını toplar, menzil artar."
+ },
+ "r_mod_muzzle_brake": {
+  "name": "Namlu Freni",
+  "output": "mod_muzzle_brake",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 22,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "machined_part",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Tüfekte geri tepmeyi yarıya indirir; çok gürültülü."
+ },
+ "r_mod_suppressor_basic": {
+  "name": "El Yapımı Susturucu",
+  "output": "mod_suppressor_basic",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "tag": "tube",
+    "count": 1
+   },
+   {
+    "item": "foam_padding",
+    "count": 3
+   },
+   {
+    "item": "filter_housing",
+    "count": 1
+   }
+  ],
+  "description": "Sesi yarıya indirir; çabuk yıpranır."
+ },
+ "r_mod_scope_4x": {
+  "name": "4× Dürbün",
+  "output": "mod_scope_4x",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 22,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "optic_assembly",
+    "count": 1
+   },
+   {
+    "item": "glass_lens",
+    "count": 1
+   }
+  ],
+  "description": "Uzak atışta isabet ve menzil."
+ },
+ "r_mod_holo_sight": {
+  "name": "Holografik Nişangâh",
+  "output": "mod_holo_sight",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 22,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 2
+   },
+   {
+    "item": "glass_lens",
+    "count": 1
+   },
+   {
+    "item": "battery_aa",
+    "count": 1
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   }
+  ],
+  "description": "Hızlı nişan."
+ },
+ "r_mod_iron_sight": {
+  "name": "Ayarlı Gez-Arpacık",
+  "output": "mod_iron_sight",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 1,
+  "time": 14,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "tag": "tool_file",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Ucuz isabet artışı; her ateşli silaha."
+ },
+ "r_mod_drum_mag": {
+  "name": "Tambur Şarjör",
+  "output": "mod_drum_mag",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 22,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "magazine_blank",
+    "count": 2
+   },
+   {
+    "item": "spring_heavy",
+    "count": 1
+   }
+  ],
+  "description": "Şarjör 2,2 kat; doldurması uzun."
+ },
+ "r_mod_pistol_mag": {
+  "name": "Uzun Tabanca Şarjörü",
+  "output": "mod_pistol_mag",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "magazine_blank",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 1
+   }
+  ],
+  "description": "Tabancaya %50 fazla fişek."
+ },
+ "r_mod_shotgun_tube": {
+  "name": "Uzatılmış Tüp",
+  "output": "mod_shotgun_tube",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "tag": "tube",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 2
+   }
+  ],
+  "description": "Pompalıya fazladan fişek."
+ },
+ "r_mod_foregrip": {
+  "name": "Ön Kabza",
+  "output": "mod_foregrip",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   },
+   {
+    "item": "metal_bracket",
+    "count": 1
+   }
+  ],
+  "description": "Seri atışta kontrol."
+ },
+ "r_mod_laser": {
+  "name": "Lazer İşaretleyici",
+  "output": "mod_laser",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 18,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 1
+   },
+   {
+    "item": "glass_lens",
+    "count": 1
+   },
+   {
+    "item": "battery_aa",
+    "count": 1
+   }
+  ],
+  "description": "Kalçadan atışta isabet."
+ },
+ "r_mod_sharpened": {
+  "name": "Bilenmiş Ağız",
+  "output": "mod_sharpened",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "whetstone",
+    "count": 1
+   }
+  ],
+  "description": "Yakın dövüş hasarı %25 artar."
+ },
+ "r_mod_weighted": {
+  "name": "Ağırlıklı Baş",
+  "output": "mod_weighted",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 14,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 2
+   }
+  ],
+  "description": "Daha ağır vuruş, bir hedef daha deler."
+ },
+ "r_mod_barbed_wrap": {
+  "name": "Dikenli Tel Sargı",
+  "output": "mod_barbed_wrap",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "modifikasyon",
+  "family": "weapons",
+  "subcategory": "Mod",
+  "inputs": [
+   {
+    "item": "barbed_wire_coil",
+    "count": 1
+   }
+  ],
+  "description": "Sopa ve topuza diken sargısı."
+ }
+}

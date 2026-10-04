@@ -1,0 +1,122 @@
+{
+  "layout_id": "pharmacy",
+  "label_tr": "mahalle_eczane",
+  "type": "Eczane",
+  "coordinate_system": "local X/Z meters; +Y up; forward -Z",
+  "floors": 2,
+  "modules": [
+    {
+      "asset_id": "iz3_health_pharmacy_01",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_shelf_01",
+      "position_m": [
+        -2,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_shelf_02",
+      "position_m": [
+        2,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_reception_01",
+      "position_m": [
+        0,
+        0,
+        2
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_cooler_01",
+      "position_m": [
+        3,
+        0,
+        -3
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    }
+  ],
+  "rooms": [
+    "satış alanı",
+    "depo"
+  ],
+  "entries": [
+    {
+      "position_m": [
+        0,
+        0,
+        4
+      ],
+      "width_m": 1.4,
+      "access": "ground entrance"
+    },
+    {
+      "position_m": [
+        6,
+        0,
+        -4
+      ],
+      "width_m": 2.0,
+      "access": "service entrance"
+    }
+  ],
+  "loot_interaction_points": [
+    {
+      "type": "loot",
+      "position_m": [
+        -2,
+        0.8,
+        -1
+      ]
+    },
+    {
+      "type": "interact",
+      "position_m": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "loot",
+      "position_m": [
+        3,
+        0.8,
+        -3
+      ]
+    }
+  ],
+  "circulation_clearances": {
+    "main_corridor_min_m": 2.0,
+    "door_clear_m": [
+      1.1,
+      2.2
+    ],
+    "stair_clear_width_min_m": 1.4,
+    "accessible_route": "ground entrance to central corridor, stairs to upper floor and roof"
+  },
+  "footprint_m": [
+    18,
+    16
+  ]
+}

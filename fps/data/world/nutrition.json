@@ -1,0 +1,401 @@
+{
+ "_aciklama": "Oyuncunun KISISEL aclik/susuzlugu (koloni stogundan ayri). Degerler 0-100. Hizlar OYUN SAATI basinadir (1 oyun saati = 40 gercek sn; bkz. TimeOfDay.DAY_LENGTH). Normal zorlukta tokluk 100'den dusuk esige (25) ~60 oyun saatinde (40 gercek dk), su ~36 oyun saatinde (24 gercek dk) iner: yemek karari ~40 dk, su karari ~24 dk (kosarken ~21). Etkinlik carpani depar/kosu/yuk ile artar. Esyalar: food/water kazanci, returns (kap geri doner), illness (mide bulantisi olasiligi), shelf_life_h (oyun saati; bozulur), spoils_to, raw (pisirmeden yenmez).",
+ "rates": {
+  "satiety_per_hour": 1.25,
+  "hydration_per_hour": 2.1,
+  "difficulty": {
+   "kolay": 0.7,
+   "normal": 1.0,
+   "zor": 1.35
+  },
+  "activity": {
+   "idle": 0.85,
+   "walk": 1.0,
+   "run": 1.15,
+   "sprint": 1.8,
+   "overloaded": 1.2
+  }
+ },
+ "effects": {
+  "low": 25,
+  "critical": 10,
+  "stamina_cap": {
+   "low": 75,
+   "critical": 50,
+   "empty": 35
+  },
+  "regen_factor": {
+   "low": 0.75,
+   "critical": 0.5,
+   "empty": 0.35
+  },
+  "grace_hours": {
+   "food": 8.0,
+   "water": 3.0
+  },
+  "damage_per_hour": {
+   "food": 2.0,
+   "water": 4.5
+  },
+  "damage_difficulty": {
+   "kolay": 0.5,
+   "normal": 1.0,
+   "zor": 1.5
+  },
+  "sick_seconds": 150.0,
+  "sick_hydration_per_hour": 2.0
+ },
+ "respawn": {
+  "min_satiety": 55,
+  "min_hydration": 55,
+  "without_stock": 35
+ },
+ "items": {
+  "canned_food": {
+   "food": 32,
+   "water": 5
+  },
+  "chickpea_can": {
+   "food": 30,
+   "water": 3
+  },
+  "preserved_meat": {
+   "food": 42,
+   "water": -3
+  },
+  "dried_fruit": {
+   "food": 16
+  },
+  "sugar_pack": {
+   "food": 8
+  },
+  "energy_bar": {
+   "food": 14
+  },
+  "ration_box": {
+   "food": 60,
+   "water": 15
+  },
+  "cooked_meal": {
+   "food": 55,
+   "water": 8,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "spoiled_food": {
+   "food": 18,
+   "illness": 0.6
+  },
+  "dry_goods": {
+   "food": 7,
+   "illness": 0.2,
+   "note": "Cig yenebilir ama az doyurur; pisirmek dort kat verimli."
+  },
+  "rice_bag": {
+   "raw": true
+  },
+  "lentil_bag": {
+   "raw": true
+  },
+  "pasta_pack": {
+   "raw": true
+  },
+  "flour_sack": {
+   "raw": true
+  },
+  "water_bottle": {
+   "water": 40,
+   "returns": "bottle_empty"
+  },
+  "water_pouch": {
+   "water": 12
+  },
+  "water_dirty": {
+   "water": 34,
+   "returns": "bottle_empty",
+   "illness": 0.35
+  },
+  "herbal_tea": {
+   "water": 15
+  },
+  "tomato": {
+   "food": 6,
+   "water": 4,
+   "shelf_life_h": 120,
+   "spoils_to": "spoiled_food"
+  },
+  "pepper": {
+   "food": 4,
+   "water": 2,
+   "shelf_life_h": 120,
+   "spoils_to": "spoiled_food"
+  },
+  "beans_fresh": {
+   "food": 10,
+   "water": 1,
+   "shelf_life_h": 120,
+   "spoils_to": "spoiled_food",
+   "raw": true
+  },
+  "potato": {
+   "food": 14,
+   "water": 0,
+   "shelf_life_h": 120,
+   "spoils_to": "spoiled_food",
+   "raw": true
+  },
+  "mixed_vegetables": {
+   "food": 9,
+   "water": 3,
+   "shelf_life_h": 96,
+   "spoils_to": "spoiled_food"
+  },
+  "raw_fish": {
+   "raw": true,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "lentil_soup": {
+   "food": 22,
+   "water": 14,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "rice_pilaf": {
+   "food": 30,
+   "water": 0,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "bulgur_pilaf": {
+   "food": 28,
+   "water": 4,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "pasta_sauce": {
+   "food": 30,
+   "water": 2,
+   "shelf_life_h": 30,
+   "spoils_to": "spoiled_food"
+  },
+  "flatbread": {
+   "food": 18,
+   "water": 0,
+   "shelf_life_h": 72,
+   "spoils_to": "spoiled_food"
+  },
+  "bread_loaf": {
+   "food": 20,
+   "water": 0,
+   "shelf_life_h": 96,
+   "spoils_to": "spoiled_food"
+  },
+  "bean_stew": {
+   "food": 36,
+   "water": 6,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "potato_saute": {
+   "food": 30,
+   "water": 0,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "baked_potato": {
+   "food": 22,
+   "water": 2,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "pepper_saute": {
+   "food": 22,
+   "water": 10,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "stuffed_pepper": {
+   "food": 32,
+   "water": 4,
+   "shelf_life_h": 48,
+   "spoils_to": "spoiled_food"
+  },
+  "veg_stew": {
+   "food": 34,
+   "water": 12,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "tomato_soup": {
+   "food": 16,
+   "water": 18,
+   "shelf_life_h": 30,
+   "spoils_to": "spoiled_food"
+  },
+  "fish_grilled": {
+   "food": 26,
+   "water": 2,
+   "shelf_life_h": 12,
+   "spoils_to": "spoiled_food"
+  },
+  "fish_bread": {
+   "food": 40,
+   "water": 2,
+   "shelf_life_h": 12,
+   "spoils_to": "spoiled_food"
+  },
+  "fish_soup": {
+   "food": 24,
+   "water": 16,
+   "shelf_life_h": 18,
+   "spoils_to": "spoiled_food"
+  },
+  "helva": {
+   "food": 20,
+   "water": 0,
+   "shelf_life_h": 96,
+   "spoils_to": "spoiled_food"
+  },
+  "compote": {
+   "food": 8,
+   "water": 22,
+   "shelf_life_h": 72,
+   "spoils_to": "spoiled_food"
+  },
+  "tea_brewed": {
+   "food": 0,
+   "water": 12,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "turkish_coffee": {
+   "food": 0,
+   "water": 5,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "gozleme": {
+   "food": 34,
+   "water": 0,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "chickpea_stew": {
+   "food": 30,
+   "water": 6,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "tarhana": {
+   "food": 16,
+   "water": 14,
+   "shelf_life_h": 48,
+   "spoils_to": "spoiled_food"
+  },
+  "grilled_veg": {
+   "food": 20,
+   "water": 6,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "potato_soup": {
+   "food": 20,
+   "water": 14,
+   "shelf_life_h": 30,
+   "spoils_to": "spoiled_food"
+  },
+  "rice_soup": {
+   "food": 18,
+   "water": 14,
+   "shelf_life_h": 30,
+   "spoils_to": "spoiled_food"
+  },
+  "field_ration": {
+   "food": 55,
+   "water": 5
+  },
+  "pickles": {
+   "food": 8,
+   "water": 2
+  },
+  "jam": {
+   "food": 14,
+   "water": 0
+  },
+  "dried_tomato": {
+   "food": 10,
+   "water": 0
+  },
+  "smoked_fish": {
+   "food": 22,
+   "water": 0
+  },
+  "energy_drink": {
+   "water": 10
+  },
+  "ors_solution": {
+   "water": 25
+  },
+  "menemen_veg": {
+   "food": 24,
+   "water": 8,
+   "shelf_life_h": 18,
+   "spoils_to": "spoiled_food"
+  },
+  "potato_salad": {
+   "food": 20,
+   "water": 4,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "bean_salad": {
+   "food": 24,
+   "water": 4,
+   "shelf_life_h": 36,
+   "spoils_to": "spoiled_food"
+  },
+  "pickled_fish": {
+   "food": 22,
+   "water": 0,
+   "shelf_life_h": 240,
+   "spoils_to": "spoiled_food"
+  },
+  "wheat_porridge": {
+   "food": 22,
+   "water": 10,
+   "shelf_life_h": 30,
+   "spoils_to": "spoiled_food"
+  },
+  "linden_tea": {
+   "food": 0,
+   "water": 14,
+   "shelf_life_h": 24,
+   "spoils_to": "spoiled_food"
+  },
+  "rice_pudding": {
+   "food": 20,
+   "water": 6,
+   "shelf_life_h": 48,
+   "spoils_to": "spoiled_food"
+  },
+  "fish_stew": {
+   "food": 30,
+   "water": 10,
+   "shelf_life_h": 18,
+   "spoils_to": "spoiled_food"
+  },
+  "simit": {
+   "food": 16,
+   "water": 0,
+   "shelf_life_h": 72,
+   "spoils_to": "spoiled_food"
+  },
+  "dried_pepper": {
+   "food": 8,
+   "water": 0,
+   "shelf_life_h": 480,
+   "spoils_to": "spoiled_food"
+  }
+ }
+}

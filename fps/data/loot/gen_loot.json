@@ -1,0 +1,571 @@
+{
+ "gen_construction": {
+  "name": "İnşaat malzemesi",
+  "rolls": [
+   1,
+   2
+  ],
+  "entries": [
+   {
+    "item": "cement_bag",
+    "weight": 5,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "lime_powder",
+    "weight": 5,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "loose_brick",
+    "weight": 4,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "glass_pane",
+    "weight": 3,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "sand",
+    "weight": 5,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "rebar",
+    "weight": 3,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "nail",
+    "weight": 4,
+    "count": [
+     5,
+     15
+    ]
+   },
+   {
+    "item": "padlock",
+    "weight": 1.5,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "asphalt_chunk",
+    "weight": 1,
+    "count": [
+     1,
+     2
+    ]
+   }
+  ]
+ },
+ "gen_garden": {
+  "name": "Bahçe ve tohum",
+  "rolls": [
+   1,
+   1
+  ],
+  "entries": [
+   {
+    "item": "tomato_seeds",
+    "weight": 4,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "pepper_seeds",
+    "weight": 4,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "bean_seeds",
+    "weight": 3,
+    "count": [
+     2,
+     4
+    ]
+   },
+   {
+    "item": "potato_seeds",
+    "weight": 3,
+    "count": [
+     2,
+     4
+    ]
+   },
+   {
+    "item": "wheat_seeds",
+    "weight": 2,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "herb_seeds",
+    "weight": 3,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "vegetable_seeds",
+    "weight": 3,
+    "count": [
+     2,
+     4
+    ]
+   },
+   {
+    "item": "fertilizer",
+    "weight": 2,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "plant_fiber",
+    "weight": 2,
+    "count": [
+     2,
+     6
+    ]
+   }
+  ]
+ },
+ "gen_kitchen_extra": {
+  "name": "Kiler",
+  "rolls": [
+   1,
+   1
+  ],
+  "entries": [
+   {
+    "item": "tea_leaves",
+    "weight": 5,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "coffee_beans",
+    "weight": 3,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "gas_canister",
+    "weight": 1.5,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "paper",
+    "weight": 2,
+    "count": [
+     2,
+     6
+    ]
+   }
+  ]
+ },
+ "gen_electrical": {
+  "name": "Elektrik malzemesi",
+  "rolls": [
+   1,
+   2
+  ],
+  "entries": [
+   {
+    "item": "lamp_bulb",
+    "weight": 5,
+    "count": [
+     1,
+     4
+    ]
+   },
+   {
+    "item": "relay_switch",
+    "weight": 4,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "solar_cell",
+    "weight": 1.5,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "led",
+    "weight": 3,
+    "count": [
+     2,
+     6
+    ]
+   },
+   {
+    "item": "fuse",
+    "weight": 3,
+    "count": [
+     1,
+     4
+    ]
+   },
+   {
+    "item": "copper_wire",
+    "weight": 3,
+    "count": [
+     2,
+     6
+    ]
+   }
+  ]
+ },
+ "gen_medical_adv": {
+  "name": "Hastane deposu",
+  "rolls": [
+   1,
+   2
+  ],
+  "entries": [
+   {
+    "item": "saline_bag",
+    "weight": 4,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "syringe",
+    "weight": 5,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "antiseptic",
+    "weight": 3,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "sterile_cloth",
+    "weight": 3,
+    "count": [
+     2,
+     4
+    ]
+   },
+   {
+    "item": "painkiller",
+    "weight": 3,
+    "count": [
+     1,
+     3
+    ]
+   }
+  ]
+ },
+ "gen_school": {
+  "name": "Okul malzemesi",
+  "rolls": [
+   1,
+   2
+  ],
+  "entries": [
+   {
+    "item": "textbook",
+    "weight": 4,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "paper",
+    "weight": 6,
+    "count": [
+     3,
+     10
+    ]
+   },
+   {
+    "item": "battery_aa",
+    "weight": 2,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "glass_shard",
+    "weight": 1,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "bottle_empty",
+    "weight": 2,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "alcohol",
+    "weight": 1.5,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "canned_food",
+    "weight": 2,
+    "count": [
+     1,
+     2
+    ]
+   }
+  ]
+ },
+ "gen_military_adv": {
+  "name": "Askerî cephanelik",
+  "rolls": [
+   1,
+   2
+  ],
+  "entries": [
+   {
+    "item": "military_explosive",
+    "weight": 2,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "kevlar_scrap",
+    "weight": 3,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "optic_scope",
+    "weight": 1.2,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "ammo_762",
+    "weight": 3,
+    "count": [
+     10,
+     30
+    ]
+   },
+   {
+    "item": "ammo_9mm",
+    "weight": 3,
+    "count": [
+     10,
+     30
+    ]
+   },
+   {
+    "item": "ration_box",
+    "weight": 2,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "diesel",
+    "weight": 2,
+    "count": [
+     1,
+     3
+    ]
+   }
+  ]
+ },
+ "gen_prison": {
+  "name": "Hapishane deposu",
+  "rolls": [
+   1,
+   2
+  ],
+  "entries": [
+   {
+    "item": "steel_bars",
+    "weight": 4,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "padlock",
+    "weight": 3,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "riot_scrap",
+    "weight": 3,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "lockpick",
+    "weight": 2,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "cloth_rag",
+    "weight": 3,
+    "count": [
+     2,
+     5
+    ]
+   },
+   {
+    "item": "canned_food",
+    "weight": 2,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "screw",
+    "weight": 2,
+    "count": [
+     3,
+     8
+    ]
+   }
+  ]
+ },
+ "gen_fuel": {
+  "name": "Yakıt ve garaj",
+  "rolls": [
+   1,
+   1
+  ],
+  "entries": [
+   {
+    "item": "diesel",
+    "weight": 4,
+    "count": [
+     1,
+     2
+    ]
+   },
+   {
+    "item": "gas_canister",
+    "weight": 2,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "oil_can",
+    "weight": 3,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "tire_scrap",
+    "weight": 3,
+    "count": [
+     1,
+     3
+    ]
+   },
+   {
+    "item": "radiator_core",
+    "weight": 1,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "alternator",
+    "weight": 0.8,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "motor_large",
+    "weight": 0.4,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ }
+}

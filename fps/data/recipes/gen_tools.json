@@ -1,0 +1,1379 @@
+{
+ "r_claw_hammer": {
+  "name": "Çekiç",
+  "output": "claw_hammer",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Çivi çakar, söker. İnşa ve tamir takımı. Üretimde tüketilmez (takım)."
+ },
+ "r_hand_saw": {
+  "name": "El Testeresi",
+  "output": "hand_saw",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Kütük ve kalas keser. Üretimde tüketilmez (takım)."
+ },
+ "r_hacksaw": {
+  "name": "Demir Testeresi",
+  "output": "hacksaw",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 16,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Boru ve demir keser. Üretimde tüketilmez (takım)."
+ },
+ "r_hand_drill": {
+  "name": "El Matkabı",
+  "output": "hand_drill",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 16,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "gear_small",
+    "count": 2
+   },
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Kranklı matkap: delik, vida yuvası. Üretimde tüketilmez (takım)."
+ },
+ "r_power_drill": {
+  "name": "Akülü Matkap",
+  "output": "power_drill",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 20,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "battery_pack",
+    "count": 1
+   },
+   {
+    "item": "gear_small",
+    "count": 2
+   }
+  ],
+  "description": "Hızlı delme; akü şarjlı. Üretimde tüketilmez (takım)."
+ },
+ "r_welder": {
+  "name": "Kaynak Makinesi",
+  "output": "welder",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 20,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "transformer_coil",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   },
+   {
+    "item": "metal_plate",
+    "count": 2
+   }
+  ],
+  "description": "Çelik birleştirir; araç revizyonu ve çelik yapı için şart. Üretimde tüketilmez (takım)."
+ },
+ "r_multimeter": {
+  "name": "Multimetre",
+  "output": "multimeter",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 16,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "battery_aa",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Devre ölçer: sensör, röle ve güç devresi kurarken. Üretimde tüketilmez (takım)."
+ },
+ "r_sewing_kit": {
+  "name": "Dikiş Seti",
+  "output": "sewing_kit",
+  "count": 1,
+  "station": "hands",
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "twine",
+    "count": 2
+   },
+   {
+    "tag": "sharp",
+    "count": 1
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "İğne, sicim, makas. Üretimde tüketilmez (takım)."
+ },
+ "r_chisel_set": {
+  "name": "Keski Takımı",
+  "output": "chisel_set",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Taş ve ahşap oyar. Üretimde tüketilmez (takım)."
+ },
+ "r_trowel": {
+  "name": "Mala",
+  "output": "trowel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Harç sürer: tuğla ve taş duvar. Üretimde tüketilmez (takım)."
+ },
+ "r_pliers": {
+  "name": "Pense",
+  "output": "pliers",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 1
+   }
+  ],
+  "description": "Tel büker, keser. Üretimde tüketilmez (takım)."
+ },
+ "r_file_set": {
+  "name": "Eğe Takımı",
+  "output": "file_set",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Silah ve mekanik parça tesviyesi. Üretimde tüketilmez (takım)."
+ },
+ "r_lighter": {
+  "name": "Benzinli Çakmak",
+  "output": "lighter",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "tag": "chemical_fuel",
+    "count": 1
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "Ateş yakar: sahada pişirme ve sterilizasyon. Üretimde tüketilmez (takım)."
+ },
+ "r_fire_striker": {
+  "name": "Çakmaktaşı",
+  "output": "fire_striker",
+  "count": 1,
+  "station": "hands",
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 1
+   },
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Yakıtsız ateş: yavaş ama bitmez. Üretimde tüketilmez (takım)."
+ },
+ "r_cooking_pot": {
+  "name": "Tencere",
+  "output": "cooking_pot",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 2
+   }
+  ],
+  "description": "Kaynatma ve pişirme kabı. Üretimde tüketilmez (takım)."
+ },
+ "r_mortar_pestle": {
+  "name": "Havan",
+  "output": "mortar_pestle",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 2
+   }
+  ],
+  "description": "Ot ve ilaç döver. Üretimde tüketilmez (takım)."
+ },
+ "r_surgical_kit": {
+  "name": "Cerrahi Set",
+  "output": "surgical_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 20,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Üretim takımı",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "syringe",
+    "count": 2
+   },
+   {
+    "item": "antiseptic",
+    "count": 1
+   },
+   {
+    "item": "pliers",
+    "count": 1
+   }
+  ],
+  "description": "Neşter, pens, dikiş: ileri tıbbi üretim. Üretimde tüketilmez (takım)."
+ },
+ "r_stone_axe": {
+  "name": "Taş Balta",
+  "output": "stone_axe",
+  "count": 1,
+  "station": "hands",
+  "time": 12,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 2
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   },
+   {
+    "item": "twine",
+    "count": 2
+   }
+  ],
+  "description": "Toplama aleti: ahşap ×1.0, bitki ×1.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_iron_hatchet": {
+  "name": "Demir Nacak",
+  "output": "iron_hatchet",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 16,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: ahşap ×1.8, bitki ×1.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_steel_axe": {
+  "name": "Çelik Balta",
+  "output": "steel_axe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 20,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "steel_ingot",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: ahşap ×2.8, bitki ×1.4. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_chainsaw": {
+  "name": "Motorlu Testere",
+  "output": "chainsaw",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 24,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "chain",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "tag": "chemical_fuel",
+    "count": 2
+   }
+  ],
+  "description": "Toplama aleti: ahşap ×5.0, bitki ×3.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_stone_pickaxe": {
+  "name": "Taş Kazma",
+  "output": "stone_pickaxe",
+  "count": 1,
+  "station": "hands",
+  "time": 12,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Taş",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 2
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   },
+   {
+    "item": "twine",
+    "count": 2
+   }
+  ],
+  "description": "Toplama aleti: taş ×0.8, toprak ×0.6. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_iron_pickaxe": {
+  "name": "Demir Kazma",
+  "output": "iron_pickaxe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 16,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Taş",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: taş ×1.8, toprak ×1.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_steel_pickaxe": {
+  "name": "Çelik Kazma",
+  "output": "steel_pickaxe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 20,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Taş",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: taş ×3.0, toprak ×1.4. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_jackhammer": {
+  "name": "Kırıcı",
+  "output": "jackhammer",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 24,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Taş",
+  "inputs": [
+   {
+    "item": "motor_large",
+    "count": 1
+   },
+   {
+    "item": "piston",
+    "count": 1
+   },
+   {
+    "item": "steel_ingot",
+    "count": 1
+   },
+   {
+    "item": "battery_pack",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: taş ×6.0, toprak ×3.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_wooden_shovel": {
+  "name": "Tahta Kürek",
+  "output": "wooden_shovel",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Toprak",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "item": "nail",
+    "count": 2
+   }
+  ],
+  "description": "Toplama aleti: toprak ×1.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_steel_shovel": {
+  "name": "Çelik Kürek",
+  "output": "steel_shovel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Toprak",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: toprak ×2.4, bitki ×0.6. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_crowbar": {
+  "name": "Levye",
+  "output": "crowbar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Metal",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   }
+  ],
+  "description": "Toplama aleti: metal ×1.2, araç sökümü ×0.6, cam ×0.6. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_wrench_set": {
+  "name": "Anahtar Takımı",
+  "output": "wrench_set",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 16,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Metal",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   }
+  ],
+  "description": "Toplama aleti: metal ×1.0, araç sökümü ×1.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_impact_wrench": {
+  "name": "Havalı Anahtar",
+  "output": "impact_wrench",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 20,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Araç sökümü",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "battery_pack",
+    "count": 1
+   },
+   {
+    "item": "wrench_set",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: araç sökümü ×1.6, metal ×1.4. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_angle_grinder": {
+  "name": "Spiral Taşlama",
+  "output": "angle_grinder",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 20,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Metal",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "battery_pack",
+    "count": 1
+   },
+   {
+    "item": "sand",
+    "count": 3
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: metal ×3.0, taş ×1.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_cutting_torch": {
+  "name": "Kesme Şalomesi",
+  "output": "cutting_torch",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 24,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Metal",
+  "inputs": [
+   {
+    "item": "gas_canister",
+    "count": 1
+   },
+   {
+    "item": "valve",
+    "count": 1
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   }
+  ],
+  "description": "Toplama aleti: metal ×4.5, araç sökümü ×1.2, cam ×0.5. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_glass_cutter": {
+  "name": "Cam Kesici",
+  "output": "glass_cutter",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 16,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Cam",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "tag": "hard",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: cam ×2.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_sickle": {
+  "name": "Orak",
+  "output": "sickle",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Bitki",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: bitki ×2.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_scythe": {
+  "name": "Tırpan",
+  "output": "scythe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 16,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Bitki",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 2
+   },
+   {
+    "item": "wood_beam",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: bitki ×3.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_hoe": {
+  "name": "Çapa",
+  "output": "hoe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Toprak",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Toplama aleti: toprak ×1.5, bitki ×0.8. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır."
+ },
+ "r_fishing_rod": {
+  "name": "Olta",
+  "output": "fishing_rod",
+  "count": 1,
+  "station": "hands",
+  "time": 6,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Balıkçılık",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "item": "twine",
+    "count": 2
+   },
+   {
+    "tag": "sharp",
+    "count": 1
+   }
+  ],
+  "description": "Kıyıda yiyecek bulmanın sessiz yolu."
+ },
+ "r_fishing_rod_pro": {
+  "name": "Makaralı olta",
+  "output": "fishing_rod_pro",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 10,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Balıkçılık",
+  "inputs": [
+   {
+    "item": "pvc_pipe",
+    "count": 1
+   },
+   {
+    "item": "gear_small",
+    "count": 1
+   },
+   {
+    "item": "twine",
+    "count": 3
+   },
+   {
+    "tag": "sharp",
+    "count": 1
+   }
+  ],
+  "description": "Dişli makara uzun atış sağlar."
+ },
+ "r_whetstone": {
+  "name": "Bileği Taşı",
+  "output": "whetstone",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 9,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 1
+   },
+   {
+    "item": "sand",
+    "count": 1
+   }
+  ],
+  "description": "Alet ve bıçak ağzını açar."
+ },
+ "r_gun_cleaning_kit": {
+  "name": "Silah Bakım Kiti",
+  "output": "gun_cleaning_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 9,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 1
+   },
+   {
+    "item": "oil_can",
+    "count": 1
+   },
+   {
+    "tag": "tube",
+    "count": 1
+   }
+  ],
+  "description": "Temizlik ve yağlama: silah ömrünü uzatır."
+ },
+ "r_gun_repair_kit": {
+  "name": "Silah Tamir Kiti",
+  "output": "gun_repair_kit",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 2,
+  "time": 15,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "machined_part",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 2
+   },
+   {
+    "item": "gun_cleaning_kit",
+    "count": 1
+   }
+  ],
+  "description": "Yedek yay ve pim: bozuk silahı ayağa kaldırır."
+ },
+ "r_armor_patch_kit": {
+  "name": "Zırh Yama Kiti",
+  "output": "armor_patch_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 9,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "tag": "tough_fabric",
+    "count": 2
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Yırtık yeleği yamar."
+ },
+ "r_armor_repair_kit": {
+  "name": "Zırh Tamir Kiti",
+  "output": "armor_repair_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 15,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "kevlar_panel",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   },
+   {
+    "item": "armor_patch_kit",
+    "count": 1
+   }
+  ],
+  "description": "Kevlar ve perçinle ciddi onarım."
+ },
+ "r_tool_repair_kit": {
+  "name": "Alet Tamir Kiti",
+  "output": "tool_repair_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 12,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "whetstone",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 3
+   }
+  ],
+  "description": "Sap, perçin, bileği taşı."
+ },
+ "r_vehicle_repair_basic": {
+  "name": "Araç Tamir Seti",
+  "output": "vehicle_repair_basic",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 12,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 2
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   },
+   {
+    "item": "duct_tape",
+    "count": 1
+   }
+  ],
+  "description": "Sac yama ve bant: araca +35 sağlamlık."
+ },
+ "r_vehicle_repair_adv": {
+  "name": "Araç Revizyon Seti",
+  "output": "vehicle_repair_adv",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 15,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "reinforced_plate",
+    "count": 1
+   },
+   {
+    "item": "welding_rod",
+    "count": 4
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 1
+   },
+   {
+    "tag": "tool_welder",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Kaynaklı plaka ve conta: araca +90."
+ },
+ "r_field_patch": {
+  "name": "Bantlı Yama",
+  "output": "field_patch",
+  "count": 1,
+  "station": "hands",
+  "time": 9,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "duct_tape",
+    "count": 2
+   },
+   {
+    "tag": "fabric",
+    "count": 1
+   }
+  ],
+  "description": "Sahada hızlı yama: zırh ya da alet."
+ },
+ "r_welding_patch": {
+  "name": "Kaynak Yaması",
+  "output": "welding_patch",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 12,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım kiti",
+  "inputs": [
+   {
+    "item": "welding_rod",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "tag": "tool_welder",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Araç şasesine kaynak: +55 sağlamlık."
+ },
+ "r_bolt_cutters": {
+  "name": "Cıvata makası",
+  "output": "bolt_cutters",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Kilit",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 2
+   },
+   {
+    "item": "tool_handle",
+    "count": 2
+   },
+   {
+    "item": "spring_heavy",
+    "count": 1
+   }
+  ],
+  "description": "Uzun kollu makas: asma kilit ve zincir keser."
+ },
+ "rx_hammer_scrap": {
+  "name": "Hurda çekiç",
+  "output": "claw_hammer",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "El aleti",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 3
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   }
+  ],
+  "description": "Hurdadan dövülmüş çekiç."
+ },
+ "rx_saw_blade": {
+  "name": "Bıçak kütüğünden testere",
+  "output": "hand_saw",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "El aleti",
+  "inputs": [
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   },
+   {
+    "item": "file_set",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Bıçak kütüğüne diş açmak."
+ },
+ "rx_crowbar_rebar": {
+  "name": "İnşaat demirinden levye",
+  "output": "crowbar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Toplama",
+  "inputs": [
+   {
+    "item": "rebar",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Demiri bükerek levye."
+ },
+ "rx_shovel_sheet": {
+  "name": "Sactan kürek",
+  "output": "steel_shovel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "toplama",
+  "family": "tools",
+  "subcategory": "Toplama",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 2
+   },
+   {
+    "item": "tool_handle",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 3
+   }
+  ],
+  "description": "Sac levhadan kürek ağzı."
+ },
+ "rx_whetstone_brick": {
+  "name": "Tuğladan bileği taşı",
+  "output": "whetstone",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Bakım",
+  "inputs": [
+   {
+    "item": "loose_brick",
+    "count": 2
+   },
+   {
+    "item": "sand",
+    "count": 1
+   }
+  ],
+  "description": "Tuğlayı zımparalayarak bileği taşı."
+ },
+ "rx_tool_repair_scrap": {
+  "name": "Hurda alet onarım kiti",
+  "output": "tool_repair_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 4
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   }
+  ],
+  "description": "Parça ve tutkal: aleti yamar."
+ },
+ "rx_field_patch_rags": {
+  "name": "Paçavra yaması",
+  "output": "field_patch",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "bakim",
+  "family": "tools",
+  "subcategory": "Onarım",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 3
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   }
+  ],
+  "description": "Acil yama: bez ve tutkal."
+ },
+ "rx_fire_striker_flint": {
+  "name": "Çakmak taşı seti",
+  "output": "fire_striker",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "alet",
+  "family": "tools",
+  "subcategory": "Ateş",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 2
+   },
+   {
+    "item": "scrap_metal",
+    "count": 1
+   }
+  ],
+  "description": "Taş ve çelik: ateş yakmanın en eski yolu."
+ }
+}

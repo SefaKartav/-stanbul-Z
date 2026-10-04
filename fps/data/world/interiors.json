@@ -1,0 +1,2229 @@
+{
+  "_aciklama": "Girilebilir bina icleri (bkz. src/world/interior_planner.gd). Bina sinifi -> yerlesim tipi -> oda tipleri -> mobilya istek listesi. Olculer asset manifestinden okunur; hucre sayisi = max(1, ceil(olcu - 0.25)). 'place': wall (sirti duvara), above (baska esyanin ustune duvar montaji), center (oda ortasi), rows (market reyonu), entry (girise yakin duvar). 'solid': false olan dekor carpisma hacmi uretmez.",
+  "class_layout": {
+    "residential": "apartment",
+    "derelict": "apartment_ruined",
+    "market": "market",
+    "pharmacy": "pharmacy",
+    "electronics": "electronics",
+    "workshop": "workshop",
+    "garage": "workshop",
+    "industrial": "workshop",
+    "police": "security",
+    "military": "military_base",
+    "hospital": "hospital",
+    "civic": "office",
+    "school": "school",
+    "prison": "prison",
+    "checkpoint": "security",
+    "clinic": "clinic"
+  },
+  "layouts": {
+    "apartment": {
+      "label": "Daire",
+      "floor": "parquet",
+      "wall": "interior_plaster",
+      "door": "door_entrance_metal",
+      "entry": "living",
+      "rooms": [
+        [
+          "kitchen",
+          "large"
+        ],
+        [
+          "bedroom",
+          "large"
+        ],
+        [
+          "bathroom",
+          "small"
+        ],
+        [
+          "bedroom",
+          "any"
+        ],
+        [
+          "storage",
+          "small"
+        ]
+      ],
+      "room_area": [
+        8,
+        26
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "single": "studio",
+      "corridor": true,
+      "repeat": [
+        "bedroom",
+        "kitchen",
+        "living",
+        "bathroom",
+        "bedroom"
+      ],
+      "use": "residential"
+    },
+    "apartment_ruined": {
+      "label": "Metruk daire",
+      "floor": "parquet",
+      "wall": "interior_plaster",
+      "door": "door_interior_wood",
+      "entry": "living",
+      "rooms": [
+        [
+          "kitchen",
+          "large"
+        ],
+        [
+          "bedroom",
+          "any"
+        ],
+        [
+          "storage",
+          "small"
+        ]
+      ],
+      "room_area": [
+        6,
+        26
+      ],
+      "stairs": true,
+      "density": 0.5,
+      "single": "studio"
+    },
+    "market": {
+      "label": "Market",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_shop_glass",
+      "entry": "shop_floor",
+      "rooms": [
+        [
+          "storeroom",
+          "small"
+        ]
+      ],
+      "room_area": [
+        6,
+        70
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "upper": "apartment"
+    },
+    "pharmacy": {
+      "label": "Eczane",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_shop_glass",
+      "entry": "pharmacy_floor",
+      "rooms": [
+        [
+          "pharmacy_back",
+          "small"
+        ]
+      ],
+      "room_area": [
+        5,
+        60
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "upper": "apartment"
+    },
+    "electronics": {
+      "label": "Elektronikci",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_shop_glass",
+      "entry": "electronics_floor",
+      "rooms": [
+        [
+          "storeroom",
+          "small"
+        ]
+      ],
+      "room_area": [
+        5,
+        60
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "upper": "apartment"
+    },
+    "workshop": {
+      "label": "Atolye",
+      "floor": "concrete",
+      "wall": "concrete_block",
+      "door": "door_entrance_metal",
+      "entry": "workshop_floor",
+      "rooms": [
+        [
+          "workshop_store",
+          "small"
+        ]
+      ],
+      "room_area": [
+        8,
+        80
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "upper": "office"
+    },
+    "security": {
+      "label": "Karakol",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_entrance_metal",
+      "entry": "office",
+      "rooms": [
+        [
+          "armory",
+          "small"
+        ],
+        [
+          "office",
+          "any"
+        ],
+        [
+          "storage",
+          "small"
+        ]
+      ],
+      "room_area": [
+        6,
+        30
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "office",
+        "storage"
+      ]
+    },
+    "clinic": {
+      "label": "Saglik ocagi",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_shop_glass",
+      "entry": "clinic_room",
+      "rooms": [
+        [
+          "clinic_store",
+          "small"
+        ],
+        [
+          "clinic_room",
+          "any"
+        ],
+        [
+          "office",
+          "any"
+        ]
+      ],
+      "room_area": [
+        6,
+        30
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "clinic_room",
+        "office"
+      ]
+    },
+    "office": {
+      "label": "Kamu binasi",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_entrance_metal",
+      "entry": "office",
+      "rooms": [
+        [
+          "office",
+          "any"
+        ],
+        [
+          "storage",
+          "small"
+        ],
+        [
+          "office",
+          "any"
+        ]
+      ],
+      "room_area": [
+        6,
+        30
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "office",
+        "storage"
+      ],
+      "use": "civic"
+    },
+    "school": {
+      "label": "Okul",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_entrance_metal",
+      "entry": "classroom",
+      "rooms": [
+        [
+          "classroom",
+          "any"
+        ],
+        [
+          "school_lab",
+          "small"
+        ],
+        [
+          "library",
+          "any"
+        ],
+        [
+          "school_canteen",
+          "any"
+        ]
+      ],
+      "room_area": [
+        8,
+        40
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "classroom",
+        "library",
+        "school_lab"
+      ]
+    },
+    "prison": {
+      "label": "Hapishane",
+      "floor": "concrete",
+      "wall": "concrete_block",
+      "door": "door_entrance_metal",
+      "entry": "guard_room",
+      "rooms": [
+        [
+          "cell",
+          "small"
+        ],
+        [
+          "cell",
+          "small"
+        ],
+        [
+          "prison_workshop",
+          "any"
+        ],
+        [
+          "storage",
+          "small"
+        ]
+      ],
+      "room_area": [
+        6,
+        24
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "cell",
+        "cell",
+        "guard_room"
+      ]
+    },
+    "hospital": {
+      "label": "Hastane",
+      "floor": "floor_tile",
+      "wall": "interior_plaster",
+      "door": "door_shop_glass",
+      "entry": "clinic_room",
+      "rooms": [
+        [
+          "ward",
+          "any"
+        ],
+        [
+          "hospital_store",
+          "small"
+        ],
+        [
+          "clinic_room",
+          "any"
+        ]
+      ],
+      "room_area": [
+        8,
+        36
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "ward",
+        "ward",
+        "hospital_store"
+      ]
+    },
+    "military_base": {
+      "label": "Askerî tesis",
+      "floor": "concrete",
+      "wall": "concrete_block",
+      "door": "door_entrance_metal",
+      "entry": "office",
+      "rooms": [
+        [
+          "barracks",
+          "any"
+        ],
+        [
+          "armory_mil",
+          "small"
+        ],
+        [
+          "storage",
+          "small"
+        ]
+      ],
+      "room_area": [
+        8,
+        40
+      ],
+      "stairs": true,
+      "density": 1.0,
+      "corridor": true,
+      "repeat": [
+        "barracks",
+        "armory_mil"
+      ]
+    }
+  },
+  "rooms": {
+    "living": {
+      "label": "Salon",
+      "items": [
+        {
+          "asset": "sofa_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "tv_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.9
+        },
+        {
+          "asset": "shoe_cabinet",
+          "place": "entry",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "armchair_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "bookcase_tall",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "storage_trunk",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.25
+        },
+        {
+          "asset": "coffee_table",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        },
+        {
+          "asset": "rug_apartment",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "ceiling_lamp_apartment",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "kitchen": {
+      "label": "Mutfak",
+      "items": [
+        {
+          "asset": "kitchen_cabinet_low",
+          "place": "wall",
+          "count": [
+            2,
+            3
+          ]
+        },
+        {
+          "asset": "kitchen_cabinet_wall",
+          "place": "above",
+          "on": "kitchen_cabinet_low",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "fridge_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "stove_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.9
+        },
+        {
+          "asset": "sink_kitchen",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.9
+        },
+        {
+          "asset": "kitchen_pantry",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.35
+        },
+        {
+          "asset": "dining_table_apartment",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "ceiling_lamp_apartment",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "bedroom": {
+      "label": "Yatak odasi",
+      "items": [
+        {
+          "asset": "bed_single_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "alt": "bed_double_apartment"
+        },
+        {
+          "asset": "wardrobe_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "nightstand_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "dresser_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        },
+        {
+          "asset": "linen_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.3
+        },
+        {
+          "asset": "rug_apartment",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "ceiling_lamp_apartment",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "bathroom": {
+      "label": "Banyo",
+      "items": [
+        {
+          "asset": "toilet_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "washbasin_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "medicine_cabinet",
+          "place": "above",
+          "on": "washbasin_apartment",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "shower_tray",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6,
+          "alt": "bathtub"
+        },
+        {
+          "asset": "washing_machine",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "cleaning_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        }
+      ]
+    },
+    "storage": {
+      "label": "Kiler",
+      "items": [
+        {
+          "asset": "storage_trunk",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "supply_box_cardboard",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "loot_chest_wood",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "cleaning_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.4
+        }
+      ]
+    },
+    "shop_floor": {
+      "label": "Satis alani",
+      "items": [
+        {
+          "asset": "market_checkout",
+          "place": "entry",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "drink_fridge",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "produce_rack",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "market_shelf",
+          "place": "rows",
+          "count": [
+            2,
+            8
+          ]
+        },
+        {
+          "asset": "market_shelf",
+          "place": "wall",
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "asset": "shopping_basket",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "storeroom": {
+      "label": "Depo",
+      "items": [
+        {
+          "asset": "supply_box_cardboard",
+          "place": "wall",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "asset": "warehouse_rack",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "cleaning_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.4
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_bakery_dough_mixer",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.25
+        }
+      ]
+    },
+    "pharmacy_floor": {
+      "label": "Eczane",
+      "items": [
+        {
+          "asset": "pharmacy_counter",
+          "place": "entry",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "pharmacy_shelf",
+          "place": "wall",
+          "count": [
+            2,
+            5
+          ]
+        },
+        {
+          "asset": "display_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "chair_waiting",
+          "place": "center",
+          "count": [
+            1,
+            2
+          ],
+          "chance": 0.5,
+          "solid": false
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "pharmacy_back": {
+      "label": "Ilac deposu",
+      "items": [
+        {
+          "asset": "medical_supply_chest",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "supply_box_cardboard",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "first_aid_wall_box",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_pharmacy_compound_bench",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        }
+      ]
+    },
+    "electronics_floor": {
+      "label": "Magaza",
+      "items": [
+        {
+          "asset": "reception_desk",
+          "place": "entry",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "display_cabinet",
+          "place": "wall",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "asset": "archive_shelf",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "television_flat",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5,
+          "solid": false
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz2_electronics_solder_station",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        }
+      ]
+    },
+    "workshop_floor": {
+      "label": "Atolye",
+      "items": [
+        {
+          "asset": "worktable_large",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "tool_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "workshop_shelf",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "rolling_tool_chest",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        },
+        {
+          "asset": "parts_bin_rack",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "vise_bench",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "drill_press",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.4
+        },
+        {
+          "asset": "air_compressor",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.4
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz2_garage_tire_changer",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "iz2_music_repair_bench",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.2
+        }
+      ]
+    },
+    "workshop_store": {
+      "label": "Malzeme deposu",
+      "items": [
+        {
+          "asset": "warehouse_rack",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "parts_bin_rack",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "supply_box_cardboard",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "gas_cylinder",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "office": {
+      "label": "Ofis",
+      "items": [
+        {
+          "asset": "study_desk",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "chair_office",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "solid": false
+        },
+        {
+          "asset": "filing_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "office_cupboard",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "locker_double",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.4
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_library_card_catalog",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.3
+        },
+        {
+          "asset": "iz2_school_blackboard",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.2
+        }
+      ]
+    },
+    "armory": {
+      "label": "Cephanelik",
+      "items": [
+        {
+          "asset": "weapon_locker",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "footlocker_metal",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "locker_single",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "safe_tall",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.3
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_police_evidence_cage",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        }
+      ]
+    },
+    "clinic_room": {
+      "label": "Muayene",
+      "items": [
+        {
+          "asset": "hospital_bed",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "medicine_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "medical_supply_chest",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "iv_stand",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6,
+          "solid": false
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_hospital_stretcher_fold",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "iz2_hospital_oxygen_trolley",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "iz2_hospital_ultrasound_cart",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.35
+        }
+      ]
+    },
+    "clinic_store": {
+      "label": "Tibbi depo",
+      "items": [
+        {
+          "asset": "medical_supply_chest",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "linen_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "supply_box_cardboard",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_hospital_autoclave",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        }
+      ]
+    },
+    "studio": {
+      "label": "Tek oda",
+      "items": [
+        {
+          "asset": "kitchen_cabinet_low",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "fridge_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        },
+        {
+          "asset": "bed_single_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "wardrobe_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.8
+        },
+        {
+          "asset": "nightstand_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "sofa_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "rug_apartment",
+          "place": "center",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "ceiling_lamp_apartment",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz2_tailor_cutting_table",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.15
+        }
+      ]
+    },
+    "classroom": {
+      "label": "Sınıf",
+      "items": [
+        {
+          "asset": "iz3_school_board_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz3_school_desk_01",
+          "place": "center",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "asset": "iz3_school_locker_01",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz3_school_bookcase_01",
+          "place": "wall",
+          "count": [
+            0,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "school_lab": {
+      "label": "Laboratuvar",
+      "items": [
+        {
+          "asset": "iz3_school_labbench_01",
+          "place": "center",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz3_health_cabinet_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz3_school_bookcase_02",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "library": {
+      "label": "Kütüphane",
+      "items": [
+        {
+          "asset": "iz3_school_bookcase_01",
+          "place": "wall",
+          "count": [
+            2,
+            4
+          ]
+        },
+        {
+          "asset": "iz3_school_cafetable_01",
+          "place": "center",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "school_canteen": {
+      "label": "Kantin",
+      "items": [
+        {
+          "asset": "iz3_school_canteen_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz3_school_cafetable_01",
+          "place": "center",
+          "count": [
+            1,
+            3
+          ]
+        },
+        {
+          "asset": "kitchen_pantry",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "fridge_apartment",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "cell": {
+      "label": "Koğuş",
+      "items": [
+        {
+          "asset": "iz3_prison_bunk_01",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz3_prison_toilet_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "locker_single",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        }
+      ]
+    },
+    "guard_room": {
+      "label": "Gardiyan odası",
+      "items": [
+        {
+          "asset": "iz3_prison_control_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "weapon_locker",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "locker_double",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "filing_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "prison_workshop": {
+      "label": "Cezaevi atölyesi",
+      "items": [
+        {
+          "asset": "vise_bench",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "tool_cabinet",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz3_prison_bench_01",
+          "place": "center",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "workshop_shelf",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "ward": {
+      "label": "Servis",
+      "items": [
+        {
+          "asset": "iz3_health_bed_01",
+          "place": "wall",
+          "count": [
+            2,
+            3
+          ]
+        },
+        {
+          "asset": "iz3_health_cabinet_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iv_stand",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "iz3_health_oxygen_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "hospital_store": {
+      "label": "Hastane deposu",
+      "items": [
+        {
+          "asset": "iz3_health_shelf_01",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz3_health_pharmacy_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz3_health_cooler_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.5
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "barracks": {
+      "label": "Koğuş (asker)",
+      "items": [
+        {
+          "asset": "iz3_military_bunk_01",
+          "place": "wall",
+          "count": [
+            2,
+            3
+          ]
+        },
+        {
+          "asset": "footlocker_metal",
+          "place": "wall",
+          "count": [
+            1,
+            2
+          ]
+        },
+        {
+          "asset": "iz3_military_crate_01",
+          "place": "wall",
+          "count": [
+            0,
+            1
+          ],
+          "chance": 0.6
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "armory_mil": {
+      "label": "Cephanelik",
+      "items": [
+        {
+          "asset": "iz3_military_armory_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ]
+        },
+        {
+          "asset": "iz3_military_crate_01",
+          "place": "wall",
+          "count": [
+            2,
+            3
+          ]
+        },
+        {
+          "asset": "weapon_locker",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.7
+        },
+        {
+          "asset": "iz3_military_radio_01",
+          "place": "wall",
+          "count": [
+            1,
+            1
+          ],
+          "chance": 0.4
+        },
+        {
+          "asset": "fluorescent_fixture",
+          "place": "ceiling",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "furniture": {
+    "_varsayilan": "Listede olmayan asset katı ahsap mobilyadir (dekor). container: aranabilir envanter tipi (data/loot/containers.json).",
+    "wardrobe_apartment": {
+      "container": "wardrobe"
+    },
+    "linen_cabinet": {
+      "container": "wardrobe"
+    },
+    "dresser_apartment": {
+      "container": "dresser"
+    },
+    "nightstand_apartment": {
+      "container": "nightstand"
+    },
+    "tv_cabinet": {
+      "container": "living_cabinet"
+    },
+    "shoe_cabinet": {
+      "container": "shoe_cabinet"
+    },
+    "bookcase_tall": {},
+    "storage_trunk": {
+      "container": "chest"
+    },
+    "loot_chest_wood": {
+      "container": "chest"
+    },
+    "footlocker_metal": {
+      "container": "footlocker",
+      "material": "furniture_metal"
+    },
+    "kitchen_cabinet_low": {
+      "container": "kitchen_cabinet"
+    },
+    "kitchen_cabinet_wall": {
+      "container": "kitchen_cabinet",
+      "mount": "wall"
+    },
+    "kitchen_pantry": {
+      "container": "kitchen_cabinet"
+    },
+    "fridge_apartment": {
+      "container": "fridge",
+      "material": "furniture_metal"
+    },
+    "drink_fridge": {
+      "container": "drink_fridge",
+      "material": "furniture_metal"
+    },
+    "stove_apartment": {
+      "material": "furniture_metal"
+    },
+    "sink_kitchen": {},
+    "washing_machine": {
+      "material": "furniture_metal"
+    },
+    "cleaning_cabinet": {
+      "container": "cleaning_cabinet"
+    },
+    "medicine_cabinet": {
+      "container": "medicine_cabinet",
+      "mount": "wall"
+    },
+    "first_aid_wall_box": {
+      "container": "medicine_cabinet",
+      "mount": "wall"
+    },
+    "toilet_apartment": {},
+    "washbasin_apartment": {},
+    "shower_tray": {
+      "solid": false
+    },
+    "bathtub": {},
+    "supply_box_cardboard": {
+      "container": "supply_box"
+    },
+    "market_shelf": {
+      "container": "market_shelf",
+      "material": "furniture_metal"
+    },
+    "produce_rack": {
+      "container": "market_shelf"
+    },
+    "market_checkout": {
+      "container": "checkout"
+    },
+    "shopping_basket": {
+      "solid": false
+    },
+    "warehouse_rack": {
+      "container": "storeroom_rack",
+      "material": "furniture_metal"
+    },
+    "pharmacy_shelf": {
+      "container": "pharmacy_shelf"
+    },
+    "pharmacy_counter": {
+      "container": "pharmacy_counter"
+    },
+    "display_cabinet": {
+      "container": "display_cabinet"
+    },
+    "medical_supply_chest": {
+      "container": "medical_chest",
+      "material": "furniture_metal"
+    },
+    "reception_desk": {
+      "container": "shop_counter"
+    },
+    "archive_shelf": {
+      "container": "electronics_shelf",
+      "material": "furniture_metal"
+    },
+    "tool_cabinet": {
+      "container": "tool_cabinet",
+      "material": "furniture_metal"
+    },
+    "rolling_tool_chest": {
+      "container": "tool_cabinet",
+      "material": "furniture_metal"
+    },
+    "workshop_shelf": {
+      "container": "parts_shelf",
+      "material": "furniture_metal"
+    },
+    "parts_bin_rack": {
+      "container": "parts_shelf",
+      "material": "furniture_metal"
+    },
+    "vise_bench": {
+      "material": "furniture_metal"
+    },
+    "drill_press": {
+      "material": "furniture_metal"
+    },
+    "air_compressor": {
+      "material": "furniture_metal"
+    },
+    "gas_cylinder": {
+      "material": "furniture_metal"
+    },
+    "worktable_large": {},
+    "weapon_locker": {
+      "container": "weapon_locker",
+      "material": "furniture_metal"
+    },
+    "locker_single": {
+      "container": "locker",
+      "material": "furniture_metal"
+    },
+    "locker_double": {
+      "container": "locker",
+      "material": "furniture_metal"
+    },
+    "safe_tall": {
+      "container": "safe",
+      "material": "furniture_metal"
+    },
+    "filing_cabinet": {
+      "container": "filing_cabinet",
+      "material": "furniture_metal"
+    },
+    "office_cupboard": {
+      "container": "filing_cabinet"
+    },
+    "study_desk": {},
+    "hospital_bed": {
+      "material": "furniture_metal"
+    },
+    "sofa_apartment": {},
+    "armchair_apartment": {},
+    "bed_single_apartment": {},
+    "bed_double_apartment": {},
+    "coffee_table": {},
+    "dining_table_apartment": {},
+    "rug_apartment": {
+      "solid": false
+    },
+    "ceiling_lamp_apartment": {
+      "solid": false
+    },
+    "fluorescent_fixture": {
+      "solid": false
+    },
+    "chair_waiting": {
+      "solid": false
+    },
+    "chair_office": {
+      "solid": false
+    },
+    "television_flat": {
+      "solid": false
+    },
+    "iv_stand": {
+      "solid": false
+    },
+    "iz2_hospital_stretcher_fold": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_hospital_oxygen_trolley": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_hospital_ultrasound_cart": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_hospital_autoclave": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_pharmacy_compound_bench": {
+      "solid": true,
+      "material": "furniture_wood"
+    },
+    "iz2_garage_tire_changer": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_electronics_solder_station": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_school_lab_bench": {
+      "solid": true,
+      "material": "furniture_wood"
+    },
+    "iz2_library_card_catalog": {
+      "solid": true,
+      "material": "furniture_wood"
+    },
+    "iz2_police_evidence_cage": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_bakery_dough_mixer": {
+      "solid": true,
+      "material": "furniture_metal"
+    },
+    "iz2_tailor_cutting_table": {
+      "solid": true,
+      "material": "furniture_wood"
+    },
+    "iz2_music_repair_bench": {
+      "solid": true,
+      "material": "furniture_wood"
+    },
+    "iz2_school_blackboard": {
+      "solid": true,
+      "material": "furniture_wood"
+    },
+    "iz3_school_locker_01": {
+      "container": "school_locker"
+    },
+    "iz3_school_bookcase_01": {
+      "container": "school_shelf"
+    },
+    "iz3_school_bookcase_02": {
+      "container": "school_shelf"
+    },
+    "iz3_school_labbench_01": {
+      "container": "lab_cabinet"
+    },
+    "iz3_school_canteen_01": {
+      "container": "kitchen_cabinet"
+    },
+    "iz3_health_cabinet_01": {
+      "container": "hospital_cabinet"
+    },
+    "iz3_health_shelf_01": {
+      "container": "hospital_cabinet"
+    },
+    "iz3_health_pharmacy_01": {
+      "container": "pharmacy_shelf"
+    },
+    "iz3_health_cooler_01": {
+      "container": "fridge"
+    },
+    "iz3_military_crate_01": {
+      "container": "military_crate"
+    },
+    "iz3_military_armory_01": {
+      "container": "military_crate"
+    },
+    "iz3_prison_control_01": {
+      "container": "prison_locker"
+    },
+    "iz3_school_desk_01": {},
+    "iz3_school_cafetable_01": {},
+    "iz3_prison_bunk_01": {},
+    "iz3_prison_toilet_01": {},
+    "iz3_prison_bench_01": {},
+    "iz3_health_bed_01": {},
+    "iz3_health_oxygen_01": {},
+    "iz3_military_bunk_01": {},
+    "iz3_military_radio_01": {},
+    "iz3_school_board_01": {
+      "solid": false
+    }
+  }
+}

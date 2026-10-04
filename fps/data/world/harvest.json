@@ -1,0 +1,1151 @@
+{
+ "_aciklama": "Toplama: blok malzemesi -> class (alet sinifi) + drops. Yalniz DUNYA bloklarindan duser (oyuncunun koydugundan degil). vehicle_salvage: hurda arac sokumu.",
+ "materials": {
+  "log": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_log",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "resin",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "leaves": {
+   "class": "plant",
+   "drops": [
+    {
+     "item": "plant_fiber",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.8
+    },
+    {
+     "item": "herbs",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.08
+    },
+    {
+     "item": "herb_seeds",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.04
+    }
+   ]
+  },
+  "wood": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_plank",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "nail",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.35
+    }
+   ]
+  },
+  "wood_old": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_plank",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "nail",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.35
+    }
+   ]
+  },
+  "furniture_wood": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_plank",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "nail",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.35
+    }
+   ]
+  },
+  "pier_deck": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_plank",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "nail",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.35
+    }
+   ]
+  },
+  "door_wood": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_plank",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "nail",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.35
+    }
+   ]
+  },
+  "parquet": {
+   "class": "wood",
+   "drops": [
+    {
+     "item": "wood_plank",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "nail",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.35
+    }
+   ]
+  },
+  "stone": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "cobblestone": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "cobble_half": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "limestone": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "gravestone": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "stair_step": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "stair_step_half": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "concrete": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "concrete_rubble",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "rebar",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.12
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "roof_flat": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "concrete_rubble",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "rebar",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.12
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "curb_block": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "concrete_rubble",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "rebar",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.12
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "sidewalk": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "concrete_rubble",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "rebar",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.12
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "floor_tile": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "concrete_rubble",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "rebar",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.12
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "brick": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "loose_brick",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.7
+    },
+    {
+     "item": "ceramic_shard",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "plaster_cream": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "lime_powder",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.4
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "plaster_blue": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "lime_powder",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.4
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "plaster_rose": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "lime_powder",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.4
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "plaster_white": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "lime_powder",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.4
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "interior_plaster": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "lime_powder",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.4
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "interior": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "lime_powder",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.4
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "roof_tile": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "ceramic_shard",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.8
+    },
+    {
+     "item": "clay",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "asphalt": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "asphalt_chunk",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "asphalt_half": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "asphalt_chunk",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "asphalt_line": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "asphalt_chunk",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.9
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.2
+    }
+   ]
+  },
+  "rubble": {
+   "class": "stone",
+   "drops": [
+    {
+     "item": "stone_chunk",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.6
+    },
+    {
+     "item": "scrap_metal",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    },
+    {
+     "item": "rebar",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.1
+    }
+   ]
+  },
+  "dirt": {
+   "class": "soil",
+   "drops": [
+    {
+     "item": "clay",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.55
+    },
+    {
+     "item": "sand",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    }
+   ]
+  },
+  "grass": {
+   "class": "soil",
+   "drops": [
+    {
+     "item": "plant_fiber",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.7
+    },
+    {
+     "item": "clay",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    },
+    {
+     "item": "herb_seeds",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.03
+    }
+   ]
+  },
+  "grass_half": {
+   "class": "soil",
+   "drops": [
+    {
+     "item": "plant_fiber",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.7
+    },
+    {
+     "item": "clay",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.25
+    },
+    {
+     "item": "herb_seeds",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.03
+    }
+   ]
+  },
+  "sand": {
+   "class": "soil",
+   "drops": [
+    {
+     "item": "sand",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 1.0
+    }
+   ]
+  },
+  "metal_sheet": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "sheet_aluminum",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.8
+    },
+    {
+     "item": "screw",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "steel": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "scrap_metal",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "bolt_nut",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "bridge_steel": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "scrap_metal",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "bolt_nut",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "furniture_metal": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "scrap_metal",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "bolt_nut",
+     "count": [
+      1,
+      3
+     ],
+     "chance": 0.3
+    }
+   ]
+  },
+  "railing": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "pipe_steel",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.8
+    }
+   ]
+  },
+  "ladder": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "pipe_steel",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.8
+    }
+   ]
+  },
+  "door_metal": {
+   "class": "metal",
+   "drops": [
+    {
+     "item": "scrap_metal",
+     "count": [
+      2,
+      3
+     ],
+     "chance": 1.0
+    },
+    {
+     "item": "hinge",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.5
+    }
+   ]
+  },
+  "window_frame": {
+   "class": "glass",
+   "drops": [
+    {
+     "item": "glass_shard",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.8
+    },
+    {
+     "item": "plastic_shard",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.5
+    }
+   ]
+  },
+  "glass": {
+   "class": "glass",
+   "drops": [
+    {
+     "item": "glass_pane",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.85
+    },
+    {
+     "item": "glass_shard",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.4
+    }
+   ]
+  },
+  "door_glass": {
+   "class": "glass",
+   "drops": [
+    {
+     "item": "glass_pane",
+     "count": [
+      1,
+      1
+     ],
+     "chance": 0.85
+    },
+    {
+     "item": "glass_shard",
+     "count": [
+      1,
+      2
+     ],
+     "chance": 0.4
+    }
+   ]
+  }
+ },
+ "vehicle_salvage": [
+  {
+   "item": "scrap_metal",
+   "count": [
+    4,
+    8
+   ],
+   "chance": 1.0
+  },
+  {
+   "item": "tire_scrap",
+   "count": [
+    1,
+    3
+   ],
+   "chance": 0.85
+  },
+  {
+   "item": "copper_wire",
+   "count": [
+    2,
+    5
+   ],
+   "chance": 0.7
+  },
+  {
+   "item": "battery_car",
+   "count": [
+    1,
+    1
+   ],
+   "chance": 0.45
+  },
+  {
+   "item": "gasoline",
+   "count": [
+    1,
+    3
+   ],
+   "chance": 0.4
+  },
+  {
+   "item": "oil_can",
+   "count": [
+    1,
+    1
+   ],
+   "chance": 0.5
+  },
+  {
+   "item": "motor_small",
+   "count": [
+    1,
+    1
+   ],
+   "chance": 0.4
+  },
+  {
+   "item": "radiator_core",
+   "count": [
+    1,
+    1
+   ],
+   "chance": 0.4
+  },
+  {
+   "item": "alternator",
+   "count": [
+    1,
+    1
+   ],
+   "chance": 0.3
+  },
+  {
+   "item": "spring",
+   "count": [
+    1,
+    3
+   ],
+   "chance": 0.5
+  },
+  {
+   "item": "bearing",
+   "count": [
+    1,
+    2
+   ],
+   "chance": 0.4
+  },
+  {
+   "item": "glass_shard",
+   "count": [
+    1,
+    3
+   ],
+   "chance": 0.5
+  },
+  {
+   "item": "canvas",
+   "count": [
+    1,
+    2
+   ],
+   "chance": 0.35
+  }
+ ],
+ "fishing": [
+  {
+   "item": "tire_scrap",
+   "count": [
+    1,
+    1
+   ],
+   "chance": 0.06
+  },
+  {
+   "item": "cloth_rag",
+   "count": [
+    1,
+    2
+   ],
+   "chance": 0.05
+  },
+  {
+   "item": "raw_fish",
+   "count": [
+    1,
+    2
+   ],
+   "chance": 1.0
+  }
+ ]
+}

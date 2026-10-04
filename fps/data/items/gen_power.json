@@ -1,0 +1,570 @@
+{
+ "circuit_basic": {
+  "name": "Basit Devre",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.05,
+  "value": 14,
+  "tags": [
+   "circuit",
+   "electronic",
+   "logic"
+  ],
+  "description": "Kırık kartlardan kurtarılmış basit devre: multimetre, alarm, yem."
+ },
+ "copper_coil": {
+  "name": "Bakır Bobin",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 20,
+  "tags": [
+   "coil",
+   "conductive_metal",
+   "electronic"
+  ],
+  "description": "Sarılmış bakır: motor, trafo, tesla."
+ },
+ "relay_unit": {
+  "name": "Röle Ünitesi",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 22,
+  "tags": [
+   "relay",
+   "electronic",
+   "logic"
+  ],
+  "description": "Güç devresini açıp kapatan anahtar: anahtar, elektrikli tuzak."
+ },
+ "sensor_module": {
+  "name": "Sensör Modülü",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 40,
+  "tags": [
+   "sensor",
+   "electronic",
+   "logic"
+  ],
+  "description": "Hareket ve ışık algılayıcı."
+ },
+ "led_panel": {
+  "name": "LED Panel",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 24,
+  "tags": [
+   "led_panel",
+   "light_source",
+   "electronic"
+  ],
+  "description": "Çok sayıda LED: lamba ve projektör."
+ },
+ "battery_cell": {
+  "name": "Pil Hücresi",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 18,
+  "tags": [
+   "battery_cell",
+   "power_source",
+   "electronic"
+  ],
+  "description": "Yeniden şarj edilebilir hücre: akü paketinin yapı taşı."
+ },
+ "battery_pack": {
+  "name": "Akü Paketi",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 1.2,
+  "value": 60,
+  "tags": [
+   "power_source",
+   "energy_storage",
+   "electronic"
+  ],
+  "description": "Taşınabilir güç: akülü aletler, yem, şok bombası."
+ },
+ "transformer_coil": {
+  "name": "Trafo Bobini",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 2.5,
+  "value": 60,
+  "tags": [
+   "coil",
+   "electronic",
+   "heavy"
+  ],
+  "description": "Kaynak makinesi ve inverterin kalbi."
+ },
+ "inverter_unit": {
+  "name": "İnvertör",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 70,
+  "tags": [
+   "electronic",
+   "logic"
+  ],
+  "description": "Akü gücünü evsel akıma çevirir: güneş sistemi ve büyük aküler."
+ },
+ "charge_controller": {
+  "name": "Şarj Kontrolcüsü",
+  "category": "component",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 50,
+  "tags": [
+   "electronic",
+   "logic"
+  ],
+  "description": "Güneş panelini aküye güvenle bağlar."
+ },
+ "speaker_unit": {
+  "name": "Hoparlör",
+  "category": "component",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.5,
+  "value": 18,
+  "tags": [
+   "speaker",
+   "electronic",
+   "magnetic"
+  ],
+  "description": "Mıknatıs ve bobin: siren ve radyo yemi."
+ },
+ "capacitor_bank_part": {
+  "name": "Kondansatör Bankası",
+  "category": "component",
+  "tier": 4,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 110,
+  "tags": [
+   "electronic",
+   "energy_storage"
+  ],
+  "description": "Ani yüksek akım: tesla bobini."
+ },
+ "wire_spool": {
+  "name": "Kablo Makarası",
+  "category": "component",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "wire",
+   "conductive_metal"
+  ],
+  "description": "Direk ve tesisat için uzun kablo."
+ },
+ "generator_small": {
+  "name": "Küçük Jeneratör",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 25.0,
+  "value": 300,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "400 W; saatte bir birim yakıt yakar (yükle orantılı). GÜRÜLTÜLÜ. İnşa kipinde (B) kurulur."
+ },
+ "generator_diesel": {
+  "name": "Mazot Jeneratörü",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 60.0,
+  "value": 700,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "1500 W; mazot/benzin/yağ yakar. Çok gürültülü. İnşa kipinde (B) kurulur."
+ },
+ "generator_wood": {
+  "name": "Odun Gazlaştırıcı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 45.0,
+  "value": 500,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "800 W; YAKIT olarak ateş yakıtı (odun, kömür) da yakar. İnşa kipinde (B) kurulur."
+ },
+ "generator_pedal": {
+  "name": "Pedallı Jeneratör",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 12.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "60 W sabit (koloni pedal çevirir): sessiz, yakıtsız. İnşa kipinde (B) kurulur."
+ },
+ "solar_small": {
+  "name": "Küçük Güneş Paneli",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 120,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Gündüz 60 W, gece üretmez. Sessiz. İnşa kipinde (B) kurulur."
+ },
+ "solar_panel_kit": {
+  "name": "Güneş Paneli",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 14.0,
+  "value": 300,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Gündüz 160 W. İnşa kipinde (B) kurulur."
+ },
+ "solar_array": {
+  "name": "Güneş Dizisi",
+  "category": "station",
+  "tier": 4,
+  "stack": 2,
+  "weight": 40.0,
+  "value": 800,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Gündüz 420 W: büyük üssün omurgası. İnşa kipinde (B) kurulur."
+ },
+ "wind_small": {
+  "name": "Küçük Rüzgâr Türbini",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 18.0,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Gece gündüz 90 W civarı, rüzgârla dalgalanır. İnşa kipinde (B) kurulur."
+ },
+ "wind_large": {
+  "name": "Rüzgâr Türbini",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 45.0,
+  "value": 520,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Gece gündüz 260 W civarı. İnşa kipinde (B) kurulur."
+ },
+ "battery_bank_small": {
+  "name": "Akü Grubu",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 30.0,
+  "value": 150,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "1200 Wh depolar: gece ışığı. İnşa kipinde (B) kurulur."
+ },
+ "battery_bank_lead": {
+  "name": "Kurşun Akü Bankası",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 60.0,
+  "value": 380,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "3500 Wh depolar. İnşa kipinde (B) kurulur."
+ },
+ "battery_bank_lithium": {
+  "name": "Lityum Paket Dolabı",
+  "category": "station",
+  "tier": 4,
+  "stack": 2,
+  "weight": 25.0,
+  "value": 900,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "8000 Wh: hafif ve büyük depo. İnşa kipinde (B) kurulur."
+ },
+ "power_pole_wood": {
+  "name": "Ahşap Kablo Direği",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 8.0,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Kabloyu 16 m taşır: uzak yapıları aynı ağa bağlar. İnşa kipinde (B) kurulur."
+ },
+ "power_pole_steel": {
+  "name": "Çelik Kablo Direği",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 14.0,
+  "value": 70,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Kabloyu 26 m taşır. İnşa kipinde (B) kurulur."
+ },
+ "junction_box": {
+  "name": "Bağlantı Kutusu",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 2.0,
+  "value": 20,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Kısa menzil bağlantı (10 m), duvar dibine. İnşa kipinde (B) kurulur."
+ },
+ "power_switch": {
+  "name": "Şalter",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 1.5,
+  "value": 25,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "E ile aç/kapat: kapalıyken ağı ikiye böler. İnşa kipinde (B) kurulur."
+ },
+ "sensor_motion": {
+  "name": "Hareket Sensörü",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 0.8,
+  "value": 60,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Ağdaki lamba ve elektrikli tuzaklar yalnızca zombi gelince çalışır. İnşa kipinde (B) kurulur."
+ },
+ "sensor_night": {
+  "name": "Alacakaranlık Sensörü",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 0.8,
+  "value": 50,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Ağdaki lambalar yalnızca karanlıkta yanar. İnşa kipinde (B) kurulur."
+ },
+ "sensor_plate": {
+  "name": "Basınç Plakası",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 1.5,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Üstüne basan zombi ağı tetikler (1 m). İnşa kipinde (B) kurulur."
+ },
+ "lamp_oil": {
+  "name": "Gaz Lambası",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 12,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Yakıtsız değil ama elektriksiz: hep yanar (E ile söndür). İnşa kipinde (B) kurulur."
+ },
+ "lamp_solar": {
+  "name": "Güneş Şarjlı Lamba",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 24,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Kendi paneli var: yalnızca geceleri yanar. İnşa kipinde (B) kurulur."
+ },
+ "lamp_ceiling": {
+  "name": "Ampullü Lamba",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 19,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Basit tavan lambası (15 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_led": {
+  "name": "LED Lamba",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 27,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Az güç, çok ışık (6 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_string": {
+  "name": "Işık Zinciri",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 17,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Avlu boyunca sıra lamba (10 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_street": {
+  "name": "Sokak Lambası",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 44,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Yüksek direk lambası (40 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_flood": {
+  "name": "Taşkın Işığı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 66,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Geniş alan projektörü (60 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_wall": {
+  "name": "Duvar Apliği",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 16,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Koridor için küçük aplik (8 W). İnşa kipinde (B) kurulur."
+ },
+ "fridge_electric": {
+  "name": "Elektrikli Buzdolabı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 40.0,
+  "value": 380,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Üs deposunda yemek bozulmasını dörtte bire indirir; YAKIT değil ELEKTRİK (120 W). İnşa kipinde (B) kurulur."
+ },
+ "purifier_electric": {
+  "name": "Elektrikli Arıtıcı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 30.0,
+  "value": 420,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Her gün üs deposundaki kirli suyun 8 şişesini temizler (60 W). İnşa kipinde (B) kurulur."
+ },
+ "hydroponic_tray": {
+  "name": "Hidroponik Tepsi",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 15.0,
+  "value": 300,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Elektrikle %60 hızlı büyütür, yarı su harcar (35 W). İnşa kipinde (B) kurulur."
+ }
+}

@@ -1,0 +1,1441 @@
+{
+ "r_circuit_basic": {
+  "name": "Basit Devre",
+  "output": "circuit_basic",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 9,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "circuit_board_broken",
+    "count": 1
+   },
+   {
+    "item": "solder",
+    "count": 1
+   }
+  ],
+  "description": "Kırık kartlardan kurtarılmış basit devre: multimetre, alarm, yem."
+ },
+ "r_copper_coil": {
+  "name": "Bakır Bobin",
+  "output": "copper_coil",
+  "count": 2,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 12,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "copper_ingot",
+    "count": 1
+   },
+   {
+    "tag": "insulator",
+    "count": 1
+   }
+  ],
+  "description": "Sarılmış bakır: motor, trafo, tesla."
+ },
+ "r_relay_unit": {
+  "name": "Röle Ünitesi",
+  "output": "relay_unit",
+  "count": 2,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 12,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "relay_switch",
+    "count": 1
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   }
+  ],
+  "description": "Güç devresini açıp kapatan anahtar: anahtar, elektrikli tuzak."
+ },
+ "r_sensor_module": {
+  "name": "Sensör Modülü",
+  "output": "sensor_module",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 15,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "led",
+    "count": 2
+   },
+   {
+    "item": "transistor",
+    "count": 1
+   }
+  ],
+  "description": "Hareket ve ışık algılayıcı."
+ },
+ "r_led_panel": {
+  "name": "LED Panel",
+  "output": "led_panel",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 12,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 6
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Çok sayıda LED: lamba ve projektör."
+ },
+ "r_battery_cell": {
+  "name": "Pil Hücresi",
+  "output": "battery_cell",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 12,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "battery_aa",
+    "count": 4
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   }
+  ],
+  "description": "Yeniden şarj edilebilir hücre: akü paketinin yapı taşı."
+ },
+ "r_battery_pack": {
+  "name": "Akü Paketi",
+  "output": "battery_pack",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 15,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "battery_cell",
+    "count": 3
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Taşınabilir güç: akülü aletler, yem, şok bombası."
+ },
+ "r_transformer_coil": {
+  "name": "Trafo Bobini",
+  "output": "transformer_coil",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 15,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "copper_coil",
+    "count": 3
+   },
+   {
+    "item": "steel_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Kaynak makinesi ve inverterin kalbi."
+ },
+ "r_inverter_unit": {
+  "name": "İnvertör",
+  "output": "inverter_unit",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 15,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "transformer_coil",
+    "count": 1
+   },
+   {
+    "item": "circuit_module",
+    "count": 1
+   },
+   {
+    "item": "capacitor_salvaged",
+    "count": 2
+   }
+  ],
+  "description": "Akü gücünü evsel akıma çevirir: güneş sistemi ve büyük aküler."
+ },
+ "r_charge_controller": {
+  "name": "Şarj Kontrolcüsü",
+  "output": "charge_controller",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 15,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "circuit_module",
+    "count": 1
+   },
+   {
+    "item": "relay_unit",
+    "count": 1
+   },
+   {
+    "item": "fuse",
+    "count": 2
+   }
+  ],
+  "description": "Güneş panelini aküye güvenle bağlar."
+ },
+ "r_speaker_unit": {
+  "name": "Hoparlör",
+  "output": "speaker_unit",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 12,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "magnet",
+    "count": 1
+   },
+   {
+    "item": "copper_coil",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Mıknatıs ve bobin: siren ve radyo yemi."
+ },
+ "r_capacitor_bank_part": {
+  "name": "Kondansatör Bankası",
+  "output": "capacitor_bank_part",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 18,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "capacitor_salvaged",
+    "count": 8
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   },
+   {
+    "item": "circuit_module",
+    "count": 1
+   }
+  ],
+  "description": "Ani yüksek akım: tesla bobini.",
+  "learn": "skill:cr_automation"
+ },
+ "r_wire_spool": {
+  "name": "Kablo Makarası",
+  "output": "wire_spool",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 9,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "insulated_wire",
+    "count": 6
+   }
+  ],
+  "description": "Direk ve tesisat için uzun kablo."
+ },
+ "r_generator_small": {
+  "name": "Küçük Jeneratör",
+  "output": "generator_small",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 22,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Jeneratör",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "alternator",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 3
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   }
+  ],
+  "description": "400 W; saatte bir birim yakıt yakar (yükle orantılı). GÜRÜLTÜLÜ."
+ },
+ "r_generator_diesel": {
+  "name": "Mazot Jeneratörü",
+  "output": "generator_diesel",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 27,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Jeneratör",
+  "inputs": [
+   {
+    "item": "motor_large",
+    "count": 1
+   },
+   {
+    "item": "alternator",
+    "count": 1
+   },
+   {
+    "item": "crank_shaft",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "wire_spool",
+    "count": 1
+   }
+  ],
+  "description": "1500 W; mazot/benzin/yağ yakar. Çok gürültülü.",
+  "learn": "level:12"
+ },
+ "r_generator_wood": {
+  "name": "Odun Gazlaştırıcı",
+  "output": "generator_wood",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 27,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Jeneratör",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "alternator",
+    "count": 1
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 4
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "valve",
+    "count": 1
+   }
+  ],
+  "description": "800 W; YAKIT olarak ateş yakıtı (odun, kömür) da yakar."
+ },
+ "r_generator_pedal": {
+  "name": "Pedallı Jeneratör",
+  "output": "generator_pedal",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 17,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Jeneratör",
+  "inputs": [
+   {
+    "item": "alternator",
+    "count": 1
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   },
+   {
+    "item": "chain",
+    "count": 1
+   },
+   {
+    "item": "wood_beam",
+    "count": 2
+   }
+  ],
+  "description": "60 W sabit (koloni pedal çevirir): sessiz, yakıtsız."
+ },
+ "r_solar_small": {
+  "name": "Küçük Güneş Paneli",
+  "output": "solar_small",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 22,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Güneş",
+  "inputs": [
+   {
+    "item": "solar_cell",
+    "count": 4
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "Gündüz 60 W, gece üretmez. Sessiz."
+ },
+ "r_solar_panel_kit": {
+  "name": "Güneş Paneli",
+  "output": "solar_panel_kit",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 27,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Güneş",
+  "inputs": [
+   {
+    "item": "solar_cell",
+    "count": 10
+   },
+   {
+    "item": "glass_pane",
+    "count": 1
+   },
+   {
+    "item": "aluminum_ingot",
+    "count": 2
+   },
+   {
+    "item": "charge_controller",
+    "count": 1
+   }
+  ],
+  "description": "Gündüz 160 W."
+ },
+ "r_solar_array": {
+  "name": "Güneş Dizisi",
+  "output": "solar_array",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 32,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Güneş",
+  "inputs": [
+   {
+    "item": "solar_cell",
+    "count": 24
+   },
+   {
+    "item": "glass_pane",
+    "count": 3
+   },
+   {
+    "item": "aluminum_ingot",
+    "count": 4
+   },
+   {
+    "item": "charge_controller",
+    "count": 1
+   },
+   {
+    "item": "inverter_unit",
+    "count": 1
+   }
+  ],
+  "description": "Gündüz 420 W: büyük üssün omurgası.",
+  "learn": "skill:cr_quality"
+ },
+ "r_wind_small": {
+  "name": "Küçük Rüzgâr Türbini",
+  "output": "wind_small",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 22,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Rüzgâr",
+  "inputs": [
+   {
+    "item": "alternator",
+    "count": 1
+   },
+   {
+    "item": "aluminum_ingot",
+    "count": 2
+   },
+   {
+    "item": "axle",
+    "count": 1
+   },
+   {
+    "item": "pipe_steel",
+    "count": 2
+   }
+  ],
+  "description": "Gece gündüz 90 W civarı, rüzgârla dalgalanır."
+ },
+ "r_wind_large": {
+  "name": "Rüzgâr Türbini",
+  "output": "wind_large",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 27,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Rüzgâr",
+  "inputs": [
+   {
+    "item": "alternator",
+    "count": 2
+   },
+   {
+    "item": "aluminum_ingot",
+    "count": 4
+   },
+   {
+    "item": "axle",
+    "count": 1
+   },
+   {
+    "item": "gear_large",
+    "count": 2
+   },
+   {
+    "item": "wood_beam",
+    "count": 4
+   }
+  ],
+  "description": "Gece gündüz 260 W civarı.",
+  "learn": "level:14"
+ },
+ "r_battery_bank_small": {
+  "name": "Akü Grubu",
+  "output": "battery_bank_small",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 22,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Akü",
+  "inputs": [
+   {
+    "item": "battery_car",
+    "count": 2
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   },
+   {
+    "item": "fuse",
+    "count": 2
+   }
+  ],
+  "description": "1200 Wh depolar: gece ışığı."
+ },
+ "r_battery_bank_lead": {
+  "name": "Kurşun Akü Bankası",
+  "output": "battery_bank_lead",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 27,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Akü",
+  "inputs": [
+   {
+    "item": "battery_car",
+    "count": 4
+   },
+   {
+    "item": "battery_acid",
+    "count": 2
+   },
+   {
+    "item": "inverter_unit",
+    "count": 1
+   },
+   {
+    "item": "wire_spool",
+    "count": 1
+   }
+  ],
+  "description": "3500 Wh depolar."
+ },
+ "r_battery_bank_lithium": {
+  "name": "Lityum Paket Dolabı",
+  "output": "battery_bank_lithium",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 32,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Akü",
+  "inputs": [
+   {
+    "item": "battery_pack",
+    "count": 6
+   },
+   {
+    "item": "circuit_module",
+    "count": 2
+   },
+   {
+    "item": "inverter_unit",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 2
+   }
+  ],
+  "description": "8000 Wh: hafif ve büyük depo.",
+  "learn": "skill:cr_quality"
+ },
+ "r_power_pole_wood": {
+  "name": "Ahşap Kablo Direği",
+  "output": "power_pole_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 17,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Dağıtım",
+  "inputs": [
+   {
+    "item": "wood_beam",
+    "count": 1
+   },
+   {
+    "item": "wire_spool",
+    "count": 1
+   }
+  ],
+  "description": "Kabloyu 16 m taşır: uzak yapıları aynı ağa bağlar."
+ },
+ "r_power_pole_steel": {
+  "name": "Çelik Kablo Direği",
+  "output": "power_pole_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 22,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Dağıtım",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 3
+   },
+   {
+    "item": "wire_spool",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Kabloyu 26 m taşır."
+ },
+ "r_junction_box": {
+  "name": "Bağlantı Kutusu",
+  "output": "junction_box",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 17,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Dağıtım",
+  "inputs": [
+   {
+    "item": "insulated_wire",
+    "count": 3
+   },
+   {
+    "item": "fuse",
+    "count": 2
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Kısa menzil bağlantı (10 m), duvar dibine."
+ },
+ "r_power_switch": {
+  "name": "Şalter",
+  "output": "power_switch",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 17,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Dağıtım",
+  "inputs": [
+   {
+    "item": "relay_unit",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "E ile aç/kapat: kapalıyken ağı ikiye böler."
+ },
+ "r_sensor_motion": {
+  "name": "Hareket Sensörü",
+  "output": "sensor_motion",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Sensör",
+  "inputs": [
+   {
+    "item": "sensor_module",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "Ağdaki lamba ve elektrikli tuzaklar yalnızca zombi gelince çalışır."
+ },
+ "r_sensor_night": {
+  "name": "Alacakaranlık Sensörü",
+  "output": "sensor_night",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Sensör",
+  "inputs": [
+   {
+    "item": "sensor_module",
+    "count": 1
+   },
+   {
+    "item": "solar_cell",
+    "count": 1
+   }
+  ],
+  "description": "Ağdaki lambalar yalnızca karanlıkta yanar."
+ },
+ "r_sensor_plate": {
+  "name": "Basınç Plakası",
+  "output": "sensor_plate",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 17,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Sensör",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 2
+   },
+   {
+    "item": "relay_unit",
+    "count": 1
+   }
+  ],
+  "description": "Üstüne basan zombi ağı tetikler (1 m)."
+ },
+ "r_lamp_oil": {
+  "name": "Gaz Lambası",
+  "output": "lamp_oil",
+  "count": 1,
+  "station": "hands",
+  "time": 17,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "bottle_empty",
+    "count": 1
+   },
+   {
+    "tag": "chemical_fuel",
+    "count": 1
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "Yakıtsız değil ama elektriksiz: hep yanar (E ile söndür)."
+ },
+ "r_lamp_solar": {
+  "name": "Güneş Şarjlı Lamba",
+  "output": "lamp_solar",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 22,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "solar_cell",
+    "count": 2
+   },
+   {
+    "item": "led",
+    "count": 3
+   },
+   {
+    "item": "battery_cell",
+    "count": 1
+   }
+  ],
+  "description": "Kendi paneli var: yalnızca geceleri yanar."
+ },
+ "r_lamp_ceiling": {
+  "name": "Ampullü Lamba",
+  "output": "lamp_ceiling",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 17,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "lamp_bulb",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   }
+  ],
+  "description": "Basit tavan lambası (15 W)."
+ },
+ "r_lamp_led": {
+  "name": "LED Lamba",
+  "output": "lamp_led",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 22,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   }
+  ],
+  "description": "Az güç, çok ışık (6 W)."
+ },
+ "r_lamp_string": {
+  "name": "Işık Zinciri",
+  "output": "lamp_string",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 17,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 6
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   }
+  ],
+  "description": "Avlu boyunca sıra lamba (10 W)."
+ },
+ "r_lamp_street": {
+  "name": "Sokak Lambası",
+  "output": "lamp_street",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 22,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 1
+   },
+   {
+    "item": "pipe_steel",
+    "count": 2
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   }
+  ],
+  "description": "Yüksek direk lambası (40 W)."
+ },
+ "r_lamp_flood": {
+  "name": "Taşkın Işığı",
+  "output": "lamp_flood",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 27,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "Geniş alan projektörü (60 W)."
+ },
+ "r_lamp_wall": {
+  "name": "Duvar Apliği",
+  "output": "lamp_wall",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 17,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 3
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Koridor için küçük aplik (8 W)."
+ },
+ "r_fridge_electric": {
+  "name": "Elektrikli Buzdolabı",
+  "output": "fridge_electric",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 27,
+  "category": "elektrikli_cihaz",
+  "family": "power",
+  "subcategory": "Mutfak",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "copper_coil",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 4
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   }
+  ],
+  "description": "Üs deposunda yemek bozulmasını dörtte bire indirir; YAKIT değil ELEKTRİK (120 W)."
+ },
+ "r_purifier_electric": {
+  "name": "Elektrikli Arıtıcı",
+  "output": "purifier_electric",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 27,
+  "category": "elektrikli_cihaz",
+  "family": "power",
+  "subcategory": "Su",
+  "inputs": [
+   {
+    "item": "pump_unit",
+    "count": 1
+   },
+   {
+    "item": "filter_cartridge",
+    "count": 2
+   },
+   {
+    "item": "ceramic_filter",
+    "count": 2
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   }
+  ],
+  "description": "Her gün üs deposundaki kirli suyun 8 şişesini temizler (60 W).",
+  "learn": "skill:cr_water_eng"
+ },
+ "r_hydroponic_tray": {
+  "name": "Hidroponik Tepsi",
+  "output": "hydroponic_tray",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 27,
+  "category": "elektrikli_cihaz",
+  "family": "power",
+  "subcategory": "Tarım",
+  "inputs": [
+   {
+    "item": "pump_unit",
+    "count": 1
+   },
+   {
+    "item": "led_panel",
+    "count": 2
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 3
+   },
+   {
+    "item": "pvc_pipe",
+    "count": 2
+   }
+  ],
+  "description": "Elektrikle %60 hızlı büyütür, yarı su harcar (35 W).",
+  "learn": "skill:cr_electric"
+ },
+ "r_lamp_candle": {
+  "name": "Mum Feneri",
+  "output": "lamp_candle",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "bottle_empty",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "Kavanozda mum: elektriksiz, zayıf ışık."
+ },
+ "r_lamp_emergency": {
+  "name": "Acil Durum Lambası",
+  "output": "lamp_emergency",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 18,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 4
+   },
+   {
+    "item": "battery_cell",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Akülü ağda hep yanar (4 W)."
+ },
+ "r_lamp_red": {
+  "name": "Kırmızı Gece Lambası",
+  "output": "lamp_red",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 14,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 3
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   },
+   {
+    "item": "glass_shard",
+    "count": 1
+   }
+  ],
+  "description": "Göz alıştırmayan kırmızı ışık, yalnız gece (3 W)."
+ },
+ "r_lamp_garden_solar": {
+  "name": "Bahçe Lambası",
+  "output": "lamp_garden_solar",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 14,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "solar_cell",
+    "count": 1
+   },
+   {
+    "item": "led",
+    "count": 2
+   },
+   {
+    "item": "battery_cell",
+    "count": 1
+   }
+  ],
+  "description": "Kendi paneli var: yalnız gece yanar."
+ },
+ "r_lamp_tower": {
+  "name": "Işık Kulesi",
+  "output": "lamp_tower",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 22,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 3
+   },
+   {
+    "item": "pipe_steel",
+    "count": 3
+   },
+   {
+    "item": "wire_spool",
+    "count": 1
+   }
+  ],
+  "description": "Avluyu gündüz gibi aydınlatır (90 W)."
+ },
+ "r_lamp_workshop": {
+  "name": "Atölye Lambası",
+  "output": "lamp_workshop",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 18,
+  "category": "aydinlatma",
+  "family": "power",
+  "subcategory": "Lamba",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 1
+   },
+   {
+    "item": "metal_bracket",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   }
+  ],
+  "description": "Tezgâh üstü güçlü ışık (20 W)."
+ },
+ "r_solar_roof_tile": {
+  "name": "Güneş Kiremidi",
+  "output": "solar_roof_tile",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 18,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Güneş",
+  "inputs": [
+   {
+    "item": "solar_cell",
+    "count": 2
+   },
+   {
+    "item": "roof_tile_item",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 1
+   }
+  ],
+  "description": "Çatıya: gündüz 35 W."
+ },
+ "r_water_wheel": {
+  "name": "Su Çarkı",
+  "output": "water_wheel",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 18,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Rüzgâr",
+  "inputs": [
+   {
+    "item": "wood_beam",
+    "count": 6
+   },
+   {
+    "item": "axle",
+    "count": 1
+   },
+   {
+    "item": "alternator",
+    "count": 1
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   }
+  ],
+  "description": "Dere/kıyı başında sürekli 120 W civarı."
+ },
+ "r_battery_bank_car": {
+  "name": "Araba Aküsü Rafı",
+  "output": "battery_bank_car",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "enerji",
+  "family": "power",
+  "subcategory": "Akü",
+  "inputs": [
+   {
+    "item": "battery_car",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   },
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "600 Wh: iki araba aküsü."
+ },
+ "rx_circuit_scrap": {
+  "name": "Hurdadan basit devre",
+  "output": "circuit_basic",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 10,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "circuit_board_broken",
+    "count": 2
+   },
+   {
+    "item": "copper_wire",
+    "count": 1
+   }
+  ],
+  "description": "İki kırık karttan bir sağlam devre."
+ },
+ "rx_coil_wire": {
+  "name": "Kablodan bobin",
+  "output": "copper_coil",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 10,
+  "category": "elektronik",
+  "family": "power",
+  "subcategory": "Devre",
+  "inputs": [
+   {
+    "item": "copper_wire",
+    "count": 6
+   }
+  ],
+  "description": "Kabloyu makaraya sarmak."
+ },
+ "rx_wire_spool_copper": {
+  "name": "Bakırdan kablo makarası",
+  "output": "wire_spool",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 14,
+  "category": "elektrik",
+  "family": "power",
+  "subcategory": "Dağıtım",
+  "inputs": [
+   {
+    "item": "copper_ingot",
+    "count": 1
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Külçeden çekilip kılıflanan kablo."
+ }
+}

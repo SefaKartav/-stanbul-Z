@@ -1,0 +1,228 @@
+{
+  "r_insulated_wire": {
+    "name": "Izoleli Kablo", "output": "insulated_wire", "count": 2,
+    "station": "hands", "time": 3.0, "category": "elektrik",
+    "inputs": [
+      { "tag": "conductive_metal", "count": 2 },
+      { "tag": "insulator", "count": 1 }
+    ],
+    "description": "Cipla kabloyu plastikle kaplamak. Her elektrik isinin ilk adimi."
+  },
+  "r_metal_plate": {
+    "name": "Levha Dogrultma", "output": "metal_plate", "count": 2,
+    "station": "workbench", "station_tier": 1, "time": 5.0, "category": "metal",
+    "inputs": [
+      { "tag": "structural_metal", "count": 3 },
+      { "item": "toolkit", "count": 1, "consumed": false }
+    ],
+    "description": "Bukulmus metali duzeltip kenarlarini almak."
+  },
+  "r_steel_ingot": {
+    "name": "Celik Dokum", "output": "steel_ingot", "count": 1,
+    "station": "forge", "station_tier": 3, "time": 14.0, "category": "metal",
+    "quality_bonus": 8,
+    "inputs": [
+      { "tag": "structural_metal", "count": 4 },
+      { "tag": "chemical_fuel", "count": 1 },
+      { "item": "charcoal", "count": 2 }
+    ],
+    "description": "Hurdayi eritip saf metale cevirmek. Buradan sonrasi baska bir lig."
+  },
+  "r_machined_part": {
+    "name": "Parca Isleme", "output": "machined_part", "count": 2,
+    "station": "workbench", "station_tier": 2, "time": 9.0, "category": "mekanik",
+    "quality_bonus": 4,
+    "inputs": [
+      { "item": "steel_ingot", "count": 1, "min_quality": 20 },
+      { "item": "toolkit", "count": 1, "consumed": false }
+    ],
+    "description": "Olculu, tesviyeli parca. Silahin her yerinde bu var."
+  },
+  "r_circuit_module": {
+    "name": "Devre Modulu", "output": "circuit_module", "count": 1,
+    "station": "electronics", "station_tier": 3, "time": 11.0, "category": "elektronik",
+    "inputs": [
+      { "item": "circuit_board_broken", "count": 2 },
+      { "item": "solder", "count": 2 },
+      { "item": "transistor", "count": 2 },
+      { "item": "soldering_iron", "count": 1, "consumed": false }
+    ],
+    "description": "Kirik kartlardan calisir bir modul cikarmak."
+  },
+  "r_power_cell": {
+    "name": "Guc Hucresi", "output": "power_cell", "count": 1,
+    "station": "electronics", "station_tier": 3, "time": 18.0, "category": "elektronik",
+    "failure_chance": 0.08, "quality_bonus": 5,
+    "inputs": [
+      { "item": "insulated_wire", "count": 2, "min_quality": 25 },
+      { "item": "capacitor_salvaged", "count": 3 },
+      { "item": "battery_car", "count": 1 },
+      { "item": "circuit_module", "count": 1, "min_quality": 30 },
+      { "item": "fuse", "count": 1 }
+    ],
+    "description": "Akunun enerjisini tasinabilir hale getirmek. Yanlis yaparsan patlar."
+  },
+  "r_cured_leather": {
+    "name": "Deri Isleme", "output": "cured_leather", "count": 2,
+    "station": "workbench", "station_tier": 1, "time": 8.0, "category": "kumas",
+    "inputs": [
+      { "item": "leather_scrap", "count": 3 },
+      { "tag": "solvent", "count": 1 }
+    ],
+    "description": "Tuzlayip kurutmak. Sabir isi."
+  },
+  "r_ballistic_weave": {
+    "name": "Balistik Dokuma", "output": "ballistic_weave", "count": 1,
+    "station": "workbench", "station_tier": 3, "time": 16.0, "category": "kumas",
+    "inputs": [
+      { "tag": "tough_fabric", "count": 4 },
+      { "item": "adhesive_compound", "count": 2, "min_quality": 30 },
+      { "item": "epoxy_resin", "count": 1 }
+    ],
+    "description": "Kat kat sikistirilmis kumas. Mermiyi durdurmaz ama yavaslatir."
+  },
+  "r_ceramic_plate": {
+    "name": "Seramik Plaka", "output": "ceramic_plate", "count": 1,
+    "station": "forge", "station_tier": 3, "time": 13.0, "category": "zirh",
+    "inputs": [
+      { "item": "ceramic_shard", "count": 6 },
+      { "item": "sand", "count": 2 },
+      { "item": "adhesive_compound", "count": 1 }
+    ],
+    "description": "Kirilarak darbeyi dagitir. Tek kullanimlik ama hayat kurtarir."
+  },
+  "r_adhesive_compound": {
+    "name": "Yapistirici Karisim", "output": "adhesive_compound", "count": 3,
+    "station": "chemistry", "station_tier": 3, "time": 7.0, "category": "kimya",
+    "inputs": [
+      { "item": "rubber_strip", "count": 2 },
+      { "tag": "solvent", "count": 1 },
+      { "item": "epoxy_resin", "count": 1 }
+    ],
+    "description": "Koli bandindan cok daha guclusu."
+  },
+  "r_antiseptic": {
+    "name": "Antiseptik", "output": "antiseptic", "count": 2,
+    "station": "chemistry", "station_tier": 3, "time": 6.0, "category": "tibbi",
+    "inputs": [
+      { "tag": "antiseptic_base", "count": 2 },
+      { "item": "herbs", "count": 1 }
+    ],
+    "description": "Enfeksiyon zombiden once oldurur. Bunu unutma."
+  },
+  "r_sterile_cloth": {
+    "name": "Steril Bez", "output": "sterile_cloth", "count": 3,
+    "station": "hands", "time": 4.0, "category": "tibbi",
+    "inputs": [
+      { "tag": "soft", "count": 2 },
+      { "tag": "antiseptic_base", "count": 1 }
+    ],
+    "description": "Kaynat, kurut, kapali sakla."
+  },
+  "r_gun_barrel": {
+    "name": "Namlu", "output": "gun_barrel", "count": 1,
+    "station": "gunsmith", "station_tier": 4, "time": 22.0, "category": "silah",
+    "failure_chance": 0.05, "quality_bonus": 3,
+    "inputs": [
+      { "item": "steel_ingot", "count": 2, "min_quality": 35 },
+      { "item": "machined_part", "count": 1, "min_quality": 35 },
+      { "item": "toolkit", "count": 1, "consumed": false }
+    ],
+    "description": "Yiv acmak isin en zor kismi. Kalite dogrudan isabete yansir."
+  },
+  "r_firing_mechanism": {
+    "name": "Ates Mekanizmasi", "output": "firing_mechanism", "count": 1,
+    "station": "gunsmith", "station_tier": 4, "time": 20.0, "category": "silah",
+    "quality_bonus": 2,
+    "inputs": [
+      { "item": "machined_part", "count": 2, "min_quality": 30 },
+      { "item": "spring", "count": 3 },
+      { "item": "gear_small", "count": 2 },
+      { "tag": "lubricant", "count": 1 }
+    ],
+    "description": "Tetik, igne, yay. Tikanirsa oyun biter."
+  },
+  "r_gun_frame": {
+    "name": "Silah Govdesi", "output": "gun_frame", "count": 1,
+    "station": "gunsmith", "station_tier": 4, "time": 18.0, "category": "silah",
+    "inputs": [
+      { "item": "steel_ingot", "count": 2 },
+      { "item": "metal_plate", "count": 2 },
+      { "tag": "fastener", "count": 8 }
+    ],
+    "description": "Her seyin uzerine oturdugu iskelet."
+  },
+  "r_optic_assembly": {
+    "name": "Optik Grup", "output": "optic_assembly", "count": 1,
+    "station": "electronics", "station_tier": 3, "time": 15.0, "category": "elektronik",
+    "inputs": [
+      { "tag": "optics", "count": 2 },
+      { "item": "machined_part", "count": 1 },
+      { "item": "adhesive_compound", "count": 1 }
+    ],
+    "description": "Mercekleri hizalamak sanildigindan zor."
+  },
+  "r_sound_baffle": {
+    "name": "Ses Perdesi", "output": "sound_baffle", "count": 2,
+    "station": "workbench", "station_tier": 3, "time": 10.0, "category": "mekanik",
+    "inputs": [
+      { "item": "metal_plate", "count": 2 },
+      { "item": "foam_padding", "count": 3 },
+      { "item": "rubber_strip", "count": 2 }
+    ],
+    "description": "Gazi yavaslatan bolmeler. Susturucunun kalbi."
+  },
+  "r_primer_compound": {
+    "name": "Kapsul Bilesigi", "output": "primer_compound", "count": 12,
+    "station": "chemistry", "station_tier": 3, "time": 9.0, "category": "kimya",
+    "failure_chance": 0.12,
+    "inputs": [
+      { "tag": "chemical_oxidizer", "count": 2 },
+      { "item": "match_heads", "count": 4 },
+      { "item": "bottle_empty", "count": 1 }
+    ],
+    "description": "Hassas. Cok hassas. Sabit elle calis."
+  },
+  "r_refined_powder": {
+    "name": "Barut Isleme", "output": "refined_powder", "count": 8,
+    "station": "chemistry", "station_tier": 3, "time": 8.0, "category": "kimya",
+    "failure_chance": 0.06,
+    "inputs": [
+      { "item": "gunpowder_loose", "count": 3 },
+      { "item": "charcoal", "count": 1 },
+      { "tag": "chemical_oxidizer", "count": 1 }
+    ],
+    "description": "Elemek ve kurutmak. Kalite dogrudan namlu cikis hizina yansir."
+  },
+  "r_acid_concentrate": {
+    "name": "Asit Yogunlastirma", "output": "acid_concentrate", "count": 2,
+    "station": "chemistry", "station_tier": 3, "time": 12.0, "category": "kimya",
+    "failure_chance": 0.15,
+    "inputs": [
+      { "item": "bleach", "count": 2 },
+      { "tag": "chemical_fuel", "count": 1 },
+      { "item": "bottle_empty", "count": 1 }
+    ],
+    "description": "Havalandirmayi ac. Gercekten ac."
+  },
+  "r_filter_cartridge": {
+    "name": "Filtre Kartusu", "output": "filter_cartridge", "count": 1,
+    "station": "workbench", "station_tier": 3, "time": 11.0, "category": "hayatta_kalma",
+    "inputs": [
+      { "tag": "filter_medium", "count": 4 },
+      { "item": "sterile_cloth", "count": 2 },
+      { "item": "pvc_pipe", "count": 1 }
+    ],
+    "description": "Kömür katmanlari. Tukurukcunun bulutunu tutar."
+  },
+  "r_hardened_frame": {
+    "name": "Sertlestirilmis Iskelet", "output": "hardened_frame", "count": 1,
+    "station": "forge", "station_tier": 3, "time": 12.0, "category": "insaat",
+    "inputs": [
+      { "item": "rebar", "count": 2 },
+      { "item": "steel_ingot", "count": 1 },
+      { "tag": "structural_metal", "count": 2 }
+    ],
+    "description": "Kaynakli, capraz destekli. Barikatin omurgasi."
+  }
+}

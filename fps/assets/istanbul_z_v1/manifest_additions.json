@@ -1,0 +1,6867 @@
+{
+  "pack": "Istanbul-Z Expansion",
+  "version": "2.0",
+  "asset_count": 206,
+  "assets": [
+    {
+      "id": "loot_chest_wood",
+      "label_tr": "Eski ahşap sandık",
+      "category": "containers",
+      "path": "models/containers/loot_chest_wood.glb",
+      "dimensions_m": [
+        1.0,
+        0.65,
+        0.585
+      ],
+      "bounds_min": [
+        -0.5,
+        0.0,
+        -0.31
+      ],
+      "bounds_max": [
+        0.5,
+        0.65,
+        0.275
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "91d915426c134c99647db2abdf25661b5194b12fb1253a66e17e9df1ae3a287e",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/loot_chest_wood.png",
+      "source": "source_geometry_additions.json#loot_chest_wood"
+    },
+    {
+      "id": "wardrobe_apartment",
+      "label_tr": "İki kapılı ev dolabı",
+      "category": "containers",
+      "path": "models/containers/wardrobe_apartment.glb",
+      "dimensions_m": [
+        1.4,
+        2.1,
+        0.67
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.7,
+        2.1,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 144,
+      "collision_included": false,
+      "sha256": "c2d29ecc0b42ab33a74446eb4e6d92129d6d6ceda64c6551fef8544eaa44149c",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/wardrobe_apartment.png",
+      "source": "source_geometry_additions.json#wardrobe_apartment"
+    },
+    {
+      "id": "dresser_apartment",
+      "label_tr": "Üç çekmeceli şifonyer",
+      "category": "containers",
+      "path": "models/containers/dresser_apartment.glb",
+      "dimensions_m": [
+        1.0,
+        0.9,
+        0.525
+      ],
+      "bounds_min": [
+        -0.5,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.5,
+        0.9,
+        0.225
+      ],
+      "parts": [
+        "body",
+        "drawer_01",
+        "drawer_02",
+        "drawer_03"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 276,
+      "collision_included": false,
+      "sha256": "304cbe205e8925ffd7f13e2a6c0bba55b4df0ff8592f89f61c818a6388cffad8",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/dresser_apartment.png",
+      "source": "source_geometry_additions.json#dresser_apartment"
+    },
+    {
+      "id": "nightstand_apartment",
+      "label_tr": "Çekmeceli komodin",
+      "category": "containers",
+      "path": "models/containers/nightstand_apartment.glb",
+      "dimensions_m": [
+        0.5,
+        0.55,
+        0.475
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.275
+      ],
+      "bounds_max": [
+        0.25,
+        0.55,
+        0.2
+      ],
+      "parts": [
+        "body",
+        "drawer_01"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "b9c19ccd93fbbf168eb27a0f090117d8f31c842d989dca9df03443ae97361a56",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/nightstand_apartment.png",
+      "source": "source_geometry_additions.json#nightstand_apartment"
+    },
+    {
+      "id": "kitchen_cabinet_low",
+      "label_tr": "Alt mutfak dolabı",
+      "category": "containers",
+      "path": "models/containers/kitchen_cabinet_low.glb",
+      "dimensions_m": [
+        1.0,
+        0.9,
+        0.67
+      ],
+      "bounds_min": [
+        -0.5,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.5,
+        0.9,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "8ad3a3ec607e5bb46259173752311b7933fcc2dcac3f3c60d2262ee673014257",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/kitchen_cabinet_low.png",
+      "source": "source_geometry_additions.json#kitchen_cabinet_low"
+    },
+    {
+      "id": "kitchen_cabinet_wall",
+      "label_tr": "Duvar mutfak dolabı",
+      "category": "containers",
+      "path": "models/containers/kitchen_cabinet_wall.glb",
+      "dimensions_m": [
+        1.0,
+        0.7,
+        0.42
+      ],
+      "bounds_min": [
+        -0.5,
+        0.0,
+        -0.245
+      ],
+      "bounds_max": [
+        0.5,
+        0.7,
+        0.175
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "4f2a5b06379d1d7529902122b8953643e57715b42107cfb9e53511eb4d0e1f4e",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/kitchen_cabinet_wall.png",
+      "source": "source_geometry_additions.json#kitchen_cabinet_wall"
+    },
+    {
+      "id": "fridge_apartment",
+      "label_tr": "Boş raflı buzdolabı",
+      "category": "containers",
+      "path": "models/containers/fridge_apartment.glb",
+      "dimensions_m": [
+        0.7,
+        1.8,
+        0.77
+      ],
+      "bounds_min": [
+        -0.35,
+        0.0,
+        -0.42
+      ],
+      "bounds_max": [
+        0.35,
+        1.8,
+        0.35
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "dbe1b5f09f3db5df4beaa3f2b183d38743ccc3a57f3adb28308e6cb165208fed",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/fridge_apartment.png",
+      "source": "source_geometry_additions.json#fridge_apartment"
+    },
+    {
+      "id": "medicine_cabinet",
+      "label_tr": "Duvar ilaç dolabı",
+      "category": "containers",
+      "path": "models/containers/medicine_cabinet.glb",
+      "dimensions_m": [
+        0.65,
+        0.8,
+        0.32
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.195
+      ],
+      "bounds_max": [
+        0.325,
+        0.8,
+        0.125
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "b0d4c1f80433fdbef5c12ca8df58bfc3fd6a1da94c9e9cbe05fc914545c0b0a5",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/medicine_cabinet.png",
+      "source": "source_geometry_additions.json#medicine_cabinet"
+    },
+    {
+      "id": "pharmacy_shelf",
+      "label_tr": "Boş eczane rafı",
+      "category": "containers",
+      "path": "models/containers/pharmacy_shelf.glb",
+      "dimensions_m": [
+        1.2,
+        2.0,
+        0.4
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.6,
+        2.0,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "37fe696f83b9005b136245934e3ba8ea9a27163cf7a63cb4ebd5479942e04a4f",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/pharmacy_shelf.png",
+      "source": "source_geometry_additions.json#pharmacy_shelf"
+    },
+    {
+      "id": "pharmacy_counter",
+      "label_tr": "Eczane bankosu",
+      "category": "containers",
+      "path": "models/containers/pharmacy_counter.glb",
+      "dimensions_m": [
+        1.5,
+        1.0,
+        0.675
+      ],
+      "bounds_min": [
+        -0.75,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.75,
+        1.0,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "drawer_01",
+        "drawer_02",
+        "drawer_03"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 276,
+      "collision_included": false,
+      "sha256": "bc840c71112d7f5622d30c87707ac637d92b07357ec46b4ff44e4f1143bb0739",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/pharmacy_counter.png",
+      "source": "source_geometry_additions.json#pharmacy_counter"
+    },
+    {
+      "id": "market_shelf",
+      "label_tr": "Çift taraflı market rafı",
+      "category": "containers",
+      "path": "models/containers/market_shelf.glb",
+      "dimensions_m": [
+        1.2,
+        1.8,
+        0.75
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.6,
+        1.8,
+        0.375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "2e88225a574a6ba36372f808f3cf8dd7dc80a7860f39e7d527aa10529f99d810",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/market_shelf.png",
+      "source": "source_geometry_additions.json#market_shelf"
+    },
+    {
+      "id": "market_checkout",
+      "label_tr": "Market kasa bankosu",
+      "category": "containers",
+      "path": "models/containers/market_checkout.glb",
+      "dimensions_m": [
+        1.4,
+        1.16,
+        0.775
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        0.7,
+        1.16,
+        0.35
+      ],
+      "parts": [
+        "body",
+        "drawer_01"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 168,
+      "collision_included": false,
+      "sha256": "f474a12cb967135bb35df9eefa1098426b2fd320487031b136bdadfca7c74879",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/market_checkout.png",
+      "source": "source_geometry_additions.json#market_checkout"
+    },
+    {
+      "id": "supply_box_cardboard",
+      "label_tr": "Açılabilir erzak kolisi",
+      "category": "containers",
+      "path": "models/containers/supply_box_cardboard.glb",
+      "dimensions_m": [
+        0.5,
+        0.3975,
+        0.435
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.235
+      ],
+      "bounds_max": [
+        0.25,
+        0.3975,
+        0.2
+      ],
+      "parts": [
+        "body",
+        "lid_left",
+        "lid_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "18c243564a1604638b9faa8c3efb1ad23a878b1301a46e18a84052161d72a2cf",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/supply_box_cardboard.png",
+      "source": "source_geometry_additions.json#supply_box_cardboard"
+    },
+    {
+      "id": "tool_cabinet",
+      "label_tr": "Takım dolabı",
+      "category": "containers",
+      "path": "models/containers/tool_cabinet.glb",
+      "dimensions_m": [
+        0.8,
+        1.5,
+        0.575
+      ],
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.325
+      ],
+      "bounds_max": [
+        0.4,
+        1.5,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "drawer_01",
+        "drawer_02",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 252,
+      "collision_included": false,
+      "sha256": "2f5951fe8d4c7cab233d29b7bf3e2a13ff295e153e86e293d3776714e49512d6",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/tool_cabinet.png",
+      "source": "source_geometry_additions.json#tool_cabinet"
+    },
+    {
+      "id": "weapon_locker",
+      "label_tr": "Boş güvenlik dolabı",
+      "category": "containers",
+      "path": "models/containers/weapon_locker.glb",
+      "dimensions_m": [
+        0.8,
+        1.9,
+        0.57
+      ],
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.32
+      ],
+      "bounds_max": [
+        0.4,
+        1.9,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "c12a1260f0350f12219402ab6677d30743f4495a3b08a8f42702991db3c3161a",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/weapon_locker.png",
+      "source": "source_geometry_additions.json#weapon_locker"
+    },
+    {
+      "id": "sofa_apartment",
+      "label_tr": "Daire kanepesi",
+      "category": "interiors",
+      "path": "models/interiors/sofa_apartment.glb",
+      "dimensions_m": [
+        2.02,
+        0.945,
+        0.85
+      ],
+      "bounds_min": [
+        -1.01,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        1.01,
+        0.945,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "aba37e59b2cee5a1f881c85109d2212540af3e9f4bc2a018abb5167fa635aa62",
+      "markers": [],
+      "preview": "previews/sofa_apartment.png",
+      "source": "source_geometry_additions.json#sofa_apartment"
+    },
+    {
+      "id": "bed_single_apartment",
+      "label_tr": "Tek kişilik yatak",
+      "category": "interiors",
+      "path": "models/interiors/bed_single_apartment.glb",
+      "dimensions_m": [
+        0.95,
+        0.695,
+        1.95
+      ],
+      "bounds_min": [
+        -0.475,
+        0.0,
+        -0.975
+      ],
+      "bounds_max": [
+        0.475,
+        0.695,
+        0.975
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "ce23edb253b23fccc35fae8502ff49d5c427a81721465d0746d151c9f7b17c0e",
+      "markers": [],
+      "preview": "previews/bed_single_apartment.png",
+      "source": "source_geometry_additions.json#bed_single_apartment"
+    },
+    {
+      "id": "dining_table_apartment",
+      "label_tr": "Yemek masası",
+      "category": "interiors",
+      "path": "models/interiors/dining_table_apartment.glb",
+      "dimensions_m": [
+        1.2,
+        0.75,
+        0.7
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        0.6,
+        0.75,
+        0.35
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "f3b3d0b0b63421bf6143160dcd75436f31f07c792a9afa62b7a05fe2f13d005f",
+      "markers": [],
+      "preview": "previews/dining_table_apartment.png",
+      "source": "source_geometry_additions.json#dining_table_apartment"
+    },
+    {
+      "id": "chair_apartment",
+      "label_tr": "Yemek sandalyesi",
+      "category": "interiors",
+      "path": "models/interiors/chair_apartment.glb",
+      "dimensions_m": [
+        0.48,
+        0.995,
+        0.48
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.995,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "6433493e3693455a5dcdebc07b406fb34f80c06d727c2f6e4088349c0e45b545",
+      "markers": [],
+      "preview": "previews/chair_apartment.png",
+      "source": "source_geometry_additions.json#chair_apartment"
+    },
+    {
+      "id": "sink_kitchen",
+      "label_tr": "Mutfak evyesi",
+      "category": "interiors",
+      "path": "models/interiors/sink_kitchen.glb",
+      "dimensions_m": [
+        1.0,
+        1.18,
+        0.6
+      ],
+      "bounds_min": [
+        -0.5,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.5,
+        1.18,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "e0472a3b98c20a7593ae92ae5686a3b87017ef9261a3efc270d5a74ae44b6599",
+      "markers": [],
+      "preview": "previews/sink_kitchen.png",
+      "source": "source_geometry_additions.json#sink_kitchen"
+    },
+    {
+      "id": "stove_apartment",
+      "label_tr": "Fırınlı ocak",
+      "category": "interiors",
+      "path": "models/interiors/stove_apartment.glb",
+      "dimensions_m": [
+        0.6,
+        0.8805,
+        0.67
+      ],
+      "bounds_min": [
+        -0.3,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.3,
+        0.8805,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "2a7b7607008501df22df4a91b71b0bf9fbcdae18bb19427b615339850c4ebe7e",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/stove_apartment.png",
+      "source": "source_geometry_additions.json#stove_apartment"
+    },
+    {
+      "id": "toilet_apartment",
+      "label_tr": "Klozet",
+      "category": "interiors",
+      "path": "models/interiors/toilet_apartment.glb",
+      "dimensions_m": [
+        0.4,
+        0.9,
+        0.61
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.33
+      ],
+      "bounds_max": [
+        0.2,
+        0.9,
+        0.28
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "7cfefb22c914be00ac21cff3089244930d507a4f4d9b21c31ed989d5c27d5f2e",
+      "markers": [],
+      "preview": "previews/toilet_apartment.png",
+      "source": "source_geometry_additions.json#toilet_apartment"
+    },
+    {
+      "id": "washbasin_apartment",
+      "label_tr": "Banyo lavabosu",
+      "category": "interiors",
+      "path": "models/interiors/washbasin_apartment.glb",
+      "dimensions_m": [
+        0.65,
+        1.14,
+        0.5
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.325,
+        1.14,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "f0343d711950575231c4dbe0f34fb9632b96144ac9a5955cb468bec372111c4c",
+      "markers": [],
+      "preview": "previews/washbasin_apartment.png",
+      "source": "source_geometry_additions.json#washbasin_apartment"
+    },
+    {
+      "id": "ceiling_lamp_apartment",
+      "label_tr": "Tavan lambası",
+      "category": "interiors",
+      "path": "models/interiors/ceiling_lamp_apartment.glb",
+      "dimensions_m": [
+        0.5,
+        0.45,
+        0.5
+      ],
+      "bounds_min": [
+        -0.25,
+        -0.37,
+        -0.25
+      ],
+      "bounds_max": [
+        0.25,
+        0.08,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "1895465f984cfdb5811d9b9fedf4c74542461439ee36e914e6398883faeaa68d",
+      "markers": [],
+      "preview": "previews/ceiling_lamp_apartment.png",
+      "source": "source_geometry_additions.json#ceiling_lamp_apartment"
+    },
+    {
+      "id": "rug_apartment",
+      "label_tr": "Desenli halı",
+      "category": "interiors",
+      "path": "models/interiors/rug_apartment.glb",
+      "dimensions_m": [
+        1.4,
+        0.033,
+        2.0
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -1.0
+      ],
+      "bounds_max": [
+        0.7,
+        0.033,
+        1.0
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "ee3bbae569fcf802943ca7a0ebd753ed087f37671ebb934c417be55684f7396a",
+      "markers": [],
+      "preview": "previews/rug_apartment.png",
+      "source": "source_geometry_additions.json#rug_apartment"
+    },
+    {
+      "id": "curtain_apartment",
+      "label_tr": "İki parçalı perde",
+      "category": "interiors",
+      "path": "models/interiors/curtain_apartment.glb",
+      "dimensions_m": [
+        1.8,
+        2.0375,
+        0.12
+      ],
+      "bounds_min": [
+        -0.9,
+        0.03,
+        -0.06
+      ],
+      "bounds_max": [
+        0.9,
+        2.0675,
+        0.06
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "b2d698c2c8817873fba316e70dfbfdece10baffe4983d454da775faa73e3a548",
+      "markers": [],
+      "preview": "previews/curtain_apartment.png",
+      "source": "source_geometry_additions.json#curtain_apartment"
+    },
+    {
+      "id": "door_interior_wood",
+      "label_tr": "Ahşap iç kapı",
+      "category": "interiors",
+      "path": "models/interiors/door_interior_wood.glb",
+      "dimensions_m": [
+        1.2,
+        2.2,
+        0.18
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.09
+      ],
+      "bounds_max": [
+        0.6,
+        2.2,
+        0.09
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "bf8d8b52a0cf7d8aec4a73e653d5679e8c52ea6023edd95f63448ddde148ab58",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/door_interior_wood.png",
+      "source": "source_geometry_additions.json#door_interior_wood"
+    },
+    {
+      "id": "door_entrance_metal",
+      "label_tr": "Metal giriş kapısı",
+      "category": "interiors",
+      "path": "models/interiors/door_entrance_metal.glb",
+      "dimensions_m": [
+        1.2,
+        2.2,
+        0.18
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.09
+      ],
+      "bounds_max": [
+        0.6,
+        2.2,
+        0.09
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "343aabeaacfbe9b0d87572bbdbb116041da7cc93d1270cd3c8491079f93093b8",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/door_entrance_metal.png",
+      "source": "source_geometry_additions.json#door_entrance_metal"
+    },
+    {
+      "id": "door_shop_glass",
+      "label_tr": "Şeffaf dükkân kapısı",
+      "category": "interiors",
+      "path": "models/interiors/door_shop_glass.glb",
+      "dimensions_m": [
+        1.2,
+        2.2,
+        0.18
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.09
+      ],
+      "bounds_max": [
+        0.6,
+        2.2,
+        0.09
+      ],
+      "parts": [
+        "body",
+        "glass_door_left",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "a88ab0fcdd6ff4a5aec04d91c341b0e6b149ec64c30e34cc6cfd9dfa3885bab8",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/door_shop_glass.png",
+      "source": "source_geometry_additions.json#door_shop_glass"
+    },
+    {
+      "id": "sedan_cabin",
+      "label_tr": "sedan açık görüşlü kabin",
+      "category": "vehicle_interiors",
+      "path": "models/vehicle_interiors/sedan_cabin.glb",
+      "dimensions_m": [
+        1.548,
+        0.98,
+        2.22
+      ],
+      "bounds_min": [
+        -0.774,
+        0.42,
+        -1.06
+      ],
+      "bounds_max": [
+        0.774,
+        1.4,
+        1.16
+      ],
+      "parts": [
+        "body",
+        "steering_wheel",
+        "speedometer_needle",
+        "fuel_needle",
+        "gear_lever",
+        "handbrake",
+        "glass_windshield",
+        "glass_side_left",
+        "glass_side_right"
+      ],
+      "animations": [],
+      "triangles": 384,
+      "collision_included": false,
+      "sha256": "a651a231e6b836c21f7d9adf390c268c024a476cb0b2298408ac6bc07207f5aa",
+      "markers": [
+        "driver_eye",
+        "driver_seat",
+        "exit_left",
+        "exit_right",
+        "windshield_center"
+      ],
+      "preview": "previews/sedan_cabin.png",
+      "source": "source_geometry_additions.json#sedan_cabin"
+    },
+    {
+      "id": "sedan_shell_open",
+      "label_tr": "sedan boş araç kabuğu",
+      "category": "vehicles_open",
+      "path": "models/vehicles_open/sedan_shell_open.glb",
+      "dimensions_m": [
+        1.944,
+        1.31,
+        4.06
+      ],
+      "bounds_min": [
+        -0.972,
+        0.09,
+        -2.03
+      ],
+      "bounds_max": [
+        0.972,
+        1.4,
+        2.03
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right",
+        "wheel_left_front",
+        "wheel_left_rear",
+        "wheel_right_front",
+        "wheel_right_rear"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 288,
+      "collision_included": false,
+      "sha256": "e83b8ad04a7969c96fde3ba5112302672d2548152adf6095a02e3705e6eb33e2",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/sedan_shell_open.png",
+      "source": "source_geometry_additions.json#sedan_shell_open"
+    },
+    {
+      "id": "taxi_cabin",
+      "label_tr": "taxi açık görüşlü kabin",
+      "category": "vehicle_interiors",
+      "path": "models/vehicle_interiors/taxi_cabin.glb",
+      "dimensions_m": [
+        1.5925,
+        1.03,
+        2.2735
+      ],
+      "bounds_min": [
+        -0.79625,
+        0.42,
+        -1.0865
+      ],
+      "bounds_max": [
+        0.79625,
+        1.45,
+        1.187
+      ],
+      "parts": [
+        "body",
+        "steering_wheel",
+        "speedometer_needle",
+        "fuel_needle",
+        "gear_lever",
+        "handbrake",
+        "glass_windshield",
+        "glass_side_left",
+        "glass_side_right"
+      ],
+      "animations": [],
+      "triangles": 384,
+      "collision_included": false,
+      "sha256": "f161ddf77603a1f2cb8e4dc5117496b8048dfff5045ce6fdc07e4733cbda00f5",
+      "markers": [
+        "driver_eye",
+        "driver_seat",
+        "exit_left",
+        "exit_right",
+        "windshield_center"
+      ],
+      "preview": "previews/taxi_cabin.png",
+      "source": "source_geometry_additions.json#taxi_cabin"
+    },
+    {
+      "id": "taxi_shell_open",
+      "label_tr": "taxi boş araç kabuğu",
+      "category": "vehicles_open",
+      "path": "models/vehicles_open/taxi_shell_open.glb",
+      "dimensions_m": [
+        1.995,
+        1.49,
+        4.16
+      ],
+      "bounds_min": [
+        -0.9975,
+        0.09,
+        -2.08
+      ],
+      "bounds_max": [
+        0.9975,
+        1.58,
+        2.08
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right",
+        "wheel_left_front",
+        "wheel_left_rear",
+        "wheel_right_front",
+        "wheel_right_rear"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 300,
+      "collision_included": false,
+      "sha256": "1d9bdedf0045862164554db0182d96ab9bd07ddfdb66808a3c1c6e02f812f93c",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/taxi_shell_open.png",
+      "source": "source_geometry_additions.json#taxi_shell_open"
+    },
+    {
+      "id": "police_car_cabin",
+      "label_tr": "police_car açık görüşlü kabin",
+      "category": "vehicle_interiors",
+      "path": "models/vehicle_interiors/police_car_cabin.glb",
+      "dimensions_m": [
+        1.5925,
+        1.08,
+        2.327
+      ],
+      "bounds_min": [
+        -0.79625,
+        0.42,
+        -1.113
+      ],
+      "bounds_max": [
+        0.79625,
+        1.5,
+        1.214
+      ],
+      "parts": [
+        "body",
+        "steering_wheel",
+        "speedometer_needle",
+        "fuel_needle",
+        "gear_lever",
+        "handbrake",
+        "glass_windshield",
+        "glass_side_left",
+        "glass_side_right"
+      ],
+      "animations": [],
+      "triangles": 384,
+      "collision_included": false,
+      "sha256": "871054681e6bdbcb2867569ed2a23d3150b958106be50004ecf48b9c467b205f",
+      "markers": [
+        "driver_eye",
+        "driver_seat",
+        "exit_left",
+        "exit_right",
+        "windshield_center"
+      ],
+      "preview": "previews/police_car_cabin.png",
+      "source": "source_geometry_additions.json#police_car_cabin"
+    },
+    {
+      "id": "police_car_shell_open",
+      "label_tr": "police_car boş araç kabuğu",
+      "category": "vehicles_open",
+      "path": "models/vehicles_open/police_car_shell_open.glb",
+      "dimensions_m": [
+        1.995,
+        1.535,
+        4.26
+      ],
+      "bounds_min": [
+        -0.9975,
+        0.09,
+        -2.13
+      ],
+      "bounds_max": [
+        0.9975,
+        1.625,
+        2.13
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right",
+        "wheel_left_front",
+        "wheel_left_rear",
+        "wheel_right_front",
+        "wheel_right_rear"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 312,
+      "collision_included": false,
+      "sha256": "b0faae00e213aaf009044ca517ac19697428fde9caeedf2bdb430ef17fbed7da",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/police_car_shell_open.png",
+      "source": "source_geometry_additions.json#police_car_shell_open"
+    },
+    {
+      "id": "van_cabin",
+      "label_tr": "van açık görüşlü kabin",
+      "category": "vehicle_interiors",
+      "path": "models/vehicle_interiors/van_cabin.glb",
+      "dimensions_m": [
+        1.7705,
+        1.68,
+        2.541
+      ],
+      "bounds_min": [
+        -0.88525,
+        0.42,
+        -1.219
+      ],
+      "bounds_max": [
+        0.88525,
+        2.1,
+        1.322
+      ],
+      "parts": [
+        "body",
+        "steering_wheel",
+        "speedometer_needle",
+        "fuel_needle",
+        "gear_lever",
+        "handbrake",
+        "glass_windshield",
+        "glass_side_left",
+        "glass_side_right"
+      ],
+      "animations": [],
+      "triangles": 384,
+      "collision_included": false,
+      "sha256": "1ae0dadb314b1cdea95f1e34f81cf84e01b93f77967c741793eb5cbf98078c28",
+      "markers": [
+        "driver_eye",
+        "driver_seat",
+        "exit_left",
+        "exit_right",
+        "windshield_center"
+      ],
+      "preview": "previews/van_cabin.png",
+      "source": "source_geometry_additions.json#van_cabin"
+    },
+    {
+      "id": "van_shell_open",
+      "label_tr": "van boş araç kabuğu",
+      "category": "vehicles_open",
+      "path": "models/vehicles_open/van_shell_open.glb",
+      "dimensions_m": [
+        2.199,
+        2.01,
+        4.66
+      ],
+      "bounds_min": [
+        -1.0995,
+        0.09,
+        -2.33
+      ],
+      "bounds_max": [
+        1.0995,
+        2.1,
+        2.33
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right",
+        "wheel_left_front",
+        "wheel_left_rear",
+        "wheel_right_front",
+        "wheel_right_rear"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 288,
+      "collision_included": false,
+      "sha256": "eafdfe1252b5c7045d904e054d98e911b1f4d11377e6ae1df0a60ed6aff4439b",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/van_shell_open.png",
+      "source": "source_geometry_additions.json#van_shell_open"
+    },
+    {
+      "id": "minibus_cabin",
+      "label_tr": "minibus açık görüşlü kabin",
+      "category": "vehicle_interiors",
+      "path": "models/vehicle_interiors/minibus_cabin.glb",
+      "dimensions_m": [
+        1.8595,
+        1.88,
+        2.8085
+      ],
+      "bounds_min": [
+        -0.92975,
+        0.42,
+        -1.3515
+      ],
+      "bounds_max": [
+        0.92975,
+        2.3,
+        1.457
+      ],
+      "parts": [
+        "body",
+        "steering_wheel",
+        "speedometer_needle",
+        "fuel_needle",
+        "gear_lever",
+        "handbrake",
+        "glass_windshield",
+        "glass_side_left",
+        "glass_side_right"
+      ],
+      "animations": [],
+      "triangles": 384,
+      "collision_included": false,
+      "sha256": "fb74387ea5669fd3925575da56877dd31575471a5df208e75f11df218ff4a62c",
+      "markers": [
+        "driver_eye",
+        "driver_seat",
+        "exit_left",
+        "exit_right",
+        "windshield_center"
+      ],
+      "preview": "previews/minibus_cabin.png",
+      "source": "source_geometry_additions.json#minibus_cabin"
+    },
+    {
+      "id": "minibus_shell_open",
+      "label_tr": "minibus boş araç kabuğu",
+      "category": "vehicles_open",
+      "path": "models/vehicles_open/minibus_shell_open.glb",
+      "dimensions_m": [
+        2.301,
+        2.21,
+        5.16
+      ],
+      "bounds_min": [
+        -1.1505,
+        0.09,
+        -2.58
+      ],
+      "bounds_max": [
+        1.1505,
+        2.3,
+        2.58
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right",
+        "wheel_left_front",
+        "wheel_left_rear",
+        "wheel_right_front",
+        "wheel_right_rear"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 288,
+      "collision_included": false,
+      "sha256": "b90a5b81b00aee471a784f58c20a988fdd569a6a953be9422e93079bc94ff7a9",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/minibus_shell_open.png",
+      "source": "source_geometry_additions.json#minibus_shell_open"
+    },
+    {
+      "id": "ambulance_cabin",
+      "label_tr": "ambulance açık görüşlü kabin",
+      "category": "vehicle_interiors",
+      "path": "models/vehicle_interiors/ambulance_cabin.glb",
+      "dimensions_m": [
+        1.815,
+        1.93,
+        2.648
+      ],
+      "bounds_min": [
+        -0.9075,
+        0.42,
+        -1.272
+      ],
+      "bounds_max": [
+        0.9075,
+        2.35,
+        1.376
+      ],
+      "parts": [
+        "body",
+        "steering_wheel",
+        "speedometer_needle",
+        "fuel_needle",
+        "gear_lever",
+        "handbrake",
+        "glass_windshield",
+        "glass_side_left",
+        "glass_side_right"
+      ],
+      "animations": [],
+      "triangles": 384,
+      "collision_included": false,
+      "sha256": "f6e2bd2d8ca69f336ecd70e749ce48799e993b715837ed58e63cdf45caffc50c",
+      "markers": [
+        "driver_eye",
+        "driver_seat",
+        "exit_left",
+        "exit_right",
+        "windshield_center"
+      ],
+      "preview": "previews/ambulance_cabin.png",
+      "source": "source_geometry_additions.json#ambulance_cabin"
+    },
+    {
+      "id": "ambulance_shell_open",
+      "label_tr": "ambulance boş araç kabuğu",
+      "category": "vehicles_open",
+      "path": "models/vehicles_open/ambulance_shell_open.glb",
+      "dimensions_m": [
+        2.25,
+        2.385,
+        4.86
+      ],
+      "bounds_min": [
+        -1.125,
+        0.09,
+        -2.43
+      ],
+      "bounds_max": [
+        1.125,
+        2.475,
+        2.43
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right",
+        "wheel_left_front",
+        "wheel_left_rear",
+        "wheel_right_front",
+        "wheel_right_rear"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 312,
+      "collision_included": false,
+      "sha256": "f06d256c63c9824a49b07b6cbd8873f9a16805a4592aaf3945b4d416b42712b8",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/ambulance_shell_open.png",
+      "source": "source_geometry_additions.json#ambulance_shell_open"
+    },
+    {
+      "id": "armchair_apartment",
+      "label_tr": "Tekli koltuk",
+      "category": "interiors",
+      "path": "models/interiors/armchair_apartment.glb",
+      "dimensions_m": [
+        0.94,
+        0.945,
+        0.85
+      ],
+      "bounds_min": [
+        -0.47,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        0.47,
+        0.945,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "c642d3ccf6b6bb098d3e8d7377e3fe249ce170ba459c2f2d2845d2d4cb3899ec",
+      "markers": [],
+      "preview": "previews/armchair_apartment.png",
+      "source": "source_geometry_additions.json#armchair_apartment"
+    },
+    {
+      "id": "sofa_two_seat",
+      "label_tr": "İkili kanepe",
+      "category": "interiors",
+      "path": "models/interiors/sofa_two_seat.glb",
+      "dimensions_m": [
+        1.52,
+        0.945,
+        0.85
+      ],
+      "bounds_min": [
+        -0.76,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        0.76,
+        0.945,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "3927926fbf079ff078c65be5c42e70eaacfe3771ee69c55264b09a7a4d247c7c",
+      "markers": [],
+      "preview": "previews/sofa_two_seat.png",
+      "source": "source_geometry_additions.json#sofa_two_seat"
+    },
+    {
+      "id": "bench_waiting_padded",
+      "label_tr": "Bekleme koltuğu",
+      "category": "interiors",
+      "path": "models/interiors/bench_waiting_padded.glb",
+      "dimensions_m": [
+        1.87,
+        0.945,
+        0.85
+      ],
+      "bounds_min": [
+        -0.935,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        0.935,
+        0.945,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "c246f0b6a75dc34ea5b434299cb83c0499a73fa728e25fcdbf135262264b22bc",
+      "markers": [],
+      "preview": "previews/bench_waiting_padded.png",
+      "source": "source_geometry_additions.json#bench_waiting_padded"
+    },
+    {
+      "id": "bed_double_apartment",
+      "label_tr": "Çift kişilik yatak",
+      "category": "interiors",
+      "path": "models/interiors/bed_double_apartment.glb",
+      "dimensions_m": [
+        1.55,
+        0.695,
+        1.95
+      ],
+      "bounds_min": [
+        -0.775,
+        0.0,
+        -0.975
+      ],
+      "bounds_max": [
+        0.775,
+        0.695,
+        0.975
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "e460220c08197c59dfd2243b38af98409f84a036227e6e671de356e55a65e014",
+      "markers": [],
+      "preview": "previews/bed_double_apartment.png",
+      "source": "source_geometry_additions.json#bed_double_apartment"
+    },
+    {
+      "id": "bed_bunk_hostel",
+      "label_tr": "Ranza",
+      "category": "interiors",
+      "path": "models/interiors/bed_bunk_hostel.glb",
+      "dimensions_m": [
+        1.15,
+        1.85,
+        1.95
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.975
+      ],
+      "bounds_max": [
+        0.7,
+        1.85,
+        0.975
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 216,
+      "collision_included": false,
+      "sha256": "b06437d47903f06cf0aff96f6908cfc8fe5448dee4f4d33226aad98f2aac72ac",
+      "markers": [],
+      "preview": "previews/bed_bunk_hostel.png",
+      "source": "source_geometry_additions.json#bed_bunk_hostel"
+    },
+    {
+      "id": "coffee_table",
+      "label_tr": "Orta sehpa",
+      "category": "interiors",
+      "path": "models/interiors/coffee_table.glb",
+      "dimensions_m": [
+        0.9,
+        0.4,
+        0.5
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.45,
+        0.4,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "2a372eed5446474b6993353748d76274abfac186620b2d8b865a2b6ba71ed366",
+      "markers": [],
+      "preview": "previews/coffee_table.png",
+      "source": "source_geometry_additions.json#coffee_table"
+    },
+    {
+      "id": "side_table",
+      "label_tr": "Yan sehpa",
+      "category": "interiors",
+      "path": "models/interiors/side_table.glb",
+      "dimensions_m": [
+        0.45,
+        0.55,
+        0.4
+      ],
+      "bounds_min": [
+        -0.225,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.225,
+        0.55,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "47a319022d9ef06f83c96ef4cede4dffdcb78421a08ec5f71c8f839e130243dc",
+      "markers": [],
+      "preview": "previews/side_table.png",
+      "source": "source_geometry_additions.json#side_table"
+    },
+    {
+      "id": "study_desk",
+      "label_tr": "Çalışma masası",
+      "category": "interiors",
+      "path": "models/interiors/study_desk.glb",
+      "dimensions_m": [
+        1.1,
+        0.75,
+        0.55
+      ],
+      "bounds_min": [
+        -0.55,
+        0.0,
+        -0.275
+      ],
+      "bounds_max": [
+        0.55,
+        0.75,
+        0.275
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "59c29d6c663ed77326864a5f8263e0a70ca39fa99c47b43a88efd4699a9eadee",
+      "markers": [],
+      "preview": "previews/study_desk.png",
+      "source": "source_geometry_additions.json#study_desk"
+    },
+    {
+      "id": "folding_table",
+      "label_tr": "Katlanır masa",
+      "category": "interiors",
+      "path": "models/interiors/folding_table.glb",
+      "dimensions_m": [
+        1.2,
+        0.73,
+        0.6
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.6,
+        0.73,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "479a7cb976aa5acda55f32c7dd53f94b4232cfec7323df9175794d018fe5a35e",
+      "markers": [],
+      "preview": "previews/folding_table.png",
+      "source": "source_geometry_additions.json#folding_table"
+    },
+    {
+      "id": "restaurant_table",
+      "label_tr": "Lokanta masası",
+      "category": "interiors",
+      "path": "models/interiors/restaurant_table.glb",
+      "dimensions_m": [
+        0.75,
+        0.74,
+        0.75
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.375,
+        0.74,
+        0.375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "ba5a345100c7e9a51c04337ba65e608e6f702e58b8456b5787eb21863e92e620",
+      "markers": [],
+      "preview": "previews/restaurant_table.png",
+      "source": "source_geometry_additions.json#restaurant_table"
+    },
+    {
+      "id": "school_desk",
+      "label_tr": "Öğrenci sırası",
+      "category": "interiors",
+      "path": "models/interiors/school_desk.glb",
+      "dimensions_m": [
+        1.1,
+        0.7,
+        0.48
+      ],
+      "bounds_min": [
+        -0.55,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.55,
+        0.7,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "08e9b2aee012261d40bf2b028d19dfe12978167e7952682d2650b6d26f9beea0",
+      "markers": [],
+      "preview": "previews/school_desk.png",
+      "source": "source_geometry_additions.json#school_desk"
+    },
+    {
+      "id": "worktable_large",
+      "label_tr": "Geniş çalışma masası",
+      "category": "interiors",
+      "path": "models/interiors/worktable_large.glb",
+      "dimensions_m": [
+        1.8,
+        0.9,
+        0.8
+      ],
+      "bounds_min": [
+        -0.9,
+        0.0,
+        -0.4
+      ],
+      "bounds_max": [
+        0.9,
+        0.9,
+        0.4
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "136946c6a6386ee46b3c2987cd0fa59e03cd81a3518b655fbea65282a073a601",
+      "markers": [],
+      "preview": "previews/worktable_large.png",
+      "source": "source_geometry_additions.json#worktable_large"
+    },
+    {
+      "id": "chair_padded",
+      "label_tr": "Minderli sandalye",
+      "category": "interiors",
+      "path": "models/interiors/chair_padded.glb",
+      "dimensions_m": [
+        0.48,
+        0.995,
+        0.48
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.995,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "f52c488f92830c13426aede5c810bd873ad966ff39d7912791478e3c456649b8",
+      "markers": [],
+      "preview": "previews/chair_padded.png",
+      "source": "source_geometry_additions.json#chair_padded"
+    },
+    {
+      "id": "chair_office",
+      "label_tr": "Ofis koltuğu",
+      "category": "interiors",
+      "path": "models/interiors/chair_office.glb",
+      "dimensions_m": [
+        0.6,
+        0.995,
+        0.48
+      ],
+      "bounds_min": [
+        -0.3,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.3,
+        0.995,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 144,
+      "collision_included": false,
+      "sha256": "acebb9b9ddef3deec0b0e05e33a25a04c109bd75eb025a9c2437138517a902f5",
+      "markers": [],
+      "preview": "previews/chair_office.png",
+      "source": "source_geometry_additions.json#chair_office"
+    },
+    {
+      "id": "stool_kitchen",
+      "label_tr": "Mutfak taburesi",
+      "category": "interiors",
+      "path": "models/interiors/stool_kitchen.glb",
+      "dimensions_m": [
+        0.48,
+        0.5,
+        0.48
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.5,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "436eafe4201fa11e7fead7bdf3a1c4352ffd216430816439715a7494484674f1",
+      "markers": [],
+      "preview": "previews/stool_kitchen.png",
+      "source": "source_geometry_additions.json#stool_kitchen"
+    },
+    {
+      "id": "stool_workshop",
+      "label_tr": "Atölye taburesi",
+      "category": "interiors",
+      "path": "models/interiors/stool_workshop.glb",
+      "dimensions_m": [
+        0.48,
+        0.5,
+        0.48
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.5,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "30b61c972c6ec0660f35c3f9338177d85557b25f2429e61ecfe60559d546b60d",
+      "markers": [],
+      "preview": "previews/stool_workshop.png",
+      "source": "source_geometry_additions.json#stool_workshop"
+    },
+    {
+      "id": "chair_plastic",
+      "label_tr": "Plastik sandalye",
+      "category": "interiors",
+      "path": "models/interiors/chair_plastic.glb",
+      "dimensions_m": [
+        0.48,
+        0.995,
+        0.48
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.995,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "e46db3744bab9a35c2a762ef98ab44591f039fc8456704f53cfe35f662b9aa57",
+      "markers": [],
+      "preview": "previews/chair_plastic.png",
+      "source": "source_geometry_additions.json#chair_plastic"
+    },
+    {
+      "id": "chair_waiting",
+      "label_tr": "Bekleme sandalyesi",
+      "category": "interiors",
+      "path": "models/interiors/chair_waiting.glb",
+      "dimensions_m": [
+        0.48,
+        0.995,
+        0.48
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.995,
+        0.24
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "4c3348366192e771d80af6a00bf817f789384893deb89ed42e1a0ae806bda060",
+      "markers": [],
+      "preview": "previews/chair_waiting.png",
+      "source": "source_geometry_additions.json#chair_waiting"
+    },
+    {
+      "id": "bookcase_tall",
+      "label_tr": "Kitaplık",
+      "category": "containers",
+      "path": "models/containers/bookcase_tall.glb",
+      "dimensions_m": [
+        0.9,
+        1.9,
+        0.3
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.45,
+        1.9,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "4a41031c2b872395d84de2e292157858fb4afbe548d75d63c04f0a7e591473f3",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/bookcase_tall.png",
+      "source": "source_geometry_additions.json#bookcase_tall"
+    },
+    {
+      "id": "shoe_cabinet",
+      "label_tr": "Ayakkabılık",
+      "category": "containers",
+      "path": "models/containers/shoe_cabinet.glb",
+      "dimensions_m": [
+        0.8,
+        1.0,
+        0.37
+      ],
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.22
+      ],
+      "bounds_max": [
+        0.4,
+        1.0,
+        0.15
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "a490ce9b007b4cd55898146b2f7e13f4e7d07fdf411d10a38f0b51ca987afb54",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/shoe_cabinet.png",
+      "source": "source_geometry_additions.json#shoe_cabinet"
+    },
+    {
+      "id": "tv_cabinet",
+      "label_tr": "Televizyon ünitesi",
+      "category": "containers",
+      "path": "models/containers/tv_cabinet.glb",
+      "dimensions_m": [
+        1.4,
+        0.5,
+        0.47
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.27
+      ],
+      "bounds_max": [
+        0.7,
+        0.5,
+        0.2
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "62ee72524d9be5b49bee3569742e9d872198cdfd983696fe3e20da0187085d01",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/tv_cabinet.png",
+      "source": "source_geometry_additions.json#tv_cabinet"
+    },
+    {
+      "id": "linen_cabinet",
+      "label_tr": "Çamaşır dolabı",
+      "category": "containers",
+      "path": "models/containers/linen_cabinet.glb",
+      "dimensions_m": [
+        0.75,
+        1.65,
+        0.52
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.295
+      ],
+      "bounds_max": [
+        0.375,
+        1.65,
+        0.225
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "5bce47a1f691bddee792096075c80bfa59cb163442e61eb6d3f5de3032671203",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/linen_cabinet.png",
+      "source": "source_geometry_additions.json#linen_cabinet"
+    },
+    {
+      "id": "filing_cabinet",
+      "label_tr": "Dosya dolabı",
+      "category": "containers",
+      "path": "models/containers/filing_cabinet.glb",
+      "dimensions_m": [
+        0.5,
+        1.2,
+        0.625
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        0.25,
+        1.2,
+        0.275
+      ],
+      "parts": [
+        "body",
+        "drawer_01",
+        "drawer_02",
+        "drawer_03"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 276,
+      "collision_included": false,
+      "sha256": "046a09de8194cbcdccc7efe2f86e3b7e3c7bb314944b32df078553b671656dbd",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/filing_cabinet.png",
+      "source": "source_geometry_additions.json#filing_cabinet"
+    },
+    {
+      "id": "office_cupboard",
+      "label_tr": "Ofis dolabı",
+      "category": "containers",
+      "path": "models/containers/office_cupboard.glb",
+      "dimensions_m": [
+        0.9,
+        1.8,
+        0.49
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.28
+      ],
+      "bounds_max": [
+        0.45,
+        1.8,
+        0.21
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "1f511085f8514a86efa063f16cf096ea4004175f90881bcfd0902a724b62d6c2",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/office_cupboard.png",
+      "source": "source_geometry_additions.json#office_cupboard"
+    },
+    {
+      "id": "locker_single",
+      "label_tr": "Tekli personel dolabı",
+      "category": "containers",
+      "path": "models/containers/locker_single.glb",
+      "dimensions_m": [
+        0.45,
+        1.8,
+        0.57
+      ],
+      "bounds_min": [
+        -0.225,
+        0.0,
+        -0.32
+      ],
+      "bounds_max": [
+        0.225,
+        1.8,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "6e7ad282f9594f85c2322a7b24ce9e22d6eec07929f937cff10f0a256851776a",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/locker_single.png",
+      "source": "source_geometry_additions.json#locker_single"
+    },
+    {
+      "id": "locker_double",
+      "label_tr": "İkili personel dolabı",
+      "category": "containers",
+      "path": "models/containers/locker_double.glb",
+      "dimensions_m": [
+        0.85,
+        1.8,
+        0.57
+      ],
+      "bounds_min": [
+        -0.425,
+        0.0,
+        -0.32
+      ],
+      "bounds_max": [
+        0.425,
+        1.8,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "c26649be52a8ff8ec107a6180aa43eaabfdf419d0d545b1b94e19cd68602f048",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/locker_double.png",
+      "source": "source_geometry_additions.json#locker_double"
+    },
+    {
+      "id": "safe_small",
+      "label_tr": "Küçük kasa",
+      "category": "containers",
+      "path": "models/containers/safe_small.glb",
+      "dimensions_m": [
+        0.5,
+        0.55,
+        0.52
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.295
+      ],
+      "bounds_max": [
+        0.25,
+        0.55,
+        0.225
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "d0468a0325ce78b635605d1146491d4e48ef0054ef68efea0a4f8b46b22186bf",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/safe_small.png",
+      "source": "source_geometry_additions.json#safe_small"
+    },
+    {
+      "id": "safe_tall",
+      "label_tr": "Dik güvenlik kasası",
+      "category": "containers",
+      "path": "models/containers/safe_tall.glb",
+      "dimensions_m": [
+        0.65,
+        1.25,
+        0.67
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.325,
+        1.25,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "6f6ef3ac0f23d51c6ccd173762bbdbaffebff64a61b5098360d217a7b2a01223",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/safe_tall.png",
+      "source": "source_geometry_additions.json#safe_tall"
+    },
+    {
+      "id": "kitchen_pantry",
+      "label_tr": "Kiler dolabı",
+      "category": "containers",
+      "path": "models/containers/kitchen_pantry.glb",
+      "dimensions_m": [
+        0.75,
+        2.0,
+        0.62
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.345
+      ],
+      "bounds_max": [
+        0.375,
+        2.0,
+        0.275
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "2832c6c93d513dfe5230cdb58a8e2d0266850099e24364b514d9fe440c4e0823",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/kitchen_pantry.png",
+      "source": "source_geometry_additions.json#kitchen_pantry"
+    },
+    {
+      "id": "bakery_display",
+      "label_tr": "Fırın vitrini",
+      "category": "containers",
+      "path": "models/containers/bakery_display.glb",
+      "dimensions_m": [
+        1.2,
+        1.35,
+        0.57
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.32
+      ],
+      "bounds_max": [
+        0.6,
+        1.35,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "glass_door_left",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "accfadb3adc6cae23f67792fe597de6157759769a927b87d6f103ce44b3347ce",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/bakery_display.png",
+      "source": "source_geometry_additions.json#bakery_display"
+    },
+    {
+      "id": "display_cabinet",
+      "label_tr": "Camlı vitrin",
+      "category": "containers",
+      "path": "models/containers/display_cabinet.glb",
+      "dimensions_m": [
+        0.9,
+        1.8,
+        0.47
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.27
+      ],
+      "bounds_max": [
+        0.45,
+        1.8,
+        0.2
+      ],
+      "parts": [
+        "body",
+        "glass_door_left",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "28d7ab0ac9ecb587ecb884ce6d1affd9f410909ac49403039d420fddc5a9a960",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/display_cabinet.png",
+      "source": "source_geometry_additions.json#display_cabinet"
+    },
+    {
+      "id": "archive_shelf",
+      "label_tr": "Arşiv rafı",
+      "category": "containers",
+      "path": "models/containers/archive_shelf.glb",
+      "dimensions_m": [
+        1.2,
+        2.0,
+        0.45
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.225
+      ],
+      "bounds_max": [
+        0.6,
+        2.0,
+        0.225
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "22f153f4af3690108d7283007d0af3ad7e3f1bff04e1efe02b38953b0f37709b",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/archive_shelf.png",
+      "source": "source_geometry_additions.json#archive_shelf"
+    },
+    {
+      "id": "workshop_shelf",
+      "label_tr": "Atölye rafı",
+      "category": "containers",
+      "path": "models/containers/workshop_shelf.glb",
+      "dimensions_m": [
+        1.4,
+        1.9,
+        0.6
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.7,
+        1.9,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "adf1ef41aca705ab714f8d5905c345c001bb670e1bb2dc86573cfb18e7d32aef",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/workshop_shelf.png",
+      "source": "source_geometry_additions.json#workshop_shelf"
+    },
+    {
+      "id": "cleaning_cabinet",
+      "label_tr": "Temizlik dolabı",
+      "category": "containers",
+      "path": "models/containers/cleaning_cabinet.glb",
+      "dimensions_m": [
+        0.65,
+        1.8,
+        0.57
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.32
+      ],
+      "bounds_max": [
+        0.325,
+        1.8,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "37c793d299a53573492815fc14944cd8ffcc208cc4f34741e007c8d964ab62f2",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/cleaning_cabinet.png",
+      "source": "source_geometry_additions.json#cleaning_cabinet"
+    },
+    {
+      "id": "footlocker_metal",
+      "label_tr": "Metal ayak sandığı",
+      "category": "containers",
+      "path": "models/containers/footlocker_metal.glb",
+      "dimensions_m": [
+        0.85,
+        0.4,
+        0.485
+      ],
+      "bounds_min": [
+        -0.425,
+        0.0,
+        -0.26
+      ],
+      "bounds_max": [
+        0.425,
+        0.4,
+        0.225
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "48f4e59fe7638876b39572cb69398fcd76346a1d28ba506e60dc9ef5773081c2",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/footlocker_metal.png",
+      "source": "source_geometry_additions.json#footlocker_metal"
+    },
+    {
+      "id": "storage_trunk",
+      "label_tr": "Seyahat sandığı",
+      "category": "containers",
+      "path": "models/containers/storage_trunk.glb",
+      "dimensions_m": [
+        0.75,
+        0.48,
+        0.435
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.235
+      ],
+      "bounds_max": [
+        0.375,
+        0.48,
+        0.2
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "12046ecb72176eb363bd792f1c8c786a64f3df27172b9e217e34a0e13ed4e1a8",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/storage_trunk.png",
+      "source": "source_geometry_additions.json#storage_trunk"
+    },
+    {
+      "id": "cooler_box",
+      "label_tr": "Soğutucu kutu",
+      "category": "containers",
+      "path": "models/containers/cooler_box.glb",
+      "dimensions_m": [
+        0.55,
+        0.4,
+        0.435
+      ],
+      "bounds_min": [
+        -0.275,
+        0.0,
+        -0.235
+      ],
+      "bounds_max": [
+        0.275,
+        0.4,
+        0.2
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "2b27ed74eff35edbf325fae7c4f42997f13419af85487f7594fbea3cb70d8fc5",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/cooler_box.png",
+      "source": "source_geometry_additions.json#cooler_box"
+    },
+    {
+      "id": "freezer_chest",
+      "label_tr": "Yatay derin dondurucu",
+      "category": "containers",
+      "path": "models/containers/freezer_chest.glb",
+      "dimensions_m": [
+        1.1,
+        0.85,
+        0.685
+      ],
+      "bounds_min": [
+        -0.55,
+        0.0,
+        -0.36
+      ],
+      "bounds_max": [
+        0.55,
+        0.85,
+        0.325
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "9724dd3579a9892e7f9b6a3a19585c783d03f40eb12c38c8d9a4390a183df623",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/freezer_chest.png",
+      "source": "source_geometry_additions.json#freezer_chest"
+    },
+    {
+      "id": "medical_supply_chest",
+      "label_tr": "Sağlık malzemesi sandığı",
+      "category": "containers",
+      "path": "models/containers/medical_supply_chest.glb",
+      "dimensions_m": [
+        0.8,
+        0.5,
+        0.535
+      ],
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.285
+      ],
+      "bounds_max": [
+        0.4,
+        0.5,
+        0.25
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "3aa49400195f4ccf8761949c76d1a7638796a1196552988ab35d8ed37ddb3a6b",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/medical_supply_chest.png",
+      "source": "source_geometry_additions.json#medical_supply_chest"
+    },
+    {
+      "id": "dishwasher",
+      "label_tr": "Bulaşık makinesi",
+      "category": "interiors",
+      "path": "models/interiors/dishwasher.glb",
+      "dimensions_m": [
+        0.6,
+        0.85,
+        0.67
+      ],
+      "bounds_min": [
+        -0.3,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.3,
+        0.85,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 120,
+      "collision_included": false,
+      "sha256": "a3cefe08eb30a2a5f1e6909ea6673d091020ce6d966fd57db9df489668485ee3",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/dishwasher.png",
+      "source": "source_geometry_additions.json#dishwasher"
+    },
+    {
+      "id": "washing_machine",
+      "label_tr": "Çamaşır makinesi",
+      "category": "interiors",
+      "path": "models/interiors/washing_machine.glb",
+      "dimensions_m": [
+        0.6,
+        0.85,
+        0.67
+      ],
+      "bounds_min": [
+        -0.3,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.3,
+        0.85,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "glass_window"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 144,
+      "collision_included": false,
+      "sha256": "e00e49cd9aee2951ca019a59e90687753ca2a88cafa33bb2be0b5aa131736fbb",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/washing_machine.png",
+      "source": "source_geometry_additions.json#washing_machine"
+    },
+    {
+      "id": "microwave",
+      "label_tr": "Mikrodalga",
+      "category": "interiors",
+      "path": "models/interiors/microwave.glb",
+      "dimensions_m": [
+        0.48,
+        0.3,
+        0.41
+      ],
+      "bounds_min": [
+        -0.24,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.24,
+        0.3,
+        0.17
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 120,
+      "collision_included": false,
+      "sha256": "74c3c13a25393d2b2302a9d6f94f47c3ef44108fa701b65c56e64a398541be68",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/microwave.png",
+      "source": "source_geometry_additions.json#microwave"
+    },
+    {
+      "id": "range_hood",
+      "label_tr": "Davlumbaz",
+      "category": "interiors",
+      "path": "models/interiors/range_hood.glb",
+      "dimensions_m": [
+        0.7,
+        0.6,
+        0.5
+      ],
+      "bounds_min": [
+        -0.35,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.35,
+        0.6,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "dd5f2dc26ffc682221b4955d55cef4c53c0b3e7a8073ea9ff2fa2efd31ddb9ab",
+      "markers": [],
+      "preview": "previews/range_hood.png",
+      "source": "source_geometry_additions.json#range_hood"
+    },
+    {
+      "id": "kitchen_island",
+      "label_tr": "Mutfak adası",
+      "category": "interiors",
+      "path": "models/interiors/kitchen_island.glb",
+      "dimensions_m": [
+        1.4,
+        0.98,
+        0.75
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.7,
+        0.98,
+        0.375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "a2483a8fc30a3a40dea2566b4eb79479d27081d73f3a11bb5cf22cbc8d814f11",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/kitchen_island.png",
+      "source": "source_geometry_additions.json#kitchen_island"
+    },
+    {
+      "id": "dish_rack",
+      "label_tr": "Bulaşıklık",
+      "category": "interiors",
+      "path": "models/interiors/dish_rack.glb",
+      "dimensions_m": [
+        0.4,
+        0.1475,
+        0.28
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0125,
+        -0.14
+      ],
+      "bounds_max": [
+        0.2,
+        0.16,
+        0.14
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "43aff282181d927cfdf8f16011017b825611a5004c4eaf9726fff415771bf708",
+      "markers": [],
+      "preview": "previews/dish_rack.png",
+      "source": "source_geometry_additions.json#dish_rack"
+    },
+    {
+      "id": "wall_mirror",
+      "label_tr": "Duvar aynası",
+      "category": "interiors",
+      "path": "models/interiors/wall_mirror.glb",
+      "dimensions_m": [
+        0.55,
+        0.8,
+        0.0535
+      ],
+      "bounds_min": [
+        -0.275,
+        0.0,
+        -0.0335
+      ],
+      "bounds_max": [
+        0.275,
+        0.8,
+        0.02
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "f096e1a05c7466bdb72d259928c03c037c4bc5482ae3854760cf38cef4323112",
+      "markers": [],
+      "preview": "previews/wall_mirror.png",
+      "source": "source_geometry_additions.json#wall_mirror"
+    },
+    {
+      "id": "shower_tray",
+      "label_tr": "Duş teknesi",
+      "category": "interiors",
+      "path": "models/interiors/shower_tray.glb",
+      "dimensions_m": [
+        0.9,
+        0.23,
+        0.9
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.45
+      ],
+      "bounds_max": [
+        0.45,
+        0.23,
+        0.45
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "9cf8e92ee0b732c1f7ca50535f46765651abf03860dc2a88eb15547bb43527ae",
+      "markers": [],
+      "preview": "previews/shower_tray.png",
+      "source": "source_geometry_additions.json#shower_tray"
+    },
+    {
+      "id": "shower_fixture",
+      "label_tr": "Duş bataryası",
+      "category": "interiors",
+      "path": "models/interiors/shower_fixture.glb",
+      "dimensions_m": [
+        0.25,
+        1.5125,
+        0.29
+      ],
+      "bounds_min": [
+        -0.125,
+        0.35,
+        -0.27
+      ],
+      "bounds_max": [
+        0.125,
+        1.8625,
+        0.02
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "3bca50cb55aea5ed63c71ce9053edafcba7a68e4ec866f9214a81e70ff357824",
+      "markers": [],
+      "preview": "previews/shower_fixture.png",
+      "source": "source_geometry_additions.json#shower_fixture"
+    },
+    {
+      "id": "bathtub",
+      "label_tr": "Küvet",
+      "category": "interiors",
+      "path": "models/interiors/bathtub.glb",
+      "dimensions_m": [
+        0.75,
+        0.55,
+        1.6
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.8
+      ],
+      "bounds_max": [
+        0.375,
+        0.55,
+        0.8
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "8571f456d3c924e48220adcd8bc50ec86f38143702372e12f804b33315489ecd",
+      "markers": [],
+      "preview": "previews/bathtub.png",
+      "source": "source_geometry_additions.json#bathtub"
+    },
+    {
+      "id": "towel_rail",
+      "label_tr": "Havluluk",
+      "category": "interiors",
+      "path": "models/interiors/towel_rail.glb",
+      "dimensions_m": [
+        0.55,
+        0.2675,
+        0.109
+      ],
+      "bounds_min": [
+        -0.275,
+        -0.155,
+        -0.034
+      ],
+      "bounds_max": [
+        0.275,
+        0.1125,
+        0.075
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "bdf51954cbcefc379e2444f46e1c7e5c3e44d6373f32f42e031f786dfba0f7c8",
+      "markers": [],
+      "preview": "previews/towel_rail.png",
+      "source": "source_geometry_additions.json#towel_rail"
+    },
+    {
+      "id": "laundry_basket",
+      "label_tr": "Çamaşır sepeti",
+      "category": "interiors",
+      "path": "models/interiors/laundry_basket.glb",
+      "dimensions_m": [
+        0.45,
+        0.55,
+        0.35
+      ],
+      "bounds_min": [
+        -0.225,
+        0.0,
+        -0.175
+      ],
+      "bounds_max": [
+        0.225,
+        0.55,
+        0.175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "e166a0a1d725aca90454863a199376d34d5c7408911983c35e9757f3bd63a07d",
+      "markers": [],
+      "preview": "previews/laundry_basket.png",
+      "source": "source_geometry_additions.json#laundry_basket"
+    },
+    {
+      "id": "radiator",
+      "label_tr": "Kalorifer peteği",
+      "category": "interiors",
+      "path": "models/interiors/radiator.glb",
+      "dimensions_m": [
+        1.0,
+        0.6,
+        0.14
+      ],
+      "bounds_min": [
+        -0.5,
+        0.05,
+        -0.07
+      ],
+      "bounds_max": [
+        0.5,
+        0.65,
+        0.07
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 168,
+      "collision_included": false,
+      "sha256": "c0f72089941d3f01df3f42b25de62496d7dc1cabb5694228fb28a4c5cd40804f",
+      "markers": [],
+      "preview": "previews/radiator.png",
+      "source": "source_geometry_additions.json#radiator"
+    },
+    {
+      "id": "water_heater",
+      "label_tr": "Şofben",
+      "category": "interiors",
+      "path": "models/interiors/water_heater.glb",
+      "dimensions_m": [
+        0.4,
+        0.78,
+        0.2775
+      ],
+      "bounds_min": [
+        -0.2,
+        0.1,
+        -0.1525
+      ],
+      "bounds_max": [
+        0.2,
+        0.88,
+        0.125
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "c89fd1a2625767f151f3f4299c46ca2b6943694a24d671bca109159815d302ee",
+      "markers": [],
+      "preview": "previews/water_heater.png",
+      "source": "source_geometry_additions.json#water_heater"
+    },
+    {
+      "id": "wall_boiler",
+      "label_tr": "Kombi",
+      "category": "interiors",
+      "path": "models/interiors/wall_boiler.glb",
+      "dimensions_m": [
+        0.45,
+        0.94,
+        0.2975
+      ],
+      "bounds_min": [
+        -0.225,
+        -0.14,
+        -0.1575
+      ],
+      "bounds_max": [
+        0.225,
+        0.8,
+        0.14
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "4cdaa518ce7e996afd73a7ca65dfb15b3c41ead0838f8d79b94a10134c0e1c72",
+      "markers": [],
+      "preview": "previews/wall_boiler.png",
+      "source": "source_geometry_additions.json#wall_boiler"
+    },
+    {
+      "id": "television_crt",
+      "label_tr": "Tüplü televizyon",
+      "category": "interiors",
+      "path": "models/interiors/television_crt.glb",
+      "dimensions_m": [
+        0.56,
+        0.48,
+        0.4325
+      ],
+      "bounds_min": [
+        -0.28,
+        0.02,
+        -0.2325
+      ],
+      "bounds_max": [
+        0.28,
+        0.5,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "32c8e6f3ccdf8c638be4a4440d3888a5fe62dac079a1832f3e5607c5aed7cf3e",
+      "markers": [],
+      "preview": "previews/television_crt.png",
+      "source": "source_geometry_additions.json#television_crt"
+    },
+    {
+      "id": "television_flat",
+      "label_tr": "Düz ekran televizyon",
+      "category": "interiors",
+      "path": "models/interiors/television_flat.glb",
+      "dimensions_m": [
+        0.95,
+        0.725,
+        0.22
+      ],
+      "bounds_min": [
+        -0.475,
+        0.0,
+        -0.11
+      ],
+      "bounds_max": [
+        0.475,
+        0.725,
+        0.11
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "eb365bc47108a28985a65fa2f568dece0280468e53acd92a1dc04115e0aacf2f",
+      "markers": [],
+      "preview": "previews/television_flat.png",
+      "source": "source_geometry_additions.json#television_flat"
+    },
+    {
+      "id": "computer_tower",
+      "label_tr": "Masaüstü kasa",
+      "category": "interiors",
+      "path": "models/interiors/computer_tower.glb",
+      "dimensions_m": [
+        0.2,
+        0.5,
+        0.4645
+      ],
+      "bounds_min": [
+        -0.1,
+        0.0,
+        -0.2395
+      ],
+      "bounds_max": [
+        0.1,
+        0.5,
+        0.225
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "27e2dd200ade6725f7856d0b6d992251d5c0668b05e6d0a711beeeb3c900680f",
+      "markers": [],
+      "preview": "previews/computer_tower.png",
+      "source": "source_geometry_additions.json#computer_tower"
+    },
+    {
+      "id": "computer_monitor",
+      "label_tr": "Bilgisayar ekranı",
+      "category": "interiors",
+      "path": "models/interiors/computer_monitor.glb",
+      "dimensions_m": [
+        0.5,
+        0.485,
+        0.17
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.085
+      ],
+      "bounds_max": [
+        0.25,
+        0.485,
+        0.085
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "73f520442db5d59cda81e9634c8eb10ae96ed1d0c1f15ea9f88da1ec69f2893f",
+      "markers": [],
+      "preview": "previews/computer_monitor.png",
+      "source": "source_geometry_additions.json#computer_monitor"
+    },
+    {
+      "id": "keyboard",
+      "label_tr": "Klavye",
+      "category": "interiors",
+      "path": "models/interiors/keyboard.glb",
+      "dimensions_m": [
+        0.42,
+        0.041,
+        0.14
+      ],
+      "bounds_min": [
+        -0.21,
+        0.0,
+        -0.07
+      ],
+      "bounds_max": [
+        0.21,
+        0.041,
+        0.07
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 444,
+      "collision_included": false,
+      "sha256": "bb71cf92b705f6b62086f1d9408e0dd37308e00458dae1fac6cbcc071d428dba",
+      "markers": [],
+      "preview": "previews/keyboard.png",
+      "source": "source_geometry_additions.json#keyboard"
+    },
+    {
+      "id": "desk_phone",
+      "label_tr": "Masa telefonu",
+      "category": "interiors",
+      "path": "models/interiors/desk_phone.glb",
+      "dimensions_m": [
+        0.22,
+        0.1375,
+        0.21
+      ],
+      "bounds_min": [
+        -0.11,
+        0.0,
+        -0.105
+      ],
+      "bounds_max": [
+        0.11,
+        0.1375,
+        0.105
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "87aed012b5d0c67f7aaf579e421a7fdc7ff0388cff93310dfd100386f39bd515",
+      "markers": [],
+      "preview": "previews/desk_phone.png",
+      "source": "source_geometry_additions.json#desk_phone"
+    },
+    {
+      "id": "printer",
+      "label_tr": "Yazıcı",
+      "category": "interiors",
+      "path": "models/interiors/printer.glb",
+      "dimensions_m": [
+        0.4,
+        0.28,
+        0.36
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.2,
+        0.28,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "13292d4759a94d83719dd4b90c39500fd2d646722dabed8591d6654a1fa49b1a",
+      "markers": [],
+      "preview": "previews/printer.png",
+      "source": "source_geometry_additions.json#printer"
+    },
+    {
+      "id": "desk_lamp",
+      "label_tr": "Masa lambası",
+      "category": "interiors",
+      "path": "models/interiors/desk_lamp.glb",
+      "dimensions_m": [
+        0.22,
+        0.42,
+        0.265
+      ],
+      "bounds_min": [
+        -0.11,
+        0.0,
+        -0.18
+      ],
+      "bounds_max": [
+        0.11,
+        0.42,
+        0.085
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "ee18265d1b4ab3ac067c558ec42fb7b74a32121345de99b5b8a32922bb3e1d54",
+      "markers": [],
+      "preview": "previews/desk_lamp.png",
+      "source": "source_geometry_additions.json#desk_lamp"
+    },
+    {
+      "id": "floor_lamp",
+      "label_tr": "Ayaklı lamba",
+      "category": "interiors",
+      "path": "models/interiors/floor_lamp.glb",
+      "dimensions_m": [
+        0.4,
+        1.58,
+        0.4
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.2,
+        1.58,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "4f56aa0d3d0382c1a459a3a9f2969548ff5f852d40c3e0cd8d84016354aaeb06",
+      "markers": [],
+      "preview": "previews/floor_lamp.png",
+      "source": "source_geometry_additions.json#floor_lamp"
+    },
+    {
+      "id": "fluorescent_fixture",
+      "label_tr": "Floresan",
+      "category": "interiors",
+      "path": "models/interiors/fluorescent_fixture.glb",
+      "dimensions_m": [
+        1.1,
+        0.095,
+        0.2
+      ],
+      "bounds_min": [
+        -0.55,
+        -0.035,
+        -0.1
+      ],
+      "bounds_max": [
+        0.55,
+        0.06,
+        0.1
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "f96810b3002378529950e8f1e98720f51e49f711dc45b3d0eb32af1d3304b020",
+      "markers": [],
+      "preview": "previews/fluorescent_fixture.png",
+      "source": "source_geometry_additions.json#fluorescent_fixture"
+    },
+    {
+      "id": "wall_sconce",
+      "label_tr": "Duvar aplik",
+      "category": "interiors",
+      "path": "models/interiors/wall_sconce.glb",
+      "dimensions_m": [
+        0.25,
+        0.35,
+        0.24
+      ],
+      "bounds_min": [
+        -0.125,
+        0.005,
+        -0.22
+      ],
+      "bounds_max": [
+        0.125,
+        0.355,
+        0.02
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "4d7fc3b7988fe692dc36695e60235ddb4616ff31a6012923010fb0648f99a6a1",
+      "markers": [],
+      "preview": "previews/wall_sconce.png",
+      "source": "source_geometry_additions.json#wall_sconce"
+    },
+    {
+      "id": "ceiling_fan",
+      "label_tr": "Tavan vantilatörü",
+      "category": "interiors",
+      "path": "models/interiors/ceiling_fan.glb",
+      "dimensions_m": [
+        1.1,
+        0.315,
+        1.1
+      ],
+      "bounds_min": [
+        -0.55,
+        -0.015,
+        -0.55
+      ],
+      "bounds_max": [
+        0.55,
+        0.3,
+        0.55
+      ],
+      "parts": [
+        "body",
+        "fan_blades"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "36840e37d5f5a25984aa7287e598dabaa565a75c299c6d19bef2f858b4661f94",
+      "markers": [],
+      "preview": "previews/ceiling_fan.png",
+      "source": "source_geometry_additions.json#ceiling_fan"
+    },
+    {
+      "id": "standing_fan",
+      "label_tr": "Ayaklı vantilatör",
+      "category": "interiors",
+      "path": "models/interiors/standing_fan.glb",
+      "dimensions_m": [
+        0.4,
+        1.32,
+        0.3
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.2,
+        1.32,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "7c8641e215ff9b0067c0ac0383f6ba4cb8c39f738003794a10704714f233c734",
+      "markers": [],
+      "preview": "previews/standing_fan.png",
+      "source": "source_geometry_additions.json#standing_fan"
+    },
+    {
+      "id": "wall_clock",
+      "label_tr": "Duvar saati",
+      "category": "interiors",
+      "path": "models/interiors/wall_clock.glb",
+      "dimensions_m": [
+        0.3,
+        0.3,
+        0.062
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.042
+      ],
+      "bounds_max": [
+        0.15,
+        0.3,
+        0.02
+      ],
+      "parts": [
+        "body",
+        "hour_hand",
+        "minute_hand"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "ffd37bce1fbe36ef47931cbefb02c82d2a064148b82c376b6a7cd4351f5a2f35",
+      "markers": [],
+      "preview": "previews/wall_clock.png",
+      "source": "source_geometry_additions.json#wall_clock"
+    },
+    {
+      "id": "picture_frame",
+      "label_tr": "Fotoğraf çerçevesi",
+      "category": "interiors",
+      "path": "models/interiors/picture_frame.glb",
+      "dimensions_m": [
+        0.28,
+        0.36,
+        0.048
+      ],
+      "bounds_min": [
+        -0.14,
+        0.0,
+        -0.033
+      ],
+      "bounds_max": [
+        0.14,
+        0.36,
+        0.015
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "1bb2306c5f8f3a939d13b795a7c49c71646da3544f87f149f81a39603c8ccd3b",
+      "markers": [],
+      "preview": "previews/picture_frame.png",
+      "source": "source_geometry_additions.json#picture_frame"
+    },
+    {
+      "id": "coat_stand",
+      "label_tr": "Portmanto",
+      "category": "interiors",
+      "path": "models/interiors/coat_stand.glb",
+      "dimensions_m": [
+        0.55,
+        1.7,
+        0.5
+      ],
+      "bounds_min": [
+        -0.275,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.275,
+        1.7,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "0aff703d66d7404046368a5d85bee7e46f72294a3d4006d7b6500f10817564dd",
+      "markers": [],
+      "preview": "previews/coat_stand.png",
+      "source": "source_geometry_additions.json#coat_stand"
+    },
+    {
+      "id": "umbrella_stand",
+      "label_tr": "Şemsiyelik",
+      "category": "interiors",
+      "path": "models/interiors/umbrella_stand.glb",
+      "dimensions_m": [
+        0.3,
+        0.6,
+        0.3
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.15,
+        0.6,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "ccb6b7ebdfca92c696fe8f6b14bd6852a61da2cf65ba869d21909ff54634275e",
+      "markers": [],
+      "preview": "previews/umbrella_stand.png",
+      "source": "source_geometry_additions.json#umbrella_stand"
+    },
+    {
+      "id": "doormat",
+      "label_tr": "Kapı paspası",
+      "category": "interiors",
+      "path": "models/interiors/doormat.glb",
+      "dimensions_m": [
+        0.65,
+        0.035,
+        0.4
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.325,
+        0.035,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "a9fa0542898a9849c90830e2730f87ffe1058b0cf56951f6c1afd8477eec7227",
+      "markers": [],
+      "preview": "previews/doormat.png",
+      "source": "source_geometry_additions.json#doormat"
+    },
+    {
+      "id": "wastebasket_office",
+      "label_tr": "Ofis çöp sepeti",
+      "category": "interiors",
+      "path": "models/interiors/wastebasket_office.glb",
+      "dimensions_m": [
+        0.28,
+        0.4,
+        0.28
+      ],
+      "bounds_min": [
+        -0.14,
+        0.0,
+        -0.14
+      ],
+      "bounds_max": [
+        0.14,
+        0.4,
+        0.14
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "694b1f9056a967bbdeb9c33897a4867721f76dde3f68b8eca8b7fce220ec8972",
+      "markers": [],
+      "preview": "previews/wastebasket_office.png",
+      "source": "source_geometry_additions.json#wastebasket_office"
+    },
+    {
+      "id": "fire_extinguisher",
+      "label_tr": "Yangın tüpü",
+      "category": "interiors",
+      "path": "models/interiors/fire_extinguisher.glb",
+      "dimensions_m": [
+        0.1875,
+        0.57,
+        0.15
+      ],
+      "bounds_min": [
+        -0.075,
+        0.0,
+        -0.075
+      ],
+      "bounds_max": [
+        0.1125,
+        0.57,
+        0.075
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "3f23627bffe5ea0a07c841f63e9297d1c470375a9b24c739e02f45facb6d4ea8",
+      "markers": [],
+      "preview": "previews/fire_extinguisher.png",
+      "source": "source_geometry_additions.json#fire_extinguisher"
+    },
+    {
+      "id": "first_aid_wall_box",
+      "label_tr": "Duvar ilk yardım kutusu",
+      "category": "containers",
+      "path": "models/containers/first_aid_wall_box.glb",
+      "dimensions_m": [
+        0.4,
+        0.45,
+        0.22
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.145
+      ],
+      "bounds_max": [
+        0.2,
+        0.45,
+        0.075
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 120,
+      "collision_included": false,
+      "sha256": "a19cf8f57e87f7c52432e8ef4c29cd0b949d392e85813c852d20485370cceb00",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/first_aid_wall_box.png",
+      "source": "source_geometry_additions.json#first_aid_wall_box"
+    },
+    {
+      "id": "restaurant_shelf",
+      "label_tr": "Lokanta rafı",
+      "category": "containers",
+      "path": "models/containers/restaurant_shelf.glb",
+      "dimensions_m": [
+        1.3,
+        1.8,
+        0.4
+      ],
+      "bounds_min": [
+        -0.65,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.65,
+        1.8,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "485bcf60001a3151c30f5ea6967a51817ed3ae8e6e888bfe64e0c9ef720c3491",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/restaurant_shelf.png",
+      "source": "source_geometry_additions.json#restaurant_shelf"
+    },
+    {
+      "id": "bakery_rack",
+      "label_tr": "Fırın tepsi rafı",
+      "category": "containers",
+      "path": "models/containers/bakery_rack.glb",
+      "dimensions_m": [
+        0.7,
+        1.8,
+        0.6
+      ],
+      "bounds_min": [
+        -0.35,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.35,
+        1.8,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "43cbb97500e2629c7e1d114921442ff04dce8b8e93d24baa3c7a550a534b8882",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/bakery_rack.png",
+      "source": "source_geometry_additions.json#bakery_rack"
+    },
+    {
+      "id": "produce_rack",
+      "label_tr": "Manav rafı",
+      "category": "containers",
+      "path": "models/containers/produce_rack.glb",
+      "dimensions_m": [
+        1.2,
+        1.5,
+        0.6
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.6,
+        1.5,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "f9e315aa9a2466419638b245242e6a3a926b67f798999247260632874baa3adf",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/produce_rack.png",
+      "source": "source_geometry_additions.json#produce_rack"
+    },
+    {
+      "id": "warehouse_rack",
+      "label_tr": "Depo rafı",
+      "category": "containers",
+      "path": "models/containers/warehouse_rack.glb",
+      "dimensions_m": [
+        1.8,
+        2.1,
+        0.7
+      ],
+      "bounds_min": [
+        -0.9,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        0.9,
+        2.1,
+        0.35
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "0501f09f375d763d8c0d89d22422aa324ab020e2bfb6d8fdc8c7ab4d01abdb3f",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/warehouse_rack.png",
+      "source": "source_geometry_additions.json#warehouse_rack"
+    },
+    {
+      "id": "shoe_shop_shelf",
+      "label_tr": "Ayakkabı mağazası rafı",
+      "category": "containers",
+      "path": "models/containers/shoe_shop_shelf.glb",
+      "dimensions_m": [
+        1.2,
+        1.8,
+        0.35
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.175
+      ],
+      "bounds_max": [
+        0.6,
+        1.8,
+        0.175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "c2c200b6107188cb5f8ae5621ea8329e55a278b25cabfab2fb6b19aa3e0fbf8e",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/shoe_shop_shelf.png",
+      "source": "source_geometry_additions.json#shoe_shop_shelf"
+    },
+    {
+      "id": "restaurant_counter",
+      "label_tr": "Lokanta servis bankosu",
+      "category": "containers",
+      "path": "models/containers/restaurant_counter.glb",
+      "dimensions_m": [
+        1.7,
+        1.1,
+        0.675
+      ],
+      "bounds_min": [
+        -0.85,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.85,
+        1.1,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "7ee03d91d2b9b2d2d60bd89d6dd9b3ca8cb23e6560428a51ad225771e74b9ea5",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/restaurant_counter.png",
+      "source": "source_geometry_additions.json#restaurant_counter"
+    },
+    {
+      "id": "reception_desk",
+      "label_tr": "Resepsiyon bankosu",
+      "category": "containers",
+      "path": "models/containers/reception_desk.glb",
+      "dimensions_m": [
+        1.7,
+        1.1,
+        0.675
+      ],
+      "bounds_min": [
+        -0.85,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.85,
+        1.1,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "7ee03d91d2b9b2d2d60bd89d6dd9b3ca8cb23e6560428a51ad225771e74b9ea5",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/reception_desk.png",
+      "source": "source_geometry_additions.json#reception_desk"
+    },
+    {
+      "id": "drink_fridge",
+      "label_tr": "İçecek dolabı",
+      "category": "containers",
+      "path": "models/containers/drink_fridge.glb",
+      "dimensions_m": [
+        0.65,
+        2.06,
+        0.67
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.37
+      ],
+      "bounds_max": [
+        0.325,
+        2.06,
+        0.3
+      ],
+      "parts": [
+        "body",
+        "glass_door_left",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 168,
+      "collision_included": false,
+      "sha256": "dc98116b901cdb2c19c6ae5786c6569e337e66692f43986f7c6fbeaee06d6b2c",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/drink_fridge.png",
+      "source": "source_geometry_additions.json#drink_fridge"
+    },
+    {
+      "id": "shopping_cart",
+      "label_tr": "Market arabası",
+      "category": "interiors",
+      "path": "models/interiors/shopping_cart.glb",
+      "dimensions_m": [
+        0.585,
+        0.9975,
+        0.89
+      ],
+      "bounds_min": [
+        -0.2925,
+        0.0,
+        -0.4125
+      ],
+      "bounds_max": [
+        0.2925,
+        0.9975,
+        0.4775
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 288,
+      "collision_included": false,
+      "sha256": "ab1503f89272ce9a750ed4f65d6c12c297ac13fafcee7aca6d28ddfd14e592e6",
+      "markers": [],
+      "preview": "previews/shopping_cart.png",
+      "source": "source_geometry_additions.json#shopping_cart"
+    },
+    {
+      "id": "shopping_basket",
+      "label_tr": "Alışveriş sepeti",
+      "category": "containers",
+      "path": "models/containers/shopping_basket.glb",
+      "dimensions_m": [
+        0.42,
+        0.4125,
+        0.28
+      ],
+      "bounds_min": [
+        -0.21,
+        0.0,
+        -0.14
+      ],
+      "bounds_max": [
+        0.21,
+        0.4125,
+        0.14
+      ],
+      "parts": [
+        "body",
+        "handle"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "df1fb640998b333e3d464cf580586bc84c241b918cb9f70ab09b8c45076d00d4",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/shopping_basket.png",
+      "source": "source_geometry_additions.json#shopping_basket"
+    },
+    {
+      "id": "cash_register",
+      "label_tr": "Yazar kasa",
+      "category": "interiors",
+      "path": "models/interiors/cash_register.glb",
+      "dimensions_m": [
+        0.35,
+        0.48,
+        0.305
+      ],
+      "bounds_min": [
+        -0.175,
+        0.0,
+        -0.155
+      ],
+      "bounds_max": [
+        0.175,
+        0.48,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "5cb4678366077bb44350a270e71643e78ac672d0b3b3569ec2ba0d510c1cb7d2",
+      "markers": [],
+      "preview": "previews/cash_register.png",
+      "source": "source_geometry_additions.json#cash_register"
+    },
+    {
+      "id": "pos_terminal",
+      "label_tr": "POS cihazı",
+      "category": "interiors",
+      "path": "models/interiors/pos_terminal.glb",
+      "dimensions_m": [
+        0.08,
+        0.08,
+        0.16
+      ],
+      "bounds_min": [
+        -0.04,
+        0.0,
+        -0.08
+      ],
+      "bounds_max": [
+        0.04,
+        0.08,
+        0.08
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "af5c6ad207d2831915b29f573e6e096366f6563664cfed29ffdfae2812977cac",
+      "markers": [],
+      "preview": "previews/pos_terminal.png",
+      "source": "source_geometry_additions.json#pos_terminal"
+    },
+    {
+      "id": "weighing_scale",
+      "label_tr": "Manav terazisi",
+      "category": "interiors",
+      "path": "models/interiors/weighing_scale.glb",
+      "dimensions_m": [
+        0.39,
+        0.1975,
+        0.34
+      ],
+      "bounds_min": [
+        -0.195,
+        0.0,
+        -0.17
+      ],
+      "bounds_max": [
+        0.195,
+        0.1975,
+        0.17
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "15955ce886ae23e37c4afb5599d2cd156befba804ebcc3bfa61bbb1276817297",
+      "markers": [],
+      "preview": "previews/weighing_scale.png",
+      "source": "source_geometry_additions.json#weighing_scale"
+    },
+    {
+      "id": "bakery_oven",
+      "label_tr": "Fırın ocağı",
+      "category": "interiors",
+      "path": "models/interiors/bakery_oven.glb",
+      "dimensions_m": [
+        1.2,
+        1.4,
+        0.87
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.47
+      ],
+      "bounds_max": [
+        0.6,
+        1.4,
+        0.4
+      ],
+      "parts": [
+        "body",
+        "door_left",
+        "door_right"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "98e7a27fc104d5fe8288139eb775fcca598a8a588e1dfd99813000b21b7ccdc4",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/bakery_oven.png",
+      "source": "source_geometry_additions.json#bakery_oven"
+    },
+    {
+      "id": "restaurant_grill",
+      "label_tr": "Lokanta ızgarası",
+      "category": "interiors",
+      "path": "models/interiors/restaurant_grill.glb",
+      "dimensions_m": [
+        0.9,
+        0.8725,
+        0.6
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.45,
+        0.8725,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 204,
+      "collision_included": false,
+      "sha256": "a472e42b825d6a310bc135dea9a8a010ea9e2a0551d39186a837d7a9edfd974e",
+      "markers": [],
+      "preview": "previews/restaurant_grill.png",
+      "source": "source_geometry_additions.json#restaurant_grill"
+    },
+    {
+      "id": "tea_boiler",
+      "label_tr": "Çay kazanı",
+      "category": "interiors",
+      "path": "models/interiors/tea_boiler.glb",
+      "dimensions_m": [
+        0.65,
+        0.52,
+        0.48
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.29
+      ],
+      "bounds_max": [
+        0.325,
+        0.52,
+        0.19
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "91445272a5cb677cc15a52683c7f915280eae5ddc2e43819926c4321cfb20f16",
+      "markers": [],
+      "preview": "previews/tea_boiler.png",
+      "source": "source_geometry_additions.json#tea_boiler"
+    },
+    {
+      "id": "kebab_grill",
+      "label_tr": "Döner ocağı",
+      "category": "interiors",
+      "path": "models/interiors/kebab_grill.glb",
+      "dimensions_m": [
+        0.55,
+        1.05,
+        0.5
+      ],
+      "bounds_min": [
+        -0.275,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.275,
+        1.05,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "63702acd6b00993707611e6bb0530a2cfb74685e93ef7e8d2acb58cab5e0dba0",
+      "markers": [],
+      "preview": "previews/kebab_grill.png",
+      "source": "source_geometry_additions.json#kebab_grill"
+    },
+    {
+      "id": "hospital_bed",
+      "label_tr": "Hasta yatağı",
+      "category": "interiors",
+      "path": "models/interiors/hospital_bed.glb",
+      "dimensions_m": [
+        0.95,
+        1.045,
+        2.0
+      ],
+      "bounds_min": [
+        -0.475,
+        0.0,
+        -1.0
+      ],
+      "bounds_max": [
+        0.475,
+        1.045,
+        1.0
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "932acdede79facbea7f538b39c6d6dfb990107081952ad7135c42ab212bc0c3b",
+      "markers": [],
+      "preview": "previews/hospital_bed.png",
+      "source": "source_geometry_additions.json#hospital_bed"
+    },
+    {
+      "id": "iv_stand",
+      "label_tr": "Serum askısı",
+      "category": "interiors",
+      "path": "models/interiors/iv_stand.glb",
+      "dimensions_m": [
+        0.5,
+        2.0,
+        0.5
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.25,
+        2.0,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "d36c33943ae6d8dffbe7ab41ba73a5cf0bbbe6e620c1ea72a3749a44defa84f8",
+      "markers": [],
+      "preview": "previews/iv_stand.png",
+      "source": "source_geometry_additions.json#iv_stand"
+    },
+    {
+      "id": "medical_trolley",
+      "label_tr": "Sağlık arabası",
+      "category": "interiors",
+      "path": "models/interiors/medical_trolley.glb",
+      "dimensions_m": [
+        0.65,
+        0.85,
+        0.45
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.225
+      ],
+      "bounds_max": [
+        0.325,
+        0.85,
+        0.225
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "842895de8d4a97f2a76d1dfa43ce8775965e402b25c5b67062ae653e560c08db",
+      "markers": [],
+      "preview": "previews/medical_trolley.png",
+      "source": "source_geometry_additions.json#medical_trolley"
+    },
+    {
+      "id": "privacy_screen",
+      "label_tr": "Muayene paravanı",
+      "category": "interiors",
+      "path": "models/interiors/privacy_screen.glb",
+      "dimensions_m": [
+        1.38,
+        1.9,
+        0.4
+      ],
+      "bounds_min": [
+        -0.69,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.69,
+        1.9,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "85b527851debbe0f189d0eaa387a56d5cb819e49853bce998ebb9ac0a92f9699",
+      "markers": [],
+      "preview": "previews/privacy_screen.png",
+      "source": "source_geometry_additions.json#privacy_screen"
+    },
+    {
+      "id": "exam_table",
+      "label_tr": "Muayene masası",
+      "category": "interiors",
+      "path": "models/interiors/exam_table.glb",
+      "dimensions_m": [
+        0.65,
+        0.865,
+        1.75
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.875
+      ],
+      "bounds_max": [
+        0.325,
+        0.865,
+        0.875
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "da74a3911af18c428b43fc4ed1142ca143ea6063e6d0e270ccad760cfd46e877",
+      "markers": [],
+      "preview": "previews/exam_table.png",
+      "source": "source_geometry_additions.json#exam_table"
+    },
+    {
+      "id": "wheelchair",
+      "label_tr": "Tekerlekli sandalye",
+      "category": "interiors",
+      "path": "models/interiors/wheelchair.glb",
+      "dimensions_m": [
+        0.66,
+        1.03,
+        0.87
+      ],
+      "bounds_min": [
+        -0.33,
+        0.0,
+        -0.45
+      ],
+      "bounds_max": [
+        0.33,
+        1.03,
+        0.42
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "773e597088c483fc6ffe4f2fb92facf0a5a27a0ad1cc8b1b2371ef7c7a90c161",
+      "markers": [],
+      "preview": "previews/wheelchair.png",
+      "source": "source_geometry_additions.json#wheelchair"
+    },
+    {
+      "id": "barber_chair",
+      "label_tr": "Berber koltuğu",
+      "category": "interiors",
+      "path": "models/interiors/barber_chair.glb",
+      "dimensions_m": [
+        0.76,
+        1.05,
+        0.51
+      ],
+      "bounds_min": [
+        -0.38,
+        0.08,
+        -0.25
+      ],
+      "bounds_max": [
+        0.38,
+        1.13,
+        0.26
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "3facbf52c82ce7f00868095e200101fb1126daf8977ce95f4f74eb8925c36a14",
+      "markers": [],
+      "preview": "previews/barber_chair.png",
+      "source": "source_geometry_additions.json#barber_chair"
+    },
+    {
+      "id": "barber_mirror_station",
+      "label_tr": "Berber ayna ünitesi",
+      "category": "interiors",
+      "path": "models/interiors/barber_mirror_station.glb",
+      "dimensions_m": [
+        1.1,
+        2.05,
+        0.35
+      ],
+      "bounds_min": [
+        -0.55,
+        0.0,
+        -0.175
+      ],
+      "bounds_max": [
+        0.55,
+        2.05,
+        0.175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "776626d5cfae51dc9335dfca83d404f1342f81f726e1e138fe242dc83c397704",
+      "markers": [],
+      "preview": "previews/barber_mirror_station.png",
+      "source": "source_geometry_additions.json#barber_mirror_station"
+    },
+    {
+      "id": "sewing_machine",
+      "label_tr": "Dikiş makinesi",
+      "category": "interiors",
+      "path": "models/interiors/sewing_machine.glb",
+      "dimensions_m": [
+        0.4,
+        0.38,
+        0.2
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.1
+      ],
+      "bounds_max": [
+        0.2,
+        0.38,
+        0.1
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "a6f0d1f6fed5940a9fe0803d9e96c041610498f91908679e0f4a589a78663af7",
+      "markers": [],
+      "preview": "previews/sewing_machine.png",
+      "source": "source_geometry_additions.json#sewing_machine"
+    },
+    {
+      "id": "vise_bench",
+      "label_tr": "Mengene tezgâhı",
+      "category": "interiors",
+      "path": "models/interiors/vise_bench.glb",
+      "dimensions_m": [
+        1.1,
+        1.155,
+        0.6
+      ],
+      "bounds_min": [
+        -0.55,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.55,
+        1.155,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "186ea6f1163f0383d305f17a923173a7e23bbdf0b6e5d25d9f2fe784cf4c8db6",
+      "markers": [],
+      "preview": "previews/vise_bench.png",
+      "source": "source_geometry_additions.json#vise_bench"
+    },
+    {
+      "id": "drill_press",
+      "label_tr": "Sütunlu matkap",
+      "category": "interiors",
+      "path": "models/interiors/drill_press.glb",
+      "dimensions_m": [
+        0.4,
+        1.2,
+        0.4
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.2,
+        1.2,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "99f60df25649b15dbfd2d5f265f3f7d86b57e51b78105289e04bfa73149d62fe",
+      "markers": [],
+      "preview": "previews/drill_press.png",
+      "source": "source_geometry_additions.json#drill_press"
+    },
+    {
+      "id": "bench_grinder",
+      "label_tr": "Taş motoru",
+      "category": "interiors",
+      "path": "models/interiors/bench_grinder.glb",
+      "dimensions_m": [
+        0.46,
+        0.35,
+        0.3
+      ],
+      "bounds_min": [
+        -0.23,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.23,
+        0.35,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "fc65160a68de10eac454e4ca75e6f9dccfe924a7d18be67e17333b5446995d7b",
+      "markers": [],
+      "preview": "previews/bench_grinder.png",
+      "source": "source_geometry_additions.json#bench_grinder"
+    },
+    {
+      "id": "air_compressor",
+      "label_tr": "Hava kompresörü",
+      "category": "interiors",
+      "path": "models/interiors/air_compressor.glb",
+      "dimensions_m": [
+        0.75,
+        0.705,
+        0.35
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.175
+      ],
+      "bounds_max": [
+        0.375,
+        0.705,
+        0.175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "66f120f51baff11a22ff88977d165786e55526f22a230f364656dc5239240d20",
+      "markers": [],
+      "preview": "previews/air_compressor.png",
+      "source": "source_geometry_additions.json#air_compressor"
+    },
+    {
+      "id": "welder_cart",
+      "label_tr": "Kaynak makinesi",
+      "category": "interiors",
+      "path": "models/interiors/welder_cart.glb",
+      "dimensions_m": [
+        0.5,
+        0.65,
+        0.6825
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.3575
+      ],
+      "bounds_max": [
+        0.25,
+        0.65,
+        0.325
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "b330ff38dacd37a5ebe0a174e9b4e9d72d93fe446979829afdbdfa43f55b74ce",
+      "markers": [],
+      "preview": "previews/welder_cart.png",
+      "source": "source_geometry_additions.json#welder_cart"
+    },
+    {
+      "id": "floor_jack",
+      "label_tr": "Kriko",
+      "category": "interiors",
+      "path": "models/interiors/floor_jack.glb",
+      "dimensions_m": [
+        0.3,
+        0.775,
+        0.7
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        0.15,
+        0.775,
+        0.35
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "3753410f0b43f7a2e94c16bdf4add5be397d267295513b681d51fe516a86172d",
+      "markers": [],
+      "preview": "previews/floor_jack.png",
+      "source": "source_geometry_additions.json#floor_jack"
+    },
+    {
+      "id": "engine_hoist",
+      "label_tr": "Motor kaldırma vinci",
+      "category": "interiors",
+      "path": "models/interiors/engine_hoist.glb",
+      "dimensions_m": [
+        0.88,
+        2.01,
+        1.5
+      ],
+      "bounds_min": [
+        -0.44,
+        0.0,
+        -0.8
+      ],
+      "bounds_max": [
+        0.44,
+        2.01,
+        0.7
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "77bc712b25284c8c805f68faaa0708b4b275eb1e336965dc58c848b483e120de",
+      "markers": [],
+      "preview": "previews/engine_hoist.png",
+      "source": "source_geometry_additions.json#engine_hoist"
+    },
+    {
+      "id": "mechanic_creeper",
+      "label_tr": "Tamirci yatak arabası",
+      "category": "interiors",
+      "path": "models/interiors/mechanic_creeper.glb",
+      "dimensions_m": [
+        0.49,
+        0.24,
+        1.0
+      ],
+      "bounds_min": [
+        -0.245,
+        0.0,
+        -0.5
+      ],
+      "bounds_max": [
+        0.245,
+        0.24,
+        0.5
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "1df4f653f849c9315655204ca14e8179e522fb12725f99bbd1b15fa67465bf57",
+      "markers": [],
+      "preview": "previews/mechanic_creeper.png",
+      "source": "source_geometry_additions.json#mechanic_creeper"
+    },
+    {
+      "id": "pegboard_tools_empty",
+      "label_tr": "Boş takım askılığı",
+      "category": "interiors",
+      "path": "models/interiors/pegboard_tools_empty.glb",
+      "dimensions_m": [
+        1.0,
+        0.95,
+        0.0925
+      ],
+      "bounds_min": [
+        -0.5,
+        0.025,
+        -0.075
+      ],
+      "bounds_max": [
+        0.5,
+        0.975,
+        0.0175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "095e5c55ea6a71f6f0de4c1b71eaff938f8d626b4b8e8f082e422edb01d44f79",
+      "markers": [],
+      "preview": "previews/pegboard_tools_empty.png",
+      "source": "source_geometry_additions.json#pegboard_tools_empty"
+    },
+    {
+      "id": "rolling_tool_chest",
+      "label_tr": "Tekerlekli çekmece dolabı",
+      "category": "containers",
+      "path": "models/containers/rolling_tool_chest.glb",
+      "dimensions_m": [
+        0.7,
+        0.85,
+        0.525
+      ],
+      "bounds_min": [
+        -0.35,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.35,
+        0.85,
+        0.225
+      ],
+      "parts": [
+        "body",
+        "drawer_01",
+        "drawer_02",
+        "drawer_03",
+        "drawer_04"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 348,
+      "collision_included": false,
+      "sha256": "1597a80dcea1eb8be32943ca9696711cd73e2d239b588b22b9844c6b047a535e",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/rolling_tool_chest.png",
+      "source": "source_geometry_additions.json#rolling_tool_chest"
+    },
+    {
+      "id": "parts_bin_rack",
+      "label_tr": "Boş parça gözleri",
+      "category": "containers",
+      "path": "models/containers/parts_bin_rack.glb",
+      "dimensions_m": [
+        0.9,
+        0.8,
+        0.3
+      ],
+      "bounds_min": [
+        -0.45,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.45,
+        0.8,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "f8fc1f10beb9f34b02c5f978a3e93d36e5261bdcf7b6a6348eae7ac95e354ae7",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/parts_bin_rack.png",
+      "source": "source_geometry_additions.json#parts_bin_rack"
+    },
+    {
+      "id": "oil_drain_pan",
+      "label_tr": "Yağ toplama kabı",
+      "category": "interiors",
+      "path": "models/interiors/oil_drain_pan.glb",
+      "dimensions_m": [
+        0.65,
+        0.12,
+        0.5
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.325,
+        0.12,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "92c92897ef4b1a1c08af04865e83bd0596302dbc8cca11a138c641c46cafd153",
+      "markers": [],
+      "preview": "previews/oil_drain_pan.png",
+      "source": "source_geometry_additions.json#oil_drain_pan"
+    },
+    {
+      "id": "gas_cylinder",
+      "label_tr": "Gaz tüpü",
+      "category": "interiors",
+      "path": "models/interiors/gas_cylinder.glb",
+      "dimensions_m": [
+        0.3,
+        0.7775,
+        0.3
+      ],
+      "bounds_min": [
+        -0.15,
+        0.025,
+        -0.15
+      ],
+      "bounds_max": [
+        0.15,
+        0.8025,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "aca7a95f4fae3e090559394ece7a8a404167e1ad320bbb1b9aa1d2f7d328039c",
+      "markers": [],
+      "preview": "previews/gas_cylinder.png",
+      "source": "source_geometry_additions.json#gas_cylinder"
+    },
+    {
+      "id": "propane_stove",
+      "label_tr": "Tüplü küçük ocak",
+      "category": "interiors",
+      "path": "models/interiors/propane_stove.glb",
+      "dimensions_m": [
+        0.4,
+        0.235,
+        0.3
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.2,
+        0.235,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "7a01c44490106cab5d47cde27a1871ab0593d7f287cf5451efbaa223ad0c4f4e",
+      "markers": [],
+      "preview": "previews/propane_stove.png",
+      "source": "source_geometry_additions.json#propane_stove"
+    },
+    {
+      "id": "electrical_breaker_panel",
+      "label_tr": "Açılır sigorta panosu",
+      "category": "containers",
+      "path": "models/containers/electrical_breaker_panel.glb",
+      "dimensions_m": [
+        0.5,
+        0.7,
+        0.23
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.25,
+        0.7,
+        0.08
+      ],
+      "parts": [
+        "body",
+        "door_left"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 120,
+      "collision_included": false,
+      "sha256": "9a30c54cb892a758851214f6b688655eceaa3cee05366f165b286cc129ae6073",
+      "markers": [
+        "interaction_anchor"
+      ],
+      "preview": "previews/electrical_breaker_panel.png",
+      "source": "source_geometry_additions.json#electrical_breaker_panel"
+    },
+    {
+      "id": "water_meter_assembly",
+      "label_tr": "Su saati",
+      "category": "interiors",
+      "path": "models/interiors/water_meter_assembly.glb",
+      "dimensions_m": [
+        0.42,
+        0.15,
+        0.1025
+      ],
+      "bounds_min": [
+        -0.21,
+        0.045,
+        -0.08
+      ],
+      "bounds_max": [
+        0.21,
+        0.195,
+        0.0225
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "49d3cbae3bc817570dad94c2064aa021f8cbb47fe79761b48e4bdc68e13c98d3",
+      "markers": [],
+      "preview": "previews/water_meter_assembly.png",
+      "source": "source_geometry_additions.json#water_meter_assembly"
+    },
+    {
+      "id": "pipe_valve",
+      "label_tr": "Vana",
+      "category": "interiors",
+      "path": "models/interiors/pipe_valve.glb",
+      "dimensions_m": [
+        0.6,
+        0.2625,
+        0.08
+      ],
+      "bounds_min": [
+        -0.3,
+        0.11,
+        -0.04
+      ],
+      "bounds_max": [
+        0.3,
+        0.3725,
+        0.04
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "6bddd9e4665e18b391889a18ac3b36466d54ee9cbc086d2b70905d3f357edb44",
+      "markers": [],
+      "preview": "previews/pipe_valve.png",
+      "source": "source_geometry_additions.json#pipe_valve"
+    },
+    {
+      "id": "vent_grille",
+      "label_tr": "Havalandırma ızgarası",
+      "category": "interiors",
+      "path": "models/interiors/vent_grille.glb",
+      "dimensions_m": [
+        0.5,
+        0.3,
+        0.0555
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.0355
+      ],
+      "bounds_max": [
+        0.25,
+        0.3,
+        0.02
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "9934202457bce61a77584989f369595157da7aca27a8c363e95d9868a07f6115",
+      "markers": [],
+      "preview": "previews/vent_grille.png",
+      "source": "source_geometry_additions.json#vent_grille"
+    },
+    {
+      "id": "portable_heater",
+      "label_tr": "Elektrikli ısıtıcı",
+      "category": "interiors",
+      "path": "models/interiors/portable_heater.glb",
+      "dimensions_m": [
+        0.5,
+        0.595,
+        0.19
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.105
+      ],
+      "bounds_max": [
+        0.25,
+        0.595,
+        0.085
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "4766335148d958fbdd6d82147e65d2b691b3a99c224d8106c58e50826d7b27df",
+      "markers": [],
+      "preview": "previews/portable_heater.png",
+      "source": "source_geometry_additions.json#portable_heater"
+    },
+    {
+      "id": "extension_reel",
+      "label_tr": "Uzatma kablosu makarası",
+      "category": "interiors",
+      "path": "models/interiors/extension_reel.glb",
+      "dimensions_m": [
+        0.4,
+        0.405,
+        0.3
+      ],
+      "bounds_min": [
+        -0.2,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.2,
+        0.405,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "11ee993792174e8b6612fce52737fe6b7a3074776b7492abd87f8bcd2858ed9d",
+      "markers": [],
+      "preview": "previews/extension_reel.png",
+      "source": "source_geometry_additions.json#extension_reel"
+    },
+    {
+      "id": "car_seat_front",
+      "label_tr": "Ön araç koltuğu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_seat_front.glb",
+      "dimensions_m": [
+        0.5,
+        0.915,
+        0.545
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.26
+      ],
+      "bounds_max": [
+        0.25,
+        0.915,
+        0.285
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "df244852e64450d4dc8e4e944652a5ee5bfd851f945ea21ea7866834246252fb",
+      "markers": [],
+      "preview": "previews/car_seat_front.png",
+      "source": "source_geometry_additions.json#car_seat_front"
+    },
+    {
+      "id": "car_seat_bench",
+      "label_tr": "Arka araç koltuğu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_seat_bench.glb",
+      "dimensions_m": [
+        1.25,
+        0.75,
+        0.535
+      ],
+      "bounds_min": [
+        -0.625,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.625,
+        0.75,
+        0.285
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "c58afac3ce1e7fa55f18edcab1ed9c389672d85fcc2cc2ae5274043cdbe6d7e3",
+      "markers": [],
+      "preview": "previews/car_seat_bench.png",
+      "source": "source_geometry_additions.json#car_seat_bench"
+    },
+    {
+      "id": "minibus_bench",
+      "label_tr": "Minibüs yolcu koltuğu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/minibus_bench.glb",
+      "dimensions_m": [
+        0.85,
+        1.045,
+        0.525
+      ],
+      "bounds_min": [
+        -0.425,
+        0.0,
+        -0.24
+      ],
+      "bounds_max": [
+        0.425,
+        1.045,
+        0.285
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "5ebf41fab782cbf760aea3309b500dec2dfedb95c2906c72bac67eceeda3f2ab",
+      "markers": [],
+      "preview": "previews/minibus_bench.png",
+      "source": "source_geometry_additions.json#minibus_bench"
+    },
+    {
+      "id": "ambulance_stretcher",
+      "label_tr": "Ambulans sedyesi",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/ambulance_stretcher.glb",
+      "dimensions_m": [
+        0.67,
+        0.865,
+        1.8
+      ],
+      "bounds_min": [
+        -0.335,
+        0.0,
+        -0.9
+      ],
+      "bounds_max": [
+        0.335,
+        0.865,
+        0.9
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "dd26f8977843f28d0a8dd5ffebe85b557e7da76beb80f407f87a0e84b780afbe",
+      "markers": [],
+      "preview": "previews/ambulance_stretcher.png",
+      "source": "source_geometry_additions.json#ambulance_stretcher"
+    },
+    {
+      "id": "steering_wheel_spare",
+      "label_tr": "Yedek direksiyon",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/steering_wheel_spare.glb",
+      "dimensions_m": [
+        0.335,
+        0.335,
+        0.035
+      ],
+      "bounds_min": [
+        -0.1675,
+        0.0025,
+        -0.0175
+      ],
+      "bounds_max": [
+        0.1675,
+        0.3375,
+        0.0175
+      ],
+      "parts": [
+        "steering_wheel"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "a5a97392e6291f497b8355dff7d917d62cbf9224c3314b848c0a3b4d5f8a7bb8",
+      "markers": [],
+      "preview": "previews/steering_wheel_spare.png",
+      "source": "source_geometry_additions.json#steering_wheel_spare"
+    },
+    {
+      "id": "dashboard_spare",
+      "label_tr": "Torpido paneli",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/dashboard_spare.glb",
+      "dimensions_m": [
+        1.4,
+        0.3,
+        0.355
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.19
+      ],
+      "bounds_max": [
+        0.7,
+        0.3,
+        0.165
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "b9a9794008d8672259b277b405773f4c25861e943ebe667388461f098048e769",
+      "markers": [],
+      "preview": "previews/dashboard_spare.png",
+      "source": "source_geometry_additions.json#dashboard_spare"
+    },
+    {
+      "id": "car_door_left_panel",
+      "label_tr": "Sol iç kapı paneli",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_door_left_panel.glb",
+      "dimensions_m": [
+        0.1075,
+        0.48,
+        0.85
+      ],
+      "bounds_min": [
+        -0.075,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        0.0325,
+        0.48,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "67df957e3846fc733cf507b1015a0bfb69473ef5f80c168a30c5d3026de6c4e1",
+      "markers": [],
+      "preview": "previews/car_door_left_panel.png",
+      "source": "source_geometry_additions.json#car_door_left_panel"
+    },
+    {
+      "id": "car_door_right_panel",
+      "label_tr": "Sağ iç kapı paneli",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_door_right_panel.glb",
+      "dimensions_m": [
+        0.1075,
+        0.48,
+        0.85
+      ],
+      "bounds_min": [
+        -0.0325,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        0.075,
+        0.48,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "27ec87819a881f6fcbde8a821a98f827d90e57be5f8b3b92357606129b2ccd0c",
+      "markers": [],
+      "preview": "previews/car_door_right_panel.png",
+      "source": "source_geometry_additions.json#car_door_right_panel"
+    },
+    {
+      "id": "car_tire_spare",
+      "label_tr": "Yedek lastik",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_tire_spare.glb",
+      "dimensions_m": [
+        0.25,
+        0.5,
+        0.5
+      ],
+      "bounds_min": [
+        -0.125,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.125,
+        0.5,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "149b13291103b351779aa87933acf18823e36f66bd458cffcef66bb0145fcc61",
+      "markers": [],
+      "preview": "previews/car_tire_spare.png",
+      "source": "source_geometry_additions.json#car_tire_spare"
+    },
+    {
+      "id": "car_engine",
+      "label_tr": "Araç motor bloğu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_engine.glb",
+      "dimensions_m": [
+        0.635,
+        0.5,
+        0.6
+      ],
+      "bounds_min": [
+        -0.275,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.36,
+        0.5,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "e4d596a6325ba863b1839a8dad94b29851787fbc181aea503bb3c32882494d3e",
+      "markers": [],
+      "preview": "previews/car_engine.png",
+      "source": "source_geometry_additions.json#car_engine"
+    },
+    {
+      "id": "car_radiator",
+      "label_tr": "Araç radyatörü",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_radiator.glb",
+      "dimensions_m": [
+        0.65,
+        0.5,
+        0.1
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.06
+      ],
+      "bounds_max": [
+        0.325,
+        0.5,
+        0.04
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 180,
+      "collision_included": false,
+      "sha256": "a7a1ee8a41e81eb175491589953ff97fd21a70c759db4e98f2e26ff5d913c234",
+      "markers": [],
+      "preview": "previews/car_radiator.png",
+      "source": "source_geometry_additions.json#car_radiator"
+    },
+    {
+      "id": "car_exhaust",
+      "label_tr": "Egzoz",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_exhaust.glb",
+      "dimensions_m": [
+        0.2,
+        0.2,
+        0.965
+      ],
+      "bounds_min": [
+        -0.1,
+        0.0,
+        -0.69
+      ],
+      "bounds_max": [
+        0.1,
+        0.2,
+        0.275
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "b3f01a3fced878733dc8d6f30e8e7a7f3c20c3dbb2bdd09fa8ba42aed865fc28",
+      "markers": [],
+      "preview": "previews/car_exhaust.png",
+      "source": "source_geometry_additions.json#car_exhaust"
+    },
+    {
+      "id": "car_fuel_tank",
+      "label_tr": "Yakıt deposu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_fuel_tank.glb",
+      "dimensions_m": [
+        0.75,
+        0.4,
+        0.5
+      ],
+      "bounds_min": [
+        -0.375,
+        0.0,
+        -0.25
+      ],
+      "bounds_max": [
+        0.375,
+        0.4,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "fa223489e1f8849e120c50e3a4bde119d8965225b2809a9b1ce579d456ee44f5",
+      "markers": [],
+      "preview": "previews/car_fuel_tank.png",
+      "source": "source_geometry_additions.json#car_fuel_tank"
+    },
+    {
+      "id": "car_roof_rack",
+      "label_tr": "Araç tavan bagajı",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_roof_rack.glb",
+      "dimensions_m": [
+        1.05,
+        0.145,
+        1.3
+      ],
+      "bounds_min": [
+        -0.525,
+        0.0,
+        -0.65
+      ],
+      "bounds_max": [
+        0.525,
+        0.145,
+        0.65
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "6d74ff53f9428cdf3f58b7d17e84481619a336fe5537741341e403f8af53fa6c",
+      "markers": [],
+      "preview": "previews/car_roof_rack.png",
+      "source": "source_geometry_additions.json#car_roof_rack"
+    },
+    {
+      "id": "car_roof_luggage_box",
+      "label_tr": "Tavan bagaj kutusu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_roof_luggage_box.glb",
+      "dimensions_m": [
+        0.85,
+        0.4,
+        1.25
+      ],
+      "bounds_min": [
+        -0.425,
+        0.0,
+        -0.625
+      ],
+      "bounds_max": [
+        0.425,
+        0.4,
+        0.625
+      ],
+      "parts": [
+        "body",
+        "lid"
+      ],
+      "animations": [
+        "open",
+        "close"
+      ],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "59e0f6930973d998d79e073be1f54abddf03f1f7c89f8ab0ac21a0b6c46a1c13",
+      "markers": [],
+      "preview": "previews/car_roof_luggage_box.png",
+      "source": "source_geometry_additions.json#car_roof_luggage_box"
+    },
+    {
+      "id": "car_side_mirror",
+      "label_tr": "Yan ayna",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_side_mirror.glb",
+      "dimensions_m": [
+        0.28,
+        0.13,
+        0.0525
+      ],
+      "bounds_min": [
+        -0.1,
+        0.035,
+        -0.0325
+      ],
+      "bounds_max": [
+        0.18,
+        0.165,
+        0.02
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "0d2ea8fd934fa4f8c731d99a15a0f0b14ffe29416cf9fe4c93dcb84ed279e788",
+      "markers": [],
+      "preview": "previews/car_side_mirror.png",
+      "source": "source_geometry_additions.json#car_side_mirror"
+    },
+    {
+      "id": "rearview_mirror",
+      "label_tr": "Dikiz aynası",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/rearview_mirror.glb",
+      "dimensions_m": [
+        0.24,
+        0.1675,
+        0.0345
+      ],
+      "bounds_min": [
+        -0.12,
+        0.0775,
+        -0.022
+      ],
+      "bounds_max": [
+        0.12,
+        0.245,
+        0.0125
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "1cf89bccb9f129b6d69fd29c1d1c4953432e811dfdd3a48cd918babc12ea9993",
+      "markers": [],
+      "preview": "previews/rearview_mirror.png",
+      "source": "source_geometry_additions.json#rearview_mirror"
+    },
+    {
+      "id": "pedal_set",
+      "label_tr": "Pedal takımı",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/pedal_set.glb",
+      "dimensions_m": [
+        0.24,
+        0.0975,
+        0.12
+      ],
+      "bounds_min": [
+        -0.12,
+        -0.01,
+        -0.06
+      ],
+      "bounds_max": [
+        0.12,
+        0.0875,
+        0.06
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "1707829cbd733f4c4798cc0ce2b55b7aa9bc4bdd101adb47b9a442cc8a191d2f",
+      "markers": [],
+      "preview": "previews/pedal_set.png",
+      "source": "source_geometry_additions.json#pedal_set"
+    },
+    {
+      "id": "gear_shift_spare",
+      "label_tr": "Vites kolu",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/gear_shift_spare.glb",
+      "dimensions_m": [
+        0.14,
+        0.3025,
+        0.14
+      ],
+      "bounds_min": [
+        -0.07,
+        0.0,
+        -0.07
+      ],
+      "bounds_max": [
+        0.07,
+        0.3025,
+        0.07
+      ],
+      "parts": [
+        "body",
+        "gear_lever"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "39d35ba0ed42695d38415d586ee98cd58d47fa69396edd86ede9cf16d783bc6b",
+      "markers": [],
+      "preview": "previews/gear_shift_spare.png",
+      "source": "source_geometry_additions.json#gear_shift_spare"
+    },
+    {
+      "id": "car_battery_charger",
+      "label_tr": "Akü şarj cihazı",
+      "category": "vehicle_parts",
+      "path": "models/vehicle_parts/car_battery_charger.glb",
+      "dimensions_m": [
+        0.3,
+        0.32,
+        0.22
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.12
+      ],
+      "bounds_max": [
+        0.15,
+        0.32,
+        0.1
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "ae7f5b5f7d7ede95a9df7313e4a9845bca497019c0f27fad9082fa6f8ced0a51",
+      "markers": [],
+      "preview": "previews/car_battery_charger.png",
+      "source": "source_geometry_additions.json#car_battery_charger"
+    },
+    {
+      "id": "kettle",
+      "label_tr": "Çaydanlık altı",
+      "category": "props",
+      "path": "models/props/kettle.glb",
+      "dimensions_m": [
+        0.345,
+        0.2625,
+        0.19
+      ],
+      "bounds_min": [
+        -0.155,
+        0.0,
+        -0.095
+      ],
+      "bounds_max": [
+        0.19,
+        0.2625,
+        0.095
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "65e5cbb87494a6ec0743798430a229a6e668ba9ad93113a19364d911b856fc66",
+      "markers": [],
+      "preview": "previews/kettle.png",
+      "source": "source_geometry_additions.json#kettle"
+    },
+    {
+      "id": "teapot",
+      "label_tr": "Çaydanlık üstü",
+      "category": "props",
+      "path": "models/props/teapot.glb",
+      "dimensions_m": [
+        0.235,
+        0.1825,
+        0.16
+      ],
+      "bounds_min": [
+        -0.085,
+        0.0,
+        -0.08
+      ],
+      "bounds_max": [
+        0.15,
+        0.1825,
+        0.08
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "4a52540538499ff87974f233ffdb9c088404e6bbbf83a99647b5d73a42ee9c8b",
+      "markers": [],
+      "preview": "previews/teapot.png",
+      "source": "source_geometry_additions.json#teapot"
+    },
+    {
+      "id": "tea_glass",
+      "label_tr": "Çay bardağı",
+      "category": "props",
+      "path": "models/props/tea_glass.glb",
+      "dimensions_m": [
+        0.1,
+        0.08,
+        0.1
+      ],
+      "bounds_min": [
+        -0.05,
+        0.0,
+        -0.05
+      ],
+      "bounds_max": [
+        0.05,
+        0.08,
+        0.05
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "c187ac9c41e3bc46b0cf75358139a8537daf5ffd6616375365ddf7fc8ce60142",
+      "markers": [],
+      "preview": "previews/tea_glass.png",
+      "source": "source_geometry_additions.json#tea_glass"
+    },
+    {
+      "id": "mug",
+      "label_tr": "Kupa",
+      "category": "props",
+      "path": "models/props/mug.glb",
+      "dimensions_m": [
+        0.112,
+        0.09,
+        0.075
+      ],
+      "bounds_min": [
+        -0.0375,
+        0.0,
+        -0.0375
+      ],
+      "bounds_max": [
+        0.0745,
+        0.09,
+        0.0375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "393a77e0fadadb2a50c5739f9524e3c7a94cca778810a3230a7d8bbe0f6cae6e",
+      "markers": [],
+      "preview": "previews/mug.png",
+      "source": "source_geometry_additions.json#mug"
+    },
+    {
+      "id": "plate",
+      "label_tr": "Tabak",
+      "category": "props",
+      "path": "models/props/plate.glb",
+      "dimensions_m": [
+        0.24,
+        0.021,
+        0.24
+      ],
+      "bounds_min": [
+        -0.12,
+        0.0,
+        -0.12
+      ],
+      "bounds_max": [
+        0.12,
+        0.021,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "f25a0345254868b013add0cc33ae52b2cddd1e9625b72c2001fa52614f7320b3",
+      "markers": [],
+      "preview": "previews/plate.png",
+      "source": "source_geometry_additions.json#plate"
+    },
+    {
+      "id": "bowl",
+      "label_tr": "Kase",
+      "category": "props",
+      "path": "models/props/bowl.glb",
+      "dimensions_m": [
+        0.165,
+        0.0805,
+        0.165
+      ],
+      "bounds_min": [
+        -0.0825,
+        -0.0005,
+        -0.0825
+      ],
+      "bounds_max": [
+        0.0825,
+        0.08,
+        0.0825
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "827fb34099b4c1429f964f7f488097faa3984f6f5b59bb6fc3b25d363b245b33",
+      "markers": [],
+      "preview": "previews/bowl.png",
+      "source": "source_geometry_additions.json#bowl"
+    },
+    {
+      "id": "cooking_pot",
+      "label_tr": "Tencere",
+      "category": "props",
+      "path": "models/props/cooking_pot.glb",
+      "dimensions_m": [
+        0.38,
+        0.2025,
+        0.26
+      ],
+      "bounds_min": [
+        -0.19,
+        0.0,
+        -0.13
+      ],
+      "bounds_max": [
+        0.19,
+        0.2025,
+        0.13
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "c07a01f2a27a125dcb6643018f6217c3ffb7974af3961e7f7ad9f438095f918c",
+      "markers": [],
+      "preview": "previews/cooking_pot.png",
+      "source": "source_geometry_additions.json#cooking_pot"
+    },
+    {
+      "id": "frying_pan",
+      "label_tr": "Tava",
+      "category": "props",
+      "path": "models/props/frying_pan.glb",
+      "dimensions_m": [
+        0.47,
+        0.05,
+        0.28
+      ],
+      "bounds_min": [
+        -0.14,
+        0.0,
+        -0.14
+      ],
+      "bounds_max": [
+        0.33,
+        0.05,
+        0.14
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "a49c0004165e4e376bad4bb05f32a65a014960c1c1ad1e334c589b1a855c1058",
+      "markers": [],
+      "preview": "previews/frying_pan.png",
+      "source": "source_geometry_additions.json#frying_pan"
+    },
+    {
+      "id": "cutting_board",
+      "label_tr": "Kesme tahtası",
+      "category": "props",
+      "path": "models/props/cutting_board.glb",
+      "dimensions_m": [
+        0.26,
+        0.024,
+        0.38
+      ],
+      "bounds_min": [
+        -0.13,
+        0.0,
+        -0.19
+      ],
+      "bounds_max": [
+        0.13,
+        0.024,
+        0.19
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 12,
+      "collision_included": false,
+      "sha256": "c3429b400cd300972a4db074828f6032ff86e228209cd9e8b964bffc4f6ab6a2",
+      "markers": [],
+      "preview": "previews/cutting_board.png",
+      "source": "source_geometry_additions.json#cutting_board"
+    },
+    {
+      "id": "cutlery_tray",
+      "label_tr": "Çatal kaşık düzenleyici",
+      "category": "props",
+      "path": "models/props/cutlery_tray.glb",
+      "dimensions_m": [
+        0.25,
+        0.04,
+        0.34
+      ],
+      "bounds_min": [
+        -0.125,
+        0.0,
+        -0.17
+      ],
+      "bounds_max": [
+        0.125,
+        0.04,
+        0.17
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "e55bfac59a43798b721887f029b2e42b09d6ed22910c380acdf1320237adb4cc",
+      "markers": [],
+      "preview": "previews/cutlery_tray.png",
+      "source": "source_geometry_additions.json#cutlery_tray"
+    },
+    {
+      "id": "bread_basket",
+      "label_tr": "Ekmek sepeti",
+      "category": "props",
+      "path": "models/props/bread_basket.glb",
+      "dimensions_m": [
+        0.3,
+        0.12,
+        0.2
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.1
+      ],
+      "bounds_max": [
+        0.15,
+        0.12,
+        0.1
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "9ab789da858fe42e86c56082c66293f2b9de318354b61c30095551b8a8458ee3",
+      "markers": [],
+      "preview": "previews/bread_basket.png",
+      "source": "source_geometry_additions.json#bread_basket"
+    },
+    {
+      "id": "soap_dispenser",
+      "label_tr": "Sıvı sabunluk",
+      "category": "props",
+      "path": "models/props/soap_dispenser.glb",
+      "dimensions_m": [
+        0.0875,
+        0.177,
+        0.07
+      ],
+      "bounds_min": [
+        -0.035,
+        0.0,
+        -0.035
+      ],
+      "bounds_max": [
+        0.0525,
+        0.177,
+        0.035
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "01a218cd0ef626e77d5b0fcd10b9507b986db6b0c9c7f191bb81e3db425dd36b",
+      "markers": [],
+      "preview": "previews/soap_dispenser.png",
+      "source": "source_geometry_additions.json#soap_dispenser"
+    },
+    {
+      "id": "toilet_paper_roll",
+      "label_tr": "Tuvalet kâğıdı",
+      "category": "props",
+      "path": "models/props/toilet_paper_roll.glb",
+      "dimensions_m": [
+        0.1,
+        0.1165,
+        0.1
+      ],
+      "bounds_min": [
+        -0.05,
+        0.0,
+        -0.05
+      ],
+      "bounds_max": [
+        0.05,
+        0.1165,
+        0.05
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "f511bf400f3f8d42fb01e98c4202df18ef618fe3e37bc571c1dc7e9eac66df95",
+      "markers": [],
+      "preview": "previews/toilet_paper_roll.png",
+      "source": "source_geometry_additions.json#toilet_paper_roll"
+    },
+    {
+      "id": "towel_folded",
+      "label_tr": "Katlanmış havlu",
+      "category": "props",
+      "path": "models/props/towel_folded.glb",
+      "dimensions_m": [
+        0.3,
+        0.08,
+        0.22
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.11
+      ],
+      "bounds_max": [
+        0.15,
+        0.08,
+        0.11
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "5d900860eec1105f74dbd865f280b49ca37e9ba3f853d92bedc25a638b33252c",
+      "markers": [],
+      "preview": "previews/towel_folded.png",
+      "source": "source_geometry_additions.json#towel_folded"
+    },
+    {
+      "id": "pillow",
+      "label_tr": "Yastık",
+      "category": "props",
+      "path": "models/props/pillow.glb",
+      "dimensions_m": [
+        0.5,
+        0.12,
+        0.32
+      ],
+      "bounds_min": [
+        -0.25,
+        0.0,
+        -0.16
+      ],
+      "bounds_max": [
+        0.25,
+        0.12,
+        0.16
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "c139385779040c25e6cc95b0270a8785a4df844548b2ebedf843aaa264afc0d1",
+      "markers": [],
+      "preview": "previews/pillow.png",
+      "source": "source_geometry_additions.json#pillow"
+    },
+    {
+      "id": "blanket_folded",
+      "label_tr": "Katlanmış battaniye",
+      "category": "props",
+      "path": "models/props/blanket_folded.glb",
+      "dimensions_m": [
+        0.55,
+        0.1585,
+        0.4
+      ],
+      "bounds_min": [
+        -0.275,
+        0.0,
+        -0.2
+      ],
+      "bounds_max": [
+        0.275,
+        0.1585,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "f2a9608f20aced54bf3eb3d367dd74610171a7fd7bb38c2bd1c54d31ac507087",
+      "markers": [],
+      "preview": "previews/blanket_folded.png",
+      "source": "source_geometry_additions.json#blanket_folded"
+    },
+    {
+      "id": "books_stack",
+      "label_tr": "Kitap yığını",
+      "category": "props",
+      "path": "models/props/books_stack.glb",
+      "dimensions_m": [
+        0.2,
+        0.115,
+        0.259
+      ],
+      "bounds_min": [
+        -0.09,
+        0.0025,
+        -0.134
+      ],
+      "bounds_max": [
+        0.11,
+        0.1175,
+        0.125
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "96b55bebefe06ac489e2bc9a515d44a5b243e09f3d7677dd8276f717dff9e1a0",
+      "markers": [],
+      "preview": "previews/books_stack.png",
+      "source": "source_geometry_additions.json#books_stack"
+    },
+    {
+      "id": "binder",
+      "label_tr": "Klasör",
+      "category": "props",
+      "path": "models/props/binder.glb",
+      "dimensions_m": [
+        0.06,
+        0.32,
+        0.269
+      ],
+      "bounds_min": [
+        -0.03,
+        0.0,
+        -0.139
+      ],
+      "bounds_max": [
+        0.03,
+        0.32,
+        0.13
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "20f99f10279a90768f98496c008dd3480de3f417bd52127cdfbf0261bfbbe04d",
+      "markers": [],
+      "preview": "previews/binder.png",
+      "source": "source_geometry_additions.json#binder"
+    },
+    {
+      "id": "document_box",
+      "label_tr": "Belge kutusu",
+      "category": "props",
+      "path": "models/props/document_box.glb",
+      "dimensions_m": [
+        0.34,
+        0.2575,
+        0.442
+      ],
+      "bounds_min": [
+        -0.17,
+        0.0,
+        -0.222
+      ],
+      "bounds_max": [
+        0.17,
+        0.2575,
+        0.22
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "f000607aa5b0805989424fce2e740dec351408cc44858a756d18affacefdfa17",
+      "markers": [],
+      "preview": "previews/document_box.png",
+      "source": "source_geometry_additions.json#document_box"
+    },
+    {
+      "id": "alarm_clock",
+      "label_tr": "Çalar saat",
+      "category": "props",
+      "path": "models/props/alarm_clock.glb",
+      "dimensions_m": [
+        0.16,
+        0.15,
+        0.081
+      ],
+      "bounds_min": [
+        -0.08,
+        0.0,
+        -0.051
+      ],
+      "bounds_max": [
+        0.08,
+        0.15,
+        0.03
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "7e737ed3978db70cd24d3d8ffc734acc0eb6c8b7ef0af4e35b6331b267af0475",
+      "markers": [],
+      "preview": "previews/alarm_clock.png",
+      "source": "source_geometry_additions.json#alarm_clock"
+    },
+    {
+      "id": "plant_pot_small",
+      "label_tr": "Küçük saksı",
+      "category": "props",
+      "path": "models/props/plant_pot_small.glb",
+      "dimensions_m": [
+        0.23,
+        0.425,
+        0.16
+      ],
+      "bounds_min": [
+        -0.115,
+        0.0,
+        -0.08
+      ],
+      "bounds_max": [
+        0.115,
+        0.425,
+        0.08
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "fabe975ea72239d5ba0ca51320da3aa07015e3568b00a5cfb99895ce21697c41",
+      "markers": [],
+      "preview": "previews/plant_pot_small.png",
+      "source": "source_geometry_additions.json#plant_pot_small"
+    },
+    {
+      "id": "watering_can",
+      "label_tr": "Sulama kabı",
+      "category": "props",
+      "path": "models/props/watering_can.glb",
+      "dimensions_m": [
+        0.4175,
+        0.24,
+        0.14
+      ],
+      "bounds_min": [
+        -0.1725,
+        0.0,
+        -0.07
+      ],
+      "bounds_max": [
+        0.245,
+        0.24,
+        0.07
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "2a69c82d77c76f407de5f636fd45a848cf0caaa6c514a94922229f3e620dff9d",
+      "markers": [],
+      "preview": "previews/watering_can.png",
+      "source": "source_geometry_additions.json#watering_can"
+    },
+    {
+      "id": "broom",
+      "label_tr": "Süpürge",
+      "category": "props",
+      "path": "models/props/broom.glb",
+      "dimensions_m": [
+        0.25,
+        1.33,
+        0.065
+      ],
+      "bounds_min": [
+        -0.125,
+        0.0,
+        -0.0325
+      ],
+      "bounds_max": [
+        0.125,
+        1.33,
+        0.0325
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "996dbe2f9799e7aaa915842d6d90494e53f1f270d02789a547bcc1c7bcd18c7e",
+      "markers": [],
+      "preview": "previews/broom.png",
+      "source": "source_geometry_additions.json#broom"
+    },
+    {
+      "id": "mop_bucket",
+      "label_tr": "Paspas kovası",
+      "category": "props",
+      "path": "models/props/mop_bucket.glb",
+      "dimensions_m": [
+        0.3,
+        0.4625,
+        0.26
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.13
+      ],
+      "bounds_max": [
+        0.15,
+        0.4625,
+        0.13
+      ],
+      "parts": [
+        "body",
+        "handle"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "4c338e7ae08ba08e2f4c14a0ac5721d4bf098bd27c7fff997163ffd14b8d85e7",
+      "markers": [],
+      "preview": "previews/mop_bucket.png",
+      "source": "source_geometry_additions.json#mop_bucket"
+    }
+  ]
+}

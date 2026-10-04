@@ -1,0 +1,325 @@
+{
+  "settings": {
+    "max_active": 12,
+    "speed": 42,
+    "acceleration": 240,
+    "health": 100,
+    "initial_morale": 65,
+    "skill_divisor": 10,
+    "need_gain": 25,
+    "need_recovery": 35,
+    "fatigue_gain": 12,
+    "rest_recovery": 30,
+    "rest_threshold": 75,
+    "morale_loss": 8,
+    "morale_recovery": 3,
+    "starvation_damage": 8,
+    "need_damage_threshold": 75,
+    "guard_range": 150,
+    "guard_damage": 18,
+    "guard_interval": 1.2,
+    "guard_noise": 240,
+    "guard_ammo": "ammo_9mm",
+    "patrol_interval": 2.0,
+    "max_work_credit": 2,
+    "work_threshold": 1,
+    "doctor_heal": 25,
+    "bond_gain": 0.06,
+    "bond_loss": 0.1,
+    "bond_morale": 6,
+    "leave_threshold": 15,
+    "leave_days": 4,
+    "leave_takes_days": 2,
+    "leave_min_health": 40,
+    "food_daily": 1,
+    "water_daily": 1.4,
+    "morale_ceiling": 80
+  },
+  "farming": {
+    "seed": "vegetable_seeds",
+    "seed_count": 1,
+    "side_tiles": 2,
+    "water_daily": 1,
+    "growth_days": 3,
+    "yield_item": "dry_goods",
+    "yield_count": 9,
+    "quality_per_skill": 5,
+    "fields_per_day": 3,
+    "seed_return": 2
+  },
+  "expedition": {
+    "duration_days": 1,
+    "food_daily": 2,
+    "water_daily": 2,
+    "base_danger": 1.0,
+    "danger_per_day": 0.2,
+    "loot_rolls_per_day": 3,
+    "injury_chance_base": 0.15
+  },
+  "roles": {
+    "idle": {
+      "label": "Dinlenme",
+      "skill": "leadership",
+      "building": "none",
+      "inputs": {},
+      "outputs": {}
+    },
+    "guard": {
+      "label": "Nöbetçi",
+      "skill": "shooting",
+      "building": "none",
+      "inputs": {},
+      "outputs": {}
+    },
+    "forager": {
+      "label": "Toplayıcı",
+      "skill": "foraging",
+      "building": "none",
+      "inputs": {},
+      "outputs": {
+        "scrap_metal": 2,
+        "dry_goods": 1
+      }
+    },
+    "crafter": {
+      "label": "Zanaatkâr",
+      "skill": "repair",
+      "building": "workshop",
+      "inputs": {
+        "sterile_cloth": 1,
+        "duct_tape": 1
+      },
+      "outputs": {
+        "bandage_clean": 3
+      }
+    },
+    "doctor": {
+      "label": "Doktor",
+      "skill": "medicine",
+      "building": "infirmary",
+      "inputs": {
+        "bandage_clean": 1
+      },
+      "outputs": {}
+    },
+    "cook": {
+      "label": "Aşçı",
+      "skill": "cooking",
+      "building": "kitchen",
+      "inputs": {
+        "dry_goods": 2,
+        "water_bottle": 1
+      },
+      "outputs": {
+        "preserved_meat": 2
+      }
+    },
+    "farmer": {
+      "label": "Çiftçi",
+      "skill": "farming",
+      "building": "none",
+      "inputs": {},
+      "outputs": {}
+    },
+    "water_carrier": {
+      "label": "Sucu",
+      "skill": "foraging",
+      "building": "none",
+      "inputs": {},
+      "outputs": {
+        "water_canister": 8
+      }
+    },
+    "expedition": {
+      "label": "Seferde",
+      "skill": "foraging",
+      "building": "none",
+      "inputs": {},
+      "outputs": {}
+    }
+  },
+  "profiles": {
+    "ayse": {
+      "name": "Ayşe",
+      "background": "Aile hekimi",
+      "skills": {
+        "medicine": 8,
+        "foraging": 3
+      }
+    },
+    "cem": {
+      "name": "Cem",
+      "background": "Güvenlik görevlisi",
+      "skills": {
+        "shooting": 8,
+        "repair": 3
+      }
+    },
+    "deniz": {
+      "name": "Deniz",
+      "background": "Kurye",
+      "skills": {
+        "foraging": 8,
+        "shooting": 3
+      }
+    },
+    "elif": {
+      "name": "Elif",
+      "background": "Aşçı",
+      "skills": {
+        "cooking": 8,
+        "medicine": 2
+      }
+    },
+    "murat": {
+      "name": "Murat",
+      "background": "Tamirci",
+      "skills": {
+        "repair": 8,
+        "farming": 3
+      }
+    },
+    "zeynep": {
+      "name": "Zeynep",
+      "background": "Ziraat teknikeri",
+      "skills": {
+        "farming": 8,
+        "foraging": 4
+      }
+    },
+    "hakan": {
+      "name": "Hakan",
+      "background": "Su teknisyeni (ISKI)",
+      "skills": {
+        "repair": 7,
+        "farming": 3
+      },
+      "model": "iz2_survivor_water_technician"
+    },
+    "selin": {
+      "name": "Selin",
+      "background": "Elektrikci",
+      "skills": {
+        "repair": 8,
+        "shooting": 2
+      },
+      "model": "iz2_survivor_electrician"
+    },
+    "baris": {
+      "name": "Baris",
+      "background": "Telsiz operatoru",
+      "skills": {
+        "foraging": 5,
+        "repair": 5
+      },
+      "model": "iz2_survivor_radio_operator"
+    },
+    "nermin": {
+      "name": "Nermin",
+      "background": "Lokanta ascisi",
+      "skills": {
+        "cooking": 9,
+        "farming": 2
+      },
+      "model": "iz2_survivor_cook"
+    },
+    "ismail": {
+      "name": "Ismail",
+      "background": "Bostanci bahcivani",
+      "skills": {
+        "farming": 9,
+        "foraging": 3
+      },
+      "model": "iz2_survivor_farmer"
+    },
+    "kemal": {
+      "name": "Kemal",
+      "background": "Oto tamircisi",
+      "skills": {
+        "repair": 9,
+        "shooting": 2
+      },
+      "model": "iz2_survivor_mechanic"
+    },
+    "gul": {
+      "name": "Gul",
+      "background": "Ogretmen",
+      "skills": {
+        "medicine": 3,
+        "foraging": 4
+      },
+      "model": "iz2_survivor_teacher"
+    },
+    "tarik": {
+      "name": "Tarik",
+      "background": "Itfaiyeci",
+      "skills": {
+        "shooting": 6,
+        "medicine": 4
+      },
+      "model": "iz2_survivor_firefighter"
+    },
+    "melek": {
+      "name": "Melek",
+      "background": "Hemsire",
+      "skills": {
+        "medicine": 9
+      },
+      "model": "iz2_survivor_nurse"
+    },
+    "emre": {
+      "name": "Emre",
+      "background": "Motokurye",
+      "skills": {
+        "foraging": 8,
+        "shooting": 4
+      },
+      "model": "iz2_survivor_courier"
+    },
+    "oya": {
+      "name": "Oya",
+      "background": "Kapalicarsi esnafi",
+      "skills": {
+        "foraging": 6,
+        "cooking": 3
+      },
+      "model": "iz2_survivor_trader"
+    },
+    "levent": {
+      "name": "Levent",
+      "background": "Yelken ustasi",
+      "skills": {
+        "repair": 6,
+        "foraging": 4
+      },
+      "model": "iz2_survivor_sailmaker"
+    },
+    "hasan": {
+      "name": "Hasan",
+      "background": "Marangoz",
+      "skills": {
+        "repair": 7,
+        "farming": 3
+      },
+      "model": "iz2_survivor_carpenter"
+    },
+    "derya": {
+      "name": "Derya",
+      "background": "Eczaci kimyager",
+      "skills": {
+        "medicine": 7,
+        "cooking": 2
+      },
+      "model": "iz2_survivor_chemist"
+    },
+    "yusuf": {
+      "name": "Yusuf",
+      "background": "Rehber",
+      "skills": {
+        "foraging": 7,
+        "shooting": 5
+      },
+      "model": "iz2_survivor_route_guide"
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+ "water_dirty": {
+  "name": "Kirli Su",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 12,
+  "weight": 1.05,
+  "value": 1,
+  "tags": [
+   "water_raw",
+   "supply",
+   "salvage"
+  ],
+  "description": "Cesmeden, pompadan ya da yagmurdan doldurulmus arıtılmamıs su. Kaynat, tabletle ya da filtreyle temizle; oylece icmek hastalik riskidir."
+ },
+ "purification_tabs": {
+  "name": "Aritma Tableti",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 30,
+  "weight": 0.01,
+  "value": 6,
+  "tags": [
+   "water_treatment",
+   "salvage"
+  ],
+  "description": "Klor tableti. Bir sise kirli suyu yarim saatte icilebilir yapar."
+ },
+ "cooked_meal": {
+  "name": "Sicak Guvec",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 6,
+  "weight": 0.55,
+  "value": 12,
+  "tags": [
+   "food",
+   "cooked",
+   "supply"
+  ],
+  "description": "Bakliyat, yag ve suyla ocakta pisirilmis yemek. Doyurur ama bir buçuk gunde bozulur."
+ },
+ "spoiled_food": {
+  "name": "Bozulmus Yemek",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.5,
+  "value": 0,
+  "tags": [
+   "spoiled",
+   "compost"
+  ],
+  "description": "Eksimis, kokmus. Ac kalmaktan iyidir ama mideni bozabilir. Kompost icin de kullanilir."
+ },
+ "rice_bag": {
+  "name": "Pirinc",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.0,
+  "value": 7,
+  "tags": [
+   "food",
+   "staple",
+   "supply",
+   "salvage"
+  ],
+  "description": "Bir kiloluk paket. Ciğ yenmez; ocakta suyla pisirilir. Yillarca bozulmaz."
+ },
+ "lentil_bag": {
+  "name": "Mercimek",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.0,
+  "value": 7,
+  "tags": [
+   "food",
+   "staple",
+   "supply",
+   "salvage"
+  ],
+  "description": "Kirmizi mercimek. Pisirilince doyurucu bir corba olur."
+ },
+ "pasta_pack": {
+  "name": "Makarna",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.5,
+  "value": 5,
+  "tags": [
+   "food",
+   "staple",
+   "supply",
+   "salvage"
+  ],
+  "description": "Yarim kiloluk paket. Kaynar su ister."
+ },
+ "flour_sack": {
+  "name": "Un",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 6,
+  "weight": 2.0,
+  "value": 6,
+  "tags": [
+   "food",
+   "staple",
+   "supply",
+   "salvage"
+  ],
+  "description": "Iki kiloluk cuval. Ocakta yufka ya da bazlama olur."
+ },
+ "cooking_oil": {
+  "name": "Sivi Yag",
+  "category": "material",
+  "tier": 1,
+  "stack": 6,
+  "weight": 1.0,
+  "value": 6,
+  "tags": [
+   "cooking_fat",
+   "chemical_fuel",
+   "salvage",
+   "cook_fuel"
+  ],
+  "description": "Yemege lezzet verir; gerekirse yakit da olur."
+ },
+ "salt_pack": {
+  "name": "Tuz",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.5,
+  "value": 3,
+  "tags": [
+   "preservative",
+   "salvage"
+  ],
+  "description": "Et ve sebzeyi saklamanin en eski yolu."
+ },
+ "sugar_pack": {
+  "name": "Toz Seker",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 12,
+  "weight": 1.0,
+  "value": 5,
+  "tags": [
+   "food",
+   "sweet",
+   "salvage",
+   "sugar_source"
+  ],
+  "description": "Hizli enerji. Tek basina doyurmaz."
+ },
+ "dried_fruit": {
+  "name": "Kuru Meyve",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 16,
+  "weight": 0.25,
+  "value": 6,
+  "tags": [
+   "food",
+   "supply",
+   "salvage",
+   "sugar_source",
+   "fruit"
+  ],
+  "description": "Kayisi, incir, uzum. Hafif, bozulmaz, yolda yenir."
+ },
+ "chickpea_can": {
+  "name": "Nohut Konservesi",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 16,
+  "weight": 0.45,
+  "value": 6,
+  "tags": [
+   "food",
+   "supply",
+   "salvage"
+  ],
+  "description": "Hazir, pisirmeden yenir. Biraz tuzlu."
+ },
+ "ration_box": {
+  "name": "Kumanya Kutusu",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 4,
+  "weight": 0.8,
+  "value": 22,
+  "tags": [
+   "food",
+   "supply",
+   "military_supply"
+  ],
+  "description": "Askeri tayin: yemek, biskuvi, su kesesi. Nadir bulunur, tam bir gunu kurtarir."
+ },
+ "water_pouch": {
+  "name": "Su Kesesi",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 16,
+  "weight": 0.3,
+  "value": 5,
+  "tags": [
+   "water",
+   "supply",
+   "salvage"
+  ],
+  "description": "250 ml'lik kapali acil durum suyu. Hafif, kabi atilir."
+ },
+ "cookstove_kit": {
+  "name": "Roket Ocagi",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 6.0,
+  "value": 20,
+  "tags": [
+   "station_kit",
+   "cooking"
+  ],
+  "effects": {
+   "station_tier": 1
+  },
+  "description": "Az yakitla cok isi veren saç ocak. Su kaynatir, yemek pisirir. Insa kipinde (B) yerlestirilir."
+ },
+ "water_filter_kit": {
+  "name": "Yercekimli Su Aritici",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 9.0,
+  "value": 40,
+  "tags": [
+   "station_kit",
+   "water_treatment"
+  ],
+  "effects": {
+   "station_tier": 1
+  },
+  "description": "Kum, kömür ve filtre kartusuyla calisan varil aritici. Filtre kartusu harcar, yakit istemez."
+ },
+ "rain_barrel_kit": {
+  "name": "Yagmur Varili",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 7.0,
+  "value": 18,
+  "tags": [
+   "station_kit",
+   "water_source"
+  ],
+  "effects": {
+   "supply": 1
+  },
+  "description": "Ussun icine kurulur; her gun ortak depoya birkac sise KIRLI su toplar. Yine de aritilmasi gerekir."
+ },
+ "cold_room_kit": {
+  "name": "Soguk Oda Kapisi",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 70,
+  "tags": [
+   "station_kit",
+   "cold_storage"
+  ],
+  "effects": {
+   "supply": 1
+  },
+  "description": "Ussun deposundaki pisirilmis yemegin bozulmasini dortte bire indirir. Gunde 1 yakit harcar; yakit yoksa calismaz."
+ },
+ "herbal_tea": {
+  "name": "Bitki Cayi",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 6,
+  "weight": 0.35,
+  "value": 8,
+  "tags": [
+   "medical",
+   "supply"
+  ],
+  "effects": {
+   "cure_sick": 1
+  },
+  "description": "Ihlamur, nane, adacayi. Mide bulantisini gecirir."
+ }
+}

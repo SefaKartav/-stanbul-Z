@@ -1,0 +1,184 @@
+{
+  "galata_tower": {
+    "name": "Galata Kulesi",
+    "district": "Beyoglu",
+    "at": [
+      0.4405,
+      0.4585
+    ],
+    "loot_table": "street_debris",
+    "danger": 1.3,
+    "stages": 2,
+    "note": "Sehrin en iyi gozetleme noktasi. Yukari cikan merdiven tikali.",
+    "lon": 28.97418,
+    "lat": 41.02563
+  },
+  "maidens_tower": {
+    "name": "Kiz Kulesi",
+    "district": "Uskudar",
+    "at": [
+      0.532,
+      0.493
+    ],
+    "loot_table": "street_debris",
+    "danger": 0.6,
+    "stages": 1,
+    "note": "Suyun ortasinda. Kimse gidemedigi icin kimse yagmalamamis.",
+    "lon": 29.00411,
+    "lat": 41.02114
+  },
+  "dolmabahce": {
+    "name": "Dolmabahce Sarayi",
+    "district": "Besiktas",
+    "at": [
+      0.488,
+      0.441
+    ],
+    "loot_table": "military_crate",
+    "danger": 2.1,
+    "stages": 4,
+    "note": "Karantina merkezi olarak kullanilmis. Cok sey birakmislar.",
+    "lon": 29.00061,
+    "lat": 41.03917
+  },
+  "topkapi": {
+    "name": "Topkapi Sarayi",
+    "district": "Fatih",
+    "at": [
+      0.396,
+      0.509
+    ],
+    "loot_table": "police_locker",
+    "danger": 1.8,
+    "stages": 3,
+    "note": "Avlular acik, kapilar kirik. Icerisi bos degil.",
+    "lon": 28.98369,
+    "lat": 41.0115
+  },
+  "hagia_sophia": {
+    "name": "Ayasofya",
+    "district": "Fatih",
+    "at": [
+      0.3925,
+      0.514
+    ],
+    "loot_table": "apartment_kitchen",
+    "danger": 1.6,
+    "stages": 2,
+    "note": "Siginak olmus. Yuzlerce kisi gelmis, kimse kalmamis.",
+    "lon": 28.98,
+    "lat": 41.0086
+  },
+  "blue_mosque": {
+    "name": "Sultanahmet Camii",
+    "district": "Fatih",
+    "at": [
+      0.389,
+      0.5185
+    ],
+    "loot_table": "apartment_kitchen",
+    "danger": 1.5,
+    "stages": 2,
+    "note": "Alti minare. Avlusunda hala cadirlar duruyor.",
+    "lon": 28.97672,
+    "lat": 41.00546
+  },
+  "grand_bazaar": {
+    "name": "Kapalicarsi",
+    "district": "Fatih",
+    "at": [
+      0.38,
+      0.506
+    ],
+    "loot_table": "electronics_shop",
+    "danger": 2.4,
+    "stages": 5,
+    "note": "Dort bin dukkan, tek cikis. Iceride kaybolursan duyulmazsin.",
+    "lon": 28.96806,
+    "lat": 41.01056
+  },
+  "bosphorus_bridge": {
+    "name": "15 Temmuz Sehitler Koprusu",
+    "district": "Besiktas",
+    "at": [
+      0.506,
+      0.43
+    ],
+    "loot_table": "garage",
+    "danger": 1.9,
+    "stages": 3,
+    "note": "Tikali arac kuyrugu. Bagajlarin cogu hala kapali.",
+    "lon": 29.03389,
+    "lat": 41.04528
+  },
+  "fsm_bridge": {
+    "name": "Fatih Sultan Mehmet Koprusu",
+    "district": "Sariyer",
+    "at": [
+      0.517,
+      0.315
+    ],
+    "loot_table": "garage",
+    "danger": 1.7,
+    "stages": 3,
+    "note": "Ikinci kopru. Askeri barikat yarida kalmis.",
+    "lon": 29.05639,
+    "lat": 41.09083
+  },
+  "yavuz_bridge": {
+    "name": "Yavuz Sultan Selim Koprusu",
+    "district": "Sariyer",
+    "at": [
+      0.524,
+      0.205
+    ],
+    "loot_table": "military_crate",
+    "danger": 1.4,
+    "stages": 2,
+    "note": "En kuzeydeki gecis. Tahliye konvoyu buraya kadar gelebilmis.",
+    "lon": 29.1175,
+    "lat": 41.2025
+  },
+  "haydarpasa": {
+    "name": "Haydarpasa Gari",
+    "district": "Kadikoy",
+    "at": [
+      0.556,
+      0.518
+    ],
+    "loot_table": "workshop",
+    "danger": 1.8,
+    "stages": 3,
+    "note": "Peronlarda vagonlar duruyor. Ambar kismi acilmamis.",
+    "lon": 29.01861,
+    "lat": 40.99694
+  },
+  "rumeli_fortress": {
+    "name": "Rumeli Hisari",
+    "district": "Sariyer",
+    "at": [
+      0.509,
+      0.348
+    ],
+    "loot_table": "police_locker",
+    "danger": 1.2,
+    "stages": 2,
+    "note": "Surlar saglam. Iyi bir us olurdu -- birileri ayni seyi dusunmus.",
+    "lon": 29.05639,
+    "lat": 41.08472
+  },
+  "camlica_tower": {
+    "name": "Camlica Kulesi",
+    "district": "Uskudar",
+    "at": [
+      0.568,
+      0.475
+    ],
+    "loot_table": "electronics_shop",
+    "danger": 1.5,
+    "stages": 3,
+    "note": "Verici hala calisiyor olabilir. Jenerator odasi kilitli.",
+    "lon": 29.0675,
+    "lat": 41.0275
+  }
+}

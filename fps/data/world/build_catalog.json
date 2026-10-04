@@ -1,0 +1,8503 @@
+{
+ "_readme": "Insa kipi (B) katalogu. 'blocks': dogrudan maliyetli eski bloklar. 'pieces': uretilmis yapi parcasi esyasi -> malzeme + hucreler. 'upgrades': malzeme -> ust kademe (cost), onarim (repair), sokum iadesi (salvage). 'placeables': esya -> yerlestirilebilir (kind, station/tier, guc...). pieces/upgrades ve gen placeables tools/content_gen ile uretilir.",
+ "blocks": {
+  "wall_wood": {
+   "label": "Ahsap duvar",
+   "material": "wood",
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "cost": [
+    {
+     "item": "wood_plank",
+     "count": 2
+    },
+    {
+     "tag": "fastener",
+     "count": 2
+    }
+   ],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "barricade": {
+   "label": "Civili barikat (3x2)",
+   "material": "barricade",
+   "size": [
+    3,
+    2,
+    1
+   ],
+   "cost": [
+    {
+     "item": "barricade_kit",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    },
+    {
+     "tag": "fastener",
+     "count": 2
+    }
+   ]
+  },
+  "sandbag": {
+   "label": "Kum torbasi",
+   "material": "sandbag",
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "cost": [
+    {
+     "item": "sand",
+     "count": 3
+    },
+    {
+     "tag": "fabric",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "sand",
+     "count": 1
+    }
+   ]
+  },
+  "sheet_wall": {
+   "label": "Sac levha duvar",
+   "material": "sheet_wall",
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "cost": [
+    {
+     "item": "sheet_aluminum",
+     "count": 2
+    },
+    {
+     "tag": "fastener",
+     "count": 3
+    }
+   ],
+   "repair": [
+    {
+     "item": "sheet_aluminum",
+     "count": 1
+    }
+   ]
+  },
+  "block_wall": {
+   "label": "Briket duvar",
+   "material": "concrete_block",
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "cost": [
+    {
+     "item": "sand",
+     "count": 3
+    },
+    {
+     "item": "ceramic_shard",
+     "count": 2
+    },
+    {
+     "item": "rebar",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "sand",
+     "count": 2
+    }
+   ]
+  },
+  "steel_wall": {
+   "label": "Celik plaka duvar",
+   "material": "steel",
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "cost": [
+    {
+     "item": "metal_plate",
+     "count": 2
+    },
+    {
+     "item": "steel_ingot",
+     "count": 1
+    },
+    {
+     "tag": "fastener",
+     "count": 4
+    }
+   ],
+   "repair": [
+    {
+     "item": "metal_plate",
+     "count": 1
+    }
+   ]
+  },
+  "glass_pane": {
+   "label": "Cam (gozetleme)",
+   "material": "glass",
+   "size": [
+    1,
+    1,
+    1
+   ],
+   "cost": [
+    {
+     "item": "glass_shard",
+     "count": 4
+    },
+    {
+     "tag": "adhesive",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "glass_shard",
+     "count": 1
+    }
+   ]
+  }
+ },
+ "placeables": {
+  "workbench_kit": {
+   "label": "Calisma tezgahi",
+   "model": "workbench",
+   "station": "workbench"
+  },
+  "electronics_bench": {
+   "label": "Elektronik masasi",
+   "model": "workbench",
+   "station": "electronics"
+  },
+  "chemistry_set": {
+   "label": "Kimya seti",
+   "model": "cooking_station",
+   "station": "chemistry"
+  },
+  "gunsmith_bench": {
+   "label": "Silah tezgahi",
+   "model": "workbench",
+   "station": "gunsmith"
+  },
+  "forge_kit": {
+   "label": "Ocak",
+   "model": "generator",
+   "station": "forge"
+  },
+  "auto_turret": {
+   "label": "Otomatik taret",
+   "model": "turret",
+   "kind": "turret"
+  },
+  "spike_trap": {
+   "label": "Civili tuzak",
+   "model": "spike_trap",
+   "kind": "trap"
+  },
+  "cookstove_kit": {
+   "label": "Roket ocagi",
+   "model": "iz2_food_rocket_stove",
+   "station": "cooking"
+  },
+  "water_filter_kit": {
+   "label": "Su aritici",
+   "model": "iz2_water_purifier_gravity",
+   "station": "water"
+  },
+  "rain_barrel_kit": {
+   "label": "Yagmur varili",
+   "model": "iz2_water_barrel_tap",
+   "kind": "rain_collector"
+  },
+  "cold_room_kit": {
+   "label": "Soguk oda",
+   "model": "iz2_food_cold_room_door",
+   "kind": "cold_room"
+  },
+  "generator_small": {
+   "label": "Küçük Jeneratör",
+   "model": "iz3_production_generator_01",
+   "kind": "generator",
+   "output": 400,
+   "fuel_hours": 4,
+   "tank_hours": 12,
+   "noise": 300,
+   "material": "placed_heavy"
+  },
+  "generator_diesel": {
+   "label": "Mazot Jeneratörü",
+   "model": "iz2_power_fuel_generator_large",
+   "kind": "generator",
+   "output": 1500,
+   "fuel_hours": 5,
+   "tank_hours": 20,
+   "noise": 480,
+   "material": "placed_heavy"
+  },
+  "generator_wood": {
+   "label": "Odun Gazlaştırıcı",
+   "model": "iz3_military_generator_02",
+   "kind": "generator",
+   "output": 800,
+   "fuel_hours": 3,
+   "tank_hours": 12,
+   "noise": 260,
+   "material": "placed_heavy",
+   "fuel_tag": "cook_fuel"
+  },
+  "generator_pedal": {
+   "label": "Pedallı Jeneratör",
+   "model": "iz2_power_pedal_generator",
+   "kind": "turbine",
+   "output": 60,
+   "material": "placed_light"
+  },
+  "solar_small": {
+   "label": "Küçük Güneş Paneli",
+   "model": "iz3_production_solar_01",
+   "kind": "solar",
+   "output": 60,
+   "material": "placed_light"
+  },
+  "solar_panel_kit": {
+   "label": "Güneş Paneli",
+   "model": "iz3_production_solar_02",
+   "kind": "solar",
+   "output": 160,
+   "material": "placed_light"
+  },
+  "solar_array": {
+   "label": "Güneş Dizisi",
+   "model": "iz2_power_solar_mount",
+   "kind": "solar",
+   "output": 420,
+   "material": "placed_heavy",
+   "size": [
+    2,
+    1,
+    2
+   ]
+  },
+  "wind_small": {
+   "label": "Küçük Rüzgâr Türbini",
+   "model": "iz2_power_wind_micro",
+   "kind": "turbine",
+   "output": 90,
+   "material": "placed_light"
+  },
+  "wind_large": {
+   "label": "Rüzgâr Türbini",
+   "model": "iz3_military_radar_01",
+   "kind": "turbine",
+   "output": 260,
+   "material": "placed_heavy"
+  },
+  "battery_bank_small": {
+   "label": "Akü Grubu",
+   "model": "iz3_production_battery_01",
+   "kind": "battery",
+   "capacity": 1200,
+   "material": "placed_heavy"
+  },
+  "battery_bank_lead": {
+   "label": "Kurşun Akü Bankası",
+   "model": "iz3_production_battery_02",
+   "kind": "battery",
+   "capacity": 3500,
+   "material": "placed_heavy"
+  },
+  "battery_bank_lithium": {
+   "label": "Lityum Paket Dolabı",
+   "model": "iz2_power_battery_bank",
+   "kind": "battery",
+   "capacity": 8000,
+   "material": "placed_heavy"
+  },
+  "power_pole_wood": {
+   "label": "Ahşap Kablo Direği",
+   "model": "iz3_production_cable_01",
+   "kind": "relay",
+   "reach": 16,
+   "material": "placed_light"
+  },
+  "power_pole_steel": {
+   "label": "Çelik Kablo Direği",
+   "model": "iz3_production_cable_02",
+   "kind": "relay",
+   "reach": 26,
+   "material": "placed_heavy"
+  },
+  "junction_box": {
+   "label": "Bağlantı Kutusu",
+   "model": "iz3_production_distribution_01",
+   "kind": "relay",
+   "reach": 10,
+   "material": "placed_light"
+  },
+  "power_switch": {
+   "label": "Şalter",
+   "model": "iz3_production_distribution_02",
+   "kind": "switch",
+   "reach": 6,
+   "material": "placed_light"
+  },
+  "sensor_motion": {
+   "label": "Hareket Sensörü",
+   "model": "iz3_build_defense_alarm_01",
+   "kind": "sensor",
+   "mode": "motion",
+   "radius": 12,
+   "solid": false
+  },
+  "sensor_night": {
+   "label": "Alacakaranlık Sensörü",
+   "model": "iz3_build_defense_alarm_02",
+   "kind": "sensor",
+   "mode": "night",
+   "solid": false
+  },
+  "sensor_plate": {
+   "label": "Basınç Plakası",
+   "model": "iz2_roadwork_plate",
+   "kind": "sensor",
+   "mode": "motion",
+   "radius": 1.2,
+   "solid": false
+  },
+  "lamp_oil": {
+   "label": "Gaz Lambası",
+   "model": "desk_lamp",
+   "kind": "light",
+   "power": 0,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 8,
+    "energy": 1.2,
+    "color": [
+     255,
+     200,
+     140
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_solar": {
+   "label": "Güneş Şarjlı Lamba",
+   "model": "street_lamp",
+   "kind": "light",
+   "power": 0,
+   "solid": false,
+   "night_only": true,
+   "light": {
+    "range": 9,
+    "energy": 1.3,
+    "color": [
+     220,
+     236,
+     255
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_ceiling": {
+   "label": "Ampullü Lamba",
+   "model": "ceiling_lamp_apartment",
+   "kind": "light",
+   "power": 15,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 10,
+    "energy": 1.5,
+    "color": [
+     255,
+     222,
+     170
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_led": {
+   "label": "LED Lamba",
+   "model": "fluorescent_fixture",
+   "kind": "light",
+   "power": 6,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 12,
+    "energy": 1.6,
+    "color": [
+     235,
+     242,
+     255
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_string": {
+   "label": "Işık Zinciri",
+   "model": "iz2_district_laundry_line",
+   "kind": "light",
+   "power": 10,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 14,
+    "energy": 1.0,
+    "color": [
+     255,
+     214,
+     150
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_street": {
+   "label": "Sokak Lambası",
+   "model": "street_lamp",
+   "kind": "light",
+   "power": 40,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 18,
+    "energy": 2.4,
+    "color": [
+     255,
+     236,
+     200
+    ],
+    "height": 2.6
+   }
+  },
+  "lamp_flood": {
+   "label": "Taşkın Işığı",
+   "model": "iz3_military_floodlight_01",
+   "kind": "light",
+   "power": 60,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 22,
+    "energy": 3.0,
+    "color": [
+     255,
+     250,
+     236
+    ],
+    "height": 2.6
+   }
+  },
+  "lamp_wall": {
+   "label": "Duvar Apliği",
+   "model": "wall_sconce",
+   "kind": "light",
+   "power": 8,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 8,
+    "energy": 1.4,
+    "color": [
+     255,
+     226,
+     180
+    ],
+    "height": 1.8
+   }
+  },
+  "fridge_electric": {
+   "label": "Elektrikli Buzdolabı",
+   "model": "iz3_health_cooler_01",
+   "kind": "cold_room",
+   "power": 120,
+   "material": "placed_heavy"
+  },
+  "purifier_electric": {
+   "label": "Elektrikli Arıtıcı",
+   "model": "iz3_production_filter_02",
+   "kind": "purifier",
+   "power": 60,
+   "daily": 8,
+   "material": "placed_heavy"
+  },
+  "hydroponic_tray": {
+   "label": "Hidroponik Tepsi",
+   "model": "iz2_farm_vertical_planter",
+   "kind": "planter",
+   "power": 35,
+   "growth": 1.0,
+   "material": "placed_light"
+  },
+  "trap_wood_spikes": {
+   "label": "Ahşap Kazık Hattı",
+   "model": "iz3_build_defense_spikes_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 0.9
+  },
+  "trap_steel_spikes": {
+   "label": "Çelik Kazık Hattı",
+   "model": "iz3_build_defense_spikes_02",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 0.9
+  },
+  "trap_barbed_wire": {
+   "label": "Dikenli Tel Engeli",
+   "model": "iz3_build_defense_wire_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.5,
+   "radius": 1.0,
+   "cooldown": 0.6
+  },
+  "trap_razor_wire": {
+   "label": "Jiletli Tel",
+   "model": "iz3_build_defense_wire_02",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.65,
+   "radius": 1.0,
+   "cooldown": 0.6
+  },
+  "trap_bear": {
+   "label": "Ayı Kapanı",
+   "model": "iz3_build_defense_trap_mech_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.85,
+   "radius": 0.7,
+   "cooldown": 3.0
+  },
+  "trap_blade": {
+   "label": "Döner Bıçak Tuzağı",
+   "model": "iz3_build_defense_trap_mech_02",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 1.2,
+   "power": 40,
+   "cooldown": 0.5,
+   "sound": "impact_metal"
+  },
+  "trap_dart": {
+   "label": "Ok Tuzağı",
+   "model": "iz3_build_defense_trap_mech_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 1.6,
+   "cooldown": 1.2,
+   "sound": "melee_swing"
+  },
+  "trap_flame": {
+   "label": "Alev Tuzağı",
+   "model": "gas_cylinder",
+   "kind": "trap",
+   "solid": false,
+   "effect": "burn",
+   "radius": 1.3,
+   "cooldown": 1.0,
+   "sound": "break_glass"
+  },
+  "trap_electric_fence": {
+   "label": "Elektrikli Çit",
+   "model": "iz3_build_defense_trap_electric_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "shock",
+   "radius": 1.0,
+   "power": 80,
+   "cooldown": 0.7,
+   "sound": "impact_metal"
+  },
+  "trap_shock_floor": {
+   "label": "Elektrikli Zemin",
+   "model": "iz3_build_defense_trap_electric_02",
+   "kind": "trap",
+   "solid": false,
+   "effect": "shock",
+   "radius": 1.3,
+   "power": 50,
+   "cooldown": 0.5,
+   "sound": "impact_metal"
+  },
+  "trap_landmine": {
+   "label": "Kara Mayını",
+   "model": "iz2_mission_black_box",
+   "kind": "trap",
+   "solid": false,
+   "effect": "explode",
+   "radius": 1.0,
+   "blast": 4.0
+  },
+  "trap_pipe_mine": {
+   "label": "Boru Mayını",
+   "model": "iz2_mission_black_box",
+   "kind": "trap",
+   "solid": false,
+   "effect": "explode",
+   "radius": 1.0,
+   "blast": 3.0
+  },
+  "trap_tar_pit": {
+   "label": "Katran Çukuru",
+   "model": "rubble_pile",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.75,
+   "radius": 1.2,
+   "cooldown": 0.4
+  },
+  "trap_punji_pit": {
+   "label": "Kazıklı Çukur",
+   "model": "iz3_build_defense_spikes_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.9,
+   "radius": 0.9,
+   "cooldown": 1.5
+  },
+  "turret_12ga": {
+   "label": "Pompalı Taret",
+   "model": "iz3_build_defense_turret_02",
+   "kind": "turret",
+   "material": "placed_heavy",
+   "ammo": "ammo_12ga",
+   "magazine": 30,
+   "noise": 520,
+   "sound": "shot_shotgun"
+  },
+  "turret_762": {
+   "label": "Tüfek Tareti",
+   "model": "iz3_build_defense_turret_02",
+   "kind": "turret",
+   "material": "placed_heavy",
+   "ammo": "ammo_762",
+   "magazine": 40,
+   "noise": 640,
+   "pierce": 1,
+   "sound": "shot_rifle"
+  },
+  "turret_dart": {
+   "label": "Arbalet Tareti",
+   "model": "iz3_build_defense_turret_02",
+   "kind": "turret",
+   "material": "placed_heavy",
+   "ammo": "bolt",
+   "magazine": 24,
+   "noise": 60,
+   "sound": "melee_swing"
+  },
+  "turret_smg": {
+   "label": "Makineli Taret",
+   "model": "iz3_build_defense_turret_02",
+   "kind": "turret",
+   "material": "placed_heavy",
+   "ammo": "ammo_9mm",
+   "magazine": 90,
+   "noise": 430,
+   "sound": "shot_smg"
+  },
+  "turret_tesla": {
+   "label": "Tesla Bobini",
+   "model": "iz3_build_defense_turret_02",
+   "kind": "turret",
+   "material": "placed_heavy",
+   "ammo": "energy",
+   "power": 250,
+   "damage_type": "shock",
+   "noise": 200,
+   "sound": "impact_metal"
+  },
+  "alarm_tripwire": {
+   "label": "Teneke Alarmı",
+   "model": "iz2_defense_tripwire_alarm",
+   "kind": "alarm",
+   "radius": 6,
+   "noise": 250,
+   "cooldown": 15,
+   "solid": false,
+   "sound": "impact_metal"
+  },
+  "alarm_bell": {
+   "label": "Çan Alarmı",
+   "model": "iz2_defense_bell_alarm",
+   "kind": "alarm",
+   "radius": 10,
+   "noise": 420,
+   "cooldown": 20
+  },
+  "alarm_siren": {
+   "label": "Elektrikli Siren",
+   "model": "iz3_build_defense_alarm_02",
+   "kind": "alarm",
+   "radius": 16,
+   "noise": 700,
+   "cooldown": 25,
+   "power": 20
+  },
+  "alarm_silent": {
+   "label": "Sessiz Hareket Alarmı",
+   "model": "iz3_build_defense_alarm_01",
+   "kind": "alarm",
+   "radius": 20,
+   "noise": 0,
+   "cooldown": 15,
+   "power": 5
+  },
+  "decoy_radio": {
+   "label": "Radyo Yemi",
+   "model": "iz2_defense_decoy_speaker",
+   "kind": "decoy",
+   "noise": 520,
+   "interval": 14,
+   "power": 10
+  },
+  "decoy_clockwork": {
+   "label": "Kurmalı Yem",
+   "model": "alarm_clock",
+   "kind": "decoy",
+   "noise": 360,
+   "interval": 20
+  },
+  "spotlight": {
+   "label": "Projektör",
+   "model": "iz3_build_defense_spotlight_01",
+   "kind": "light",
+   "power": 60,
+   "light": {
+    "range": 26,
+    "energy": 3.0,
+    "height": 2.2,
+    "shadow": true,
+    "color": [
+     255,
+     246,
+     226
+    ]
+   }
+  },
+  "searchlight": {
+   "label": "Arama Işığı",
+   "model": "iz2_defense_searchlight",
+   "kind": "light",
+   "power": 120,
+   "light": {
+    "range": 40,
+    "energy": 4.5,
+    "height": 2.2,
+    "shadow": true,
+    "color": [
+     255,
+     246,
+     226
+    ]
+   }
+  },
+  "planter_box": {
+   "label": "Saksı",
+   "model": "iz3_production_planter_01",
+   "kind": "planter",
+   "growth": 1.0,
+   "solid": false
+  },
+  "raised_bed": {
+   "label": "Yükseltilmiş Yatak",
+   "model": "iz3_production_planter_02",
+   "kind": "planter",
+   "growth": 1.25,
+   "solid": false
+  },
+  "farm_plot": {
+   "label": "Tarla Parseli",
+   "model": "iz2_farm_seedling_tray",
+   "kind": "planter",
+   "growth": 1.1,
+   "solid": false
+  },
+  "greenhouse_bed": {
+   "label": "Sera Yatağı",
+   "model": "iz2_farm_greenhouse_frame",
+   "kind": "planter",
+   "growth": 1.5,
+   "solid": false
+  },
+  "rain_tarp": {
+   "label": "Brandalı Toplayıcı",
+   "model": "iz3_production_collector_01",
+   "kind": "rain_collector",
+   "daily": [
+    1,
+    3
+   ],
+   "solid": false
+  },
+  "rain_cistern": {
+   "label": "Katlanır Sarnıç",
+   "model": "iz2_water_cistern_collapsible",
+   "kind": "rain_collector",
+   "daily": [
+    3,
+    7
+   ]
+  },
+  "solar_still": {
+   "label": "Güneş Damıtıcı",
+   "model": "iz2_water_distiller",
+   "kind": "purifier",
+   "daily": 2
+  },
+  "sand_filter_barrel": {
+   "label": "Kum Filtreli Varil",
+   "model": "iz3_production_filter_01",
+   "kind": "purifier",
+   "daily": 4,
+   "consumes": "sand_filter_pack"
+  },
+  "compost_bin": {
+   "label": "Kompost Kutusu",
+   "model": "iz3_production_compost_01",
+   "kind": "purifier",
+   "daily": 3,
+   "from": "spoiled_food",
+   "to": "compost"
+  },
+  "workbench_basic": {
+   "label": "Basit Tezgâh",
+   "model": "iz3_production_workbench_01",
+   "kind": "station",
+   "station": "workbench",
+   "tier": 1,
+   "material": "placed_light"
+  },
+  "workbench_heavy": {
+   "label": "Ağır Tezgâh",
+   "model": "iz3_production_workbench_02",
+   "kind": "station",
+   "station": "workbench",
+   "tier": 3,
+   "material": "placed_heavy",
+   "colony": {
+    "workshop": 0.5
+   }
+  },
+  "carpentry_bench": {
+   "label": "Marangoz Tezgâhı",
+   "model": "iz3_production_carpentry_01",
+   "kind": "station",
+   "station": "carpentry",
+   "tier": 1,
+   "material": "placed_light"
+  },
+  "carpentry_pro": {
+   "label": "Kereste Tezgâhı",
+   "model": "iz3_production_carpentry_02",
+   "kind": "station",
+   "station": "carpentry",
+   "tier": 2,
+   "material": "placed_heavy"
+  },
+  "forge_stone": {
+   "label": "Taş Ocak",
+   "model": "iz3_production_forge_01",
+   "kind": "station",
+   "station": "forge",
+   "tier": 1,
+   "material": "placed_heavy"
+  },
+  "forge_brick": {
+   "label": "Tuğla Ocak",
+   "model": "iz3_production_kiln_01",
+   "kind": "station",
+   "station": "forge",
+   "tier": 2,
+   "material": "placed_heavy"
+  },
+  "masonry_bench": {
+   "label": "Taş ve Beton Tezgâhı",
+   "model": "iz3_production_concrete_01",
+   "kind": "station",
+   "station": "masonry",
+   "tier": 1,
+   "material": "placed_heavy"
+  },
+  "masonry_mixer": {
+   "label": "Beton Karıştırıcı",
+   "model": "iz3_production_concrete_02",
+   "kind": "station",
+   "station": "masonry",
+   "tier": 2,
+   "material": "placed_heavy"
+  },
+  "masonry_plant": {
+   "label": "Beton Santrali",
+   "model": "iz3_production_silo_01",
+   "kind": "station",
+   "station": "masonry",
+   "tier": 3,
+   "material": "placed_heavy"
+  },
+  "mechanic_bench": {
+   "label": "Mekanik Atölye",
+   "model": "iz3_production_mechanic_01",
+   "kind": "station",
+   "station": "mechanic",
+   "tier": 1,
+   "material": "placed_heavy"
+  },
+  "mechanic_lathe": {
+   "label": "Torna Tezgâhı",
+   "model": "iz3_production_mechanic_02",
+   "kind": "station",
+   "station": "mechanic",
+   "tier": 2,
+   "material": "placed_heavy",
+   "colony": {
+    "workshop": 0.5
+   }
+  },
+  "mechanic_heavy": {
+   "label": "Ağır Makine Atölyesi",
+   "model": "iz3_production_anvil_01",
+   "kind": "station",
+   "station": "mechanic",
+   "tier": 3,
+   "material": "placed_heavy",
+   "colony": {
+    "workshop": 0.5
+   }
+  },
+  "gunsmith_basic": {
+   "label": "Basit Silah Tezgâhı",
+   "model": "iz3_production_toolrack_01",
+   "kind": "station",
+   "station": "gunsmith",
+   "tier": 2,
+   "material": "placed_light"
+  },
+  "gunsmith_mid": {
+   "label": "Silah Tezgâhı II",
+   "model": "iz3_production_toolrack_02",
+   "kind": "station",
+   "station": "gunsmith",
+   "tier": 3,
+   "material": "placed_heavy"
+  },
+  "electronics_basic": {
+   "label": "Lehim Masası",
+   "model": "iz3_production_electronics_01",
+   "kind": "station",
+   "station": "electronics",
+   "tier": 1,
+   "material": "placed_light"
+  },
+  "electronics_mid": {
+   "label": "Elektronik Tezgâhı",
+   "model": "iz3_production_electronics_02",
+   "kind": "station",
+   "station": "electronics",
+   "tier": 2,
+   "material": "placed_light"
+  },
+  "electronics_lab": {
+   "label": "Elektronik Laboratuvarı",
+   "model": "iz2_electronics_solder_station",
+   "kind": "station",
+   "station": "electronics",
+   "tier": 4,
+   "material": "placed_heavy"
+  },
+  "chemistry_basic": {
+   "label": "Damıtma Seti",
+   "model": "iz3_production_chemistry_01",
+   "kind": "station",
+   "station": "chemistry",
+   "tier": 1,
+   "material": "placed_light"
+  },
+  "chemistry_mid": {
+   "label": "Kimya Tezgâhı",
+   "model": "iz3_production_chemistry_02",
+   "kind": "station",
+   "station": "chemistry",
+   "tier": 2,
+   "material": "placed_light"
+  },
+  "chemistry_lab": {
+   "label": "Kimya Laboratuvarı",
+   "model": "iz3_school_lab_01",
+   "kind": "station",
+   "station": "chemistry",
+   "tier": 4,
+   "material": "placed_heavy"
+  },
+  "kitchen_stove": {
+   "label": "Mutfak Ocağı",
+   "model": "iz3_production_kitchen_01",
+   "kind": "station",
+   "station": "cooking",
+   "tier": 2,
+   "material": "placed_heavy",
+   "colony": {
+    "kitchen": 1
+   }
+  },
+  "stove_electric": {
+   "label": "Elektrikli Ocak",
+   "model": "iz3_production_kitchen_02",
+   "kind": "station",
+   "station": "cooking",
+   "tier": 3,
+   "material": "placed_heavy",
+   "colony": {
+    "kitchen": 1
+   }
+  },
+  "water_ceramic_station": {
+   "label": "Seramik Arıtma İstasyonu",
+   "model": "iz3_production_filter_01",
+   "kind": "station",
+   "station": "water",
+   "tier": 2,
+   "material": "placed_light"
+  },
+  "farming_bench": {
+   "label": "Tarım ve İşleme Tezgâhı",
+   "model": "iz3_production_pump_01",
+   "kind": "station",
+   "station": "farming",
+   "tier": 1,
+   "material": "placed_light"
+  },
+  "farming_pro": {
+   "label": "Tütsü ve Mayalama Odası",
+   "model": "iz2_food_smoking_cabinet",
+   "kind": "station",
+   "station": "farming",
+   "tier": 2,
+   "material": "placed_heavy"
+  },
+  "crate_small": {
+   "label": "Küçük Sandık",
+   "model": "iz3_production_storage_01",
+   "kind": "storage",
+   "capacity_kg": 40,
+   "slots": 16,
+   "material": "placed_light"
+  },
+  "chest_wood": {
+   "label": "Ahşap Sandık",
+   "model": "loot_chest_wood",
+   "kind": "storage",
+   "capacity_kg": 70,
+   "slots": 24,
+   "material": "placed_heavy"
+  },
+  "locker_metal": {
+   "label": "Metal Dolap",
+   "model": "iz3_school_locker_01",
+   "kind": "storage",
+   "capacity_kg": 90,
+   "slots": 30,
+   "material": "placed_heavy"
+  },
+  "gun_safe": {
+   "label": "Silah Kasası",
+   "model": "safe_tall",
+   "kind": "storage",
+   "capacity_kg": 60,
+   "slots": 20,
+   "material": "placed_heavy"
+  },
+  "shelf_unit": {
+   "label": "Raf Ünitesi",
+   "model": "iz3_production_storage_02",
+   "kind": "storage",
+   "capacity_kg": 120,
+   "slots": 40,
+   "material": "placed_heavy"
+  },
+  "barrel_storage": {
+   "label": "Varil Depo",
+   "model": "water_tank",
+   "kind": "storage",
+   "capacity_kg": 60,
+   "slots": 12,
+   "material": "placed_light"
+  },
+  "warehouse_rack": {
+   "label": "Depo Rafı",
+   "model": "warehouse_rack",
+   "kind": "storage",
+   "capacity_kg": 200,
+   "slots": 60,
+   "material": "placed_heavy"
+  },
+  "bedroll": {
+   "label": "Uyku Tulumu",
+   "model": "bedroll",
+   "kind": "bed",
+   "heal_per_hour": 3,
+   "colony": {
+    "dorm": 1
+   },
+   "solid": false
+  },
+  "cot": {
+   "label": "Portatif Yatak",
+   "model": "iz3_military_bunk_01",
+   "kind": "bed",
+   "heal_per_hour": 4,
+   "colony": {
+    "dorm": 1
+   },
+   "material": "placed_light"
+  },
+  "bunk_bed": {
+   "label": "Ranza",
+   "model": "iz3_prison_bunk_01",
+   "kind": "bed",
+   "heal_per_hour": 4,
+   "colony": {
+    "dorm": 2
+   },
+   "material": "placed_light"
+  },
+  "hospital_bed": {
+   "label": "Hastane Yatağı",
+   "model": "iz3_health_bed_01",
+   "kind": "bed",
+   "heal_per_hour": 8,
+   "colony": {
+    "infirmary": 1
+   },
+   "material": "placed_light"
+  },
+  "medical_table": {
+   "label": "Muayene Masası",
+   "model": "iz3_health_operating_01",
+   "kind": "colony",
+   "colony": {
+    "infirmary": 1.5
+   },
+   "material": "placed_light"
+  },
+  "dining_table": {
+   "label": "Yemekhane Masası",
+   "model": "iz3_school_cafetable_01",
+   "kind": "colony",
+   "colony": {
+    "kitchen": 0.25
+   },
+   "material": "placed_light"
+  },
+  "craftsman_bench": {
+   "label": "Zanaatkâr Tezgâhı",
+   "model": "iz2_tailor_cutting_table",
+   "kind": "colony",
+   "colony": {
+    "workshop": 1
+   },
+   "material": "placed_light"
+  },
+  "colony_rack": {
+   "label": "Ortak Depo Rafı",
+   "model": "iz2_logistics_supply_cage",
+   "kind": "colony",
+   "colony": {
+    "storage": 150
+   },
+   "material": "placed_light"
+  },
+  "trap_glass_strip": {
+   "label": "Cam Kırığı Şeridi",
+   "model": "rubble_pile",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.3,
+   "radius": 1.0,
+   "cooldown": 0.5
+  },
+  "trap_nail_board": {
+   "label": "Çivili Tahta",
+   "model": "iz3_build_defense_spikes_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 0.8
+  },
+  "trap_caltrops": {
+   "label": "Dört Çatal Serpintisi",
+   "model": "iz3_build_defense_spikes_02",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.45,
+   "radius": 1.4,
+   "cooldown": 0.5
+  },
+  "trap_fire_ditch": {
+   "label": "Yakıtlı Hendek",
+   "model": "rubble_pile",
+   "kind": "trap",
+   "solid": false,
+   "effect": "burn",
+   "radius": 1.6,
+   "cooldown": 1.5
+  },
+  "trap_spring_spear": {
+   "label": "Yaylı Mızrak",
+   "model": "iz3_build_defense_trap_mech_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 1.0,
+   "cooldown": 2.0,
+   "sound": "melee_swing"
+  },
+  "trap_acid_sprayer": {
+   "label": "Asit Püskürtücü",
+   "model": "iz3_build_defense_trap_electric_02",
+   "kind": "trap",
+   "solid": false,
+   "effect": "damage",
+   "radius": 1.3,
+   "cooldown": 1.2,
+   "damage_type": "acid",
+   "power": 15
+  },
+  "trap_flashbang": {
+   "label": "Flaş Tuzağı",
+   "model": "iz3_build_defense_alarm_01",
+   "kind": "trap",
+   "solid": false,
+   "effect": "slow",
+   "slow": 0.8,
+   "radius": 2.0,
+   "cooldown": 4.0,
+   "sound": "break_glass",
+   "power": 5
+  },
+  "trap_mine_nail": {
+   "label": "Çivili Mayın",
+   "model": "iz2_mission_black_box",
+   "kind": "trap",
+   "solid": false,
+   "effect": "explode",
+   "radius": 1.0,
+   "blast": 2.5
+  },
+  "lamp_candle": {
+   "label": "Mum Feneri",
+   "model": "iz2_item_thermos",
+   "kind": "light",
+   "power": 0,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 6,
+    "energy": 0.8,
+    "color": [
+     255,
+     190,
+     120
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_emergency": {
+   "label": "Acil Durum Lambası",
+   "model": "fluorescent_fixture",
+   "kind": "light",
+   "power": 4,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 10,
+    "energy": 1.4,
+    "color": [
+     240,
+     246,
+     255
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_red": {
+   "label": "Kırmızı Gece Lambası",
+   "model": "wall_sconce",
+   "kind": "light",
+   "power": 3,
+   "solid": false,
+   "night_only": true,
+   "light": {
+    "range": 9,
+    "energy": 1.1,
+    "color": [
+     255,
+     90,
+     70
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_garden_solar": {
+   "label": "Bahçe Lambası",
+   "model": "iz3_environment_lamp_01",
+   "kind": "light",
+   "power": 0,
+   "solid": false,
+   "night_only": true,
+   "light": {
+    "range": 7,
+    "energy": 1.0,
+    "color": [
+     220,
+     236,
+     255
+    ],
+    "height": 1.8
+   }
+  },
+  "lamp_tower": {
+   "label": "Işık Kulesi",
+   "model": "iz3_military_floodlight_02",
+   "kind": "light",
+   "power": 90,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 28,
+    "energy": 3.6,
+    "color": [
+     255,
+     248,
+     230
+    ],
+    "height": 2.6
+   }
+  },
+  "lamp_workshop": {
+   "label": "Atölye Lambası",
+   "model": "ceiling_lamp_apartment",
+   "kind": "light",
+   "power": 20,
+   "solid": false,
+   "night_only": false,
+   "light": {
+    "range": 12,
+    "energy": 1.8,
+    "color": [
+     255,
+     240,
+     214
+    ],
+    "height": 1.8
+   }
+  },
+  "solar_roof_tile": {
+   "label": "Güneş Kiremidi",
+   "model": "iz3_production_solar_01",
+   "kind": "solar",
+   "output": 35,
+   "material": "placed_light"
+  },
+  "water_wheel": {
+   "label": "Su Çarkı",
+   "model": "iz3_production_pump_02",
+   "kind": "turbine",
+   "output": 120,
+   "material": "placed_heavy"
+  },
+  "battery_bank_car": {
+   "label": "Araba Aküsü Rafı",
+   "model": "iz3_production_battery_01",
+   "kind": "battery",
+   "capacity": 600,
+   "material": "placed_light"
+  }
+ },
+ "pieces": {
+  "frame_block": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "frame_wall2": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "frame_wall3": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "frame_floor2": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "frame_floor3": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "frame_pillar": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "frame_corner": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "frame_doorway": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "frame_window": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "frame_slit": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "frame_parapet": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "frame_half": {
+   "material": "pb_frame_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "frame_lowcover": {
+   "material": "pb_frame_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "frame_stairs": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_frame_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_frame"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_frame_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_frame"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_frame_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_frame"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_frame_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_frame"
+    ]
+   ]
+  },
+  "frame_ramp": {
+   "material": "pb_frame",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_frame_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_frame"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_frame_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_frame"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_frame_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_frame"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_frame_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_frame"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_frame_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_frame"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_frame_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_frame"
+    ]
+   ]
+  },
+  "wood_block": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "wood_wall2": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "wood_wall3": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "wood_floor2": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "wood_floor3": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "wood_pillar": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "wood_corner": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "wood_doorway": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "wood_window": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "wood_slit": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "wood_parapet": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "wood_half": {
+   "material": "pb_wood_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "wood_lowcover": {
+   "material": "pb_wood_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "wood_stairs": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_wood_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_wood"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_wood_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_wood"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_wood_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_wood"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_wood_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_wood"
+    ]
+   ]
+  },
+  "wood_ramp": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_wood_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_wood"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_wood_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_wood"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_wood_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_wood"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_wood_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_wood"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_wood_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_wood"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_wood_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_wood"
+    ]
+   ]
+  },
+  "woodr_block": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "woodr_wall2": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "woodr_wall3": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "woodr_floor2": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "woodr_floor3": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "woodr_pillar": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "woodr_corner": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "woodr_doorway": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "woodr_window": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "woodr_slit": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "woodr_parapet": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "woodr_half": {
+   "material": "pb_woodr_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "woodr_lowcover": {
+   "material": "pb_woodr_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "woodr_stairs": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_woodr_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_woodr"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_woodr_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_woodr"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_woodr_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_woodr"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_woodr_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_woodr"
+    ]
+   ]
+  },
+  "woodr_ramp": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_woodr_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_woodr"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_woodr_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_woodr"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_woodr_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_woodr"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_woodr_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_woodr"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_woodr_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_woodr"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_woodr_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_woodr"
+    ]
+   ]
+  },
+  "scrap_block": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "scrap_wall2": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "scrap_wall3": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "scrap_floor2": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "scrap_floor3": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "scrap_pillar": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "scrap_corner": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "scrap_doorway": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "scrap_window": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "scrap_slit": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "scrap_parapet": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "scrap_half": {
+   "material": "pb_scrap_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "scrap_lowcover": {
+   "material": "pb_scrap_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "scrap_stairs": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_scrap_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_scrap"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_scrap_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_scrap"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_scrap_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_scrap"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_scrap_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_scrap"
+    ]
+   ]
+  },
+  "scrap_ramp": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_scrap_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_scrap"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_scrap_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_scrap"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_scrap_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_scrap"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_scrap_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_scrap"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_scrap_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_scrap"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_scrap_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_scrap"
+    ]
+   ]
+  },
+  "brick_block": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "brick_wall2": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "brick_wall3": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "brick_floor2": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "brick_floor3": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "brick_pillar": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "brick_corner": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "brick_doorway": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "brick_window": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "brick_slit": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "brick_parapet": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "brick_half": {
+   "material": "pb_brick_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "brick_lowcover": {
+   "material": "pb_brick_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "brick_stairs": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_brick_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_brick"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_brick_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_brick"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_brick_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_brick"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_brick_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_brick"
+    ]
+   ]
+  },
+  "brick_ramp": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_brick_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_brick"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_brick_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_brick"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_brick_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_brick"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_brick_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_brick"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_brick_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_brick"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_brick_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_brick"
+    ]
+   ]
+  },
+  "stone_block": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "stone_wall2": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "stone_wall3": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "stone_floor2": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "stone_floor3": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "stone_pillar": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "stone_corner": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "stone_doorway": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "stone_window": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "stone_slit": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "stone_parapet": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "stone_half": {
+   "material": "pb_stone_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "stone_lowcover": {
+   "material": "pb_stone_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "stone_stairs": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_stone_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_stone"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_stone_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_stone"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_stone_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_stone"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_stone_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_stone"
+    ]
+   ]
+  },
+  "stone_ramp": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_stone_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_stone"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_stone_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_stone"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_stone_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_stone"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_stone_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_stone"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_stone_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_stone"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_stone_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_stone"
+    ]
+   ]
+  },
+  "concrete_block": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "concrete_wall2": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "concrete_wall3": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "concrete_floor2": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "concrete_floor3": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "concrete_pillar": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "concrete_corner": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "concrete_doorway": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "concrete_window": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "concrete_slit": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "concrete_parapet": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "concrete_half": {
+   "material": "pb_concrete_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "concrete_lowcover": {
+   "material": "pb_concrete_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "concrete_stairs": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_concrete_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_concrete"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_concrete_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_concrete"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_concrete_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_concrete"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_concrete_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_concrete"
+    ]
+   ]
+  },
+  "concrete_ramp": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_concrete_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_concrete"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_concrete_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_concrete"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_concrete_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_concrete"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_concrete_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_concrete"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_concrete_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_concrete"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_concrete_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_concrete"
+    ]
+   ]
+  },
+  "rconcrete_block": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "rconcrete_wall2": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "rconcrete_wall3": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "rconcrete_floor2": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "rconcrete_floor3": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "rconcrete_pillar": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "rconcrete_corner": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "rconcrete_doorway": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "rconcrete_window": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "rconcrete_slit": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "rconcrete_parapet": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "rconcrete_half": {
+   "material": "pb_rconcrete_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "rconcrete_lowcover": {
+   "material": "pb_rconcrete_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "rconcrete_stairs": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_rconcrete_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_rconcrete"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_rconcrete_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_rconcrete"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_rconcrete_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_rconcrete"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_rconcrete_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_rconcrete"
+    ]
+   ]
+  },
+  "rconcrete_ramp": {
+   "material": "pb_rconcrete",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_rconcrete_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_rconcrete"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_rconcrete_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_rconcrete"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_rconcrete_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_rconcrete"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_rconcrete_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_rconcrete"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_rconcrete_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_rconcrete"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_rconcrete_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_rconcrete"
+    ]
+   ]
+  },
+  "steel_block": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "steel_wall2": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "steel_wall3": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "steel_floor2": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "steel_floor3": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "steel_pillar": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "steel_corner": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "steel_doorway": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "steel_window": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     "pb_glass_reinforced"
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "steel_slit": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "steel_parapet": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "steel_half": {
+   "material": "pb_steel_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "steel_lowcover": {
+   "material": "pb_steel_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "steel_stairs": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_steel_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_steel"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_steel_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_steel"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_steel_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_steel"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_steel_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_steel"
+    ]
+   ]
+  },
+  "steel_ramp": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0,
+     "pb_steel_slab"
+    ],
+    [
+     0,
+     0,
+     1,
+     "pb_steel"
+    ],
+    [
+     0,
+     1,
+     2,
+     "pb_steel_slab"
+    ],
+    [
+     0,
+     1,
+     3,
+     "pb_steel"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_steel_slab"
+    ],
+    [
+     1,
+     0,
+     1,
+     "pb_steel"
+    ],
+    [
+     1,
+     1,
+     2,
+     "pb_steel_slab"
+    ],
+    [
+     1,
+     1,
+     3,
+     "pb_steel"
+    ],
+    [
+     2,
+     0,
+     0,
+     "pb_steel_slab"
+    ],
+    [
+     2,
+     0,
+     1,
+     "pb_steel"
+    ],
+    [
+     2,
+     1,
+     2,
+     "pb_steel_slab"
+    ],
+    [
+     2,
+     1,
+     3,
+     "pb_steel"
+    ]
+   ]
+  },
+  "glass_reinforced_block": {
+   "material": "pb_glass_reinforced",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "glass_reinforced_wall2": {
+   "material": "pb_glass_reinforced",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "glass_reinforced_wall3": {
+   "material": "pb_glass_reinforced",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "bars_block": {
+   "material": "pb_bars",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "bars_wall2": {
+   "material": "pb_bars",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "bars_wall3": {
+   "material": "pb_bars",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "mesh_block": {
+   "material": "pb_mesh",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "mesh_wall2": {
+   "material": "pb_mesh",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "mesh_wall3": {
+   "material": "pb_mesh",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "door_wood": {
+   "material": "pb_door_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "door_reinforced": {
+   "material": "pb_door_reinforced",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "door_metal": {
+   "material": "pb_door_metal",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "door_steel": {
+   "material": "pb_door_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "gate_wood": {
+   "material": "pb_door_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "gate_steel": {
+   "material": "pb_door_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "garage_door": {
+   "material": "pb_door_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "hatch_wood": {
+   "material": "pb_door_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "hatch_steel": {
+   "material": "pb_door_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "shutter_steel": {
+   "material": "pb_door_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "door": true
+  },
+  "roof_tile_roof2": {
+   "material": "pb_roof_tile",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "roof_tile_roof3": {
+   "material": "pb_roof_tile",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "roof_sheet_roof2": {
+   "material": "pb_roof_sheet",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "roof_sheet_roof3": {
+   "material": "pb_roof_sheet",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "roof_shingle_roof2": {
+   "material": "pb_roof_shingle",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "roof_shingle_roof3": {
+   "material": "pb_roof_shingle",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     2
+    ]
+   ]
+  },
+  "ladder_wood3": {
+   "material": "pb_ladder_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "ladder_wood5": {
+   "material": "pb_ladder_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     3,
+     0
+    ],
+    [
+     0,
+     4,
+     0
+    ]
+   ]
+  },
+  "ladder_steel3": {
+   "material": "pb_ladder_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "ladder_steel5": {
+   "material": "pb_ladder_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     3,
+     0
+    ],
+    [
+     0,
+     4,
+     0
+    ]
+   ]
+  },
+  "watch_platform": {
+   "material": "pb_woodr",
+   "cells": [
+    [
+     -1,
+     3,
+     0
+    ],
+    [
+     -1,
+     3,
+     1
+    ],
+    [
+     -1,
+     3,
+     2
+    ],
+    [
+     0,
+     3,
+     0
+    ],
+    [
+     0,
+     3,
+     1
+    ],
+    [
+     0,
+     3,
+     2
+    ],
+    [
+     1,
+     3,
+     0
+    ],
+    [
+     1,
+     3,
+     1
+    ],
+    [
+     1,
+     3,
+     2
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ],
+    [
+     -1,
+     0,
+     2
+    ],
+    [
+     -1,
+     1,
+     2
+    ],
+    [
+     -1,
+     2,
+     2
+    ],
+    [
+     1,
+     0,
+     2
+    ],
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     2
+    ]
+   ]
+  },
+  "plank_bridge": {
+   "material": "pb_wood",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     3
+    ]
+   ]
+  },
+  "brick_arch": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "stone_arch": {
+   "material": "pb_stone",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "railing_steel": {
+   "material": "pb_bars",
+   "cells": [
+    [
+     -1,
+     0,
+     0,
+     "pb_bars"
+    ],
+    [
+     0,
+     0,
+     0,
+     "pb_bars"
+    ],
+    [
+     1,
+     0,
+     0,
+     "pb_bars"
+    ]
+   ]
+  },
+  "sandbag_1": {
+   "material": "sandbag",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "sandbag_wall": {
+   "material": "sandbag",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "sandbag_bunker": {
+   "material": "sandbag",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     -1,
+     1,
+     1
+    ]
+   ]
+  },
+  "concrete_barrier": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "tank_trap": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "palisade": {
+   "material": "pb_log",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ]
+   ]
+  },
+  "palisade_wall": {
+   "material": "pb_log",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     1,
+     2,
+     0
+    ]
+   ]
+  },
+  "gabion": {
+   "material": "pb_gabion",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ]
+   ]
+  },
+  "barricade_spiked": {
+   "material": "barricade",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "barricade_steel": {
+   "material": "pb_steel",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "chainlink_fence": {
+   "material": "pb_mesh",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "firing_step": {
+   "material": "pb_wood_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "stone_wall_low": {
+   "material": "pb_stone_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "brick_chimney": {
+   "material": "pb_brick",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     2,
+     0
+    ],
+    [
+     0,
+     3,
+     0
+    ]
+   ]
+  },
+  "wood_fence": {
+   "material": "pb_wood_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "steel_catwalk": {
+   "material": "pb_steel_slab",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "log_floor": {
+   "material": "pb_log",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  "concrete_bench": {
+   "material": "pb_concrete_slab",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "sandbag_ring": {
+   "material": "sandbag",
+   "cells": [
+    [
+     -1,
+     0,
+     -1
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     -1
+    ],
+    [
+     0,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     -1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     1
+    ]
+   ]
+  },
+  "sandbag_tall": {
+   "material": "sandbag",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "gabion_wall": {
+   "material": "pb_gabion",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "bars_window": {
+   "material": "pb_bars",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "bars_wall": {
+   "material": "pb_bars",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "mesh_gate_panel": {
+   "material": "pb_mesh",
+   "cells": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "concrete_barrier_long": {
+   "material": "pb_concrete",
+   "cells": [
+    [
+     -2,
+     0,
+     0
+    ],
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  },
+  "steel_shutter": {
+   "material": "pb_scrap",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     -1,
+     1,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ]
+   ]
+  },
+  "log_barricade": {
+   "material": "pb_log",
+   "cells": [
+    [
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ]
+   ]
+  }
+ },
+ "upgrades": {
+  "pb_frame": {
+   "to": "pb_wood",
+   "cost": [
+    {
+     "item": "upgrade_frame_wood",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_frame_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_wood": {
+   "to": "pb_woodr",
+   "cost": [
+    {
+     "item": "upgrade_wood_woodr",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_wood_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_woodr": {
+   "to": "pb_brick",
+   "cost": [
+    {
+     "item": "upgrade_woodr_brick",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_woodr_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_scrap": {
+   "to": "pb_steel",
+   "cost": [
+    {
+     "item": "upgrade_scrap_steel",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ]
+  },
+  "pb_scrap_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ]
+  },
+  "pb_brick": {
+   "to": "pb_concrete",
+   "cost": [
+    {
+     "item": "upgrade_brick_concrete",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "tag": "brick_material",
+     "count": 2
+    }
+   ],
+   "salvage": [
+    {
+     "item": "loose_brick",
+     "count": 2
+    }
+   ]
+  },
+  "pb_brick_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "tag": "brick_material",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "loose_brick",
+     "count": 1
+    }
+   ]
+  },
+  "pb_stone": {
+   "to": "pb_concrete",
+   "cost": [
+    {
+     "item": "upgrade_stone_concrete",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "stone_block",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "stone_chunk",
+     "count": 2
+    }
+   ]
+  },
+  "pb_stone_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "stone_block",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "stone_chunk",
+     "count": 1
+    }
+   ]
+  },
+  "pb_concrete": {
+   "to": "pb_rconcrete",
+   "cost": [
+    {
+     "item": "upgrade_concrete_rconcrete",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "concrete_mix",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "concrete_rubble",
+     "count": 1
+    }
+   ]
+  },
+  "pb_concrete_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "concrete_mix",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "concrete_rubble",
+     "count": 1
+    }
+   ]
+  },
+  "pb_rconcrete": {
+   "to": "pb_steel",
+   "cost": [
+    {
+     "item": "upgrade_rconcrete_steel",
+     "count": 1
+    }
+   ],
+   "repair": [
+    {
+     "item": "concrete_mix",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "concrete_rubble",
+     "count": 1
+    },
+    {
+     "item": "rebar",
+     "count": 1
+    }
+   ]
+  },
+  "pb_rconcrete_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "concrete_mix",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "concrete_rubble",
+     "count": 1
+    }
+   ]
+  },
+  "pb_steel": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "steel_sheet",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "scrap_metal",
+     "count": 2
+    }
+   ]
+  },
+  "pb_steel_slab": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "steel_sheet",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ]
+  },
+  "pb_glass_reinforced": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "glass_pane",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "glass_shard",
+     "count": 1
+    }
+   ]
+  },
+  "pb_bars": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "iron_bar",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "iron_bar",
+     "count": 1
+    }
+   ]
+  },
+  "pb_mesh": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "mesh_wire",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wire_steel",
+     "count": 1
+    }
+   ]
+  },
+  "pb_door_wood": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_door_reinforced": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_door_metal": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "metal_plate",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "metal_plate",
+     "count": 1
+    }
+   ]
+  },
+  "pb_door_steel": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ]
+  },
+  "pb_roof_tile": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "roof_tile_item",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "roof_tile_item",
+     "count": 1
+    }
+   ]
+  },
+  "pb_roof_sheet": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "sheet_aluminum",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "sheet_aluminum",
+     "count": 1
+    }
+   ]
+  },
+  "pb_roof_shingle": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_shingle",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_shingle",
+     "count": 1
+    }
+   ]
+  },
+  "pb_ladder_wood": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_ladder_steel": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "iron_bar",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "scrap_metal",
+     "count": 1
+    }
+   ]
+  },
+  "sandbag": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "sand",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "sand",
+     "count": 1
+    }
+   ]
+  },
+  "barricade": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_plank",
+     "count": 1
+    }
+   ]
+  },
+  "pb_log": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "wood_log",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "wood_log",
+     "count": 1
+    }
+   ]
+  },
+  "pb_gabion": {
+   "to": "",
+   "cost": [],
+   "repair": [
+    {
+     "item": "stone_chunk",
+     "count": 1
+    }
+   ],
+   "salvage": [
+    {
+     "item": "stone_chunk",
+     "count": 1
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,174 @@
+{
+  "layout_id": "hospital_b",
+  "label_tr": "kıyı_saha_hastanesi",
+  "type": "Hastane",
+  "coordinate_system": "local X/Z meters; +Y up; forward -Z",
+  "floors": 3,
+  "modules": [
+    {
+      "asset_id": "iz3_health_emergency_01",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_ward_01",
+      "position_m": [
+        6,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_reception_01",
+      "position_m": [
+        -4,
+        0,
+        2
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_bed_01",
+      "position_m": [
+        1,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_shelf_01",
+      "position_m": [
+        7,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_lab_01",
+      "position_m": [
+        6,
+        0,
+        6
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_stretcher_01",
+      "position_m": [
+        -1,
+        0,
+        3
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_production_generator_01",
+      "position_m": [
+        8,
+        0,
+        8
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_health_bed_02",
+      "position_m": [
+        6,
+        4,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 1
+    },
+    {
+      "asset_id": "iz3_health_cooler_01",
+      "position_m": [
+        8,
+        4,
+        2
+      ],
+      "rotation_y_deg": 0,
+      "floor": 1
+    }
+  ],
+  "rooms": [
+    "acil kabul",
+    "servis",
+    "laboratuvar",
+    "üst kat hasta odaları"
+  ],
+  "entries": [
+    {
+      "position_m": [
+        0,
+        0,
+        4
+      ],
+      "width_m": 1.4,
+      "access": "ground entrance"
+    },
+    {
+      "position_m": [
+        6,
+        0,
+        -4
+      ],
+      "width_m": 2.0,
+      "access": "service entrance"
+    }
+  ],
+  "loot_interaction_points": [
+    {
+      "type": "loot",
+      "position_m": [
+        7,
+        0.8,
+        -1
+      ]
+    },
+    {
+      "type": "interact",
+      "position_m": [
+        -3,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "power_in",
+      "position_m": [
+        7,
+        0.3,
+        8
+      ]
+    }
+  ],
+  "circulation_clearances": {
+    "main_corridor_min_m": 2.0,
+    "door_clear_m": [
+      1.1,
+      2.2
+    ],
+    "stair_clear_width_min_m": 1.4,
+    "accessible_route": "ground entrance to central corridor, stairs to upper floor and roof"
+  },
+  "footprint_m": [
+    18,
+    16
+  ]
+}

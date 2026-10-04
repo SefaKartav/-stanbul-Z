@@ -1,0 +1,721 @@
+{
+  "_aciklama": "Aranabilir mobilya (container) kurallari. Loot secimi: bina islevi (class_budget + class_pools) + oda (yerlesim) + container tipi (pools) + nadirlik (havuz agirliklari). Bina basina toplam cekilis butcesi container'lara 'share' agirligiyla dagitilir; bina ekonomisi container sayisiyla katlanmaz.",
+  "restock_days": 6,
+  "restock_max_tokens": 2,
+  "restock_share": 0.5,
+  "empty_chance": 0.18,
+  "destroy_keep": 0.6,
+  "class_budget": {
+    "residential": 7,
+    "derelict": 3,
+    "market": 12,
+    "pharmacy": 9,
+    "electronics": 9,
+    "workshop": 9,
+    "garage": 7,
+    "industrial": 10,
+    "police": 8,
+    "military": 9,
+    "hospital": 10,
+    "civic": 6,
+    "school": 9,
+    "prison": 10,
+    "checkpoint": 5,
+    "clinic": 8
+  },
+  "types": {
+    "wardrobe": {
+      "label": "Gardirop",
+      "verb": "Gardirobu ara",
+      "search_seconds": 3.0,
+      "noise_m": 12,
+      "share": 1.3,
+      "pools": [
+        [
+          "clothes",
+          8
+        ],
+        [
+          "home_common",
+          2
+        ],
+        [
+          "home_surprise",
+          0.4
+        ]
+      ]
+    },
+    "dresser": {
+      "label": "Sifonyer",
+      "verb": "Cekmeceleri ara",
+      "search_seconds": 2.6,
+      "noise_m": 10,
+      "share": 1.0,
+      "pools": [
+        [
+          "personal",
+          6
+        ],
+        [
+          "clothes",
+          4
+        ],
+        [
+          "home_surprise",
+          0.4
+        ]
+      ]
+    },
+    "nightstand": {
+      "label": "Komodin",
+      "verb": "Komodini ara",
+      "search_seconds": 1.6,
+      "noise_m": 8,
+      "share": 0.6,
+      "pools": [
+        [
+          "personal",
+          8
+        ],
+        [
+          "home_common",
+          2
+        ],
+        [
+          "home_surprise",
+          0.9
+        ]
+      ]
+    },
+    "living_cabinet": {
+      "label": "TV dolabi",
+      "verb": "Dolabi ara",
+      "search_seconds": 2.0,
+      "noise_m": 10,
+      "share": 0.7,
+      "pools": [
+        [
+          "living_misc",
+          8
+        ],
+        [
+          "home_common",
+          2
+        ],
+        [
+          "gen_electrical",
+          0.6
+        ]
+      ]
+    },
+    "shoe_cabinet": {
+      "label": "Ayakkabilik",
+      "verb": "Ayakkabiligi ara",
+      "search_seconds": 1.4,
+      "noise_m": 8,
+      "share": 0.4,
+      "pools": [
+        [
+          "hall_misc",
+          8
+        ],
+        [
+          "home_common",
+          1
+        ]
+      ]
+    },
+    "chest": {
+      "label": "Sandik",
+      "verb": "Sandigi ara",
+      "search_seconds": 2.4,
+      "noise_m": 12,
+      "share": 1.0,
+      "pools": [
+        [
+          "home_common",
+          5
+        ],
+        [
+          "clothes",
+          2
+        ],
+        [
+          "tools",
+          1
+        ],
+        [
+          "home_surprise",
+          1.2
+        ],
+        [
+          "gen_garden",
+          0.8
+        ]
+      ]
+    },
+    "footlocker": {
+      "label": "Metal sandik",
+      "verb": "Sandigi ara",
+      "search_seconds": 2.6,
+      "noise_m": 14,
+      "share": 1.0,
+      "pools": [
+        [
+          "security_misc",
+          6
+        ],
+        [
+          "police_locker",
+          2
+        ],
+        [
+          "gen_military_adv",
+          1.0
+        ],
+        [
+          "gen_prison",
+          0.8
+        ]
+      ]
+    },
+    "kitchen_cabinet": {
+      "label": "Mutfak dolabi",
+      "verb": "Dolabi ara",
+      "search_seconds": 2.2,
+      "noise_m": 12,
+      "share": 1.0,
+      "basic": true,
+      "pools": [
+        [
+          "kitchen_food",
+          8
+        ],
+        [
+          "cleaning",
+          2
+        ],
+        [
+          "home_common",
+          1
+        ]
+      ]
+    },
+    "fridge": {
+      "label": "Buzdolabi",
+      "verb": "Buzdolabini ac",
+      "search_seconds": 1.2,
+      "noise_m": 8,
+      "share": 0.5,
+      "pools": [
+        [
+          "fridge_dead",
+          10
+        ]
+      ]
+    },
+    "drink_fridge": {
+      "label": "Icecek dolabi",
+      "verb": "Dolabi ac",
+      "search_seconds": 1.2,
+      "noise_m": 8,
+      "share": 0.7,
+      "basic": true,
+      "pools": [
+        [
+          "drinks",
+          10
+        ]
+      ]
+    },
+    "cleaning_cabinet": {
+      "label": "Temizlik dolabi",
+      "verb": "Dolabi ara",
+      "search_seconds": 1.8,
+      "noise_m": 10,
+      "share": 0.6,
+      "pools": [
+        [
+          "cleaning",
+          8
+        ],
+        [
+          "home_common",
+          2
+        ]
+      ]
+    },
+    "medicine_cabinet": {
+      "label": "Ecza dolabi",
+      "verb": "Ecza dolabini ara",
+      "search_seconds": 1.6,
+      "noise_m": 8,
+      "share": 0.8,
+      "basic": true,
+      "pools": [
+        [
+          "bathroom_meds",
+          10
+        ],
+        [
+          "personal",
+          1
+        ]
+      ]
+    },
+    "supply_box": {
+      "label": "Erzak kolisi",
+      "verb": "Koliyi ac",
+      "search_seconds": 1.8,
+      "noise_m": 10,
+      "share": 0.9,
+      "pools": [
+        [
+          "store_back",
+          8
+        ],
+        [
+          "market_household",
+          2
+        ],
+        [
+          "gen_garden",
+          1.2
+        ],
+        [
+          "gen_kitchen_extra",
+          0.6
+        ]
+      ]
+    },
+    "market_shelf": {
+      "label": "Market rafi",
+      "verb": "Rafi ara",
+      "search_seconds": 2.2,
+      "noise_m": 12,
+      "share": 1.0,
+      "basic": true,
+      "pools": [
+        [
+          "market_food",
+          7
+        ],
+        [
+          "market_household",
+          3
+        ],
+        [
+          "gen_garden",
+          0.35
+        ],
+        [
+          "gen_kitchen_extra",
+          0.3
+        ]
+      ]
+    },
+    "checkout": {
+      "label": "Kasa bankosu",
+      "verb": "Kasayi ara",
+      "search_seconds": 1.8,
+      "noise_m": 12,
+      "share": 0.5,
+      "pools": [
+        [
+          "checkout",
+          10
+        ]
+      ]
+    },
+    "storeroom_rack": {
+      "label": "Depo rafi",
+      "verb": "Rafi ara",
+      "search_seconds": 2.8,
+      "noise_m": 14,
+      "share": 1.1,
+      "pools": [
+        [
+          "store_back",
+          7
+        ],
+        [
+          "market_household",
+          2
+        ],
+        [
+          "parts",
+          1
+        ],
+        [
+          "gen_construction",
+          1.0
+        ]
+      ]
+    },
+    "pharmacy_shelf": {
+      "label": "Eczane rafi",
+      "verb": "Rafi ara",
+      "search_seconds": 2.2,
+      "noise_m": 10,
+      "share": 1.0,
+      "basic": true,
+      "pools": [
+        [
+          "pharmacy_shelf",
+          9
+        ],
+        [
+          "personal",
+          1
+        ],
+        [
+          "gen_medical_adv",
+          0.6
+        ]
+      ]
+    },
+    "pharmacy_counter": {
+      "label": "Eczane bankosu",
+      "verb": "Bankoyu ara",
+      "search_seconds": 1.8,
+      "noise_m": 10,
+      "share": 0.6,
+      "pools": [
+        [
+          "pharmacy_counter",
+          10
+        ]
+      ]
+    },
+    "medical_chest": {
+      "label": "Tibbi malzeme sandigi",
+      "verb": "Sandigi ara",
+      "search_seconds": 2.6,
+      "noise_m": 12,
+      "share": 1.3,
+      "pools": [
+        [
+          "pharmacy_back",
+          8
+        ],
+        [
+          "pharmacy_shelf",
+          2
+        ],
+        [
+          "gen_medical_adv",
+          2.0
+        ]
+      ]
+    },
+    "display_cabinet": {
+      "label": "Vitrin dolabi",
+      "verb": "Vitrini ara",
+      "search_seconds": 2.2,
+      "noise_m": 12,
+      "share": 1.0,
+      "pools": [
+        [
+          "electronics_shop",
+          7
+        ],
+        [
+          "living_misc",
+          2
+        ],
+        [
+          "gen_electrical",
+          1.0
+        ]
+      ]
+    },
+    "electronics_shelf": {
+      "label": "Elektronik rafi",
+      "verb": "Rafi ara",
+      "search_seconds": 2.6,
+      "noise_m": 12,
+      "share": 1.1,
+      "pools": [
+        [
+          "electronics_shop",
+          8
+        ],
+        [
+          "parts",
+          1
+        ],
+        [
+          "gen_electrical",
+          2.0
+        ]
+      ]
+    },
+    "shop_counter": {
+      "label": "Magaza bankosu",
+      "verb": "Bankoyu ara",
+      "search_seconds": 1.8,
+      "noise_m": 10,
+      "share": 0.6,
+      "pools": [
+        [
+          "checkout",
+          6
+        ],
+        [
+          "electronics_shop",
+          3
+        ]
+      ]
+    },
+    "tool_cabinet": {
+      "label": "Takim dolabi",
+      "verb": "Dolabi ara",
+      "search_seconds": 3.0,
+      "noise_m": 16,
+      "share": 1.3,
+      "pools": [
+        [
+          "tools",
+          8
+        ],
+        [
+          "parts",
+          2
+        ],
+        [
+          "garage",
+          1
+        ],
+        [
+          "gen_construction",
+          1.5
+        ],
+        [
+          "gen_fuel",
+          1.0
+        ]
+      ]
+    },
+    "parts_shelf": {
+      "label": "Parca rafi",
+      "verb": "Rafi ara",
+      "search_seconds": 2.8,
+      "noise_m": 16,
+      "share": 1.1,
+      "pools": [
+        [
+          "parts",
+          8
+        ],
+        [
+          "tools",
+          2
+        ],
+        [
+          "garage",
+          1
+        ],
+        [
+          "gen_construction",
+          1.5
+        ],
+        [
+          "gen_fuel",
+          1.2
+        ]
+      ]
+    },
+    "weapon_locker": {
+      "label": "Silah dolabi",
+      "verb": "Silah dolabini ac",
+      "search_seconds": 3.6,
+      "noise_m": 18,
+      "share": 2.88,
+      "pools": [
+        [
+          "police_locker",
+          8
+        ],
+        [
+          "security_misc",
+          2
+        ],
+        [
+          "military_crate",
+          0.6
+        ],
+        [
+          "gen_military_adv",
+          0.8
+        ]
+      ],
+      "locked": true
+    },
+    "locker": {
+      "label": "Personel dolabi",
+      "verb": "Dolabi ac",
+      "search_seconds": 2.0,
+      "noise_m": 12,
+      "share": 0.8,
+      "pools": [
+        [
+          "security_misc",
+          8
+        ],
+        [
+          "clothes",
+          2
+        ],
+        [
+          "home_surprise",
+          0.6
+        ],
+        [
+          "gen_prison",
+          1.0
+        ]
+      ]
+    },
+    "safe": {
+      "label": "Celik kasa",
+      "verb": "Kasayi ac",
+      "search_seconds": 5.0,
+      "noise_m": 18,
+      "share": 1.92,
+      "pools": [
+        [
+          "safe_valuables",
+          10
+        ]
+      ],
+      "locked": true
+    },
+    "filing_cabinet": {
+      "label": "Evrak dolabi",
+      "verb": "Dolabi ara",
+      "search_seconds": 2.4,
+      "noise_m": 10,
+      "share": 0.8,
+      "pools": [
+        [
+          "office_papers",
+          8
+        ],
+        [
+          "personal",
+          2
+        ],
+        [
+          "gen_school",
+          1.5
+        ]
+      ]
+    },
+    "school_locker": {
+      "label": "Okul dolabı",
+      "verb": "Dolabı ara",
+      "search_seconds": 3.0,
+      "noise_m": 14,
+      "share": 1.0,
+      "pools": [
+        [
+          "gen_school",
+          6
+        ],
+        [
+          "apartment_bedroom",
+          1
+        ]
+      ]
+    },
+    "school_shelf": {
+      "label": "Kitaplık",
+      "verb": "Rafları ara",
+      "search_seconds": 2.5,
+      "noise_m": 14,
+      "share": 0.8,
+      "pools": [
+        [
+          "gen_school",
+          5
+        ],
+        [
+          "street_debris",
+          1
+        ]
+      ]
+    },
+    "lab_cabinet": {
+      "label": "Laboratuvar tezgâhı",
+      "verb": "Çekmeceleri ara",
+      "search_seconds": 4.0,
+      "noise_m": 14,
+      "share": 1.2,
+      "pools": [
+        [
+          "gen_medical_adv",
+          3
+        ],
+        [
+          "gen_school",
+          2
+        ],
+        [
+          "workshop",
+          1
+        ]
+      ]
+    },
+    "hospital_cabinet": {
+      "label": "Hastane dolabı",
+      "verb": "Dolabı ara",
+      "search_seconds": 4.0,
+      "noise_m": 14,
+      "share": 1.4,
+      "pools": [
+        [
+          "gen_medical_adv",
+          5
+        ],
+        [
+          "pharmacy",
+          3
+        ]
+      ]
+    },
+    "military_crate": {
+      "label": "Askerî sandık",
+      "verb": "Sandığı aç",
+      "search_seconds": 6.0,
+      "noise_m": 22,
+      "share": 1.6,
+      "pools": [
+        [
+          "military_crate",
+          5
+        ],
+        [
+          "gen_military_adv",
+          3
+        ]
+      ]
+    },
+    "prison_locker": {
+      "label": "Kontrol masası",
+      "verb": "Masayı ara",
+      "search_seconds": 4.0,
+      "noise_m": 14,
+      "share": 1.2,
+      "pools": [
+        [
+          "gen_prison",
+          6
+        ],
+        [
+          "police_locker",
+          2
+        ]
+      ]
+    }
+  }
+}

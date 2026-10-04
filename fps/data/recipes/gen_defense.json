@@ -1,0 +1,1412 @@
+{
+ "r_trap_wood_spikes": {
+  "name": "Ahşap Kazık Hattı",
+  "output": "trap_wood_spikes",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 14,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "Sivri kazıklar: sessiz, ucuz, çabuk tükenir."
+ },
+ "r_trap_steel_spikes": {
+  "name": "Çelik Kazık Hattı",
+  "output": "trap_steel_spikes",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 3
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   }
+  ],
+  "description": "Kaynaklı çelik şişler."
+ },
+ "r_trap_barbed_wire": {
+  "name": "Dikenli Tel Engeli",
+  "output": "trap_barbed_wire",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "barbed_wire_coil",
+    "count": 1
+   },
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "Zombileri %50 yavaşlatır ve hafif yaralar."
+ },
+ "r_trap_razor_wire": {
+  "name": "Jiletli Tel",
+  "output": "trap_razor_wire",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "barbed_wire_coil",
+    "count": 2
+   },
+   {
+    "item": "blade_blank",
+    "count": 1
+   }
+  ],
+  "description": "Jiletli sarma: %65 yavaşlatır, keser."
+ },
+ "r_trap_bear": {
+  "name": "Ayı Kapanı",
+  "output": "trap_bear",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "spring_heavy",
+    "count": 2
+   },
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "chain",
+    "count": 1
+   }
+  ],
+  "description": "Bacağı kıskaca alır: ağır hasar, zombi neredeyse durur."
+ },
+ "r_trap_blade": {
+  "name": "Döner Bıçak Tuzağı",
+  "output": "trap_blade",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 3
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "Motorlu bıçaklar: ELEKTRİK ister (40 W).",
+  "learn": "level:10"
+ },
+ "r_trap_dart": {
+  "name": "Ok Tuzağı",
+  "output": "trap_dart",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "spring_heavy",
+    "count": 1
+   },
+   {
+    "item": "bolt",
+    "count": 6
+   },
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "Tetik teline basan zombiye yaylı ok."
+ },
+ "r_trap_flame": {
+  "name": "Alev Tuzağı",
+  "output": "trap_flame",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "gas_canister",
+    "count": 1
+   },
+   {
+    "item": "valve",
+    "count": 1
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   },
+   {
+    "item": "spring",
+    "count": 1
+   }
+  ],
+  "description": "Tetiklenince yakıt püskürtür ve tutuşturur.",
+  "learn": "level:8"
+ },
+ "r_trap_electric_fence": {
+  "name": "Elektrikli Çit",
+  "output": "trap_electric_fence",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 2
+   },
+   {
+    "item": "insulated_wire",
+    "count": 4
+   },
+   {
+    "item": "relay_unit",
+    "count": 1
+   }
+  ],
+  "description": "Sürekli çarpar: ELEKTRİK ister (80 W). Sensörlü ağda yalnızca tetiklenince çeker.",
+  "learn": "skill:cr_electric"
+ },
+ "r_trap_shock_floor": {
+  "name": "Elektrikli Zemin",
+  "output": "trap_shock_floor",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 3
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   },
+   {
+    "item": "relay_unit",
+    "count": 1
+   }
+  ],
+  "description": "Metal ızgaraya akım: geniş alanı çarpar (50 W).",
+  "learn": "skill:cr_electric"
+ },
+ "r_trap_landmine": {
+  "name": "Kara Mayını",
+  "output": "trap_landmine",
+  "count": 1,
+  "station": "gunsmith",
+  "station_tier": 3,
+  "time": 26,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "military_explosive",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "primer_compound",
+    "count": 2
+   },
+   {
+    "item": "spring",
+    "count": 1
+   }
+  ],
+  "description": "Üstüne basınca patlar: geniş alan, blok da kırar. Tek kullanımlık.",
+  "learn": "level:16"
+ },
+ "r_trap_pipe_mine": {
+  "name": "Boru Mayını",
+  "output": "trap_pipe_mine",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 1
+   },
+   {
+    "item": "refined_powder",
+    "count": 3
+   },
+   {
+    "item": "nail",
+    "count": 8
+   },
+   {
+    "item": "primer_compound",
+    "count": 1
+   }
+  ],
+  "description": "El yapımı mayın: boru, barut, çivi."
+ },
+ "r_trap_tar_pit": {
+  "name": "Katran Çukuru",
+  "output": "trap_tar_pit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "tar",
+    "count": 3
+   },
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "Yapışkan zift: zombiler %75 yavaşlar."
+ },
+ "r_trap_punji_pit": {
+  "name": "Kazıklı Çukur",
+  "output": "trap_punji_pit",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "nail",
+    "count": 10
+   },
+   {
+    "item": "plant_fiber",
+    "count": 4
+   }
+  ],
+  "description": "Kamufle çukur: düşen zombi yaralanır ve takılır."
+ },
+ "r_turret_12ga": {
+  "name": "Pompalı Taret",
+  "output": "turret_12ga",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 26,
+  "category": "taret",
+  "family": "defense",
+  "subcategory": "Taret",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "circuit_module",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 4
+   }
+  ],
+  "description": "Yakın mesafe: kalabalığı durdurur. 12 kalibre harcar. Şarjörü E ile doldur; boşsa üs deposundan alır.",
+  "learn": "schematic"
+ },
+ "r_turret_762": {
+  "name": "Tüfek Tareti",
+  "output": "turret_762",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 30,
+  "category": "taret",
+  "family": "defense",
+  "subcategory": "Taret",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "motor_small",
+    "count": 2
+   },
+   {
+    "item": "circuit_module",
+    "count": 1
+   },
+   {
+    "item": "optic_assembly",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   }
+  ],
+  "description": "Uzun menzil, deler. 7.62 harcar. Şarjörü E ile doldur; boşsa üs deposundan alır.",
+  "learn": "schematic"
+ },
+ "r_turret_dart": {
+  "name": "Arbalet Tareti",
+  "output": "turret_dart",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 22,
+  "category": "taret",
+  "family": "defense",
+  "subcategory": "Taret",
+  "inputs": [
+   {
+    "item": "spring_heavy",
+    "count": 2
+   },
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "pulley",
+    "count": 2
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "wood_beam",
+    "count": 2
+   }
+  ],
+  "description": "Neredeyse SESSİZ taret: arbalet oku harcar. Şarjörü E ile doldur; boşsa üs deposundan alır."
+ },
+ "r_turret_smg": {
+  "name": "Makineli Taret",
+  "output": "turret_smg",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 26,
+  "category": "taret",
+  "family": "defense",
+  "subcategory": "Taret",
+  "inputs": [
+   {
+    "item": "gun_barrel",
+    "count": 1
+   },
+   {
+    "item": "firing_mechanism",
+    "count": 1
+   },
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "magazine_blank",
+    "count": 2
+   },
+   {
+    "item": "circuit_module",
+    "count": 1
+   }
+  ],
+  "description": "Hızlı atar, çabuk bitirir. 9mm harcar. Şarjörü E ile doldur; boşsa üs deposundan alır.",
+  "learn": "level:14"
+ },
+ "r_turret_tesla": {
+  "name": "Tesla Bobini",
+  "output": "turret_tesla",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 4,
+  "time": 30,
+  "category": "taret",
+  "family": "defense",
+  "subcategory": "Taret",
+  "inputs": [
+   {
+    "item": "copper_coil",
+    "count": 4
+   },
+   {
+    "item": "capacitor_bank_part",
+    "count": 1
+   },
+   {
+    "item": "relay_unit",
+    "count": 2
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   }
+  ],
+  "description": "Mermisiz: ELEKTRİK ile çarpar (250 W). Güçlü ağ ister. Şarjörü E ile doldur; boşsa üs deposundan alır.",
+  "learn": "skill:cr_automation"
+ },
+ "r_alarm_tripwire": {
+  "name": "Teneke Alarmı",
+  "output": "alarm_tripwire",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Alarm",
+  "inputs": [
+   {
+    "item": "wire_steel",
+    "count": 3
+   },
+   {
+    "item": "scrap_metal",
+    "count": 2
+   }
+  ],
+  "description": "Tele takılan zombi teneke şıngırdatır: uyarı + dikkat çeken ses."
+ },
+ "r_alarm_bell": {
+  "name": "Çan Alarmı",
+  "output": "alarm_bell",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 18,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Alarm",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 2
+   },
+   {
+    "item": "pulley",
+    "count": 1
+   },
+   {
+    "item": "rope",
+    "count": 1
+   }
+  ],
+  "description": "Menzilde zombi: çan çalar. Koloni uyanır, sürü de duyar."
+ },
+ "r_alarm_siren": {
+  "name": "Elektrikli Siren",
+  "output": "alarm_siren",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Alarm",
+  "inputs": [
+   {
+    "item": "speaker_unit",
+    "count": 1
+   },
+   {
+    "item": "sensor_module",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "Geniş menzil, çok gürültülü (20 W)."
+ },
+ "r_alarm_silent": {
+  "name": "Sessiz Hareket Alarmı",
+  "output": "alarm_silent",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Alarm",
+  "inputs": [
+   {
+    "item": "sensor_module",
+    "count": 1
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "led",
+    "count": 2
+   }
+  ],
+  "description": "Yalnızca sana haber verir: ses yok (5 W)."
+ },
+ "r_decoy_radio": {
+  "name": "Radyo Yemi",
+  "output": "decoy_radio",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 18,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Yem",
+  "inputs": [
+   {
+    "item": "speaker_unit",
+    "count": 1
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   },
+   {
+    "item": "battery_pack",
+    "count": 1
+   }
+  ],
+  "description": "Aralıklı müzik: zombileri üssünden uzağa toplar (10 W)."
+ },
+ "r_decoy_clockwork": {
+  "name": "Kurmalı Yem",
+  "output": "decoy_clockwork",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Yem",
+  "inputs": [
+   {
+    "item": "spring",
+    "count": 3
+   },
+   {
+    "item": "gear_small",
+    "count": 2
+   },
+   {
+    "item": "scrap_metal",
+    "count": 1
+   }
+  ],
+  "description": "Yaylı saat mekanizması: elektrik istemez."
+ },
+ "r_bp_sandbag_1": {
+  "name": "Kum torbası",
+  "output": "bp_sandbag_1",
+  "count": 1,
+  "station": "hands",
+  "time": 7,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 3
+   },
+   {
+    "tag": "fabric",
+    "count": 1
+   }
+  ],
+  "description": "Kurşun tutan tek torba."
+ },
+ "r_bp_sandbag_wall": {
+  "name": "Kum torbası duvarı 3×1",
+  "output": "bp_sandbag_wall",
+  "count": 1,
+  "station": "hands",
+  "time": 9,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 8
+   },
+   {
+    "tag": "fabric",
+    "count": 3
+   }
+  ],
+  "description": "Diz boyu siper hattı."
+ },
+ "r_bp_sandbag_bunker": {
+  "name": "Kum torbası mevzisi",
+  "output": "bp_sandbag_bunker",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 20
+   },
+   {
+    "tag": "fabric",
+    "count": 7
+   }
+  ],
+  "description": "L biçimli 2 kat mevzi."
+ },
+ "r_bp_concrete_barrier": {
+  "name": "Beton bariyer",
+  "output": "bp_concrete_barrier",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 2
+   },
+   {
+    "item": "rebar",
+    "count": 1
+   }
+  ],
+  "description": "2×1 yol bariyeri: aracı ve sürüyü keser."
+ },
+ "r_bp_tank_trap": {
+  "name": "Tanksavar",
+  "output": "bp_tank_trap",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 7,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Çelik çapraz: araç geçemez, zombi takılır."
+ },
+ "r_bp_palisade": {
+  "name": "Palisat kütüğü",
+  "output": "bp_palisade",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 9,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 2
+   }
+  ],
+  "description": "3 m kütük direk."
+ },
+ "r_bp_palisade_wall": {
+  "name": "Palisat duvarı 3×3",
+  "output": "bp_palisade_wall",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 15,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 6
+   },
+   {
+    "item": "rope",
+    "count": 2
+   }
+  ],
+  "description": "Kütük duvar: ucuz ve sağlam."
+ },
+ "r_bp_gabion": {
+  "name": "Gabion",
+  "output": "bp_gabion",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 8,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 1
+   },
+   {
+    "item": "stone_chunk",
+    "count": 6
+   }
+  ],
+  "description": "Taş dolu tel kafes: 1×2, mermiyi yutar."
+ },
+ "r_bp_barricade_spiked": {
+  "name": "Kazıklı barikat 3×2",
+  "output": "bp_barricade_spiked",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "nail",
+    "count": 12
+   },
+   {
+    "tag": "sharp",
+    "count": 6
+   }
+  ],
+  "description": "Sivri kazıklı ahşap barikat."
+ },
+ "r_bp_barricade_steel": {
+  "name": "Çelik barikat 3×2",
+  "output": "bp_barricade_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 3
+   },
+   {
+    "item": "iron_bar",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 8
+   }
+  ],
+  "description": "Sac ve demir: uzun dayanır.",
+  "learn": "level:12"
+ },
+ "r_bp_chainlink_fence": {
+  "name": "Tel örgü çit 3×2",
+  "output": "bp_chainlink_fence",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 3
+   },
+   {
+    "item": "pipe_steel",
+    "count": 2
+   }
+  ],
+  "description": "Görüş açık çit; zombi geçemez."
+ },
+ "r_bp_firing_step": {
+  "name": "Atış basamağı 3×1",
+  "output": "bp_firing_step",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 9,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "Duvar arkasına yarım basamak: siperden ateş."
+ },
+ "r_spotlight": {
+  "name": "Projektör",
+  "output": "spotlight",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 18,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Işık",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "Güçlü savunma ışığı (60 W, 26 m)."
+ },
+ "r_searchlight": {
+  "name": "Arama Işığı",
+  "output": "searchlight",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 22,
+  "category": "alarm",
+  "family": "defense",
+  "subcategory": "Işık",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 2
+   },
+   {
+    "item": "glass_lens",
+    "count": 1
+   },
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   }
+  ],
+  "description": "Güçlü savunma ışığı (120 W, 40 m)."
+ },
+ "r_bp_sandbag_ring": {
+  "name": "Kum torbası çember",
+  "output": "bp_sandbag_ring",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 24
+   },
+   {
+    "tag": "fabric",
+    "count": 8
+   }
+  ],
+  "description": "Tam çevrili makineli mevzisi (8 torba)."
+ },
+ "r_bp_sandbag_tall": {
+  "name": "Yüksek kum torbası 3×2",
+  "output": "bp_sandbag_tall",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 18
+   },
+   {
+    "tag": "fabric",
+    "count": 6
+   }
+  ],
+  "description": "İki sıra torba: ayakta siper."
+ },
+ "r_bp_gabion_wall": {
+  "name": "Gabion duvarı 3×2",
+  "output": "bp_gabion_wall",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 3
+   },
+   {
+    "item": "stone_chunk",
+    "count": 18
+   }
+  ],
+  "description": "Taş dolu tel kafes hattı: mermi yutar."
+ },
+ "r_bp_bars_window": {
+  "name": "Pencere parmaklığı",
+  "output": "bp_bars_window",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 7,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Kapama",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 2
+   }
+  ],
+  "description": "Tek hücre demir parmaklık: bakılır, geçilmez."
+ },
+ "r_bp_bars_wall": {
+  "name": "Parmaklık duvarı 3×2",
+  "output": "bp_bars_wall",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Kapama",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 12
+   },
+   {
+    "item": "rivets",
+    "count": 8
+   }
+  ],
+  "description": "Hapishane tipi demir parmaklık."
+ },
+ "r_bp_mesh_gate_panel": {
+  "name": "Tel örgü panel 2×2",
+  "output": "bp_mesh_gate_panel",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 2
+   },
+   {
+    "item": "pipe_steel",
+    "count": 1
+   }
+  ],
+  "description": "Hafif çit paneli."
+ },
+ "r_bp_concrete_barrier_long": {
+  "name": "Uzun beton bariyer 4×1",
+  "output": "bp_concrete_barrier_long",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 10,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 4
+   },
+   {
+    "item": "rebar",
+    "count": 2
+   }
+  ],
+  "description": "New Jersey tipi bariyer hattı."
+ },
+ "r_bp_steel_shutter": {
+  "name": "Çelik kepenk 3×2",
+  "output": "bp_steel_shutter",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Kapama",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 4
+   },
+   {
+    "item": "rivets",
+    "count": 8
+   },
+   {
+    "item": "hinge",
+    "count": 2
+   }
+  ],
+  "description": "Dükkân kepengi: cam ve kapıyı kapatır."
+ },
+ "r_bp_log_barricade": {
+  "name": "Kütük barikat 3×1",
+  "output": "bp_log_barricade",
+  "count": 1,
+  "station": "hands",
+  "time": 9,
+  "category": "savunma_yapisi",
+  "family": "defense",
+  "subcategory": "Savunma yapısı",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 3
+   },
+   {
+    "item": "rope",
+    "count": 1
+   }
+  ],
+  "description": "Yatık kütük: ucuz, sağlam engel."
+ },
+ "r_trap_glass_strip": {
+  "name": "Cam Kırığı Şeridi",
+  "output": "trap_glass_strip",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "glass_shard",
+    "count": 8
+   },
+   {
+    "item": "wood_plank",
+    "count": 1
+   }
+  ],
+  "description": "Kırık cam serpilmiş şerit: hafif yavaşlatır, sesi seni uyarır."
+ },
+ "r_trap_nail_board": {
+  "name": "Çivili Tahta",
+  "output": "trap_nail_board",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "item": "nail",
+    "count": 10
+   }
+  ],
+  "description": "Yere yatırılmış çivili tahta."
+ },
+ "r_trap_caltrops": {
+  "name": "Dört Çatal Serpintisi",
+  "output": "trap_caltrops",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "nail",
+    "count": 16
+   },
+   {
+    "item": "welding_rod",
+    "count": 1
+   }
+  ],
+  "description": "Kaynaklı dört çatallar: geniş alanı yavaşlatır."
+ },
+ "r_trap_fire_ditch": {
+  "name": "Yakıtlı Hendek",
+  "output": "trap_fire_ditch",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "tag": "chemical_fuel",
+    "count": 3
+   },
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "Yakıt dökülmüş hendek: yanar."
+ },
+ "r_trap_spring_spear": {
+  "name": "Yaylı Mızrak",
+  "output": "trap_spring_spear",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "spring_heavy",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 1
+   },
+   {
+    "item": "wood_beam",
+    "count": 1
+   }
+  ],
+  "description": "Tetiklenince fırlayan mızrak."
+ },
+ "r_trap_acid_sprayer": {
+  "name": "Asit Püskürtücü",
+  "output": "trap_acid_sprayer",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "battery_acid",
+    "count": 2
+   },
+   {
+    "item": "pump_unit",
+    "count": 1
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   }
+  ],
+  "description": "Pompayla akü asidi püskürtür (15 W).",
+  "learn": "level:10"
+ },
+ "r_trap_flashbang": {
+  "name": "Flaş Tuzağı",
+  "output": "trap_flashbang",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 18,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 4
+   },
+   {
+    "item": "capacitor_salvaged",
+    "count": 2
+   },
+   {
+    "item": "circuit_basic",
+    "count": 1
+   }
+  ],
+  "description": "Parlak flaş ve patlama sesi: zombiler sersemler (5 W)."
+ },
+ "r_trap_mine_nail": {
+  "name": "Çivili Mayın",
+  "output": "trap_mine_nail",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tuzak",
+  "family": "defense",
+  "subcategory": "Tuzak",
+  "inputs": [
+   {
+    "item": "refined_powder",
+    "count": 2
+   },
+   {
+    "item": "nail",
+    "count": 12
+   },
+   {
+    "item": "primer_compound",
+    "count": 1
+   },
+   {
+    "item": "bottle_empty",
+    "count": 1
+   }
+  ],
+  "description": "Konserve kutusu, barut, çivi.",
+  "learn": "level:8"
+ }
+}

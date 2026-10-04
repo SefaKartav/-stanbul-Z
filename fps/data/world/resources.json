@@ -1,0 +1,38 @@
+{
+  "food": {
+    "name": "Yiyecek",
+    "tag": "food",
+    "per_person_day": 1.0,
+    "per_structure_day": 0.0,
+    "critical": true,
+    "color": [186, 170, 96],
+    "shortage": "Ac kalindi -- dayaniklilik dusuyor"
+  },
+  "water": {
+    "name": "Su",
+    "tag": "water",
+    "per_person_day": 0.9,
+    "per_structure_day": 0.0,
+    "critical": true,
+    "color": [110, 170, 210],
+    "shortage": "Susuz kalindi -- can yeniden dolmuyor"
+  },
+  "medicine": {
+    "name": "Tip",
+    "tag": "medical",
+    "per_person_day": 0.12,
+    "per_structure_day": 0.0,
+    "critical": false,
+    "color": [200, 110, 110],
+    "shortage": "Ilac bitti -- yaralar gec kapaniyor"
+  },
+  "fuel": {
+    "name": "Yakit",
+    "tag": "chemical_fuel",
+    "per_person_day": 0.0,
+    "per_structure_day": 0.35,
+    "critical": false,
+    "color": [190, 150, 90],
+    "shortage": "Yakit bitti -- taretler ve isiklar sustu"
+  }
+}

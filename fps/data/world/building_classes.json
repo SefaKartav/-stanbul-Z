@@ -1,0 +1,476 @@
+{
+  "residential": {
+    "label": "Apartman",
+    "tables": [
+      [
+        "apartment_kitchen",
+        3.0
+      ],
+      [
+        "apartment_bedroom",
+        3.0
+      ],
+      [
+        "balcony_garden",
+        1.0
+      ]
+    ],
+    "search_seconds": 4.0,
+    "max_searches": 2,
+    "noise_radius": 190.0,
+    "color": [
+      116,
+      108,
+      100
+    ],
+    "osm_tags": [
+      "building=apartments",
+      "building=residential",
+      "building=house",
+      "building=dormitory"
+    ]
+  },
+  "market": {
+    "label": "Market",
+    "tables": [
+      [
+        "apartment_kitchen",
+        4.0
+      ],
+      [
+        "street_debris",
+        1.0
+      ]
+    ],
+    "search_seconds": 5.0,
+    "max_searches": 3,
+    "noise_radius": 240.0,
+    "color": [
+      126,
+      116,
+      82
+    ],
+    "osm_tags": [
+      "shop=supermarket",
+      "shop=convenience",
+      "shop=greengrocer",
+      "shop=bakery",
+      "amenity=restaurant",
+      "amenity=cafe"
+    ]
+  },
+  "pharmacy": {
+    "label": "Eczane",
+    "tables": [
+      [
+        "pharmacy",
+        5.0
+      ],
+      [
+        "street_debris",
+        1.0
+      ]
+    ],
+    "search_seconds": 4.5,
+    "max_searches": 2,
+    "noise_radius": 200.0,
+    "color": [
+      104,
+      128,
+      116
+    ],
+    "osm_tags": [
+      "amenity=pharmacy",
+      "healthcare=pharmacy"
+    ]
+  },
+  "hospital": {
+    "label": "Hastane",
+    "tables": [
+      [
+        "pharmacy",
+        6.0
+      ],
+      [
+        "apartment_bedroom",
+        1.0
+      ]
+    ],
+    "search_seconds": 7.0,
+    "max_searches": 3,
+    "noise_radius": 300.0,
+    "color": [
+      112,
+      130,
+      132
+    ],
+    "osm_tags": [
+      "amenity=hospital",
+      "amenity=clinic",
+      "amenity=doctors",
+      "building=hospital"
+    ]
+  },
+  "workshop": {
+    "label": "Atolye",
+    "tables": [
+      [
+        "workshop",
+        5.0
+      ],
+      [
+        "garage",
+        2.0
+      ]
+    ],
+    "search_seconds": 5.5,
+    "max_searches": 2,
+    "noise_radius": 240.0,
+    "color": [
+      120,
+      104,
+      84
+    ],
+    "osm_tags": [
+      "shop=hardware",
+      "shop=doityourself",
+      "craft=carpenter",
+      "craft=metal_construction"
+    ]
+  },
+  "industrial": {
+    "label": "Sanayi",
+    "tables": [
+      [
+        "workshop",
+        4.0
+      ],
+      [
+        "electronics_shop",
+        2.0
+      ],
+      [
+        "garage",
+        2.0
+      ]
+    ],
+    "search_seconds": 8.0,
+    "max_searches": 3,
+    "noise_radius": 330.0,
+    "color": [
+      98,
+      96,
+      96
+    ],
+    "osm_tags": [
+      "building=industrial",
+      "building=warehouse",
+      "landuse=industrial",
+      "man_made=works"
+    ]
+  },
+  "electronics": {
+    "label": "Elektronikci",
+    "tables": [
+      [
+        "electronics_shop",
+        5.0
+      ],
+      [
+        "street_debris",
+        1.0
+      ]
+    ],
+    "search_seconds": 5.0,
+    "max_searches": 2,
+    "noise_radius": 220.0,
+    "color": [
+      96,
+      112,
+      128
+    ],
+    "osm_tags": [
+      "shop=electronics",
+      "shop=mobile_phone",
+      "shop=computer",
+      "office=telecommunication"
+    ]
+  },
+  "garage": {
+    "label": "Otopark",
+    "tables": [
+      [
+        "garage",
+        5.0
+      ],
+      [
+        "workshop",
+        1.5
+      ]
+    ],
+    "search_seconds": 5.0,
+    "max_searches": 2,
+    "noise_radius": 250.0,
+    "color": [
+      92,
+      92,
+      100
+    ],
+    "osm_tags": [
+      "building=garage",
+      "building=garages",
+      "amenity=fuel",
+      "shop=car_repair",
+      "amenity=parking"
+    ]
+  },
+  "police": {
+    "label": "Karakol",
+    "tables": [
+      [
+        "police_locker",
+        6.0
+      ],
+      [
+        "street_debris",
+        1.0
+      ]
+    ],
+    "search_seconds": 9.0,
+    "max_searches": 2,
+    "noise_radius": 360.0,
+    "color": [
+      86,
+      100,
+      126
+    ],
+    "osm_tags": [
+      "amenity=police",
+      "building=police"
+    ]
+  },
+  "military": {
+    "label": "Askeri Tesis",
+    "tables": [
+      [
+        "military_crate",
+        6.0
+      ],
+      [
+        "police_locker",
+        2.0
+      ]
+    ],
+    "search_seconds": 12.0,
+    "max_searches": 2,
+    "noise_radius": 420.0,
+    "color": [
+      88,
+      100,
+      80
+    ],
+    "osm_tags": [
+      "military=barracks",
+      "landuse=military",
+      "building=military"
+    ]
+  },
+  "civic": {
+    "label": "Kamu Binasi",
+    "tables": [
+      [
+        "street_debris",
+        3.0
+      ],
+      [
+        "apartment_bedroom",
+        1.5
+      ],
+      [
+        "electronics_shop",
+        1.0
+      ]
+    ],
+    "search_seconds": 6.0,
+    "max_searches": 2,
+    "noise_radius": 240.0,
+    "color": [
+      108,
+      106,
+      116
+    ],
+    "osm_tags": [
+      "amenity=school",
+      "amenity=university",
+      "amenity=townhall",
+      "amenity=library",
+      "building=public",
+      "building=civic",
+      "office=government"
+    ]
+  },
+  "derelict": {
+    "label": "Metruk Bina",
+    "tables": [
+      [
+        "street_debris",
+        5.0
+      ],
+      [
+        "apartment_bedroom",
+        1.0
+      ]
+    ],
+    "search_seconds": 3.0,
+    "max_searches": 1,
+    "noise_radius": 150.0,
+    "color": [
+      100,
+      94,
+      88
+    ],
+    "osm_tags": [
+      "building=ruins",
+      "building=abandoned",
+      "abandoned=yes"
+    ]
+  },
+  "religious": {
+    "label": "Cami",
+    "tables": [
+      [
+        "street_debris",
+        3.0
+      ],
+      [
+        "apartment_kitchen",
+        1.0
+      ]
+    ],
+    "search_seconds": 4.0,
+    "max_searches": 2,
+    "noise_radius": 160.0,
+    "color": [
+      138,
+      132,
+      118
+    ],
+    "osm_tags": [
+      "amenity=place_of_worship",
+      "building=mosque",
+      "building=church",
+      "building=chapel",
+      "building=synagogue"
+    ]
+  },
+  "school": {
+    "label": "Okul",
+    "tables": [
+      [
+        "gen_school",
+        5.0
+      ],
+      [
+        "apartment_kitchen",
+        1.0
+      ]
+    ],
+    "search_seconds": 7.0,
+    "max_searches": 3,
+    "noise_radius": 260.0,
+    "color": [
+      196,
+      170,
+      92
+    ],
+    "osm_tags": []
+  },
+  "prison": {
+    "label": "Hapishane",
+    "tables": [
+      [
+        "gen_prison",
+        5.0
+      ],
+      [
+        "police_locker",
+        2.0
+      ],
+      [
+        "workshop",
+        1.0
+      ]
+    ],
+    "search_seconds": 10.0,
+    "max_searches": 3,
+    "noise_radius": 380.0,
+    "color": [
+      112,
+      96,
+      104
+    ],
+    "osm_tags": []
+  },
+  "checkpoint": {
+    "label": "Kontrol noktası",
+    "tables": [
+      [
+        "police_locker",
+        4.0
+      ],
+      [
+        "gen_military_adv",
+        2.0
+      ]
+    ],
+    "search_seconds": 6.0,
+    "max_searches": 1,
+    "noise_radius": 300.0,
+    "color": [
+      170,
+      90,
+      60
+    ],
+    "osm_tags": []
+  },
+  "clinic": {
+    "label": "Sağlık ocağı",
+    "tables": [
+      [
+        "pharmacy",
+        5.0
+      ],
+      [
+        "gen_medical_adv",
+        2.0
+      ]
+    ],
+    "search_seconds": 6.0,
+    "max_searches": 2,
+    "noise_radius": 240.0,
+    "color": [
+      196,
+      140,
+      140
+    ],
+    "osm_tags": []
+  },
+  "fortification": {
+    "label": "Sur ve duvar",
+    "tables": [
+      [
+        "street_debris",
+        1.0
+      ]
+    ],
+    "search_seconds": 4.0,
+    "max_searches": 1,
+    "noise_radius": 150.0,
+    "color": [
+      180,
+      170,
+      146
+    ],
+    "osm_tags": []
+  }
+}

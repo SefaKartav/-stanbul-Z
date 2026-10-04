@@ -1,0 +1,58 @@
+{
+  "vegetable_seeds": {
+    "name": "Sebze Tohumu", "category": "consumable", "tier": 1,
+    "stack": 20, "weight": 0.05, "value": 8,
+    "tags": ["seed", "salvage"],
+    "description": "Üs içinde ekilir. Çiftçi ve günlük suyla birkaç günde ürün verir."
+  },
+  "canned_food": {
+    "name": "Konserve",
+    "category": "consumable",
+    "tier": 1,
+    "stack": 20,
+    "weight": 0.45,
+    "value": 6,
+    "tags": ["food", "supply", "salvage"],
+    "description": "Etiketi solmus bir teneke. Tarihi gecmis ama hala yenir."
+  },
+  "dry_goods": {
+    "name": "Kuru Gida",
+    "category": "consumable",
+    "tier": 1,
+    "stack": 24,
+    "weight": 0.3,
+    "value": 5,
+    "tags": ["food", "supply", "salvage"],
+    "description": "Bulgur, mercimek, makarna. Pisirmek gerekir ama uzun dayanir."
+  },
+  "preserved_meat": {
+    "name": "Kavurma",
+    "category": "consumable",
+    "tier": 2,
+    "stack": 12,
+    "weight": 0.5,
+    "value": 14,
+    "tags": ["food", "supply"],
+    "description": "Yaginda saklanmis et. Bir kavanoz, bir gunu kurtarir."
+  },
+  "water_bottle": {
+    "name": "Su Sisesi",
+    "category": "consumable",
+    "tier": 1,
+    "stack": 12,
+    "weight": 1.0,
+    "value": 5,
+    "tags": ["water", "supply", "salvage"],
+    "description": "Kapali sise su. Agir tasinir ama pazarliksiz gereklidir."
+  },
+  "water_canister": {
+    "name": "Su Bidonu",
+    "category": "consumable",
+    "tier": 2,
+    "stack": 4,
+    "weight": 5.0,
+    "value": 18,
+    "tags": ["water", "supply"],
+    "description": "Bes litrelik bidon. Bir kisiyi gunlerce idare eder; sirtini da koparir."
+  }
+}

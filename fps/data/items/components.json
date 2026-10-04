@@ -1,0 +1,134 @@
+{
+  "insulated_wire": {
+    "name": "Izoleli Kablo", "category": "component", "tier": 2, "stack": 25,
+    "weight": 0.18, "value": 18,
+    "tags": ["conductive_metal", "wire", "insulated", "refined"],
+    "description": "Kaplanmis kablo. Artik elinde patlamaz."
+  },
+  "metal_plate": {
+    "name": "Doğrultulmus Levha", "category": "component", "tier": 2, "stack": 20,
+    "weight": 0.6, "value": 14,
+    "tags": ["structural_metal", "plate", "refined"],
+    "description": "Duzeltilip kenarlari alinmis levha."
+  },
+  "steel_ingot": {
+    "name": "Celik Külçe", "category": "component", "tier": 3, "stack": 15,
+    "weight": 1.4, "value": 40,
+    "tags": ["structural_metal", "ingot", "refined", "high_grade_metal"],
+    "description": "Ocakta eritilip dokulmus. Gercek malzeme."
+  },
+  "machined_part": {
+    "name": "Islenmis Parca", "category": "component", "tier": 3, "stack": 20,
+    "weight": 0.3, "value": 55,
+    "tags": ["mechanical", "precision", "refined", "gun_part"],
+    "description": "Olculu, tesviyeli. Silah icin sart."
+  },
+  "circuit_module": {
+    "name": "Devre Modulu", "category": "component", "tier": 3, "stack": 20,
+    "weight": 0.08, "value": 60,
+    "tags": ["electronic", "logic", "refined", "control"],
+    "description": "Calisir durumda, lehimlenmis kart."
+  },
+  "power_cell": {
+    "name": "Guc Hucresi", "category": "assembly", "tier": 4, "stack": 10,
+    "weight": 0.5, "value": 130,
+    "tags": ["power_source", "energy_storage", "refined", "high_energy"],
+    "description": "Sarj tutan, boşalmayan, tasinabilir enerji."
+  },
+  "cured_leather": {
+    "name": "Islenmis Deri", "category": "component", "tier": 2, "stack": 20,
+    "weight": 0.28, "value": 22,
+    "tags": ["fabric", "tough_fabric", "leather", "refined", "armor_layer"],
+    "description": "Tuzlanip kurutulmus. Artik curumez."
+  },
+  "ballistic_weave": {
+    "name": "Balistik Dokuma", "category": "component", "tier": 3, "stack": 15,
+    "weight": 0.4, "value": 95,
+    "tags": ["fabric", "refined", "armor_layer", "ballistic"],
+    "description": "Katmanli, sikistirilmis. Mermiyi yavaslatir."
+  },
+  "ceramic_plate": {
+    "name": "Seramik Plaka", "category": "component", "tier": 3, "stack": 12,
+    "weight": 0.9, "value": 85,
+    "tags": ["ceramic", "refined", "armor_layer", "hard"],
+    "description": "Darbeyi kirarak dagitir. Bir kez ise yarar."
+  },
+  "gun_barrel": {
+    "name": "Namlu", "category": "component", "tier": 3, "stack": 8,
+    "weight": 0.8, "value": 110,
+    "tags": ["gun_part", "tube", "refined", "precision"],
+    "description": "Yivli, dogru capta. Zor is."
+  },
+  "firing_mechanism": {
+    "name": "Ates Mekanizmasi", "category": "assembly", "tier": 4, "stack": 8,
+    "weight": 0.5, "value": 160,
+    "tags": ["gun_part", "mechanical", "refined", "precision"],
+    "description": "Yay, igne, tetik. Milimetrik."
+  },
+  "gun_frame": {
+    "name": "Silah Govdesi", "category": "assembly", "tier": 4, "stack": 6,
+    "weight": 1.6, "value": 175,
+    "tags": ["gun_part", "structural", "refined"],
+    "description": "Her seyin uzerine oturdugu iskelet."
+  },
+  "optic_assembly": {
+    "name": "Optik Grup", "category": "assembly", "tier": 4, "stack": 8,
+    "weight": 0.25, "value": 140,
+    "tags": ["optics", "refined", "precision"],
+    "description": "Hizalanmis mercekler ve artı isaret."
+  },
+  "sound_baffle": {
+    "name": "Ses Perdesi", "category": "component", "tier": 3, "stack": 12,
+    "weight": 0.3, "value": 70,
+    "tags": ["acoustic", "refined", "suppressor_core"],
+    "description": "Gazi yavaslatan katmanli bolme."
+  },
+  "primer_compound": {
+    "name": "Kapsul Bilesigi", "category": "component", "tier": 3, "stack": 30,
+    "weight": 0.01, "value": 35,
+    "tags": ["chemical", "explosive_filler", "primer", "refined"],
+    "description": "Darbeyle atesi baslatan hassas karisim."
+  },
+  "refined_powder": {
+    "name": "Islenmis Barut", "category": "component", "tier": 3, "stack": 40,
+    "weight": 0.03, "value": 45,
+    "tags": ["chemical", "explosive_filler", "propellant", "refined"],
+    "description": "Elenmis, kurutulmus, olculu."
+  },
+  "acid_concentrate": {
+    "name": "Derişik Asit", "category": "component", "tier": 3, "stack": 12,
+    "weight": 0.4, "value": 65,
+    "tags": ["chemical", "corrosive", "refined"],
+    "description": "Cam kavanozda tut. Baska hicbir seyde durmaz."
+  },
+  "antiseptic": {
+    "name": "Antiseptik", "category": "component", "tier": 2, "stack": 20,
+    "weight": 0.15, "value": 30,
+    "tags": ["medical", "refined", "sterile"],
+    "description": "Yarayi temizler. Enfeksiyon zombiden once oldurur."
+  },
+  "sterile_cloth": {
+    "name": "Steril Bez", "category": "component", "tier": 2, "stack": 30,
+    "weight": 0.04, "value": 12,
+    "tags": ["medical", "fabric", "refined", "sterile"],
+    "description": "Kaynatilmis ve kurutulmus."
+  },
+  "adhesive_compound": {
+    "name": "Yapistirici Karisim", "category": "component", "tier": 2, "stack": 20,
+    "weight": 0.2, "value": 26,
+    "tags": ["adhesive", "chemical", "refined"],
+    "description": "Ev yapimi ama koli bandindan cok daha guclu."
+  },
+  "filter_cartridge": {
+    "name": "Filtre Kartusu", "category": "component", "tier": 3, "stack": 12,
+    "weight": 0.3, "value": 75,
+    "tags": ["filter", "refined", "protective"],
+    "description": "Kömür ve dokuma katmanlari. Nefes almani saglar."
+  },
+  "hardened_frame": {
+    "name": "Sertlestirilmis Iskelet", "category": "component", "tier": 3, "stack": 10,
+    "weight": 2.2, "value": 70,
+    "tags": ["structural", "structural_metal", "refined", "heavy"],
+    "description": "Kaynakli, capraz destekli. Barikatin omurgasi."
+  }
+}

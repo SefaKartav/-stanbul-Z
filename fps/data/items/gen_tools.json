@@ -1,0 +1,874 @@
+{
+ "claw_hammer": {
+  "name": "Çekiç",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.8,
+  "value": 30,
+  "tags": [
+   "tool_hammer",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Çivi çakar, söker. İnşa ve tamir takımı.",
+  "durability": 400,
+  "weapon_id": ""
+ },
+ "hand_saw": {
+  "name": "El Testeresi",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.7,
+  "value": 30,
+  "tags": [
+   "tool_saw",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Kütük ve kalas keser.",
+  "durability": 300,
+  "weapon_id": ""
+ },
+ "hacksaw": {
+  "name": "Demir Testeresi",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.6,
+  "value": 35,
+  "tags": [
+   "tool_hacksaw",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Boru ve demir keser.",
+  "durability": 300,
+  "weapon_id": ""
+ },
+ "hand_drill": {
+  "name": "El Matkabı",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 40,
+  "tags": [
+   "tool_drill",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Kranklı matkap: delik, vida yuvası.",
+  "durability": 350,
+  "weapon_id": ""
+ },
+ "power_drill": {
+  "name": "Akülü Matkap",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 1.6,
+  "value": 120,
+  "tags": [
+   "tool_drill",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Hızlı delme; akü şarjlı.",
+  "durability": 700,
+  "weapon_id": ""
+ },
+ "welder": {
+  "name": "Kaynak Makinesi",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 6.0,
+  "value": 180,
+  "tags": [
+   "tool_welder",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Çelik birleştirir; araç revizyonu ve çelik yapı için şart.",
+  "durability": 600,
+  "weapon_id": ""
+ },
+ "multimeter": {
+  "name": "Multimetre",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 60,
+  "tags": [
+   "tool_multimeter",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Devre ölçer: sensör, röle ve güç devresi kurarken.",
+  "durability": 400,
+  "weapon_id": ""
+ },
+ "sewing_kit": {
+  "name": "Dikiş Seti",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.2,
+  "value": 18,
+  "tags": [
+   "tool_sewing",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "İğne, sicim, makas.",
+  "durability": 200,
+  "weapon_id": ""
+ },
+ "chisel_set": {
+  "name": "Keski Takımı",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.9,
+  "value": 25,
+  "tags": [
+   "tool_chisel",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Taş ve ahşap oyar.",
+  "durability": 400,
+  "weapon_id": ""
+ },
+ "trowel": {
+  "name": "Mala",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.5,
+  "value": 15,
+  "tags": [
+   "tool_trowel",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Harç sürer: tuğla ve taş duvar.",
+  "durability": 400,
+  "weapon_id": ""
+ },
+ "pliers": {
+  "name": "Pense",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 20,
+  "tags": [
+   "tool_pliers",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Tel büker, keser.",
+  "durability": 400,
+  "weapon_id": ""
+ },
+ "file_set": {
+  "name": "Eğe Takımı",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.5,
+  "value": 25,
+  "tags": [
+   "tool_file",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Silah ve mekanik parça tesviyesi.",
+  "durability": 500,
+  "weapon_id": ""
+ },
+ "lighter": {
+  "name": "Benzinli Çakmak",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.1,
+  "value": 15,
+  "tags": [
+   "tool_fire",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Ateş yakar: sahada pişirme ve sterilizasyon.",
+  "durability": 120,
+  "weapon_id": ""
+ },
+ "fire_striker": {
+  "name": "Çakmaktaşı",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.2,
+  "value": 6,
+  "tags": [
+   "tool_fire",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Yakıtsız ateş: yavaş ama bitmez.",
+  "durability": 400,
+  "weapon_id": ""
+ },
+ "cooking_pot": {
+  "name": "Tencere",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 20,
+  "tags": [
+   "tool_pot",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Kaynatma ve pişirme kabı.",
+  "durability": 600,
+  "weapon_id": ""
+ },
+ "mortar_pestle": {
+  "name": "Havan",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "tool_mortar",
+   "crafting_tool",
+   "tool"
+  ],
+  "description": "Ot ve ilaç döver.",
+  "durability": 600,
+  "weapon_id": ""
+ },
+ "surgical_kit": {
+  "name": "Cerrahi Set",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 0.8,
+  "value": 140,
+  "tags": [
+   "tool_surgery",
+   "crafting_tool",
+   "tool",
+   "medical"
+  ],
+  "description": "Neşter, pens, dikiş: ileri tıbbi üretim.",
+  "durability": 250,
+  "weapon_id": ""
+ },
+ "stone_axe": {
+  "name": "Taş Balta",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.6,
+  "value": 12,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: ahşap ×1.0, bitki ×1.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 150,
+  "effects": {
+   "harvest_wood": 1.0,
+   "harvest_plant": 1.0,
+   "stamina_cost": 8.0
+  },
+  "weapon_id": "tool_stone_axe"
+ },
+ "iron_hatchet": {
+  "name": "Demir Nacak",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.4,
+  "value": 35,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: ahşap ×1.8, bitki ×1.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 350,
+  "effects": {
+   "harvest_wood": 1.8,
+   "harvest_plant": 1.2,
+   "stamina_cost": 7.0
+  },
+  "weapon_id": "tool_iron_hatchet"
+ },
+ "steel_axe": {
+  "name": "Çelik Balta",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 2.2,
+  "value": 90,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: ahşap ×2.8, bitki ×1.4. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 700,
+  "effects": {
+   "harvest_wood": 2.8,
+   "harvest_plant": 1.4,
+   "stamina_cost": 7.0
+  },
+  "weapon_id": "tool_steel_axe"
+ },
+ "chainsaw": {
+  "name": "Motorlu Testere",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 5.5,
+  "value": 260,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: ahşap ×5.0, bitki ×3.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 600,
+  "effects": {
+   "harvest_wood": 5.0,
+   "harvest_plant": 3.0,
+   "stamina_cost": 3.0
+  },
+  "weapon_id": "tool_chainsaw"
+ },
+ "stone_pickaxe": {
+  "name": "Taş Kazma",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 12,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: taş ×0.8, toprak ×0.6. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 150,
+  "effects": {
+   "harvest_stone": 0.8,
+   "harvest_soil": 0.6,
+   "stamina_cost": 9.0
+  },
+  "weapon_id": "tool_stone_pickaxe"
+ },
+ "iron_pickaxe": {
+  "name": "Demir Kazma",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.6,
+  "value": 40,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: taş ×1.8, toprak ×1.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 400,
+  "effects": {
+   "harvest_stone": 1.8,
+   "harvest_soil": 1.0,
+   "stamina_cost": 8.0
+  },
+  "weapon_id": "tool_iron_pickaxe"
+ },
+ "steel_pickaxe": {
+  "name": "Çelik Kazma",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 3.0,
+  "value": 95,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: taş ×3.0, toprak ×1.4. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 800,
+  "effects": {
+   "harvest_stone": 3.0,
+   "harvest_soil": 1.4,
+   "stamina_cost": 8.0
+  },
+  "weapon_id": "tool_steel_pickaxe"
+ },
+ "jackhammer": {
+  "name": "Kırıcı",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 9.0,
+  "value": 300,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: taş ×6.0, toprak ×3.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 700,
+  "effects": {
+   "harvest_stone": 6.0,
+   "harvest_soil": 3.0,
+   "stamina_cost": 3.0
+  },
+  "weapon_id": "tool_jackhammer"
+ },
+ "wooden_shovel": {
+  "name": "Tahta Kürek",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.5,
+  "value": 8,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: toprak ×1.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 180,
+  "effects": {
+   "harvest_soil": 1.2,
+   "stamina_cost": 6.0
+  },
+  "weapon_id": "tool_wooden_shovel"
+ },
+ "steel_shovel": {
+  "name": "Çelik Kürek",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 35,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: toprak ×2.4, bitki ×0.6. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 600,
+  "effects": {
+   "harvest_soil": 2.4,
+   "harvest_plant": 0.6,
+   "stamina_cost": 6.0
+  },
+  "weapon_id": "tool_steel_shovel"
+ },
+ "crowbar": {
+  "name": "Levye",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.8,
+  "value": 20,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: metal ×1.2, araç sökümü ×0.6, cam ×0.6. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 600,
+  "effects": {
+   "harvest_metal": 1.2,
+   "harvest_vehicle": 0.6,
+   "harvest_glass": 0.6,
+   "stamina_cost": 7.0
+  },
+  "weapon_id": "tool_crowbar"
+ },
+ "wrench_set": {
+  "name": "Anahtar Takımı",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 45,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: metal ×1.0, araç sökümü ×1.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 500,
+  "effects": {
+   "harvest_metal": 1.0,
+   "harvest_vehicle": 1.0,
+   "stamina_cost": 5.0
+  },
+  "weapon_id": "tool_wrench_set"
+ },
+ "impact_wrench": {
+  "name": "Havalı Anahtar",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 2.4,
+  "value": 140,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: araç sökümü ×1.6, metal ×1.4. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 600,
+  "effects": {
+   "harvest_vehicle": 1.6,
+   "harvest_metal": 1.4,
+   "stamina_cost": 3.0
+  },
+  "weapon_id": "tool_impact_wrench"
+ },
+ "angle_grinder": {
+  "name": "Spiral Taşlama",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 2.6,
+  "value": 150,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: metal ×3.0, taş ×1.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 500,
+  "effects": {
+   "harvest_metal": 3.0,
+   "harvest_stone": 1.2,
+   "stamina_cost": 3.0
+  },
+  "weapon_id": "tool_angle_grinder"
+ },
+ "cutting_torch": {
+  "name": "Kesme Şalomesi",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 4.0,
+  "value": 200,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: metal ×4.5, araç sökümü ×1.2, cam ×0.5. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 400,
+  "effects": {
+   "harvest_metal": 4.5,
+   "harvest_vehicle": 1.2,
+   "harvest_glass": 0.5,
+   "stamina_cost": 2.0
+  },
+  "weapon_id": "tool_cutting_torch"
+ },
+ "glass_cutter": {
+  "name": "Cam Kesici",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.2,
+  "value": 30,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: cam ×2.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 250,
+  "effects": {
+   "harvest_glass": 2.0,
+   "stamina_cost": 2.0
+  },
+  "weapon_id": "tool_glass_cutter"
+ },
+ "sickle": {
+  "name": "Orak",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.6,
+  "value": 15,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: bitki ×2.0. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 300,
+  "effects": {
+   "harvest_plant": 2.0,
+   "stamina_cost": 4.0
+  },
+  "weapon_id": "tool_sickle"
+ },
+ "scythe": {
+  "name": "Tırpan",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.2,
+  "value": 35,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: bitki ×3.2. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 450,
+  "effects": {
+   "harvest_plant": 3.2,
+   "stamina_cost": 5.0
+  },
+  "weapon_id": "tool_scythe"
+ },
+ "hoe": {
+  "name": "Çapa",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.4,
+  "value": 14,
+  "tags": [
+   "harvest_tool",
+   "tool",
+   "weapon"
+  ],
+  "description": "Toplama aleti: toprak ×1.5, bitki ×0.8. Yuvaya al (1-4) ve bak-vur; her vuruş nefes harcar ve ses çıkarır.",
+  "durability": 350,
+  "effects": {
+   "harvest_soil": 1.5,
+   "harvest_plant": 0.8,
+   "stamina_cost": 6.0
+  },
+  "weapon_id": "tool_hoe"
+ },
+ "fishing_rod": {
+  "name": "Olta",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.8,
+  "value": 12,
+  "tags": [
+   "fishing_tool",
+   "tool"
+  ],
+  "description": "Kıyıda ya da iskelede suya bakıp E: balık tutar. Yem şansı artırır.",
+  "durability": 120,
+  "effects": {
+   "fishing": 1.0
+  },
+  "weapon_id": ""
+ },
+ "fishing_rod_pro": {
+  "name": "Makaralı Olta",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.0,
+  "value": 45,
+  "tags": [
+   "fishing_tool",
+   "tool"
+  ],
+  "description": "Makaralı olta: iki kat şans, daha dayanıklı.",
+  "durability": 300,
+  "effects": {
+   "fishing": 1.8
+  },
+  "weapon_id": ""
+ },
+ "whetstone": {
+  "name": "Bileği Taşı",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 5,
+  "weight": 0.5,
+  "value": 8,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Alet ve bıçak ağzını açar. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_tool": 60
+  }
+ },
+ "gun_cleaning_kit": {
+  "name": "Silah Bakım Kiti",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 5,
+  "weight": 0.3,
+  "value": 25,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Temizlik ve yağlama: silah ömrünü uzatır. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_weapon": 80
+  }
+ },
+ "gun_repair_kit": {
+  "name": "Silah Tamir Kiti",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 5,
+  "weight": 0.6,
+  "value": 90,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Yedek yay ve pim: bozuk silahı ayağa kaldırır. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_weapon": 220
+  }
+ },
+ "armor_patch_kit": {
+  "name": "Zırh Yama Kiti",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 5,
+  "weight": 0.4,
+  "value": 20,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Yırtık yeleği yamar. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_armor": 60
+  }
+ },
+ "armor_repair_kit": {
+  "name": "Zırh Tamir Kiti",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 5,
+  "weight": 1.0,
+  "value": 80,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Kevlar ve perçinle ciddi onarım. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_armor": 180
+  }
+ },
+ "tool_repair_kit": {
+  "name": "Alet Tamir Kiti",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 5,
+  "weight": 0.8,
+  "value": 40,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Sap, perçin, bileği taşı. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_tool": 200
+  }
+ },
+ "vehicle_repair_basic": {
+  "name": "Araç Tamir Seti",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.0,
+  "value": 45,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Sac yama ve bant: araca +35 sağlamlık. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_vehicle": 35
+  }
+ },
+ "vehicle_repair_adv": {
+  "name": "Araç Revizyon Seti",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 120,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Kaynaklı plaka ve conta: araca +90. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_vehicle": 90
+  }
+ },
+ "field_patch": {
+  "name": "Bantlı Yama",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 5,
+  "weight": 0.2,
+  "value": 8,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Sahada hızlı yama: zırh ya da alet. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_armor": 25,
+   "repair_tool": 25
+  }
+ },
+ "welding_patch": {
+  "name": "Kaynak Yaması",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 5,
+  "weight": 2.0,
+  "value": 50,
+  "tags": [
+   "repair_kit"
+  ],
+  "description": "Araç şasesine kaynak: +55 sağlamlık. Envanterde Onar ile kullanılır.",
+  "effects": {
+   "repair_vehicle": 55
+  }
+ },
+ "bolt_cutters": {
+  "name": "Cıvata Makası",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 60,
+  "tags": [
+   "lockpick_tool",
+   "tool"
+  ],
+  "description": "Kilitli kasa ve dolabı beceri olmadan açar (her seferinde aşınır, gürültülü).",
+  "durability": 150,
+  "weapon_id": ""
+ }
+}

@@ -1,0 +1,37 @@
+{
+  "pump_impeller": {
+    "name": "Pompa Pervanesi", "category": "component", "tier": 3, "stack": 1, "weight": 4.0, "value": 60,
+    "tags": ["quest", "mechanical"], "quality": false,
+    "description": "Moda terfi istasyonunun eksik parcasi. Kaybolursa atolyedeki yedek kasadan yeniden alinabilir."
+  },
+  "relay_kit": {
+    "name": "Role Kiti", "category": "assembly", "tier": 3, "stack": 3, "weight": 2.5, "value": 45,
+    "tags": ["quest", "electronic"],
+    "description": "Anten, akulu besleme ve verici karti. Yuksek bir cataya kurulunca mahalleyi telsiz agina baglar."
+  },
+  "relay_core": {
+    "name": "Ana Role Cekirdegi", "category": "component", "tier": 4, "stack": 1, "weight": 6.0, "value": 120,
+    "tags": ["quest", "electronic"], "quality": false,
+    "description": "Kopru kontrol odasindaki kasadan cikan ana verici cekirdegi. Besiktas merkezine kurulmali."
+  },
+  "antenna_tuner": {
+    "name": "Anten Ayarlayici", "category": "component", "tier": 3, "stack": 1, "weight": 1.5, "value": 70,
+    "tags": ["quest", "electronic"], "quality": false,
+    "description": "Merkez vericinin frekans ayari icin sart. Besiktas'taki elektronikcide bir tane kalmis."
+  },
+  "data_recorder": {
+    "name": "Kurye Kayit Cihazi", "category": "component", "tier": 2, "stack": 1, "weight": 0.8, "value": 30,
+    "tags": ["quest", "electronic"], "quality": false,
+    "description": "Kayip kuryenin rota kayitlari: hangi binalarda neyin kaldigini gosterir."
+  },
+  "medical_coolcase": {
+    "name": "Numune Soguk Cantasi", "category": "component", "tier": 3, "stack": 1, "weight": 3.0, "value": 50,
+    "tags": ["quest", "medical"], "quality": false,
+    "description": "Hastane laboratuvarindan numuneler ve panzehir formulu."
+  },
+  "supply_seal": {
+    "name": "Muhurlu Ikmal Belgesi", "category": "component", "tier": 2, "stack": 1, "weight": 0.2, "value": 25,
+    "tags": ["quest"], "quality": false,
+    "description": "Karakol ikmal kafesinin muhru ve kilit kodu."
+  }
+}

@@ -1,0 +1,2408 @@
+{
+  "total_models": 600,
+  "old_models": 300,
+  "new_models": 300,
+  "checks": [
+    {
+      "id": "simit_cart",
+      "status": "pass"
+    },
+    {
+      "id": "tea_table",
+      "status": "pass"
+    },
+    {
+      "id": "tea_stool",
+      "status": "pass"
+    },
+    {
+      "id": "street_bench",
+      "status": "pass"
+    },
+    {
+      "id": "bollard",
+      "status": "pass"
+    },
+    {
+      "id": "street_lamp",
+      "status": "pass"
+    },
+    {
+      "id": "traffic_light",
+      "status": "pass"
+    },
+    {
+      "id": "bus_shelter",
+      "status": "pass"
+    },
+    {
+      "id": "dumpster",
+      "status": "pass"
+    },
+    {
+      "id": "rubbish_bin",
+      "status": "pass"
+    },
+    {
+      "id": "utility_box",
+      "status": "pass"
+    },
+    {
+      "id": "air_conditioner",
+      "status": "pass"
+    },
+    {
+      "id": "water_tank",
+      "status": "pass"
+    },
+    {
+      "id": "pallet",
+      "status": "pass"
+    },
+    {
+      "id": "road_cone",
+      "status": "pass"
+    },
+    {
+      "id": "road_barrier",
+      "status": "pass"
+    },
+    {
+      "id": "fire_hydrant",
+      "status": "pass"
+    },
+    {
+      "id": "coastal_railing",
+      "status": "pass"
+    },
+    {
+      "id": "planter",
+      "status": "pass"
+    },
+    {
+      "id": "tree_plane",
+      "status": "pass"
+    },
+    {
+      "id": "tree_cypress",
+      "status": "pass"
+    },
+    {
+      "id": "bush",
+      "status": "pass"
+    },
+    {
+      "id": "rubble_pile",
+      "status": "pass"
+    },
+    {
+      "id": "facade_market",
+      "status": "pass"
+    },
+    {
+      "id": "facade_pharmacy",
+      "status": "pass"
+    },
+    {
+      "id": "facade_workshop",
+      "status": "pass"
+    },
+    {
+      "id": "facade_bakery",
+      "status": "pass"
+    },
+    {
+      "id": "facade_police",
+      "status": "pass"
+    },
+    {
+      "id": "facade_cafe",
+      "status": "pass"
+    },
+    {
+      "id": "window_plaster_cream",
+      "status": "pass"
+    },
+    {
+      "id": "window_plaster_blue",
+      "status": "pass"
+    },
+    {
+      "id": "window_plaster_rose",
+      "status": "pass"
+    },
+    {
+      "id": "balcony",
+      "status": "pass"
+    },
+    {
+      "id": "rolling_shutter",
+      "status": "pass"
+    },
+    {
+      "id": "roof_chimney",
+      "status": "pass"
+    },
+    {
+      "id": "taxi",
+      "status": "pass"
+    },
+    {
+      "id": "sedan",
+      "status": "pass"
+    },
+    {
+      "id": "police_car",
+      "status": "pass"
+    },
+    {
+      "id": "van",
+      "status": "pass"
+    },
+    {
+      "id": "minibus",
+      "status": "pass"
+    },
+    {
+      "id": "ambulance",
+      "status": "pass"
+    },
+    {
+      "id": "workbench",
+      "status": "pass"
+    },
+    {
+      "id": "medical_table",
+      "status": "pass"
+    },
+    {
+      "id": "cooking_station",
+      "status": "pass"
+    },
+    {
+      "id": "generator",
+      "status": "pass"
+    },
+    {
+      "id": "radio_station",
+      "status": "pass"
+    },
+    {
+      "id": "storage_crate",
+      "status": "pass"
+    },
+    {
+      "id": "rain_collector",
+      "status": "pass"
+    },
+    {
+      "id": "solar_panel",
+      "status": "pass"
+    },
+    {
+      "id": "bedroll",
+      "status": "pass"
+    },
+    {
+      "id": "crop_bed",
+      "status": "pass"
+    },
+    {
+      "id": "watchtower",
+      "status": "pass"
+    },
+    {
+      "id": "wood_barricade",
+      "status": "pass"
+    },
+    {
+      "id": "steel_barricade",
+      "status": "pass"
+    },
+    {
+      "id": "sandbags",
+      "status": "pass"
+    },
+    {
+      "id": "spike_trap",
+      "status": "pass"
+    },
+    {
+      "id": "turret",
+      "status": "pass"
+    },
+    {
+      "id": "gate",
+      "status": "pass"
+    },
+    {
+      "id": "zombie_walker",
+      "status": "pass"
+    },
+    {
+      "id": "zombie_runner",
+      "status": "pass"
+    },
+    {
+      "id": "zombie_worker",
+      "status": "pass"
+    },
+    {
+      "id": "zombie_police",
+      "status": "pass"
+    },
+    {
+      "id": "zombie_brute",
+      "status": "pass"
+    },
+    {
+      "id": "survivor_scout",
+      "status": "pass"
+    },
+    {
+      "id": "survivor_medic",
+      "status": "pass"
+    },
+    {
+      "id": "survivor_engineer",
+      "status": "pass"
+    },
+    {
+      "id": "survivor_guard",
+      "status": "pass"
+    },
+    {
+      "id": "survivor_civilian",
+      "status": "pass"
+    },
+    {
+      "id": "pistol",
+      "status": "pass"
+    },
+    {
+      "id": "shotgun",
+      "status": "pass"
+    },
+    {
+      "id": "smg",
+      "status": "pass"
+    },
+    {
+      "id": "marksman_rifle",
+      "status": "pass"
+    },
+    {
+      "id": "assault_rifle",
+      "status": "pass"
+    },
+    {
+      "id": "fps_arms",
+      "status": "pass"
+    },
+    {
+      "id": "ammo_9mm",
+      "status": "pass"
+    },
+    {
+      "id": "ammo_shells",
+      "status": "pass"
+    },
+    {
+      "id": "ammo_rifle",
+      "status": "pass"
+    },
+    {
+      "id": "medkit",
+      "status": "pass"
+    },
+    {
+      "id": "bandage",
+      "status": "pass"
+    },
+    {
+      "id": "water_bottle",
+      "status": "pass"
+    },
+    {
+      "id": "canned_food",
+      "status": "pass"
+    },
+    {
+      "id": "bread",
+      "status": "pass"
+    },
+    {
+      "id": "fuel_can",
+      "status": "pass"
+    },
+    {
+      "id": "battery",
+      "status": "pass"
+    },
+    {
+      "id": "scrap_metal",
+      "status": "pass"
+    },
+    {
+      "id": "wood_bundle",
+      "status": "pass"
+    },
+    {
+      "id": "cloth_roll",
+      "status": "pass"
+    },
+    {
+      "id": "electronics",
+      "status": "pass"
+    },
+    {
+      "id": "medicine",
+      "status": "pass"
+    },
+    {
+      "id": "seed_packet",
+      "status": "pass"
+    },
+    {
+      "id": "fertilizer",
+      "status": "pass"
+    },
+    {
+      "id": "toolbox",
+      "status": "pass"
+    },
+    {
+      "id": "backpack",
+      "status": "pass"
+    },
+    {
+      "id": "radio_handheld",
+      "status": "pass"
+    },
+    {
+      "id": "loot_chest_wood",
+      "status": "pass"
+    },
+    {
+      "id": "wardrobe_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "dresser_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "nightstand_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "kitchen_cabinet_low",
+      "status": "pass"
+    },
+    {
+      "id": "kitchen_cabinet_wall",
+      "status": "pass"
+    },
+    {
+      "id": "fridge_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "medicine_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "pharmacy_shelf",
+      "status": "pass"
+    },
+    {
+      "id": "pharmacy_counter",
+      "status": "pass"
+    },
+    {
+      "id": "market_shelf",
+      "status": "pass"
+    },
+    {
+      "id": "market_checkout",
+      "status": "pass"
+    },
+    {
+      "id": "supply_box_cardboard",
+      "status": "pass"
+    },
+    {
+      "id": "tool_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "weapon_locker",
+      "status": "pass"
+    },
+    {
+      "id": "sofa_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "bed_single_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "dining_table_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "chair_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "sink_kitchen",
+      "status": "pass"
+    },
+    {
+      "id": "stove_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "toilet_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "washbasin_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "ceiling_lamp_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "rug_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "curtain_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "door_interior_wood",
+      "status": "pass"
+    },
+    {
+      "id": "door_entrance_metal",
+      "status": "pass"
+    },
+    {
+      "id": "door_shop_glass",
+      "status": "pass"
+    },
+    {
+      "id": "sedan_cabin",
+      "status": "pass"
+    },
+    {
+      "id": "sedan_shell_open",
+      "status": "pass"
+    },
+    {
+      "id": "taxi_cabin",
+      "status": "pass"
+    },
+    {
+      "id": "taxi_shell_open",
+      "status": "pass"
+    },
+    {
+      "id": "police_car_cabin",
+      "status": "pass"
+    },
+    {
+      "id": "police_car_shell_open",
+      "status": "pass"
+    },
+    {
+      "id": "van_cabin",
+      "status": "pass"
+    },
+    {
+      "id": "van_shell_open",
+      "status": "pass"
+    },
+    {
+      "id": "minibus_cabin",
+      "status": "pass"
+    },
+    {
+      "id": "minibus_shell_open",
+      "status": "pass"
+    },
+    {
+      "id": "ambulance_cabin",
+      "status": "pass"
+    },
+    {
+      "id": "ambulance_shell_open",
+      "status": "pass"
+    },
+    {
+      "id": "armchair_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "sofa_two_seat",
+      "status": "pass"
+    },
+    {
+      "id": "bench_waiting_padded",
+      "status": "pass"
+    },
+    {
+      "id": "bed_double_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "bed_bunk_hostel",
+      "status": "pass"
+    },
+    {
+      "id": "coffee_table",
+      "status": "pass"
+    },
+    {
+      "id": "side_table",
+      "status": "pass"
+    },
+    {
+      "id": "study_desk",
+      "status": "pass"
+    },
+    {
+      "id": "folding_table",
+      "status": "pass"
+    },
+    {
+      "id": "restaurant_table",
+      "status": "pass"
+    },
+    {
+      "id": "school_desk",
+      "status": "pass"
+    },
+    {
+      "id": "worktable_large",
+      "status": "pass"
+    },
+    {
+      "id": "chair_padded",
+      "status": "pass"
+    },
+    {
+      "id": "chair_office",
+      "status": "pass"
+    },
+    {
+      "id": "stool_kitchen",
+      "status": "pass"
+    },
+    {
+      "id": "stool_workshop",
+      "status": "pass"
+    },
+    {
+      "id": "chair_plastic",
+      "status": "pass"
+    },
+    {
+      "id": "chair_waiting",
+      "status": "pass"
+    },
+    {
+      "id": "bookcase_tall",
+      "status": "pass"
+    },
+    {
+      "id": "shoe_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "tv_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "linen_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "filing_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "office_cupboard",
+      "status": "pass"
+    },
+    {
+      "id": "locker_single",
+      "status": "pass"
+    },
+    {
+      "id": "locker_double",
+      "status": "pass"
+    },
+    {
+      "id": "safe_small",
+      "status": "pass"
+    },
+    {
+      "id": "safe_tall",
+      "status": "pass"
+    },
+    {
+      "id": "kitchen_pantry",
+      "status": "pass"
+    },
+    {
+      "id": "bakery_display",
+      "status": "pass"
+    },
+    {
+      "id": "display_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "archive_shelf",
+      "status": "pass"
+    },
+    {
+      "id": "workshop_shelf",
+      "status": "pass"
+    },
+    {
+      "id": "cleaning_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "footlocker_metal",
+      "status": "pass"
+    },
+    {
+      "id": "storage_trunk",
+      "status": "pass"
+    },
+    {
+      "id": "cooler_box",
+      "status": "pass"
+    },
+    {
+      "id": "freezer_chest",
+      "status": "pass"
+    },
+    {
+      "id": "medical_supply_chest",
+      "status": "pass"
+    },
+    {
+      "id": "dishwasher",
+      "status": "pass"
+    },
+    {
+      "id": "washing_machine",
+      "status": "pass"
+    },
+    {
+      "id": "microwave",
+      "status": "pass"
+    },
+    {
+      "id": "range_hood",
+      "status": "pass"
+    },
+    {
+      "id": "kitchen_island",
+      "status": "pass"
+    },
+    {
+      "id": "dish_rack",
+      "status": "pass"
+    },
+    {
+      "id": "wall_mirror",
+      "status": "pass"
+    },
+    {
+      "id": "shower_tray",
+      "status": "pass"
+    },
+    {
+      "id": "shower_fixture",
+      "status": "pass"
+    },
+    {
+      "id": "bathtub",
+      "status": "pass"
+    },
+    {
+      "id": "towel_rail",
+      "status": "pass"
+    },
+    {
+      "id": "laundry_basket",
+      "status": "pass"
+    },
+    {
+      "id": "radiator",
+      "status": "pass"
+    },
+    {
+      "id": "water_heater",
+      "status": "pass"
+    },
+    {
+      "id": "wall_boiler",
+      "status": "pass"
+    },
+    {
+      "id": "television_crt",
+      "status": "pass"
+    },
+    {
+      "id": "television_flat",
+      "status": "pass"
+    },
+    {
+      "id": "computer_tower",
+      "status": "pass"
+    },
+    {
+      "id": "computer_monitor",
+      "status": "pass"
+    },
+    {
+      "id": "keyboard",
+      "status": "pass"
+    },
+    {
+      "id": "desk_phone",
+      "status": "pass"
+    },
+    {
+      "id": "printer",
+      "status": "pass"
+    },
+    {
+      "id": "desk_lamp",
+      "status": "pass"
+    },
+    {
+      "id": "floor_lamp",
+      "status": "pass"
+    },
+    {
+      "id": "fluorescent_fixture",
+      "status": "pass"
+    },
+    {
+      "id": "wall_sconce",
+      "status": "pass"
+    },
+    {
+      "id": "ceiling_fan",
+      "status": "pass"
+    },
+    {
+      "id": "standing_fan",
+      "status": "pass"
+    },
+    {
+      "id": "wall_clock",
+      "status": "pass"
+    },
+    {
+      "id": "picture_frame",
+      "status": "pass"
+    },
+    {
+      "id": "coat_stand",
+      "status": "pass"
+    },
+    {
+      "id": "umbrella_stand",
+      "status": "pass"
+    },
+    {
+      "id": "doormat",
+      "status": "pass"
+    },
+    {
+      "id": "wastebasket_office",
+      "status": "pass"
+    },
+    {
+      "id": "fire_extinguisher",
+      "status": "pass"
+    },
+    {
+      "id": "first_aid_wall_box",
+      "status": "pass"
+    },
+    {
+      "id": "restaurant_shelf",
+      "status": "pass"
+    },
+    {
+      "id": "bakery_rack",
+      "status": "pass"
+    },
+    {
+      "id": "produce_rack",
+      "status": "pass"
+    },
+    {
+      "id": "warehouse_rack",
+      "status": "pass"
+    },
+    {
+      "id": "shoe_shop_shelf",
+      "status": "pass"
+    },
+    {
+      "id": "restaurant_counter",
+      "status": "pass"
+    },
+    {
+      "id": "reception_desk",
+      "status": "pass"
+    },
+    {
+      "id": "drink_fridge",
+      "status": "pass"
+    },
+    {
+      "id": "shopping_cart",
+      "status": "pass"
+    },
+    {
+      "id": "shopping_basket",
+      "status": "pass"
+    },
+    {
+      "id": "cash_register",
+      "status": "pass"
+    },
+    {
+      "id": "pos_terminal",
+      "status": "pass"
+    },
+    {
+      "id": "weighing_scale",
+      "status": "pass"
+    },
+    {
+      "id": "bakery_oven",
+      "status": "pass"
+    },
+    {
+      "id": "restaurant_grill",
+      "status": "pass"
+    },
+    {
+      "id": "tea_boiler",
+      "status": "pass"
+    },
+    {
+      "id": "kebab_grill",
+      "status": "pass"
+    },
+    {
+      "id": "hospital_bed",
+      "status": "pass"
+    },
+    {
+      "id": "iv_stand",
+      "status": "pass"
+    },
+    {
+      "id": "medical_trolley",
+      "status": "pass"
+    },
+    {
+      "id": "privacy_screen",
+      "status": "pass"
+    },
+    {
+      "id": "exam_table",
+      "status": "pass"
+    },
+    {
+      "id": "wheelchair",
+      "status": "pass"
+    },
+    {
+      "id": "barber_chair",
+      "status": "pass"
+    },
+    {
+      "id": "barber_mirror_station",
+      "status": "pass"
+    },
+    {
+      "id": "sewing_machine",
+      "status": "pass"
+    },
+    {
+      "id": "vise_bench",
+      "status": "pass"
+    },
+    {
+      "id": "drill_press",
+      "status": "pass"
+    },
+    {
+      "id": "bench_grinder",
+      "status": "pass"
+    },
+    {
+      "id": "air_compressor",
+      "status": "pass"
+    },
+    {
+      "id": "welder_cart",
+      "status": "pass"
+    },
+    {
+      "id": "floor_jack",
+      "status": "pass"
+    },
+    {
+      "id": "engine_hoist",
+      "status": "pass"
+    },
+    {
+      "id": "mechanic_creeper",
+      "status": "pass"
+    },
+    {
+      "id": "pegboard_tools_empty",
+      "status": "pass"
+    },
+    {
+      "id": "rolling_tool_chest",
+      "status": "pass"
+    },
+    {
+      "id": "parts_bin_rack",
+      "status": "pass"
+    },
+    {
+      "id": "oil_drain_pan",
+      "status": "pass"
+    },
+    {
+      "id": "gas_cylinder",
+      "status": "pass"
+    },
+    {
+      "id": "propane_stove",
+      "status": "pass"
+    },
+    {
+      "id": "electrical_breaker_panel",
+      "status": "pass"
+    },
+    {
+      "id": "water_meter_assembly",
+      "status": "pass"
+    },
+    {
+      "id": "pipe_valve",
+      "status": "pass"
+    },
+    {
+      "id": "vent_grille",
+      "status": "pass"
+    },
+    {
+      "id": "portable_heater",
+      "status": "pass"
+    },
+    {
+      "id": "extension_reel",
+      "status": "pass"
+    },
+    {
+      "id": "car_seat_front",
+      "status": "pass"
+    },
+    {
+      "id": "car_seat_bench",
+      "status": "pass"
+    },
+    {
+      "id": "minibus_bench",
+      "status": "pass"
+    },
+    {
+      "id": "ambulance_stretcher",
+      "status": "pass"
+    },
+    {
+      "id": "steering_wheel_spare",
+      "status": "pass"
+    },
+    {
+      "id": "dashboard_spare",
+      "status": "pass"
+    },
+    {
+      "id": "car_door_left_panel",
+      "status": "pass"
+    },
+    {
+      "id": "car_door_right_panel",
+      "status": "pass"
+    },
+    {
+      "id": "car_tire_spare",
+      "status": "pass"
+    },
+    {
+      "id": "car_engine",
+      "status": "pass"
+    },
+    {
+      "id": "car_radiator",
+      "status": "pass"
+    },
+    {
+      "id": "car_exhaust",
+      "status": "pass"
+    },
+    {
+      "id": "car_fuel_tank",
+      "status": "pass"
+    },
+    {
+      "id": "car_roof_rack",
+      "status": "pass"
+    },
+    {
+      "id": "car_roof_luggage_box",
+      "status": "pass"
+    },
+    {
+      "id": "car_side_mirror",
+      "status": "pass"
+    },
+    {
+      "id": "rearview_mirror",
+      "status": "pass"
+    },
+    {
+      "id": "pedal_set",
+      "status": "pass"
+    },
+    {
+      "id": "gear_shift_spare",
+      "status": "pass"
+    },
+    {
+      "id": "car_battery_charger",
+      "status": "pass"
+    },
+    {
+      "id": "kettle",
+      "status": "pass"
+    },
+    {
+      "id": "teapot",
+      "status": "pass"
+    },
+    {
+      "id": "tea_glass",
+      "status": "pass"
+    },
+    {
+      "id": "mug",
+      "status": "pass"
+    },
+    {
+      "id": "plate",
+      "status": "pass"
+    },
+    {
+      "id": "bowl",
+      "status": "pass"
+    },
+    {
+      "id": "cooking_pot",
+      "status": "pass"
+    },
+    {
+      "id": "frying_pan",
+      "status": "pass"
+    },
+    {
+      "id": "cutting_board",
+      "status": "pass"
+    },
+    {
+      "id": "cutlery_tray",
+      "status": "pass"
+    },
+    {
+      "id": "bread_basket",
+      "status": "pass"
+    },
+    {
+      "id": "soap_dispenser",
+      "status": "pass"
+    },
+    {
+      "id": "toilet_paper_roll",
+      "status": "pass"
+    },
+    {
+      "id": "towel_folded",
+      "status": "pass"
+    },
+    {
+      "id": "pillow",
+      "status": "pass"
+    },
+    {
+      "id": "blanket_folded",
+      "status": "pass"
+    },
+    {
+      "id": "books_stack",
+      "status": "pass"
+    },
+    {
+      "id": "binder",
+      "status": "pass"
+    },
+    {
+      "id": "document_box",
+      "status": "pass"
+    },
+    {
+      "id": "alarm_clock",
+      "status": "pass"
+    },
+    {
+      "id": "plant_pot_small",
+      "status": "pass"
+    },
+    {
+      "id": "watering_can",
+      "status": "pass"
+    },
+    {
+      "id": "broom",
+      "status": "pass"
+    },
+    {
+      "id": "mop_bucket",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_straight_concrete",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_straight_wood",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_straight_steel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_l_concrete",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_u_concrete",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_u_compact",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_l_wood",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_spiral_steel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_fire_escape",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_basement",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_roof_access",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_landing_square",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_landing_turn",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_landing_balcony",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_rail_stair_steel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_rail_stair_wood",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_rail_landing",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_rail_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_handrail_wall",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_void_frame",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roof_hatch",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_ladder_roof",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_stair_support_column",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_landing_fire_door",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_threshold_ramp",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_plaster_solid",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_door_single",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_door_double",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_window_inside",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_half_height",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_corner_inner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_t_junction",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_diagonal",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_wall_tile_wet",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_partition_glass",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_partition_folding",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_doorframe_wood",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_doorframe_steel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_door_sliding_pocket",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_door_double_lobby",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_door_bathroom",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_floor_slab_solid",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_floor_slab_stairwell",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_floor_slab_balcony",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_ceiling_service_panel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_column_rectangular",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_beam_lintel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_skirtboard_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_shaft_utility",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_apartment_entry_alcove",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bay_window_timber",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bay_window_masonry",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_balcony_recessed",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_balcony_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_balcony_enclosed",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_balcony_service",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_window_tall_pair",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_window_basement",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_window_shop_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_window_arch",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_shutter_wood_pair",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_awning_retractable",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_canopy_apartment",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_canopy_shop",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roof_tile_slope",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roof_tile_ridge",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roof_hip_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roof_flat_parapet",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roof_dormer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gutter_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_downpipe_bend",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_firewall_roof",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_rooftop_service_room",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_facade_pilaster",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_facade_cornice",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_curb_straight",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_curb_inner_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_curb_outer_corner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_curb_drop_access",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_sidewalk_driveway",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_sidewalk_tree_pit",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_sidewalk_tactile",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gutter_channel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_drain_grate_long",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_manhole_openable",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_speed_bump",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_refuge_island",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_guardrail_straight",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_guardrail_terminal",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bridge_expansion_joint",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roadwork_plate",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roadwork_fence",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_roadwork_warning_lamp",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_lane_divider_post",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_parking_meter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_street_sign_pole",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bus_stop_post",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bicycle_rack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_retaining_wall_step",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_underpass_light_housing",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_purifier_gravity",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_purifier_pump",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_boiling_rig",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_distiller",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_cistern_collapsible",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_barrel_tap",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_jerrycan_stack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_hand_pump",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_pressure_pump",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_pipe_manifold",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_test_station",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_water_filling_station",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_dehydrator",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_smoking_cabinet",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_preserving_table",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_fermentation_crock",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_grain_mill",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_solar_oven",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_rocket_stove",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_compost_tumbler",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_farm_seedling_tray",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_farm_vertical_planter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_farm_greenhouse_frame",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_farm_irrigation_reel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_food_cold_room_door",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_rice_bag",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_lentil_bag",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_pasta_pack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_flour_sack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_cooking_oil",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_salt_pack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_sugar_pack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_dried_fruit",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_chickpea_can",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_cooked_stew",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_spoiled_meal",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_thermos",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_canteen",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_water_pouch",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_filter_cartridge",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_charcoal_bag",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_purification_tabs",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_dirty_water_jar",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_empty_bottle_crate",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_ration_box",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_hygiene_kit",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_respirator_filter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_tourniquet",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_suture_kit",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_item_hand_warmer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_battery_bank",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_inverter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_charge_controller",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_switchboard",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_transformer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_fuel_generator_large",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_pedal_generator",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_wind_micro",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_solar_mount",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_cable_reel_heavy",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_cable_bridge",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_power_fuse_box_weather",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_radio_repeater",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_radio_mast_foldable",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_radio_directional_antenna",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_radio_patch_panel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_hand_truck",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_pallet_jack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_cargo_bike",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_flatbed_trailer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_fuel_bladder",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_supply_cage",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_sorting_table",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_weigh_platform",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_logistics_checkpoint_boom",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_school_blackboard",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_school_lab_bench",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_school_gym_mat_rack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_library_card_catalog",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_library_reading_carrel",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_hospital_autoclave",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_hospital_ultrasound_cart",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_hospital_lab_centrifuge",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_hospital_oxygen_trolley",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_hospital_stretcher_fold",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_dental_chair",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_pharmacy_compound_bench",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bakery_dough_mixer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_bakery_dough_divider",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_butcher_display_case",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_fishmonger_ice_table",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_tailor_cutting_table",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_cobbler_repair_stand",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_laundromat_industrial_washer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_garage_tire_changer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_garage_alignment_ramp",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_electronics_solder_station",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_printshop_press",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_music_repair_bench",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_police_evidence_cage",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_radio_console",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_water_controls",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_grid_isolator",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_relay_core",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_pump_impeller",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_transformer_coil",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_medical_coolcase",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_data_recorder",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_access_card",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_keyring_service",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_signal_beacon",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_rescue_winchtop",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_rescue_basket",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_evac_board",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_route_board",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_supply_seal",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_black_box",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_antenna_tuner",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_bridge_control",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_bridge_lock",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_distress_radio",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_donation_locker",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_memorial_board",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_sample_carrier",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_mission_project_model",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_water_technician",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_electrician",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_radio_operator",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_cook",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_farmer",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_mechanic",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_teacher",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_firefighter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_nurse",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_courier",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_trader",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_sailmaker",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_carpenter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_chemist",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_survivor_route_guide",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_spitter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_crawler",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_screecher",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_courier",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_firefighter",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_hazmat",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_cook",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_riot_guard",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_climber",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_zombie_luggage",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_red_dot",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_holo_sight",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_suppressor",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_flashlight_mount",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_foregrip",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_bipod",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_weapon_cleaning_roll",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_armor_plate_carrier",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_armor_helmet_tactical",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_armor_knee_pads",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gear_gas_mask",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gear_headlamp",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gear_binoculars",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gear_compass",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gear_lockpick_roll",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_gear_climbing_harness",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_wire_fence",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_wire_gate",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_tripwire_alarm",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_bell_alarm",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_searchlight",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_shutter_reinforced",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_gate_brace",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_decoy_speaker",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_defense_spotter_perch",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_newsstand",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_flower_stall",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_fish_stall",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_fruit_cart",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_chestnut_cart",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_corn_cart",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_book_stall",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_market_canopy",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_market_crate_stack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_tea_garden_partition",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_fountain_wall",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_fountain_drinking",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_seaside_steps",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_fishing_rod_rack",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_lifebuoy_station",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_mooring_bollard",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_ferry_queue_rail",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_tram_stop_sign",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_apartment_intercom",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_mailbox_wall",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_laundry_line",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_rooftop_satellite",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_courtyard_pergola",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_plane_tree_guard",
+      "status": "pass"
+    },
+    {
+      "id": "iz2_district_neighborhood_notice",
+      "status": "pass"
+    }
+  ],
+  "engine_tested": false
+}

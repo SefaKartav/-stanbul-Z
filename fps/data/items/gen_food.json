@@ -1,0 +1,610 @@
+{
+ "lentil_soup": {
+  "name": "Mercimek Çorbası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 11,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Sıcak, doyurucu, bol su. (+22 tokluk, +14 su)"
+ },
+ "rice_pilaf": {
+  "name": "Pirinç Pilavı",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 14,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Tereyağsız ama doyurucu pilav. (+30 tokluk, +0 su)"
+ },
+ "bulgur_pilaf": {
+  "name": "Domatesli Bulgur Pilavı",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 13,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Bulgur ve taze domates. (+28 tokluk, +4 su)"
+ },
+ "pasta_sauce": {
+  "name": "Salçalı Makarna",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 14,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Salça ve makarna: klasik. (+30 tokluk, +2 su)"
+ },
+ "flatbread": {
+  "name": "Bazlama",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Sacda pişmiş ekmek: yolda yenir. (+18 tokluk, +0 su)"
+ },
+ "bread_loaf": {
+  "name": "Somun Ekmek",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Fırında somun: uzun dayanır. (+20 tokluk, +0 su)"
+ },
+ "bean_stew": {
+  "name": "Kuru Fasulye",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 16,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Fasulye, salça, yağ: en doyurucu tencere. (+36 tokluk, +6 su)"
+ },
+ "potato_saute": {
+  "name": "Patates Kavurma",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 14,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Yağda kızarmış patates. (+30 tokluk, +0 su)"
+ },
+ "baked_potato": {
+  "name": "Közde Patates",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 11,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Ateşin külünde pişer. (+22 tokluk, +2 su)"
+ },
+ "pepper_saute": {
+  "name": "Biberli Domates Sote",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 11,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Menemenin yumurtasız hali. (+22 tokluk, +10 su)"
+ },
+ "stuffed_pepper": {
+  "name": "Zeytinyağlı Biber Dolması",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 14,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Pirinç dolgulu biber: soğuk da yenir. (+32 tokluk, +4 su)"
+ },
+ "veg_stew": {
+  "name": "Sebze Yahnisi",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 15,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Sebze ve patates: iyileştirir. (+34 tokluk, +12 su)",
+  "effects": {
+   "regen": 0.2,
+   "duration": 60
+  }
+ },
+ "tomato_soup": {
+  "name": "Domates Çorbası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 9,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Hafif, bol sulu çorba. (+16 tokluk, +18 su)"
+ },
+ "fish_grilled": {
+  "name": "Izgara Balık",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 12,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Tuzlu, közde. (+26 tokluk, +2 su)"
+ },
+ "fish_bread": {
+  "name": "Balık Ekmek",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 17,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "İskele usulü: ekmek arası balık. Moral verir. (+40 tokluk, +2 su)",
+  "effects": {
+   "focus": 0.1,
+   "duration": 90
+  }
+ },
+ "fish_soup": {
+  "name": "Balık Çorbası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 12,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Balık, patates, su. (+24 tokluk, +16 su)"
+ },
+ "helva": {
+  "name": "Un Helvası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Şekerli, yağlı: hızlı toparlar. (+20 tokluk, +0 su)",
+  "effects": {
+   "regen": 0.3,
+   "duration": 40
+  }
+ },
+ "compote": {
+  "name": "Hoşaf",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 6,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Kuru meyve şurubu. (+8 tokluk, +22 su)"
+ },
+ "tea_brewed": {
+  "name": "Demli Çay",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 4,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "İnce belli bardakta: ayıltır, odaklar. (+0 tokluk, +12 su)",
+  "effects": {
+   "focus": 0.12,
+   "duration": 90
+  }
+ },
+ "turkish_coffee": {
+  "name": "Türk Kahvesi",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 4,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Enerji ve odak. (+0 tokluk, +5 su)",
+  "effects": {
+   "stamina": 30,
+   "focus": 0.2,
+   "duration": 60
+  }
+ },
+ "gozleme": {
+  "name": "Patatesli Gözleme",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 15,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Hamur arası patates. (+34 tokluk, +0 su)"
+ },
+ "chickpea_stew": {
+  "name": "Nohut Yemeği",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 14,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Salçalı nohut. (+30 tokluk, +6 su)"
+ },
+ "tarhana": {
+  "name": "Tarhana Çorbası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 9,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Un ve salça: kış çorbası. (+16 tokluk, +14 su)"
+ },
+ "grilled_veg": {
+  "name": "Közlenmiş Sebze",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Közlenmiş sebze ve biber. (+20 tokluk, +6 su)"
+ },
+ "potato_soup": {
+  "name": "Patates Çorbası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Sade, sıcak, tok tutar. (+20 tokluk, +14 su)"
+ },
+ "rice_soup": {
+  "name": "Yayla Çorbası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Pirinçli, naneli çorba: mideyi yatıştırır. (+18 tokluk, +14 su)",
+  "effects": {
+   "cure_sick": 1
+  }
+ },
+ "field_ration": {
+  "name": "Sahra Kumanyası",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 8,
+  "weight": 0.8,
+  "value": 22,
+  "tags": [
+   "food",
+   "supply"
+  ],
+  "description": "Bazlama, kuru meyve, kavurma: bozulmaz, tam bir öğün."
+ },
+ "tomato_paste": {
+  "name": "Salça",
+  "category": "material",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.4,
+  "value": 5,
+  "tags": [
+   "condiment",
+   "organic"
+  ],
+  "description": "Domatesten koyulaştırılmış salça: yemek tabanı.",
+  "quality": false
+ },
+ "vinegar": {
+  "name": "Sirke",
+  "category": "material",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.6,
+  "value": 4,
+  "tags": [
+   "vinegar",
+   "antiseptic_base",
+   "organic"
+  ],
+  "description": "Mayalanmış meyve: turşu ve yara temizliği.",
+  "quality": false
+ },
+ "pickles": {
+  "name": "Turşu",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 6,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Tuz ve sirkeyle kurulmuş sebze: bozulmaz."
+ },
+ "jam": {
+  "name": "Reçel",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 8,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Şekerli meyve: bozulmaz, enerji verir.",
+  "effects": {
+   "stamina": 15
+  }
+ },
+ "dried_tomato": {
+  "name": "Kuru Domates",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.2,
+  "value": 7,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Güneşte kurutulmuş: hafif ve bozulmaz."
+ },
+ "smoked_fish": {
+  "name": "Tütsülenmiş Balık",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 11,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Tuz ve dumanla korunmuş balık."
+ },
+ "compost": {
+  "name": "Kompost",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.0,
+  "value": 3,
+  "tags": [
+   "fertilizer",
+   "compost",
+   "organic"
+  ],
+  "description": "Çürümüş yemek ve ottan gübre: saksıda büyümeyi %50 hızlandırır (E ile ver).",
+  "quality": false
+ },
+ "bait": {
+  "name": "Balık Yemi",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.05,
+  "value": 1,
+  "tags": [
+   "bait",
+   "organic"
+  ],
+  "description": "Oltada şansı büyük ölçüde artırır.",
+  "quality": false
+ },
+ "planter_box": {
+  "name": "Saksı",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 20,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Tek ekimlik saksı: tohum ek, sula, hasat et (E). İnşa kipinde (B) kurulur."
+ },
+ "raised_bed": {
+  "name": "Yükseltilmiş Yatak",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 20.0,
+  "value": 40,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Gübreli toprak: %25 hızlı büyür. İnşa kipinde (B) kurulur."
+ },
+ "farm_plot": {
+  "name": "Tarla Parseli",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 10.0,
+  "value": 20,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Toprağa açılmış parsel: %10 hızlı. İnşa kipinde (B) kurulur."
+ },
+ "greenhouse_bed": {
+  "name": "Sera Yatağı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 30.0,
+  "value": 60,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Cam örtülü yatak: %50 hızlı büyür. İnşa kipinde (B) kurulur."
+ },
+ "rain_tarp": {
+  "name": "Brandalı Toplayıcı",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 20,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Üste kurulur: her gün 1-3 şişe kirli su toplar. İnşa kipinde (B) kurulur."
+ },
+ "rain_cistern": {
+  "name": "Katlanır Sarnıç",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 20.0,
+  "value": 60,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Her gün 3-7 şişe kirli su. İnşa kipinde (B) kurulur."
+ },
+ "solar_still": {
+  "name": "Güneş Damıtıcı",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 8.0,
+  "value": 40,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Elektriksiz: üs deposundaki kirli sudan her gün 2 şişe temizler. İnşa kipinde (B) kurulur."
+ },
+ "sand_filter_barrel": {
+  "name": "Kum Filtreli Varil",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 16.0,
+  "value": 40,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Her gün 4 şişe temizler; günde 1 kum filtre paketi harcar. İnşa kipinde (B) kurulur."
+ },
+ "water_tank_part": {
+  "name": "Su Tankı Gövdesi",
+  "category": "component",
+  "tier": 1,
+  "stack": 4,
+  "weight": 4.0,
+  "value": 10,
+  "tags": [
+   "container"
+  ],
+  "description": "Plastik tank: arıtıcı ve toplayıcı gövdesi."
+ },
+ "compost_bin": {
+  "name": "Kompost Kutusu",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 8.0,
+  "value": 20,
+  "tags": [
+   "placeable"
+  ],
+  "description": "Her gün üs deposundaki 3 bozuk yemeği komposta çevirir. İnşa kipinde (B) kurulur."
+ }
+}

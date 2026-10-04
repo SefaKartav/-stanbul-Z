@@ -1,0 +1,1284 @@
+{
+ "r_biodiesel": {
+  "name": "Biyodizel",
+  "output": "biodiesel",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 18,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "cooking_oil",
+    "count": 3
+   },
+   {
+    "item": "ethanol",
+    "count": 1
+   },
+   {
+    "item": "lye",
+    "count": 1
+   }
+  ],
+  "description": "Kızartma yağından metanolle dönüştürülmüş yakıt."
+ },
+ "r_ethanol_fuel": {
+  "name": "Yakıt Alkolü",
+  "output": "ethanol_fuel",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 18,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "ethanol",
+    "count": 3
+   },
+   {
+    "item": "bottle_empty",
+    "count": 1
+   }
+  ],
+  "description": "Damıtılmış yakıt alkolü: motorda benzin yerine yanar."
+ },
+ "r_refined_gasoline": {
+  "name": "Rafine Benzin",
+  "output": "refined_gasoline",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 22,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "gasoline",
+    "count": 2
+   },
+   {
+    "item": "ceramic_filter",
+    "count": 1
+   }
+  ],
+  "description": "Tortusu süzülmüş benzin: uzun yol."
+ },
+ "r_fuel_jerrycan": {
+  "name": "Dolu Bidon",
+  "output": "fuel_jerrycan",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 22,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "tag": "chemical_fuel",
+    "count": 4
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 1
+   }
+  ],
+  "description": "20 litrelik dolu bidon: tek seferde depo."
+ },
+ "r_engine_tuned": {
+  "name": "Ayarlı Motor",
+  "output": "engine_tuned",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Engine",
+  "inputs": [
+   {
+    "item": "motor_large",
+    "count": 1
+   },
+   {
+    "item": "piston",
+    "count": 2
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   },
+   {
+    "item": "oil_can",
+    "count": 1
+   }
+  ],
+  "description": "Karbüratörü ayarlı motor: +%15 hız."
+ },
+ "r_engine_rebuilt": {
+  "name": "Revizyonlu Motor",
+  "output": "engine_rebuilt",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Engine",
+  "inputs": [
+   {
+    "item": "engine_tuned",
+    "count": 1
+   },
+   {
+    "item": "crank_shaft",
+    "count": 1
+   },
+   {
+    "item": "piston",
+    "count": 2
+   },
+   {
+    "item": "steel_ingot",
+    "count": 2
+   }
+  ],
+  "description": "Silindirleri yenilenmiş motor: +%30 hız.",
+  "learn": "level:12"
+ },
+ "r_tires_offroad": {
+  "name": "Arazi Lastiği Takımı",
+  "output": "tires_offroad",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tires",
+  "inputs": [
+   {
+    "item": "tire_scrap",
+    "count": 4
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 2
+   },
+   {
+    "item": "steel_bars",
+    "count": 1
+   }
+  ],
+  "description": "Kalın dişli lastik: enkazda daha az hasar."
+ },
+ "r_tires_run_flat": {
+  "name": "Patlamaz Lastik",
+  "output": "tires_run_flat",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tires",
+  "inputs": [
+   {
+    "item": "tires_offroad",
+    "count": 1
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 4
+   },
+   {
+    "item": "kevlar_panel",
+    "count": 1
+   }
+  ],
+  "description": "İçi dolgulu lastik: araç çok daha dayanıklı."
+ },
+ "r_armor_plating_car": {
+  "name": "Sac Kaplama",
+  "output": "armor_plating_car",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Armor",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "welding_rod",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 10
+   }
+  ],
+  "description": "Kapı ve camlara kaynaklı sac: +40 sağlamlık, biraz yavaş."
+ },
+ "r_armor_cage_car": {
+  "name": "Çelik Kafes",
+  "output": "armor_cage_car",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Armor",
+  "inputs": [
+   {
+    "item": "armor_plating_car",
+    "count": 1
+   },
+   {
+    "item": "steel_bars",
+    "count": 4
+   },
+   {
+    "item": "armor_plate_steel",
+    "count": 2
+   }
+  ],
+  "description": "Tam kafes: +80 sağlamlık, ezme gücü artar.",
+  "learn": "level:10"
+ },
+ "r_tank_extended": {
+  "name": "Ek Depo",
+  "output": "tank_extended",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tank",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   },
+   {
+    "item": "valve",
+    "count": 1
+   }
+  ],
+  "description": "Bagaja bağlı ek depo: +30 birim yakıt."
+ },
+ "r_tank_long_range": {
+  "name": "Uzun Menzil Deposu",
+  "output": "tank_long_range",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tank",
+  "inputs": [
+   {
+    "item": "tank_extended",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 3
+   },
+   {
+    "item": "pump_unit",
+    "count": 1
+   }
+  ],
+  "description": "Çift cidarlı depo: +60 birim."
+ },
+ "r_roof_rack": {
+  "name": "Tavan Bagajı",
+  "output": "roof_rack",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 28,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Rack",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 4
+   },
+   {
+    "item": "metal_bracket",
+    "count": 4
+   },
+   {
+    "item": "rope",
+    "count": 2
+   }
+  ],
+  "description": "Tavana bağlı sepet: +60 kg bagaj."
+ },
+ "r_cargo_trailer_hitch": {
+  "name": "Yük Sepeti ve Çeki Demiri",
+  "output": "cargo_trailer_hitch",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Rack",
+  "inputs": [
+   {
+    "item": "roof_rack",
+    "count": 1
+   },
+   {
+    "item": "steel_bars",
+    "count": 3
+   },
+   {
+    "item": "axle",
+    "count": 1
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 2
+   }
+  ],
+  "description": "Arka sepet: +150 kg bagaj."
+ },
+ "r_bull_bar": {
+  "name": "Ön Koruma Demiri",
+  "output": "bull_bar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Bumper",
+  "inputs": [
+   {
+    "item": "steel_bars",
+    "count": 3
+   },
+   {
+    "item": "pipe_steel",
+    "count": 2
+   },
+   {
+    "item": "welding_rod",
+    "count": 2
+   }
+  ],
+  "description": "Zombi ezme hasarı ×1,5, araç daha az hasar alır."
+ },
+ "r_plow_blade": {
+  "name": "Kar Küreği Bıçağı",
+  "output": "plow_blade",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Bumper",
+  "inputs": [
+   {
+    "item": "bull_bar",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "blade_blank",
+    "count": 2
+   }
+  ],
+  "description": "Sürüyü biçer: ezme ×2,2.",
+  "learn": "level:14"
+ },
+ "r_headlights_led": {
+  "name": "LED Far Takımı",
+  "output": "headlights_led",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Lights",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 2
+   },
+   {
+    "item": "insulated_wire",
+    "count": 3
+   },
+   {
+    "item": "relay_unit",
+    "count": 1
+   }
+  ],
+  "description": "Geceyi 45 m aydınlatır."
+ },
+ "r_searchlight_car": {
+  "name": "Tavan Projektörü",
+  "output": "searchlight_car",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Lights",
+  "inputs": [
+   {
+    "item": "headlights_led",
+    "count": 1
+   },
+   {
+    "item": "glass_lens",
+    "count": 1
+   },
+   {
+    "item": "transformer_coil",
+    "count": 1
+   }
+  ],
+  "description": "80 m projektör."
+ },
+ "r_muffler_quiet": {
+  "name": "Sessiz Egzoz",
+  "output": "muffler_quiet",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 36,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Muffler",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 3
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   },
+   {
+    "item": "steel_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Sürüyü çekmez: gürültü −%35."
+ },
+ "r_muffler_baffled": {
+  "name": "Çok Odalı Susturucu",
+  "output": "muffler_baffled",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 44,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Muffler",
+  "inputs": [
+   {
+    "item": "muffler_quiet",
+    "count": 1
+   },
+   {
+    "item": "ceramic_filter",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   }
+  ],
+  "description": "Gürültü −%55."
+ },
+ "r_compass_field": {
+  "name": "Arazi Pusulası",
+  "output": "compass_field",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 16,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "magnet",
+    "count": 1
+   },
+   {
+    "item": "glass_shard",
+    "count": 1
+   }
+  ],
+  "description": "Çantadayken HUD'da yön şeridi gösterir."
+ },
+ "r_binoculars_field": {
+  "name": "Dürbün",
+  "output": "binoculars_field",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "glass_lens",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 1
+   }
+  ],
+  "description": "O tuşuyla bakılır: 4× yakınlaştırma."
+ },
+ "r_map_kit": {
+  "name": "Harita Seti",
+  "output": "map_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 16,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "paper",
+    "count": 3
+   },
+   {
+    "item": "charcoal",
+    "count": 1
+   },
+   {
+    "item": "compass_field",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Haritada (M) önemli yerleri, POI türlerini ve güvenli noktaları gösterir."
+ },
+ "r_headlamp": {
+  "name": "Kafa Lambası",
+  "output": "headlamp",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 16,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "lamp_bulb",
+    "count": 1
+   },
+   {
+    "item": "battery_aa",
+    "count": 2
+   },
+   {
+    "item": "leather_strap",
+    "count": 1
+   }
+  ],
+  "description": "Başa takılır: el feneri yuvası boşken de ışık verir."
+ },
+ "r_headlamp_led": {
+  "name": "LED Kafa Lambası",
+  "output": "headlamp_led",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 22,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "led_panel",
+    "count": 1
+   },
+   {
+    "item": "battery_cell",
+    "count": 1
+   },
+   {
+    "item": "leather_strap",
+    "count": 1
+   }
+  ],
+  "description": "Daha geniş ışık."
+ },
+ "r_backpack_canvas": {
+  "name": "Kanvas Sırt Çantası",
+  "output": "backpack_canvas",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 16,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "canvas_sheet",
+    "count": 2
+   },
+   {
+    "item": "leather_strap",
+    "count": 2
+   },
+   {
+    "item": "twine",
+    "count": 2
+   }
+  ],
+  "description": "+10 kg taşıma."
+ },
+ "r_backpack_military": {
+  "name": "Askerî Sırt Çantası",
+  "output": "backpack_military",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 28,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "backpack_canvas",
+    "count": 1
+   },
+   {
+    "item": "canvas_sheet",
+    "count": 2
+   },
+   {
+    "item": "metal_bracket",
+    "count": 2
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   }
+  ],
+  "description": "+30 kg taşıma, bel kemeri.",
+  "learn": "level:8"
+ },
+ "r_engine_basic_tune": {
+  "name": "Temel Motor Ayarı",
+  "output": "engine_basic_tune",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Engine",
+  "inputs": [
+   {
+    "item": "oil_can",
+    "count": 1
+   },
+   {
+    "item": "spring",
+    "count": 2
+   },
+   {
+    "item": "filter_housing",
+    "count": 1
+   }
+  ],
+  "description": "Buji ve filtre değişimi: +%7 hız."
+ },
+ "r_engine_military": {
+  "name": "Askerî Motor",
+  "output": "engine_military",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 48,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Engine",
+  "inputs": [
+   {
+    "item": "engine_rebuilt",
+    "count": 1
+   },
+   {
+    "item": "pump_unit",
+    "count": 1
+   },
+   {
+    "item": "transformer_coil",
+    "count": 1
+   },
+   {
+    "item": "steel_ingot",
+    "count": 3
+   }
+  ],
+  "description": "Turbolu dizel: +%45 hız, gürültülü."
+ },
+ "r_tires_patched": {
+  "name": "Yamalı Lastikler",
+  "output": "tires_patched",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tires",
+  "inputs": [
+   {
+    "item": "tire_scrap",
+    "count": 3
+   },
+   {
+    "item": "glue",
+    "count": 1
+   }
+  ],
+  "description": "Yamalanmış lastik: patlamaya biraz dayanır."
+ },
+ "r_tires_military": {
+  "name": "Askerî Lastik",
+  "output": "tires_military",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 48,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tires",
+  "inputs": [
+   {
+    "item": "tires_run_flat",
+    "count": 1
+   },
+   {
+    "item": "armor_plate_steel",
+    "count": 1
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 2
+   }
+  ],
+  "description": "Zırhlı jant ve dolgulu lastik."
+ },
+ "r_armor_wood_car": {
+  "name": "Tahta Kaplama",
+  "output": "armor_wood_car",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Armor",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "nail",
+    "count": 16
+   }
+  ],
+  "description": "Camlara çakılmış kalas: ilk günlerin zırhı."
+ },
+ "r_armor_military_car": {
+  "name": "Askerî Zırh Seti",
+  "output": "armor_military_car",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 48,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Armor",
+  "inputs": [
+   {
+    "item": "armor_cage_car",
+    "count": 1
+   },
+   {
+    "item": "armor_plate_steel",
+    "count": 4
+   },
+   {
+    "item": "kevlar_panel",
+    "count": 2
+   }
+  ],
+  "description": "Balistik plakalar: +130 sağlamlık."
+ },
+ "r_tank_jerry_rack": {
+  "name": "Bidon Askısı",
+  "output": "tank_jerry_rack",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tank",
+  "inputs": [
+   {
+    "item": "metal_bracket",
+    "count": 2
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 2
+   },
+   {
+    "item": "rope",
+    "count": 1
+   }
+  ],
+  "description": "Arkaya iki bidon: +15 birim."
+ },
+ "r_tank_military": {
+  "name": "Askerî Yakıt Tankı",
+  "output": "tank_military",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 48,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Tank",
+  "inputs": [
+   {
+    "item": "tank_long_range",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 3
+   },
+   {
+    "item": "valve",
+    "count": 2
+   }
+  ],
+  "description": "+100 birim: şehri baştan başa geçer."
+ },
+ "r_roof_rack_wood": {
+  "name": "Ahşap Tavan Sepeti",
+  "output": "roof_rack_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Rack",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "rope",
+    "count": 2
+   }
+  ],
+  "description": "+35 kg bagaj."
+ },
+ "r_bumper_pipe": {
+  "name": "Boru Tampon",
+  "output": "bumper_pipe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Bumper",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 3
+   },
+   {
+    "item": "welding_rod",
+    "count": 1
+   }
+  ],
+  "description": "Boru kaynaklı tampon: ezme ×1,25."
+ },
+ "r_bumper_spiked": {
+  "name": "Çivili Tampon",
+  "output": "bumper_spiked",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 32,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Bumper",
+  "inputs": [
+   {
+    "item": "bumper_pipe",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 2
+   },
+   {
+    "item": "welding_rod",
+    "count": 2
+   }
+  ],
+  "description": "Sivri çubuklu tampon: ezme ×1,8."
+ },
+ "r_lights_work": {
+  "name": "Çalışma Farı",
+  "output": "lights_work",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Lights",
+  "inputs": [
+   {
+    "item": "lamp_bulb",
+    "count": 2
+   },
+   {
+    "item": "insulated_wire",
+    "count": 2
+   }
+  ],
+  "description": "25 m far."
+ },
+ "r_muffler_patched": {
+  "name": "Yamalı Egzoz",
+  "output": "muffler_patched",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 24,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Muffler",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "welding_rod",
+    "count": 1
+   }
+  ],
+  "description": "Delikleri kapatılmış egzoz: gürültü −%15."
+ },
+ "r_muffler_military": {
+  "name": "Askerî Susturucu",
+  "output": "muffler_military",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 48,
+  "category": "arac",
+  "family": "vehicle",
+  "subcategory": "Muffler",
+  "inputs": [
+   {
+    "item": "muffler_baffled",
+    "count": 1
+   },
+   {
+    "item": "ceramic_filter",
+    "count": 2
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   }
+  ],
+  "description": "Gürültü −%70."
+ },
+ "r_backpack_hiking": {
+  "name": "Dağcı Çantası",
+  "output": "backpack_hiking",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 24,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "canvas_sheet",
+    "count": 3
+   },
+   {
+    "item": "leather_strap",
+    "count": 2
+   },
+   {
+    "item": "metal_bracket",
+    "count": 1
+   }
+  ],
+  "description": "+18 kg taşıma."
+ },
+ "r_backpack_frame": {
+  "name": "Çerçeveli Yük Çantası",
+  "output": "backpack_frame",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 36,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "backpack_military",
+    "count": 1
+   },
+   {
+    "item": "aluminum_ingot",
+    "count": 2
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   }
+  ],
+  "description": "+40 kg taşıma."
+ },
+ "rx_ethanol_fruit": {
+  "name": "Meyveden yakıt alkolü",
+  "output": "ethanol_fuel",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 14,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "dried_fruit",
+    "count": 4
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Mayalayıp damıtmak: yavaş ama her yerde."
+ },
+ "rx_biodiesel_fat": {
+  "name": "Yağdan biyodizel (alkollü)",
+  "output": "biodiesel",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "cooking_oil",
+    "count": 3
+   },
+   {
+    "item": "alcohol",
+    "count": 1
+   }
+  ],
+  "description": "Lye yerine ispirtoyla: daha az verim."
+ },
+ "rx_compass_needle": {
+  "name": "Mıknatıslı iğne pusulası",
+  "output": "compass_field",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "magnet",
+    "count": 1
+   },
+   {
+    "item": "bottle_empty",
+    "count": 1
+   },
+   {
+    "item": "nail",
+    "count": 1
+   }
+  ],
+  "description": "Suda yüzen mıknatıslı iğne."
+ },
+ "rx_map_kit_school": {
+  "name": "Okul atlasından harita seti",
+  "output": "map_kit",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "textbook",
+    "count": 1
+   },
+   {
+    "item": "paper",
+    "count": 1
+   }
+  ],
+  "description": "Atlas sayfaları ve notlar."
+ },
+ "rx_headlamp_scrap": {
+  "name": "Hurda kafa lambası",
+  "output": "headlamp",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "led",
+    "count": 2
+   },
+   {
+    "item": "battery_aa",
+    "count": 2
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "LED ve bezle bağlanmış pil."
+ },
+ "rx_binoculars_scope": {
+  "name": "Dürbünden sökülmüş optikle dürbün",
+  "output": "binoculars_field",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 14,
+  "category": "kesif",
+  "family": "vehicle",
+  "subcategory": "Keşif",
+  "inputs": [
+   {
+    "item": "optic_scope",
+    "count": 1
+   },
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "leather_strap",
+    "count": 1
+   }
+  ],
+  "description": "Askerî nişangah merceği iki tüpe bölünür."
+ },
+ "rx_jerrycan_diesel": {
+  "name": "Mazotla dolu bidon",
+  "output": "fuel_jerrycan",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yakit",
+  "family": "vehicle",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "diesel",
+    "count": 4
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 2
+   }
+  ],
+  "description": "Mazotu bidona boşaltmak."
+ }
+}

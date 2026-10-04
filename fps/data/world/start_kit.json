@@ -1,0 +1,87 @@
+{
+  "_readme": "Yeni oyunda cantadaki esyalar. Eski oyunda silahlar envantere bagli degildi (1-4 tuslari bedava silah veriyordu); FPS surumunde silah ve mermi gercek esya oldugu icin oyuncunun baslangic donanimi burada tanimlanir.",
+  "capacity_kg": 45,
+  "max_slots": 80,
+  "items": [
+    {
+      "item": "weapon_pistol",
+      "count": 1,
+      "quality": 45,
+      "loaded": 14
+    },
+    {
+      "item": "ammo_9mm",
+      "count": 42,
+      "quality": 50
+    },
+    {
+      "item": "weapon_pipe",
+      "count": 1,
+      "quality": 40
+    },
+    {
+      "item": "bandage_clean",
+      "count": 3,
+      "quality": 50
+    },
+    {
+      "item": "water_bottle",
+      "count": 2,
+      "quality": 50
+    },
+    {
+      "item": "canned_food",
+      "count": 2,
+      "quality": 50
+    },
+    {
+      "item": "duct_tape",
+      "count": 2,
+      "quality": 0
+    },
+    {
+      "item": "nail",
+      "count": 10,
+      "quality": 0
+    },
+    {
+      "item": "wood_plank",
+      "count": 4,
+      "quality": 0
+    },
+    {
+      "item": "purification_tabs",
+      "count": 2,
+      "quality": 50
+    },
+    {
+      "item": "bottle_empty",
+      "count": 1,
+      "quality": 0
+    }
+  ],
+  "test_site_extra": [
+    {
+      "item": "weapon_shotgun",
+      "count": 1,
+      "quality": 60,
+      "loaded": 6
+    },
+    {
+      "item": "ammo_12ga",
+      "count": 30,
+      "quality": 50
+    },
+    {
+      "item": "weapon_rifle",
+      "count": 1,
+      "quality": 60,
+      "loaded": 8
+    },
+    {
+      "item": "ammo_762",
+      "count": 40,
+      "quality": 50
+    }
+  ]
+}

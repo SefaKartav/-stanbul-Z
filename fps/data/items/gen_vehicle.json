@@ -1,0 +1,450 @@
+{
+ "biodiesel": {
+  "name": "Biyodizel",
+  "category": "material",
+  "tier": 2,
+  "stack": 8,
+  "weight": 1.6,
+  "value": 24,
+  "tags": [
+   "chemical",
+   "chemical_fuel",
+   "volatile"
+  ],
+  "description": "Kızartma yağından metanolle dönüştürülmüş yakıt. Aracın yanında envanterde \"Araca yakıt doldur\".",
+  "effects": {
+   "supply": 4.0
+  }
+ },
+ "ethanol_fuel": {
+  "name": "Yakıt Alkolü",
+  "category": "material",
+  "tier": 2,
+  "stack": 8,
+  "weight": 1.0,
+  "value": 18,
+  "tags": [
+   "chemical",
+   "chemical_fuel",
+   "volatile"
+  ],
+  "description": "Damıtılmış yakıt alkolü: motorda benzin yerine yanar. Aracın yanında envanterde \"Araca yakıt doldur\".",
+  "effects": {
+   "supply": 3.0
+  }
+ },
+ "refined_gasoline": {
+  "name": "Rafine Benzin",
+  "category": "material",
+  "tier": 3,
+  "stack": 8,
+  "weight": 1.5,
+  "value": 40,
+  "tags": [
+   "chemical",
+   "chemical_fuel",
+   "volatile"
+  ],
+  "description": "Tortusu süzülmüş benzin: uzun yol. Aracın yanında envanterde \"Araca yakıt doldur\".",
+  "effects": {
+   "supply": 6.0
+  }
+ },
+ "fuel_jerrycan": {
+  "name": "Dolu Bidon",
+  "category": "material",
+  "tier": 3,
+  "stack": 8,
+  "weight": 6.0,
+  "value": 90,
+  "tags": [
+   "chemical",
+   "chemical_fuel",
+   "volatile"
+  ],
+  "description": "20 litrelik dolu bidon: tek seferde depo. Aracın yanında envanterde \"Araca yakıt doldur\".",
+  "effects": {
+   "supply": 14.0
+  }
+ },
+ "engine_tuned": {
+  "name": "Ayarlı Motor",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 40.0,
+  "value": 260,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Karbüratörü ayarlı motor: +%15 hız. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "engine",
+  "effects": {
+   "vehicle_speed": 1.15,
+   "vehicle_noise": 1.1
+  }
+ },
+ "engine_rebuilt": {
+  "name": "Revizyonlu Motor",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 55.0,
+  "value": 520,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Silindirleri yenilenmiş motor: +%30 hız. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "engine",
+  "effects": {
+   "vehicle_speed": 1.3,
+   "vehicle_noise": 1.05
+  }
+ },
+ "tires_offroad": {
+  "name": "Arazi Lastiği Takımı",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 180,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Kalın dişli lastik: enkazda daha az hasar. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tires",
+  "effects": {
+   "vehicle_speed": 1.05,
+   "vehicle_armor": 10
+  }
+ },
+ "tires_run_flat": {
+  "name": "Patlamaz Lastik",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 36.0,
+  "value": 340,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "İçi dolgulu lastik: araç çok daha dayanıklı. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tires",
+  "effects": {
+   "vehicle_armor": 25
+  }
+ },
+ "armor_plating_car": {
+  "name": "Sac Kaplama",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 50.0,
+  "value": 220,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Kapı ve camlara kaynaklı sac: +40 sağlamlık, biraz yavaş. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "armor",
+  "effects": {
+   "vehicle_armor": 40,
+   "vehicle_speed": 0.93
+  }
+ },
+ "armor_cage_car": {
+  "name": "Çelik Kafes",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 80.0,
+  "value": 480,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Tam kafes: +80 sağlamlık, ezme gücü artar. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "armor",
+  "effects": {
+   "vehicle_armor": 80,
+   "vehicle_speed": 0.88,
+   "vehicle_ram": 1.2
+  }
+ },
+ "tank_extended": {
+  "name": "Ek Depo",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 16.0,
+  "value": 150,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Bagaja bağlı ek depo: +30 birim yakıt. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tank",
+  "effects": {
+   "vehicle_tank": 30
+  }
+ },
+ "tank_long_range": {
+  "name": "Uzun Menzil Deposu",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 26.0,
+  "value": 300,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Çift cidarlı depo: +60 birim. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tank",
+  "effects": {
+   "vehicle_tank": 60
+  }
+ },
+ "roof_rack": {
+  "name": "Tavan Bagajı",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 14.0,
+  "value": 90,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Tavana bağlı sepet: +60 kg bagaj. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "rack",
+  "effects": {
+   "vehicle_capacity": 60
+  }
+ },
+ "cargo_trailer_hitch": {
+  "name": "Yük Sepeti ve Çeki Demiri",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 40.0,
+  "value": 260,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Arka sepet: +150 kg bagaj. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "rack",
+  "effects": {
+   "vehicle_capacity": 150,
+   "vehicle_speed": 0.95
+  }
+ },
+ "bull_bar": {
+  "name": "Ön Koruma Demiri",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 200,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Zombi ezme hasarı ×1,5, araç daha az hasar alır. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "bumper",
+  "effects": {
+   "vehicle_ram": 1.5,
+   "vehicle_armor": 10
+  }
+ },
+ "plow_blade": {
+  "name": "Kar Küreği Bıçağı",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 55.0,
+  "value": 420,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Sürüyü biçer: ezme ×2,2. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "bumper",
+  "effects": {
+   "vehicle_ram": 2.2,
+   "vehicle_armor": 20,
+   "vehicle_speed": 0.92
+  }
+ },
+ "headlights_led": {
+  "name": "LED Far Takımı",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 3.0,
+  "value": 120,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Geceyi 45 m aydınlatır. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "lights",
+  "effects": {
+   "vehicle_light": 45
+  }
+ },
+ "searchlight_car": {
+  "name": "Tavan Projektörü",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 8.0,
+  "value": 260,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "80 m projektör. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "lights",
+  "effects": {
+   "vehicle_light": 80
+  }
+ },
+ "muffler_quiet": {
+  "name": "Sessiz Egzoz",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 12.0,
+  "value": 160,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Sürüyü çekmez: gürültü −%35. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "muffler",
+  "effects": {
+   "vehicle_noise": 0.65
+  }
+ },
+ "muffler_baffled": {
+  "name": "Çok Odalı Susturucu",
+  "category": "vehicle_part",
+  "tier": 3,
+  "stack": 1,
+  "weight": 18.0,
+  "value": 320,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Gürültü −%55. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "muffler",
+  "effects": {
+   "vehicle_noise": 0.45
+  }
+ },
+ "compass_field": {
+  "name": "Arazi Pusulası",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.2,
+  "value": 40,
+  "tags": [
+   "utility",
+   "compass"
+  ],
+  "description": "Çantadayken HUD'da yön şeridi gösterir.",
+  "effects": {
+   "compass": 1
+  }
+ },
+ "binoculars_field": {
+  "name": "Dürbün",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.8,
+  "value": 120,
+  "tags": [
+   "utility",
+   "binoculars"
+  ],
+  "description": "O tuşuyla bakılır: 4× yakınlaştırma.",
+  "effects": {
+   "zoom": 4.0
+  }
+ },
+ "map_kit": {
+  "name": "Harita Seti",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 60,
+  "tags": [
+   "utility",
+   "map_tool"
+  ],
+  "description": "Haritada (M) önemli yerleri, POI türlerini ve güvenli noktaları gösterir.",
+  "effects": {
+   "map_reveal": 1
+  }
+ },
+ "headlamp": {
+  "name": "Kafa Lambası",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 60,
+  "tags": [
+   "wearable",
+   "light"
+  ],
+  "description": "Başa takılır: el feneri yuvası boşken de ışık verir.",
+  "effects": {
+   "light_range": 14
+  },
+  "slot": "lamp"
+ },
+ "headlamp_led": {
+  "name": "LED Kafa Lambası",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 140,
+  "tags": [
+   "wearable",
+   "light"
+  ],
+  "description": "Daha geniş ışık.",
+  "effects": {
+   "light_range": 24
+  },
+  "slot": "lamp"
+ },
+ "backpack_canvas": {
+  "name": "Kanvas Sırt Çantası",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 60,
+  "tags": [
+   "wearable"
+  ],
+  "description": "+10 kg taşıma.",
+  "effects": {
+   "capacity": 10
+  },
+  "slot": "backpack"
+ },
+ "backpack_military": {
+  "name": "Askerî Sırt Çantası",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 2.2,
+  "value": 260,
+  "tags": [
+   "wearable"
+  ],
+  "description": "+30 kg taşıma, bel kemeri.",
+  "effects": {
+   "capacity": 30
+  },
+  "slot": "backpack"
+ }
+}

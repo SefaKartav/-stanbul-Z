@@ -1,0 +1,136 @@
+{
+  "vehicles": [
+    {
+      "original_id": "sedan",
+      "use_shell": "sedan_shell_open",
+      "use_cabin": "sedan_cabin",
+      "alignment_translation": [
+        0,
+        0,
+        0
+      ],
+      "alignment_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "old_model_retained_but_not_cabin_compatible": true
+    },
+    {
+      "original_id": "taxi",
+      "use_shell": "taxi_shell_open",
+      "use_cabin": "taxi_cabin",
+      "alignment_translation": [
+        0,
+        0,
+        0
+      ],
+      "alignment_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "old_model_retained_but_not_cabin_compatible": true
+    },
+    {
+      "original_id": "police_car",
+      "use_shell": "police_car_shell_open",
+      "use_cabin": "police_car_cabin",
+      "alignment_translation": [
+        0,
+        0,
+        0
+      ],
+      "alignment_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "old_model_retained_but_not_cabin_compatible": true
+    },
+    {
+      "original_id": "van",
+      "use_shell": "van_shell_open",
+      "use_cabin": "van_cabin",
+      "alignment_translation": [
+        0,
+        0,
+        0
+      ],
+      "alignment_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "old_model_retained_but_not_cabin_compatible": true
+    },
+    {
+      "original_id": "minibus",
+      "use_shell": "minibus_shell_open",
+      "use_cabin": "minibus_cabin",
+      "alignment_translation": [
+        0,
+        0,
+        0
+      ],
+      "alignment_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "old_model_retained_but_not_cabin_compatible": true
+    },
+    {
+      "original_id": "ambulance",
+      "use_shell": "ambulance_shell_open",
+      "use_cabin": "ambulance_cabin",
+      "alignment_translation": [
+        0,
+        0,
+        0
+      ],
+      "alignment_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alignment_scale": [
+        1,
+        1,
+        1
+      ],
+      "old_model_retained_but_not_cabin_compatible": true
+    }
+  ]
+}

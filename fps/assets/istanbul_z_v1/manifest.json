@@ -1,0 +1,2852 @@
+{
+  "pack": "Istanbul-Z Voxel FPS Kit",
+  "version": "1.0",
+  "units": "meters",
+  "up_axis": "+Y",
+  "forward_axis": "-Z",
+  "style": "flat cuboid voxel",
+  "assets": [
+    {
+      "id": "simit_cart",
+      "label_tr": "Simit arabası",
+      "category": "street",
+      "path": "models/street/simit_cart.glb",
+      "dimensions_m": [
+        1.3,
+        1.84,
+        0.9
+      ],
+      "bounds_min": [
+        -0.65,
+        0.05,
+        -0.45
+      ],
+      "bounds_max": [
+        0.65,
+        1.89,
+        0.45
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 492,
+      "collision_included": false,
+      "sha256": "9e0b93c10a7a6235e881c2f6973deef0efc9490ffbf073ea72cf37cf64e0564c"
+    },
+    {
+      "id": "tea_table",
+      "label_tr": "Çay masası",
+      "category": "street",
+      "path": "models/street/tea_table.glb",
+      "dimensions_m": [
+        0.7,
+        0.885,
+        0.7
+      ],
+      "bounds_min": [
+        -0.35,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        0.35,
+        0.885,
+        0.35
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "05115832b8984cc3c7441af758de9aef681b331fc4c8bcab62b45917958bbd54"
+    },
+    {
+      "id": "tea_stool",
+      "label_tr": "Kahve taburesi",
+      "category": "street",
+      "path": "models/street/tea_stool.glb",
+      "dimensions_m": [
+        0.38,
+        0.47,
+        0.38
+      ],
+      "bounds_min": [
+        -0.19,
+        0.0,
+        -0.19
+      ],
+      "bounds_max": [
+        0.19,
+        0.47,
+        0.19
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "9c740bfc7bf61c1467d17a0d147bd7fdc59ec84ebada69f38b5c6b33cdcab8f0"
+    },
+    {
+      "id": "street_bench",
+      "label_tr": "Sahil bankı",
+      "category": "street",
+      "path": "models/street/street_bench.glb",
+      "dimensions_m": [
+        1.8,
+        0.985,
+        0.63
+      ],
+      "bounds_min": [
+        -0.9,
+        0.0,
+        -0.3
+      ],
+      "bounds_max": [
+        0.9,
+        0.985,
+        0.33
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 144,
+      "collision_included": false,
+      "sha256": "97f4e988cfcc3272025ec402cef62f0cd256412d555140778349ae1f22d86168"
+    },
+    {
+      "id": "bollard",
+      "label_tr": "Kaldırım babası",
+      "category": "street",
+      "path": "models/street/bollard.glb",
+      "dimensions_m": [
+        0.3,
+        0.8,
+        0.3
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.15,
+        0.8,
+        0.15
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "169b8ba30b482dc1e17c5354396d88d2ce0e3c5422871a66d47ec3337ccbd461"
+    },
+    {
+      "id": "street_lamp",
+      "label_tr": "Sokak lambası",
+      "category": "street",
+      "path": "models/street/street_lamp.glb",
+      "dimensions_m": [
+        0.925,
+        3.2,
+        0.32
+      ],
+      "bounds_min": [
+        -0.065,
+        0.0,
+        -0.16
+      ],
+      "bounds_max": [
+        0.86,
+        3.2,
+        0.16
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "30ac584c798869eb01a2466de720fa5c1d3d1a889713185072dfc98626edebaa"
+    },
+    {
+      "id": "traffic_light",
+      "label_tr": "Trafik lambası",
+      "category": "street",
+      "path": "models/street/traffic_light.glb",
+      "dimensions_m": [
+        0.34,
+        3.0,
+        0.274
+      ],
+      "bounds_min": [
+        -0.17,
+        0.0,
+        -0.15
+      ],
+      "bounds_max": [
+        0.17,
+        3.0,
+        0.125
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "912c6d8be12a540791f64af6e302cd83daa872266e22cb6ed770b42a7d2827d4"
+    },
+    {
+      "id": "bus_shelter",
+      "label_tr": "Otobüs durağı",
+      "category": "street",
+      "path": "models/street/bus_shelter.glb",
+      "dimensions_m": [
+        3.2,
+        2.425,
+        1.45
+      ],
+      "bounds_min": [
+        -1.6,
+        0.0,
+        -0.725
+      ],
+      "bounds_max": [
+        1.6,
+        2.425,
+        0.725
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "93021b70fbf12705e2ef5e22d69f9d8c351133b2724d4158fdc1ff3f4fe1dbe0"
+    },
+    {
+      "id": "dumpster",
+      "label_tr": "Çöp konteyneri",
+      "category": "street",
+      "path": "models/street/dumpster.glb",
+      "dimensions_m": [
+        1.394,
+        1.085,
+        1.03
+      ],
+      "bounds_min": [
+        -0.697,
+        0.085,
+        -0.515
+      ],
+      "bounds_max": [
+        0.697,
+        1.17,
+        0.515
+      ],
+      "parts": [
+        "body",
+        "wheel_-0.56_-0.24",
+        "wheel_-0.56_0.24",
+        "wheel_0.56_-0.24",
+        "wheel_0.56_0.24"
+      ],
+      "animations": [],
+      "triangles": 120,
+      "collision_included": false,
+      "sha256": "1b35fc52b3f132c50340ee55818176b4f6a63d6b6dc9caab71003d2620c6a4e3"
+    },
+    {
+      "id": "rubbish_bin",
+      "label_tr": "Sokak çöp kutusu",
+      "category": "street",
+      "path": "models/street/rubbish_bin.glb",
+      "dimensions_m": [
+        0.5,
+        0.905,
+        0.5
+      ],
+      "bounds_min": [
+        -0.25,
+        0.055,
+        -0.25
+      ],
+      "bounds_max": [
+        0.25,
+        0.96,
+        0.25
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "cb90b6eea6ce9902c7ce877fabb08fc01e8fd6f5f8580f5d3260fe553b12b6ef"
+    },
+    {
+      "id": "utility_box",
+      "label_tr": "Elektrik panosu",
+      "category": "street",
+      "path": "models/street/utility_box.glb",
+      "dimensions_m": [
+        0.8,
+        1.3,
+        0.452
+      ],
+      "bounds_min": [
+        -0.4,
+        0.02,
+        -0.252
+      ],
+      "bounds_max": [
+        0.4,
+        1.32,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "72d38c9ef4b09db17665b8baad36e4f8c94c9dbeab4d826d2eff0ae4ea571e68"
+    },
+    {
+      "id": "air_conditioner",
+      "label_tr": "Dış klima ünitesi",
+      "category": "street",
+      "path": "models/street/air_conditioner.glb",
+      "dimensions_m": [
+        0.8,
+        0.6,
+        0.38
+      ],
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.205
+      ],
+      "bounds_max": [
+        0.4,
+        0.6,
+        0.175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "ad64ef3b667e56c94c7f6627a3f15758561a6753e3cb5dcddcabc586034c807e"
+    },
+    {
+      "id": "water_tank",
+      "label_tr": "Çatı su deposu",
+      "category": "street",
+      "path": "models/street/water_tank.glb",
+      "dimensions_m": [
+        1.35,
+        1.62,
+        1.35
+      ],
+      "bounds_min": [
+        -0.675,
+        0.0,
+        -0.675
+      ],
+      "bounds_max": [
+        0.675,
+        1.62,
+        0.675
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "490cf53ea5d8bd9bf288211166b8dd3b9bc407f54e23d92f837c3ec63b26789b"
+    },
+    {
+      "id": "pallet",
+      "label_tr": "Ahşap palet",
+      "category": "street",
+      "path": "models/street/pallet.glb",
+      "dimensions_m": [
+        1.2,
+        0.25,
+        1.0
+      ],
+      "bounds_min": [
+        -0.6,
+        0.02,
+        -0.5
+      ],
+      "bounds_max": [
+        0.6,
+        0.27,
+        0.5
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "6fbc47cc903d2105cbc8e66dc75cdf8833bee563f60dcf802ac91e15132e564c"
+    },
+    {
+      "id": "road_cone",
+      "label_tr": "Trafik konisi",
+      "category": "street",
+      "path": "models/street/road_cone.glb",
+      "dimensions_m": [
+        0.44,
+        0.625,
+        0.44
+      ],
+      "bounds_min": [
+        -0.22,
+        0.0,
+        -0.22
+      ],
+      "bounds_max": [
+        0.22,
+        0.625,
+        0.22
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "d2a310231b2818761b8dccc90bd29169ac1e8dfbf0cde71a1567b3319ce521bb"
+    },
+    {
+      "id": "road_barrier",
+      "label_tr": "Yol bariyeri",
+      "category": "street",
+      "path": "models/street/road_barrier.glb",
+      "dimensions_m": [
+        2.0,
+        0.875,
+        0.45
+      ],
+      "bounds_min": [
+        -1.0,
+        0.075,
+        -0.225
+      ],
+      "bounds_max": [
+        1.0,
+        0.95,
+        0.225
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "d624df3029ca93c0c43dcb592283c0dc3573eaaf5d22369263b35fb8b0f12fba"
+    },
+    {
+      "id": "fire_hydrant",
+      "label_tr": "Yangın hidrantı",
+      "category": "street",
+      "path": "models/street/fire_hydrant.glb",
+      "dimensions_m": [
+        0.55,
+        0.845,
+        0.31
+      ],
+      "bounds_min": [
+        -0.275,
+        0.075,
+        -0.155
+      ],
+      "bounds_max": [
+        0.275,
+        0.92,
+        0.155
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "81206a6c21841b01c015bd91e38f37ccb55f9e80a7032fb80333f231c1752882"
+    },
+    {
+      "id": "coastal_railing",
+      "label_tr": "Sahil korkuluğu",
+      "category": "street",
+      "path": "models/street/coastal_railing.glb",
+      "dimensions_m": [
+        2.1,
+        1.03,
+        0.08
+      ],
+      "bounds_min": [
+        -1.05,
+        0.0,
+        -0.04
+      ],
+      "bounds_max": [
+        1.05,
+        1.03,
+        0.04
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "10c023201adece323a750afc1cc410e7d969b3c66da61579563a2745117b0cda"
+    },
+    {
+      "id": "planter",
+      "label_tr": "Kaldırım saksısı",
+      "category": "street",
+      "path": "models/street/planter.glb",
+      "dimensions_m": [
+        0.8,
+        1.3,
+        0.8
+      ],
+      "bounds_min": [
+        -0.4,
+        0.0,
+        -0.4
+      ],
+      "bounds_max": [
+        0.4,
+        1.3,
+        0.4
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "3488fed0523c3713fbd2c8074b56e30d0fc1188a6188e8fb743940400d6d63a9"
+    },
+    {
+      "id": "tree_plane",
+      "label_tr": "Çınar ağacı",
+      "category": "nature",
+      "path": "models/nature/tree_plane.glb",
+      "dimensions_m": [
+        2.9,
+        4.1,
+        2.5
+      ],
+      "bounds_min": [
+        -1.4,
+        0.0,
+        -1.3
+      ],
+      "bounds_max": [
+        1.5,
+        4.1,
+        1.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "cbcd76649a1899fbeebcedc755b1f35cf04d3ba5370d9156cde4c1de12af7cd1"
+    },
+    {
+      "id": "tree_cypress",
+      "label_tr": "Servi ağacı",
+      "category": "nature",
+      "path": "models/nature/tree_cypress.glb",
+      "dimensions_m": [
+        1.2,
+        4.04,
+        1.2
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.6
+      ],
+      "bounds_max": [
+        0.6,
+        4.04,
+        0.6
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "db41319bfa5285e6ae5aff2473801be9735f7af153cbe5a3ddd025dc3e3e6284"
+    },
+    {
+      "id": "bush",
+      "label_tr": "Çalı",
+      "category": "nature",
+      "path": "models/nature/bush.glb",
+      "dimensions_m": [
+        0.875,
+        0.705,
+        0.65
+      ],
+      "bounds_min": [
+        -0.425,
+        0.0,
+        -0.325
+      ],
+      "bounds_max": [
+        0.45,
+        0.705,
+        0.325
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "eafd2bf12343e8d2eaeb83454338a2bf329daae49126ecc08c3bea7106424616"
+    },
+    {
+      "id": "rubble_pile",
+      "label_tr": "Moloz yığını",
+      "category": "street",
+      "path": "models/street/rubble_pile.glb",
+      "dimensions_m": [
+        1.308,
+        0.351,
+        1.054
+      ],
+      "bounds_min": [
+        -0.582,
+        0.005,
+        -0.522
+      ],
+      "bounds_max": [
+        0.726,
+        0.356,
+        0.532
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "ebe4d1d15c7e4e4808a406dfc69f78c8a85dd9d175fb33b842fe7c6b20319c49"
+    },
+    {
+      "id": "facade_market",
+      "label_tr": "Mahalle marketi cephesi",
+      "category": "facades",
+      "path": "models/facades/facade_market.glb",
+      "dimensions_m": [
+        4.0,
+        3.0,
+        0.81
+      ],
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -0.69
+      ],
+      "bounds_max": [
+        2.0,
+        3.0,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "2b3c53f27c2a7c4c9a8d9ff7e911044ee070aa85c9b9f2d56596a2ac49b50ea6"
+    },
+    {
+      "id": "facade_pharmacy",
+      "label_tr": "Eczane cephesi",
+      "category": "facades",
+      "path": "models/facades/facade_pharmacy.glb",
+      "dimensions_m": [
+        4.0,
+        3.0,
+        0.348
+      ],
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -0.227
+      ],
+      "bounds_max": [
+        2.0,
+        3.0,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "f741ab543451db9205193bdd9659ad052c71dee47a2cdeccf89986ab26ba1855"
+    },
+    {
+      "id": "facade_workshop",
+      "label_tr": "Tamir atölyesi cephesi",
+      "category": "facades",
+      "path": "models/facades/facade_workshop.glb",
+      "dimensions_m": [
+        4.0,
+        3.0,
+        0.31
+      ],
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -0.19
+      ],
+      "bounds_max": [
+        2.0,
+        3.0,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 216,
+      "collision_included": false,
+      "sha256": "2f01a47be167ffba373ad2ba295c6570d9eb3044840fcde34068db7977cf988a"
+    },
+    {
+      "id": "facade_bakery",
+      "label_tr": "Fırın cephesi",
+      "category": "facades",
+      "path": "models/facades/facade_bakery.glb",
+      "dimensions_m": [
+        4.0,
+        3.0,
+        0.81
+      ],
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -0.69
+      ],
+      "bounds_max": [
+        2.0,
+        3.0,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "0b3d2b0cce6faceed7cff4e2c5a8ccd4c587095e9cb91fab1f8fab3161b2b574"
+    },
+    {
+      "id": "facade_police",
+      "label_tr": "Polis noktası cephesi",
+      "category": "facades",
+      "path": "models/facades/facade_police.glb",
+      "dimensions_m": [
+        4.0,
+        3.0,
+        0.81
+      ],
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -0.69
+      ],
+      "bounds_max": [
+        2.0,
+        3.0,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "04846e9a5b7f859dea5f08676bdf5cc086dca2e4d4ae5e45864a8304ad6d447a"
+    },
+    {
+      "id": "facade_cafe",
+      "label_tr": "Mahalle kahvesi cephesi",
+      "category": "facades",
+      "path": "models/facades/facade_cafe.glb",
+      "dimensions_m": [
+        4.0,
+        3.0,
+        0.81
+      ],
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -0.69
+      ],
+      "bounds_max": [
+        2.0,
+        3.0,
+        0.12
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "5bf9b6ab17e9b2c9c194fd7b75001ebc18fc1ded88cac1349a74d5472d032474"
+    },
+    {
+      "id": "window_plaster_cream",
+      "label_tr": "Pencereli cephe modülü",
+      "category": "facades",
+      "path": "models/facades/window_plaster_cream.glb",
+      "dimensions_m": [
+        3.0,
+        3.0,
+        0.505
+      ],
+      "bounds_min": [
+        -1.5,
+        0.0,
+        -0.305
+      ],
+      "bounds_max": [
+        1.5,
+        3.0,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "4c56970d798d9082c3f36629fac236862a0cfc15a57e74a24b77277e90c97b5e"
+    },
+    {
+      "id": "window_plaster_blue",
+      "label_tr": "Pencereli cephe modülü",
+      "category": "facades",
+      "path": "models/facades/window_plaster_blue.glb",
+      "dimensions_m": [
+        3.0,
+        3.0,
+        0.505
+      ],
+      "bounds_min": [
+        -1.5,
+        0.0,
+        -0.305
+      ],
+      "bounds_max": [
+        1.5,
+        3.0,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "a176b56a637c7fa8c257ac490b097cc98c54cddacff727f2d4b62bca361d445b"
+    },
+    {
+      "id": "window_plaster_rose",
+      "label_tr": "Pencereli cephe modülü",
+      "category": "facades",
+      "path": "models/facades/window_plaster_rose.glb",
+      "dimensions_m": [
+        3.0,
+        3.0,
+        0.505
+      ],
+      "bounds_min": [
+        -1.5,
+        0.0,
+        -0.305
+      ],
+      "bounds_max": [
+        1.5,
+        3.0,
+        0.2
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "4253dedc092c0815fa722186bfe76e7d39e889dae0aff7171ba074e97ed8d042"
+    },
+    {
+      "id": "balcony",
+      "label_tr": "Apartman balkonu",
+      "category": "facades",
+      "path": "models/facades/balcony.glb",
+      "dimensions_m": [
+        2.4,
+        1.085,
+        1.15
+      ],
+      "bounds_min": [
+        -1.2,
+        0.0,
+        -0.575
+      ],
+      "bounds_max": [
+        1.2,
+        1.085,
+        0.575
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 156,
+      "collision_included": false,
+      "sha256": "6dc992e2b8da69a3b41f633ca146923a6c0059f9ada26481fe8b58ed427bf710"
+    },
+    {
+      "id": "rolling_shutter",
+      "label_tr": "Kapalı kepenk",
+      "category": "facades",
+      "path": "models/facades/rolling_shutter.glb",
+      "dimensions_m": [
+        2.8,
+        2.305,
+        0.08
+      ],
+      "bounds_min": [
+        -1.4,
+        0.048,
+        -0.04
+      ],
+      "bounds_max": [
+        1.4,
+        2.352,
+        0.04
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 216,
+      "collision_included": false,
+      "sha256": "1515367f0902fdda056bb8d7d8cd5a4d6f7c1adfb8bee926ed437326b68a65a8"
+    },
+    {
+      "id": "roof_chimney",
+      "label_tr": "Tuğla baca",
+      "category": "facades",
+      "path": "models/facades/roof_chimney.glb",
+      "dimensions_m": [
+        0.82,
+        1.1,
+        0.82
+      ],
+      "bounds_min": [
+        -0.41,
+        0.0,
+        -0.41
+      ],
+      "bounds_max": [
+        0.41,
+        1.1,
+        0.41
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "9e2249dfa2db68f68431b7e091d6bbadf081330e295c404f486831e83142e14b"
+    },
+    {
+      "id": "taxi",
+      "label_tr": "İstanbul taksisi",
+      "category": "vehicles",
+      "path": "models/vehicles/taxi.glb",
+      "dimensions_m": [
+        2.042,
+        1.505,
+        4.195
+      ],
+      "bounds_min": [
+        -1.021,
+        0.085,
+        -2.1
+      ],
+      "bounds_max": [
+        1.021,
+        1.59,
+        2.095
+      ],
+      "parts": [
+        "body",
+        "wheel_-0.875_-1.3119999999999998",
+        "wheel_-0.875_1.3119999999999998",
+        "wheel_0.875_-1.3119999999999998",
+        "wheel_0.875_1.3119999999999998"
+      ],
+      "animations": [],
+      "triangles": 276,
+      "collision_included": false,
+      "sha256": "b32b076bced0b5304b50cc70eed7860d266cc98096b9dd48a3b5b639a7800442"
+    },
+    {
+      "id": "sedan",
+      "label_tr": "Terk edilmiş otomobil",
+      "category": "vehicles",
+      "path": "models/vehicles/sedan.glb",
+      "dimensions_m": [
+        1.991,
+        1.315,
+        4.095
+      ],
+      "bounds_min": [
+        -0.995,
+        0.085,
+        -2.05
+      ],
+      "bounds_max": [
+        0.995,
+        1.4,
+        2.045
+      ],
+      "parts": [
+        "body",
+        "wheel_-0.85_-1.28",
+        "wheel_-0.85_1.28",
+        "wheel_0.85_-1.28",
+        "wheel_0.85_1.28"
+      ],
+      "animations": [],
+      "triangles": 264,
+      "collision_included": false,
+      "sha256": "636639426c83d6d89ea74b69ac1e2d5c9120187429b47c0981d55bf759e50fce"
+    },
+    {
+      "id": "police_car",
+      "label_tr": "Polis otomobili",
+      "category": "vehicles",
+      "path": "models/vehicles/police_car.glb",
+      "dimensions_m": [
+        2.042,
+        1.575,
+        4.295
+      ],
+      "bounds_min": [
+        -1.021,
+        0.085,
+        -2.15
+      ],
+      "bounds_max": [
+        1.021,
+        1.66,
+        2.145
+      ],
+      "parts": [
+        "body",
+        "wheel_-0.875_-1.344",
+        "wheel_-0.875_1.344",
+        "wheel_0.875_-1.344",
+        "wheel_0.875_1.344"
+      ],
+      "animations": [],
+      "triangles": 288,
+      "collision_included": false,
+      "sha256": "a359d81a4088f059cfe8f80bba89ea2a2d9b4d8189fd14635e704c177ac26068"
+    },
+    {
+      "id": "van",
+      "label_tr": "Panelvan",
+      "category": "vehicles",
+      "path": "models/vehicles/van.glb",
+      "dimensions_m": [
+        2.248,
+        2.015,
+        4.695
+      ],
+      "bounds_min": [
+        -1.124,
+        0.085,
+        -2.35
+      ],
+      "bounds_max": [
+        1.124,
+        2.1,
+        2.345
+      ],
+      "parts": [
+        "body",
+        "wheel_-0.975_-1.472",
+        "wheel_-0.975_1.472",
+        "wheel_0.975_-1.472",
+        "wheel_0.975_1.472"
+      ],
+      "animations": [],
+      "triangles": 264,
+      "collision_included": false,
+      "sha256": "b799098e1ffb4c2bf6bc4c1aa58e4eb86b3cb3b2f7dd6d1f7af08bd158d0a720"
+    },
+    {
+      "id": "minibus",
+      "label_tr": "Minibüs",
+      "category": "vehicles",
+      "path": "models/vehicles/minibus.glb",
+      "dimensions_m": [
+        2.351,
+        2.215,
+        5.195
+      ],
+      "bounds_min": [
+        -1.176,
+        0.085,
+        -2.6
+      ],
+      "bounds_max": [
+        1.176,
+        2.3,
+        2.595
+      ],
+      "parts": [
+        "body",
+        "wheel_-1.025_-1.632",
+        "wheel_-1.025_1.632",
+        "wheel_1.025_-1.632",
+        "wheel_1.025_1.632"
+      ],
+      "animations": [],
+      "triangles": 264,
+      "collision_included": false,
+      "sha256": "f7288e6e2ca6ff3816dd475b0605c1cf81fdbd0ba05d6574cbfa1ff0e00eebf9"
+    },
+    {
+      "id": "ambulance",
+      "label_tr": "Ambulans",
+      "category": "vehicles",
+      "path": "models/vehicles/ambulance.glb",
+      "dimensions_m": [
+        2.3,
+        2.425,
+        4.895
+      ],
+      "bounds_min": [
+        -1.15,
+        0.085,
+        -2.45
+      ],
+      "bounds_max": [
+        1.15,
+        2.51,
+        2.445
+      ],
+      "parts": [
+        "body",
+        "wheel_-1.0_-1.536",
+        "wheel_-1.0_1.536",
+        "wheel_1.0_-1.536",
+        "wheel_1.0_1.536"
+      ],
+      "animations": [],
+      "triangles": 336,
+      "collision_included": false,
+      "sha256": "0c2da13c1be270854f6e3b9bdb1d52b63553e747caa4a49ebbaade40d6498ba7"
+    },
+    {
+      "id": "workbench",
+      "label_tr": "Üretim tezgâhı",
+      "category": "base",
+      "path": "models/base/workbench.glb",
+      "dimensions_m": [
+        1.8,
+        1.205,
+        0.75
+      ],
+      "bounds_min": [
+        -0.9,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.9,
+        1.205,
+        0.375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "8d4187f8dad45fe17fdeb1b06e722c986880913132baeb3b3a422ff1a8a1d317"
+    },
+    {
+      "id": "medical_table",
+      "label_tr": "İlk yardım masası",
+      "category": "base",
+      "path": "models/base/medical_table.glb",
+      "dimensions_m": [
+        1.8,
+        1.235,
+        0.75
+      ],
+      "bounds_min": [
+        -0.9,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.9,
+        1.235,
+        0.375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 108,
+      "collision_included": false,
+      "sha256": "f14894edce20869b7d504ce06e0795e5803cbd7e58e1e539d13077f330237d28"
+    },
+    {
+      "id": "cooking_station",
+      "label_tr": "Pişirme istasyonu",
+      "category": "base",
+      "path": "models/base/cooking_station.glb",
+      "dimensions_m": [
+        1.8,
+        1.31,
+        0.75
+      ],
+      "bounds_min": [
+        -0.9,
+        0.0,
+        -0.375
+      ],
+      "bounds_max": [
+        0.9,
+        1.31,
+        0.375
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "b39d457ad12db5c2b05f98aaa3bea1ac5d631f51991dc1e0f68941b8a93c2d2b"
+    },
+    {
+      "id": "generator",
+      "label_tr": "Jeneratör",
+      "category": "base",
+      "path": "models/base/generator.glb",
+      "dimensions_m": [
+        0.95,
+        0.82,
+        0.65
+      ],
+      "bounds_min": [
+        -0.475,
+        0.0,
+        -0.35
+      ],
+      "bounds_max": [
+        0.475,
+        0.82,
+        0.3
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "b63e227440cebf8fb0b0815363e14f7abd75f8b4254f738469862f6ac27270da"
+    },
+    {
+      "id": "radio_station",
+      "label_tr": "Telsiz istasyonu",
+      "category": "base",
+      "path": "models/base/radio_station.glb",
+      "dimensions_m": [
+        0.65,
+        1.015,
+        0.378
+      ],
+      "bounds_min": [
+        -0.325,
+        0.0,
+        -0.202
+      ],
+      "bounds_max": [
+        0.325,
+        1.015,
+        0.175
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "1b067f8792dbac54ccc714cea51ae191f66657b792cc80ec5f9fa142a237fa93"
+    },
+    {
+      "id": "storage_crate",
+      "label_tr": "Ortak depo sandığı",
+      "category": "base",
+      "path": "models/base/storage_crate.glb",
+      "dimensions_m": [
+        1.2,
+        0.945,
+        0.89
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.47
+      ],
+      "bounds_max": [
+        0.6,
+        0.945,
+        0.42
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "15102d79eb7065516776c19aab6dbc72966791e0355776298d1d27eca13b0ee2"
+    },
+    {
+      "id": "rain_collector",
+      "label_tr": "Yağmur suyu toplayıcı",
+      "category": "base",
+      "path": "models/base/rain_collector.glb",
+      "dimensions_m": [
+        1.2,
+        1.145,
+        1.2
+      ],
+      "bounds_min": [
+        -0.6,
+        0.0,
+        -0.6
+      ],
+      "bounds_max": [
+        0.6,
+        1.145,
+        0.6
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "949a27dee0d8f41e9dc76acf9013451cbde059d8b8b961cd5063a12b9f66ab1e"
+    },
+    {
+      "id": "solar_panel",
+      "label_tr": "Güneş paneli",
+      "category": "base",
+      "path": "models/base/solar_panel.glb",
+      "dimensions_m": [
+        1.6,
+        0.76,
+        1.1
+      ],
+      "bounds_min": [
+        -0.8,
+        0.0,
+        -0.55
+      ],
+      "bounds_max": [
+        0.8,
+        0.76,
+        0.55
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 204,
+      "collision_included": false,
+      "sha256": "fed0a821eb002a62b2707f75bdf93ead8117e5c1e014625e7b155b1b6d1bdbf8"
+    },
+    {
+      "id": "bedroll",
+      "label_tr": "Yatak tulumu",
+      "category": "base",
+      "path": "models/base/bedroll.glb",
+      "dimensions_m": [
+        0.7,
+        0.345,
+        1.8
+      ],
+      "bounds_min": [
+        -0.35,
+        0.0,
+        -0.9
+      ],
+      "bounds_max": [
+        0.35,
+        0.345,
+        0.9
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "55c1a8c735013fc7be50e50b4ccd87ce7cbe400dd1ea168dff84b175fbbf502c"
+    },
+    {
+      "id": "crop_bed",
+      "label_tr": "Ekim yatağı",
+      "category": "base",
+      "path": "models/base/crop_bed.glb",
+      "dimensions_m": [
+        1.4,
+        0.65,
+        1.4
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.7
+      ],
+      "bounds_max": [
+        0.7,
+        0.65,
+        0.7
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 240,
+      "collision_included": false,
+      "sha256": "8983d1f47dc24d7821f1b2fc753a3136234bf5b23c771d206c16c4573bcab845"
+    },
+    {
+      "id": "watchtower",
+      "label_tr": "Gözetleme kulesi",
+      "category": "base",
+      "path": "models/base/watchtower.glb",
+      "dimensions_m": [
+        2.2,
+        4.0,
+        2.2
+      ],
+      "bounds_min": [
+        -1.1,
+        0.0,
+        -1.1
+      ],
+      "bounds_max": [
+        1.1,
+        4.0,
+        1.1
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 276,
+      "collision_included": false,
+      "sha256": "def65c546727eaabcd3f900ef52593a5267aeaf68b1246d90d9f37a77651f8bb"
+    },
+    {
+      "id": "wood_barricade",
+      "label_tr": "Tahta barikat",
+      "category": "defense",
+      "path": "models/defense/wood_barricade.glb",
+      "dimensions_m": [
+        2.0,
+        1.44,
+        0.17
+      ],
+      "bounds_min": [
+        -1.0,
+        0.0,
+        -0.085
+      ],
+      "bounds_max": [
+        1.0,
+        1.44,
+        0.085
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 72,
+      "collision_included": false,
+      "sha256": "0addfa163329aa1f20d92d9199cbfbc5e83ffe31ade5e928dc200db07f1a0758"
+    },
+    {
+      "id": "steel_barricade",
+      "label_tr": "Çelik barikat",
+      "category": "defense",
+      "path": "models/defense/steel_barricade.glb",
+      "dimensions_m": [
+        2.0,
+        1.4,
+        0.85
+      ],
+      "bounds_min": [
+        -1.0,
+        0.0,
+        -0.425
+      ],
+      "bounds_max": [
+        1.0,
+        1.4,
+        0.425
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "f745ef6227b156e1ab9aafa4839a9a4d6c6c4d12ab688595a424047c6b60851a"
+    },
+    {
+      "id": "sandbags",
+      "label_tr": "Kum torbası siper",
+      "category": "defense",
+      "path": "models/defense/sandbags.glb",
+      "dimensions_m": [
+        1.93,
+        0.74,
+        0.52
+      ],
+      "bounds_min": [
+        -0.905,
+        0.02,
+        -0.26
+      ],
+      "bounds_max": [
+        1.025,
+        0.76,
+        0.26
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 144,
+      "collision_included": false,
+      "sha256": "9f9666b56ac4dc3366335acb67995ac68a4dc3d68286447c5e6d98a0f2a60ac3"
+    },
+    {
+      "id": "spike_trap",
+      "label_tr": "Dikenli savunma",
+      "category": "defense",
+      "path": "models/defense/spike_trap.glb",
+      "dimensions_m": [
+        1.4,
+        0.76,
+        1.4
+      ],
+      "bounds_min": [
+        -0.7,
+        0.0,
+        -0.7
+      ],
+      "bounds_max": [
+        0.7,
+        0.76,
+        0.7
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 444,
+      "collision_included": false,
+      "sha256": "18c9621c51983a898784888e7b837b8070f689e3c2ffdd03fc6ad49f3c70ebf9"
+    },
+    {
+      "id": "turret",
+      "label_tr": "Otomatik taret",
+      "category": "defense",
+      "path": "models/defense/turret.glb",
+      "dimensions_m": [
+        0.85,
+        1.125,
+        1.4
+      ],
+      "bounds_min": [
+        -0.425,
+        0.0,
+        -0.975
+      ],
+      "bounds_max": [
+        0.425,
+        1.125,
+        0.425
+      ],
+      "parts": [
+        "body",
+        "head"
+      ],
+      "animations": [],
+      "triangles": 60,
+      "collision_included": false,
+      "sha256": "4efe40a3dfb736b0ca8bfc7ab790ba1303fc9c9a9bfa93450013aa3511af0ce5"
+    },
+    {
+      "id": "gate",
+      "label_tr": "Üs kapısı",
+      "category": "defense",
+      "path": "models/defense/gate.glb",
+      "dimensions_m": [
+        3.3,
+        2.6,
+        0.22
+      ],
+      "bounds_min": [
+        -1.65,
+        0.0,
+        -0.12
+      ],
+      "bounds_max": [
+        1.65,
+        2.6,
+        0.1
+      ],
+      "parts": [
+        "body",
+        "gate"
+      ],
+      "animations": [],
+      "triangles": 132,
+      "collision_included": false,
+      "sha256": "ca9beab5d6655ae8c1ae3bf12fbf06f9e12e38e358f1416c9290064bef305c53"
+    },
+    {
+      "id": "zombie_walker",
+      "label_tr": "Gezgin zombi",
+      "category": "characters",
+      "path": "models/characters/zombie_walker.glb",
+      "dimensions_m": [
+        0.97,
+        1.89,
+        0.38
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.89,
+        0.17
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "641004a9ff7cc0f8f6db24b83a7bfeb88f02f53555325a2bc2ea36104a3cafed"
+    },
+    {
+      "id": "zombie_runner",
+      "label_tr": "Koşucu zombi",
+      "category": "characters",
+      "path": "models/characters/zombie_runner.glb",
+      "dimensions_m": [
+        0.97,
+        1.89,
+        0.38
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.89,
+        0.17
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "42076d99ca6e1629f8d20bc0e93f9215e14e182fc3ff7fd43dc32728808fbb3d"
+    },
+    {
+      "id": "zombie_worker",
+      "label_tr": "İşçi zombi",
+      "category": "characters",
+      "path": "models/characters/zombie_worker.glb",
+      "dimensions_m": [
+        0.97,
+        1.965,
+        0.53
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.965,
+        0.32
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 216,
+      "collision_included": false,
+      "sha256": "12d810c096b98b0e3b3d2b205ca3c0a08b6d9b5aa41c0ad26e6e82d771c9e532"
+    },
+    {
+      "id": "zombie_police",
+      "label_tr": "Polis zombi",
+      "category": "characters",
+      "path": "models/characters/zombie_police.glb",
+      "dimensions_m": [
+        0.97,
+        1.94,
+        0.43
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.245
+      ],
+      "bounds_max": [
+        0.485,
+        1.94,
+        0.185
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 204,
+      "collision_included": false,
+      "sha256": "1c5aad365169700e1cc5c1b66c4298f8d7fd0e690a5638c3377898a9dbb27a80"
+    },
+    {
+      "id": "zombie_brute",
+      "label_tr": "İri zombi",
+      "category": "characters",
+      "path": "models/characters/zombie_brute.glb",
+      "dimensions_m": [
+        1.15,
+        1.89,
+        0.38
+      ],
+      "bounds_min": [
+        -0.575,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.575,
+        1.89,
+        0.17
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "b3a7733241f225eecc5167829928f1a47a71be429734a6bef3849f4f9bd347fd"
+    },
+    {
+      "id": "survivor_scout",
+      "label_tr": "İzci",
+      "category": "characters",
+      "path": "models/characters/survivor_scout.glb",
+      "dimensions_m": [
+        0.97,
+        1.89,
+        0.53
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.89,
+        0.32
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "7098b44978d2a41e1c177f272c3a634ae8a0d09deba658832bf6e89ef7129d96"
+    },
+    {
+      "id": "survivor_medic",
+      "label_tr": "Sağlıkçı",
+      "category": "characters",
+      "path": "models/characters/survivor_medic.glb",
+      "dimensions_m": [
+        0.97,
+        1.89,
+        0.38
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.89,
+        0.17
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 204,
+      "collision_included": false,
+      "sha256": "aadd8cec20eef660697121f68aa97c24afc18d1e05f15b663cd316a27fc73b8f"
+    },
+    {
+      "id": "survivor_engineer",
+      "label_tr": "Teknisyen",
+      "category": "characters",
+      "path": "models/characters/survivor_engineer.glb",
+      "dimensions_m": [
+        0.97,
+        1.965,
+        0.53
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.965,
+        0.32
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 204,
+      "collision_included": false,
+      "sha256": "60efb7d47d78779edef023d1d6b0813f90c7d820a2437263d897502f8418914b"
+    },
+    {
+      "id": "survivor_guard",
+      "label_tr": "Nöbetçi",
+      "category": "characters",
+      "path": "models/characters/survivor_guard.glb",
+      "dimensions_m": [
+        0.97,
+        1.89,
+        0.53
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.89,
+        0.32
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "1411e4f69b05a4be08b22bb96c36d41cf9f78cf8e21a669bd4df2d8b94986846"
+    },
+    {
+      "id": "survivor_civilian",
+      "label_tr": "Sivil",
+      "category": "characters",
+      "path": "models/characters/survivor_civilian.glb",
+      "dimensions_m": [
+        0.97,
+        1.89,
+        0.53
+      ],
+      "bounds_min": [
+        -0.485,
+        0.0,
+        -0.21
+      ],
+      "bounds_max": [
+        0.485,
+        1.89,
+        0.32
+      ],
+      "parts": [
+        "torso",
+        "head",
+        "left_leg",
+        "right_leg",
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [
+        "idle",
+        "walk",
+        "attack"
+      ],
+      "triangles": 192,
+      "collision_included": false,
+      "sha256": "8214e0afd32c2347981de7cf2e0c8bca0121129f1a2c7f50347d1b8e47c6d46a"
+    },
+    {
+      "id": "pistol",
+      "label_tr": "Tabanca",
+      "category": "weapons",
+      "path": "models/weapons/pistol.glb",
+      "dimensions_m": [
+        0.1,
+        0.325,
+        0.3
+      ],
+      "bounds_min": [
+        -0.05,
+        -0.22,
+        -0.245
+      ],
+      "bounds_max": [
+        0.05,
+        0.105,
+        0.055
+      ],
+      "parts": [
+        "receiver",
+        "barrel",
+        "grip",
+        "sight"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "ea74a53391879be1a3437a6129b68eb29f993e39c23d2603ee5747a71095b22b"
+    },
+    {
+      "id": "shotgun",
+      "label_tr": "Pompalı",
+      "category": "weapons",
+      "path": "models/weapons/shotgun.glb",
+      "dimensions_m": [
+        0.13,
+        0.325,
+        1.094
+      ],
+      "bounds_min": [
+        -0.065,
+        -0.22,
+        -0.744
+      ],
+      "bounds_max": [
+        0.065,
+        0.105,
+        0.35
+      ],
+      "parts": [
+        "receiver",
+        "barrel",
+        "grip",
+        "sight",
+        "stock",
+        "handguard",
+        "pump"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "547fd69830e1dc2a9e7a98b962c901683810b7085652e77a3d6a4640f160f5f5"
+    },
+    {
+      "id": "smg",
+      "label_tr": "Hafif makineli",
+      "category": "weapons",
+      "path": "models/weapons/smg.glb",
+      "dimensions_m": [
+        0.13,
+        0.41,
+        0.77
+      ],
+      "bounds_min": [
+        -0.065,
+        -0.305,
+        -0.42
+      ],
+      "bounds_max": [
+        0.065,
+        0.105,
+        0.35
+      ],
+      "parts": [
+        "receiver",
+        "barrel",
+        "grip",
+        "sight",
+        "stock",
+        "handguard",
+        "magazine"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "b1042c4b87775fe87d606c0154674cf6cf0eea39d442e7336a5712ed4faec415"
+    },
+    {
+      "id": "marksman_rifle",
+      "label_tr": "Nişancı tüfeği",
+      "category": "weapons",
+      "path": "models/weapons/marksman_rifle.glb",
+      "dimensions_m": [
+        0.13,
+        0.402,
+        1.269
+      ],
+      "bounds_min": [
+        -0.065,
+        -0.22,
+        -0.919
+      ],
+      "bounds_max": [
+        0.065,
+        0.183,
+        0.35
+      ],
+      "parts": [
+        "receiver",
+        "barrel",
+        "grip",
+        "sight",
+        "stock",
+        "handguard",
+        "scope"
+      ],
+      "animations": [],
+      "triangles": 96,
+      "collision_included": false,
+      "sha256": "2d29878de2871ecb3fe4878749bafdf047801f50bda37a83a310aae01f75c413"
+    },
+    {
+      "id": "assault_rifle",
+      "label_tr": "Taarruz tüfeği",
+      "category": "weapons",
+      "path": "models/weapons/assault_rifle.glb",
+      "dimensions_m": [
+        0.13,
+        0.41,
+        1.032
+      ],
+      "bounds_min": [
+        -0.065,
+        -0.305,
+        -0.682
+      ],
+      "bounds_max": [
+        0.065,
+        0.105,
+        0.35
+      ],
+      "parts": [
+        "receiver",
+        "barrel",
+        "grip",
+        "sight",
+        "stock",
+        "handguard",
+        "magazine"
+      ],
+      "animations": [],
+      "triangles": 84,
+      "collision_included": false,
+      "sha256": "7eb8df000b7cd9210ebb011bbaf3e5de2f9a3e59a6ec49197b94ca6b8872b7f9"
+    },
+    {
+      "id": "fps_arms",
+      "label_tr": "Birinci şahıs kolları",
+      "category": "weapons",
+      "path": "models/weapons/fps_arms.glb",
+      "dimensions_m": [
+        0.58,
+        0.14,
+        0.555
+      ],
+      "bounds_min": [
+        -0.29,
+        -0.25,
+        -0.175
+      ],
+      "bounds_max": [
+        0.29,
+        -0.11,
+        0.38
+      ],
+      "parts": [
+        "left_arm",
+        "right_arm"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "3c3615c01e2d47c1dd9b17e6ca0abaee37924c97654077098384ec0ac7a74dad"
+    },
+    {
+      "id": "ammo_9mm",
+      "label_tr": "9 mm mermi kutusu",
+      "category": "loot",
+      "path": "models/loot/ammo_9mm.glb",
+      "dimensions_m": [
+        0.18,
+        0.1,
+        0.132
+      ],
+      "bounds_min": [
+        -0.09,
+        0.0,
+        -0.072
+      ],
+      "bounds_max": [
+        0.09,
+        0.1,
+        0.06
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "69c7a5e0fb3c1618f1ba98ee84277af3d043f4dd1fb9dada999067cba47009d2"
+    },
+    {
+      "id": "ammo_shells",
+      "label_tr": "Fişek kutusu",
+      "category": "loot",
+      "path": "models/loot/ammo_shells.glb",
+      "dimensions_m": [
+        0.2,
+        0.12,
+        0.142
+      ],
+      "bounds_min": [
+        -0.1,
+        0.0,
+        -0.077
+      ],
+      "bounds_max": [
+        0.1,
+        0.12,
+        0.065
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "65b093ceb004d58ebdbb5f7d9fdaade6aed0aa5a23ba1eb357bbbbf1f677791d"
+    },
+    {
+      "id": "ammo_rifle",
+      "label_tr": "Tüfek mermisi kutusu",
+      "category": "loot",
+      "path": "models/loot/ammo_rifle.glb",
+      "dimensions_m": [
+        0.25,
+        0.13,
+        0.172
+      ],
+      "bounds_min": [
+        -0.125,
+        0.0,
+        -0.092
+      ],
+      "bounds_max": [
+        0.125,
+        0.13,
+        0.08
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "50aa56d6104c113db88a20ab603086fe79d5e2f12a480aa63b3734bff1113936"
+    },
+    {
+      "id": "medkit",
+      "label_tr": "İlk yardım çantası",
+      "category": "loot",
+      "path": "models/loot/medkit.glb",
+      "dimensions_m": [
+        0.35,
+        0.24,
+        0.174
+      ],
+      "bounds_min": [
+        -0.175,
+        0.0,
+        -0.094
+      ],
+      "bounds_max": [
+        0.175,
+        0.24,
+        0.08
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "7963e4adcf70cd50b063d8236baf371ebe508f30c788532f7825749faab5eb5b"
+    },
+    {
+      "id": "bandage",
+      "label_tr": "Bandaj",
+      "category": "loot",
+      "path": "models/loot/bandage.glb",
+      "dimensions_m": [
+        0.13,
+        0.09,
+        0.09
+      ],
+      "bounds_min": [
+        -0.065,
+        0.0,
+        -0.045
+      ],
+      "bounds_max": [
+        0.065,
+        0.09,
+        0.045
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 12,
+      "collision_included": false,
+      "sha256": "cc70df167a9639b4b80ef9b2d79ed018aab827800c8bf1ac411270ed43560e84"
+    },
+    {
+      "id": "water_bottle",
+      "label_tr": "Su şişesi",
+      "category": "loot",
+      "path": "models/loot/water_bottle.glb",
+      "dimensions_m": [
+        0.1,
+        0.32,
+        0.1
+      ],
+      "bounds_min": [
+        -0.05,
+        0.0,
+        -0.05
+      ],
+      "bounds_max": [
+        0.05,
+        0.32,
+        0.05
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "b7f263f44846abbf0cc3fb7a66ba19e4e715c212c721beda5c4504755fc2d10f"
+    },
+    {
+      "id": "canned_food",
+      "label_tr": "Konserve",
+      "category": "loot",
+      "path": "models/loot/canned_food.glb",
+      "dimensions_m": [
+        0.13,
+        0.18,
+        0.142
+      ],
+      "bounds_min": [
+        -0.065,
+        0.0,
+        -0.077
+      ],
+      "bounds_max": [
+        0.065,
+        0.18,
+        0.065
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "083db3ea21122f431b7ca6604c216a6e52a105fb00dffadf8ed290d3d7e70e8e"
+    },
+    {
+      "id": "bread",
+      "label_tr": "Ekmek",
+      "category": "loot",
+      "path": "models/loot/bread.glb",
+      "dimensions_m": [
+        0.3,
+        0.1,
+        0.13
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.065
+      ],
+      "bounds_max": [
+        0.15,
+        0.1,
+        0.065
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 12,
+      "collision_included": false,
+      "sha256": "dd1ab60188df1ba16bae08be5d402fb6dca213eb11af522b2ce0a9809663efaf"
+    },
+    {
+      "id": "fuel_can",
+      "label_tr": "Yakıt bidonu",
+      "category": "loot",
+      "path": "models/loot/fuel_can.glb",
+      "dimensions_m": [
+        0.3,
+        0.5,
+        0.18
+      ],
+      "bounds_min": [
+        -0.15,
+        0.0,
+        -0.09
+      ],
+      "bounds_max": [
+        0.15,
+        0.5,
+        0.09
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "d1271e6b92d9f1f85f8fe1eff7f0901570e1007986245a45709f17fb62274bfb"
+    },
+    {
+      "id": "battery",
+      "label_tr": "Akü",
+      "category": "loot",
+      "path": "models/loot/battery.glb",
+      "dimensions_m": [
+        0.27,
+        0.256,
+        0.18
+      ],
+      "bounds_min": [
+        -0.135,
+        0.0,
+        -0.09
+      ],
+      "bounds_max": [
+        0.135,
+        0.256,
+        0.09
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "a77769b8c3c3cde7fa8ea6f70f8165a3e3dae9e4fe915f2e8ce6a977a039ad2e"
+    },
+    {
+      "id": "scrap_metal",
+      "label_tr": "Metal hurda",
+      "category": "loot",
+      "path": "models/loot/scrap_metal.glb",
+      "dimensions_m": [
+        0.25,
+        0.06,
+        0.17
+      ],
+      "bounds_min": [
+        -0.125,
+        0.0,
+        -0.085
+      ],
+      "bounds_max": [
+        0.125,
+        0.06,
+        0.085
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 12,
+      "collision_included": false,
+      "sha256": "3b4e5590f5050991278954cf38c06936649bd3d2281fb62177cd16991ff32576"
+    },
+    {
+      "id": "wood_bundle",
+      "label_tr": "Tahta demeti",
+      "category": "loot",
+      "path": "models/loot/wood_bundle.glb",
+      "dimensions_m": [
+        0.25,
+        0.13,
+        0.55
+      ],
+      "bounds_min": [
+        -0.125,
+        0.0,
+        -0.275
+      ],
+      "bounds_max": [
+        0.125,
+        0.13,
+        0.275
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 12,
+      "collision_included": false,
+      "sha256": "6d7fe5af743a65b3cbb07a5b97fb1987175af07721ddb7e5b6730b86f7ac15b0"
+    },
+    {
+      "id": "cloth_roll",
+      "label_tr": "Kumaş",
+      "category": "loot",
+      "path": "models/loot/cloth_roll.glb",
+      "dimensions_m": [
+        0.22,
+        0.12,
+        0.16
+      ],
+      "bounds_min": [
+        -0.11,
+        0.0,
+        -0.08
+      ],
+      "bounds_max": [
+        0.11,
+        0.12,
+        0.08
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 12,
+      "collision_included": false,
+      "sha256": "d388b57f671ff9395eb2a37965f29a13c9eb9dfd8532106c109ec201c272ca54"
+    },
+    {
+      "id": "electronics",
+      "label_tr": "Elektronik parça",
+      "category": "loot",
+      "path": "models/loot/electronics.glb",
+      "dimensions_m": [
+        0.22,
+        0.052,
+        0.15
+      ],
+      "bounds_min": [
+        -0.11,
+        0.0,
+        -0.075
+      ],
+      "bounds_max": [
+        0.11,
+        0.052,
+        0.075
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 48,
+      "collision_included": false,
+      "sha256": "07fa8d44b59c7e70a5b870888353c4a014a7fe296619a1a9aa499e1cf0cc5b42"
+    },
+    {
+      "id": "medicine",
+      "label_tr": "İlaç kutusu",
+      "category": "loot",
+      "path": "models/loot/medicine.glb",
+      "dimensions_m": [
+        0.13,
+        0.07,
+        0.092
+      ],
+      "bounds_min": [
+        -0.065,
+        0.0,
+        -0.052
+      ],
+      "bounds_max": [
+        0.065,
+        0.07,
+        0.04
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "dbbf437223e8ebb5a6ac017ad38a4f6c83ae858b21032a7d34dd7eda806fda1b"
+    },
+    {
+      "id": "seed_packet",
+      "label_tr": "Tohum paketi",
+      "category": "loot",
+      "path": "models/loot/seed_packet.glb",
+      "dimensions_m": [
+        0.09,
+        0.13,
+        0.037
+      ],
+      "bounds_min": [
+        -0.045,
+        0.0,
+        -0.024
+      ],
+      "bounds_max": [
+        0.045,
+        0.13,
+        0.012
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "8b6f1f532dfe72d4125c09d58f9de41d6e1961762c44755d14eb69f506be0c30"
+    },
+    {
+      "id": "fertilizer",
+      "label_tr": "Gübre çuvalı",
+      "category": "loot",
+      "path": "models/loot/fertilizer.glb",
+      "dimensions_m": [
+        0.28,
+        0.4,
+        0.202
+      ],
+      "bounds_min": [
+        -0.14,
+        0.0,
+        -0.107
+      ],
+      "bounds_max": [
+        0.14,
+        0.4,
+        0.095
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "e29bafd4639db2686b6fbdcdbfb625229ee461e0d1ce3779ecc10b9078b75c36"
+    },
+    {
+      "id": "toolbox",
+      "label_tr": "Alet çantası",
+      "category": "loot",
+      "path": "models/loot/toolbox.glb",
+      "dimensions_m": [
+        0.45,
+        0.3,
+        0.28
+      ],
+      "bounds_min": [
+        -0.225,
+        0.0,
+        -0.165
+      ],
+      "bounds_max": [
+        0.225,
+        0.3,
+        0.115
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "8ccb1faa126984d734afbe9a84eb30a7e48ebb09d662612787abc95933f23e80"
+    },
+    {
+      "id": "backpack",
+      "label_tr": "Sırt çantası",
+      "category": "loot",
+      "path": "models/loot/backpack.glb",
+      "dimensions_m": [
+        0.33,
+        0.51,
+        0.23
+      ],
+      "bounds_min": [
+        -0.165,
+        0.0,
+        -0.14
+      ],
+      "bounds_max": [
+        0.165,
+        0.51,
+        0.09
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 36,
+      "collision_included": false,
+      "sha256": "6f41fd69c399495e8b18e5513f53143ada92c720e12ec4dc10bf6f9b3a14e328"
+    },
+    {
+      "id": "radio_handheld",
+      "label_tr": "El telsizi",
+      "category": "loot",
+      "path": "models/loot/radio_handheld.glb",
+      "dimensions_m": [
+        0.08,
+        0.4,
+        0.05
+      ],
+      "bounds_min": [
+        -0.04,
+        0.0,
+        -0.025
+      ],
+      "bounds_max": [
+        0.04,
+        0.4,
+        0.025
+      ],
+      "parts": [
+        "body"
+      ],
+      "animations": [],
+      "triangles": 24,
+      "collision_included": false,
+      "sha256": "a0656a22443a1fabd532ea1538af92299bae41b70ef5fce53b56387f6bb6b7c1"
+    }
+  ],
+  "signs": [
+    {
+      "id": "sign_kadikoy",
+      "path": "signs_svg/kadikoy.svg",
+      "text": "KADIKÖY"
+    },
+    {
+      "id": "sign_uskudar",
+      "path": "signs_svg/uskudar.svg",
+      "text": "ÜSKÜDAR"
+    },
+    {
+      "id": "sign_besiktas",
+      "path": "signs_svg/besiktas.svg",
+      "text": "BEŞİKTAŞ"
+    },
+    {
+      "id": "sign_maltepe",
+      "path": "signs_svg/maltepe.svg",
+      "text": "MALTEPE"
+    },
+    {
+      "id": "sign_bostanci",
+      "path": "signs_svg/bostanci.svg",
+      "text": "BOSTANCI"
+    },
+    {
+      "id": "sign_eczane",
+      "path": "signs_svg/eczane.svg",
+      "text": "ECZANE"
+    },
+    {
+      "id": "sign_market",
+      "path": "signs_svg/market.svg",
+      "text": "MARKET"
+    },
+    {
+      "id": "sign_tamir",
+      "path": "signs_svg/tamir.svg",
+      "text": "TAMİR ATÖLYESİ"
+    },
+    {
+      "id": "sign_firin",
+      "path": "signs_svg/firin.svg",
+      "text": "FIRIN"
+    },
+    {
+      "id": "sign_us",
+      "path": "signs_svg/us.svg",
+      "text": "GÜVENLİ BÖLGE"
+    },
+    {
+      "id": "sign_tehlike",
+      "path": "signs_svg/tehlike.svg",
+      "text": "TEHLİKE"
+    },
+    {
+      "id": "sign_karantina",
+      "path": "signs_svg/karantina.svg",
+      "text": "KARANTİNA"
+    }
+  ]
+}

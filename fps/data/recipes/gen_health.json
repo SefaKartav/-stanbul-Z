@@ -1,0 +1,1003 @@
+{
+ "r_gauze": {
+  "name": "Gazlı bez",
+  "output": "gauze",
+  "count": 4,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "Sarf",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 2
+   },
+   {
+    "tag": "antiseptic_base",
+    "count": 1
+   }
+  ],
+  "description": "Bez kaynatılıp dezenfekte edilir."
+ },
+ "r_bandage_boil": {
+  "name": "Sargı kaynatma",
+  "output": "bandage_clean",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 8,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "Sarf",
+  "inputs": [
+   {
+    "item": "bandage_dirty",
+    "count": 2
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Kirli sargı kaynatılıp yeniden kullanılır."
+ },
+ "r_painkiller_herbal": {
+  "name": "Bitkisel ağrı kesici",
+  "output": "painkiller",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 10,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 2
+   },
+   {
+    "tag": "solvent",
+    "count": 1
+   },
+   {
+    "tag": "tool_mortar",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Söğüt kabuğu ve ot: hafif ağrı kesici."
+ },
+ "r_herbal_poultice": {
+  "name": "Bitkisel Lapa",
+  "output": "herbal_poultice",
+  "count": 2,
+  "station": "hands",
+  "time": 9,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 2
+   },
+   {
+    "item": "plant_fiber",
+    "count": 1
+   }
+  ],
+  "description": "Şifalı ot lapası: yavaş iyileşme."
+ },
+ "r_splint": {
+  "name": "Atel",
+  "output": "splint",
+  "count": 1,
+  "station": "hands",
+  "time": 9,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "item": "twine",
+    "count": 2
+   },
+   {
+    "item": "gauze",
+    "count": 1
+   }
+  ],
+  "description": "Kırığı sabitler: hızın geri gelir."
+ },
+ "r_tourniquet": {
+  "name": "Turnike",
+  "output": "tourniquet",
+  "count": 2,
+  "station": "hands",
+  "time": 9,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "leather_strap",
+    "count": 1
+   },
+   {
+    "item": "gauze",
+    "count": 1
+   }
+  ],
+  "description": "Kanamayı anında keser."
+ },
+ "r_burn_salve": {
+  "name": "Yanık Merhemi",
+  "output": "burn_salve",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "antiseptic_base",
+    "count": 1
+   }
+  ],
+  "description": "Yanığı söndürür, cildi kapatır."
+ },
+ "r_antibiotics": {
+  "name": "Antibiyotik",
+  "output": "antibiotics",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 18,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "antiseptic",
+    "count": 2
+   },
+   {
+    "item": "syringe",
+    "count": 1
+   },
+   {
+    "item": "herbs",
+    "count": 3
+   },
+   {
+    "item": "ethanol",
+    "count": 1
+   }
+  ],
+  "description": "Isırık enfeksiyonunu temizler (panzehirin alternatifi).",
+  "learn": "level:12"
+ },
+ "r_suture_kit": {
+  "name": "Dikiş Kiti",
+  "output": "suture_kit",
+  "count": 2,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 15,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "gauze",
+    "count": 2
+   },
+   {
+    "item": "antiseptic",
+    "count": 1
+   },
+   {
+    "tag": "tool_surgery",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Açık yarayı kapatır."
+ },
+ "r_field_dressing": {
+  "name": "Sahra Pansumanı",
+  "output": "field_dressing",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 15,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "gauze",
+    "count": 2
+   },
+   {
+    "item": "antiseptic",
+    "count": 1
+   },
+   {
+    "item": "sterile_cloth",
+    "count": 1
+   }
+  ],
+  "description": "Temizler, kapatır, enfeksiyonu önler."
+ },
+ "r_iv_drip": {
+  "name": "Serum Seti",
+  "output": "iv_drip",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 15,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "saline_bag",
+    "count": 1
+   },
+   {
+    "item": "syringe",
+    "count": 1
+   },
+   {
+    "item": "pvc_pipe",
+    "count": 1
+   }
+  ],
+  "description": "Bir dakika boyunca güçlü iyileşme."
+ },
+ "r_vitamin_pack": {
+  "name": "Vitamin Tableti",
+  "output": "vitamin_pack",
+  "count": 3,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "dried_fruit",
+    "count": 2
+   },
+   {
+    "item": "herbs",
+    "count": 1
+   }
+  ],
+  "description": "Uzun süreli hafif iyileşme."
+ },
+ "r_energy_drink": {
+  "name": "Enerji İçeceği",
+  "output": "energy_drink",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 12,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "coffee_beans",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   }
+  ],
+  "description": "Şeker ve kafein: hızlı kaç."
+ },
+ "r_adrenaline_shot": {
+  "name": "Adrenalin İğnesi",
+  "output": "adrenaline_shot",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 18,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "stimulant",
+    "count": 1
+   },
+   {
+    "item": "syringe",
+    "count": 1
+   }
+  ],
+  "description": "20 sn hız: acil kaçış."
+ },
+ "r_morphine": {
+  "name": "Morfin",
+  "output": "morphine",
+  "count": 1,
+  "station": "chemistry",
+  "station_tier": 4,
+  "time": 18,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "painkiller",
+    "count": 3
+   },
+   {
+    "item": "syringe",
+    "count": 1
+   },
+   {
+    "item": "ethanol",
+    "count": 1
+   }
+  ],
+  "description": "Ağrıyı keser: 45 sn %30 hasar direnci.",
+  "learn": "skill:md_pharma"
+ },
+ "r_charcoal_tabs": {
+  "name": "Aktif Kömür",
+  "output": "charcoal_tabs",
+  "count": 4,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 9,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "charcoal",
+    "count": 2
+   },
+   {
+    "item": "flour_sack",
+    "count": 1
+   }
+  ],
+  "description": "Mide bulantısını geçirir."
+ },
+ "r_ors_solution": {
+  "name": "Tuz-Şeker Çözeltisi",
+  "output": "ors_solution",
+  "count": 2,
+  "station": "hands",
+  "time": 9,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   }
+  ],
+  "description": "Sıvı kaybını durdurur, susuzluğu giderir."
+ },
+ "r_focus_tonic": {
+  "name": "Odak Toniği",
+  "output": "focus_tonic",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 12,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "coffee_beans",
+    "count": 1
+   },
+   {
+    "item": "herbs",
+    "count": 2
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   }
+  ],
+  "description": "Nişan titremesini azaltır."
+ },
+ "r_resist_syrup": {
+  "name": "Direnç Şurubu",
+  "output": "resist_syrup",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 12,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 3
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "ethanol",
+    "count": 1
+   }
+  ],
+  "description": "Ot ve bal: 90 sn dayanıklılık."
+ },
+ "r_first_aid_small": {
+  "name": "Küçük Ecza Çantası",
+  "output": "first_aid_small",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 12,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "bandage_clean",
+    "count": 2
+   },
+   {
+    "item": "gauze",
+    "count": 1
+   },
+   {
+    "item": "antiseptic",
+    "count": 1
+   }
+  ],
+  "description": "Sargı ve antiseptik: yolda can kurtarır."
+ },
+ "r_medkit_military": {
+  "name": "Askerî İlk Yardım",
+  "output": "medkit_military",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 21,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "medkit",
+    "count": 1
+   },
+   {
+    "item": "tourniquet",
+    "count": 1
+   },
+   {
+    "item": "morphine",
+    "count": 1
+   }
+  ],
+  "description": "Tam tedavi: kan, kırık, can.",
+  "learn": "skill:md_pharma"
+ },
+ "r_wound_kit": {
+  "name": "Yara Bakım Seti",
+  "output": "wound_kit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 15,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "soap",
+    "count": 1
+   },
+   {
+    "item": "gauze",
+    "count": 2
+   },
+   {
+    "item": "antiseptic",
+    "count": 1
+   }
+  ],
+  "description": "Temizle, kapat, koru."
+ },
+ "r_leather_jacket": {
+  "name": "Deri Ceket",
+  "output": "leather_jacket",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Gövde",
+  "inputs": [
+   {
+    "item": "cured_leather",
+    "count": 3
+   },
+   {
+    "item": "leather_strap",
+    "count": 2
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Isırığa karşı ilk kat."
+ },
+ "r_padded_vest": {
+  "name": "Dolgulu Yelek",
+  "output": "padded_vest",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 18,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Gövde",
+  "inputs": [
+   {
+    "item": "padding_pad",
+    "count": 3
+   },
+   {
+    "item": "canvas_sheet",
+    "count": 1
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Sünger ve branda."
+ },
+ "r_riot_vest": {
+  "name": "Çevik Kuvvet Yeleği",
+  "output": "riot_vest",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Gövde",
+  "inputs": [
+   {
+    "item": "riot_scrap",
+    "count": 3
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   },
+   {
+    "item": "leather_strap",
+    "count": 3
+   }
+  ],
+  "description": "Kalkan parçalarıyla sert kabuk."
+ },
+ "r_plate_carrier_heavy": {
+  "name": "Ağır Plaka Taşıyıcı",
+  "output": "plate_carrier_heavy",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 30,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Gövde",
+  "inputs": [
+   {
+    "item": "armor_plate_steel",
+    "count": 2
+   },
+   {
+    "item": "kevlar_panel",
+    "count": 2
+   },
+   {
+    "item": "leather_strap",
+    "count": 4
+   }
+  ],
+  "description": "Çelik plaka + kevlar: ağır ama kale."
+ },
+ "r_scrap_helmet": {
+  "name": "Hurda Kask",
+  "output": "scrap_helmet",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Kask",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   }
+  ],
+  "description": "Tencere ve perçin."
+ },
+ "r_moto_helmet": {
+  "name": "Motosiklet Kaskı",
+  "output": "moto_helmet",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 18,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Kask",
+  "inputs": [
+   {
+    "item": "plastic_sheet",
+    "count": 3
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   }
+  ],
+  "description": "Isırığa dayanıklı kabuk."
+ },
+ "r_riot_helmet": {
+  "name": "Çevik Kuvvet Kaskı",
+  "output": "riot_helmet",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Kask",
+  "inputs": [
+   {
+    "item": "riot_scrap",
+    "count": 2
+   },
+   {
+    "item": "glass_pane",
+    "count": 1
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   }
+  ],
+  "description": "Vizörlü kask."
+ },
+ "r_military_helmet": {
+  "name": "Askerî Kask",
+  "output": "military_helmet",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 26,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Kask",
+  "inputs": [
+   {
+    "item": "kevlar_panel",
+    "count": 1
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   },
+   {
+    "item": "leather_strap",
+    "count": 1
+   }
+  ],
+  "description": "Kevlar kask."
+ },
+ "r_cloth_mask": {
+  "name": "Bez Maske",
+  "output": "cloth_mask",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Maske",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 2
+   },
+   {
+    "item": "charcoal",
+    "count": 1
+   }
+  ],
+  "description": "Toz ve spreye karşı biraz korur."
+ },
+ "r_respirator": {
+  "name": "Solunum Maskesi",
+  "output": "respirator",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 18,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Maske",
+  "inputs": [
+   {
+    "item": "filter_housing",
+    "count": 1
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 1
+   },
+   {
+    "item": "charcoal",
+    "count": 2
+   }
+  ],
+  "description": "Filtreli yarım maske."
+ },
+ "r_hazmat_mask": {
+  "name": "Tam Yüz Koruyucu",
+  "output": "hazmat_mask",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 26,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Maske",
+  "inputs": [
+   {
+    "item": "gas_mask",
+    "count": 1
+   },
+   {
+    "item": "filter_cartridge",
+    "count": 1
+   },
+   {
+    "item": "glass_pane",
+    "count": 1
+   }
+  ],
+  "description": "Tükürükçü asidine karşı neredeyse tam koruma."
+ },
+ "r_work_clothes": {
+  "name": "İş Tulumu",
+  "output": "work_clothes",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "giyim",
+  "family": "health",
+  "subcategory": "Giysi",
+  "inputs": [
+   {
+    "item": "cloth_bolt",
+    "count": 2
+   },
+   {
+    "item": "leather_strap",
+    "count": 1
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Bol cepli tulum: +6 kg."
+ },
+ "r_field_uniform": {
+  "name": "Arazi Üniforması",
+  "output": "field_uniform",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "giyim",
+  "family": "health",
+  "subcategory": "Giysi",
+  "inputs": [
+   {
+    "item": "canvas_sheet",
+    "count": 2
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   },
+   {
+    "item": "leather_strap",
+    "count": 2
+   }
+  ],
+  "description": "+8 kg, +10 nefes."
+ },
+ "r_stealth_cloak": {
+  "name": "Sessiz Pelerin",
+  "output": "stealth_cloak",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "giyim",
+  "family": "health",
+  "subcategory": "Giysi",
+  "inputs": [
+   {
+    "item": "cloth_bolt",
+    "count": 2
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   },
+   {
+    "item": "plant_fiber",
+    "count": 6
+   }
+  ],
+  "description": "Ayak sesini %35 boğar."
+ },
+ "rx_bandage_rags": {
+  "name": "Paçavradan sargı",
+  "output": "bandage_clean",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "Sargı",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 3
+   },
+   {
+    "item": "alcohol",
+    "count": 1
+   }
+  ],
+  "description": "Paçavra alkolle temizlenip sarılır."
+ },
+ "rx_painkiller_herbal": {
+  "name": "Söğüt kabuğu ağrı kesici",
+  "output": "painkiller",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "İlaç",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 2
+   },
+   {
+    "item": "wood_log",
+    "count": 1
+   }
+  ],
+  "description": "Söğüt kabuğu özütü: aspirinin atası."
+ },
+ "rx_splint_scrap": {
+  "name": "Sactan atel",
+  "output": "splint",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "tibbi",
+  "family": "health",
+  "subcategory": "Sarf",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 1
+   },
+   {
+    "item": "cloth_rag",
+    "count": 2
+   }
+  ],
+  "description": "İnce sac ve bez: kırığı sabitler."
+ },
+ "rx_cloth_mask_fiber": {
+  "name": "Lif filtreli maske",
+  "output": "cloth_mask",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "zirh",
+  "family": "health",
+  "subcategory": "Maske",
+  "inputs": [
+   {
+    "item": "cloth_bolt",
+    "count": 1
+   },
+   {
+    "item": "charcoal",
+    "count": 1
+   }
+  ],
+  "description": "Kömür tabakalı bez maske."
+ }
+}

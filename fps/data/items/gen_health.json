@@ -1,0 +1,600 @@
+{
+ "gauze": {
+  "name": "Gazlı Bez",
+  "category": "component",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 4,
+  "tags": [
+   "gauze",
+   "medical",
+   "sterile",
+   "soft"
+  ],
+  "description": "Steril gazlı bez: sargı ve pansuman tabanı."
+ },
+ "herbal_poultice": {
+  "name": "Bitkisel Lapa",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 20,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Şifalı ot lapası: yavaş iyileşme.",
+  "effects": {
+   "heal": 10,
+   "regen": 0.4,
+   "duration": 40
+  }
+ },
+ "splint": {
+  "name": "Atel",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 30,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Kırığı sabitler: hızın geri gelir.",
+  "effects": {
+   "cure_fracture": 1,
+   "heal": 5
+  }
+ },
+ "tourniquet": {
+  "name": "Turnike",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 25,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Kanamayı anında keser.",
+  "effects": {
+   "cure_bleed": 1
+  }
+ },
+ "burn_salve": {
+  "name": "Yanık Merhemi",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 40,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Yanığı söndürür, cildi kapatır.",
+  "effects": {
+   "cure_burn": 1,
+   "heal": 8
+  }
+ },
+ "antibiotics": {
+  "name": "Antibiyotik",
+  "category": "consumable",
+  "tier": 4,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 200,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Isırık enfeksiyonunu temizler (panzehirin alternatifi).",
+  "effects": {
+   "cure_infection": 1,
+   "heal": 10
+  }
+ },
+ "suture_kit": {
+  "name": "Dikiş Kiti",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 120,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Açık yarayı kapatır.",
+  "effects": {
+   "heal": 35,
+   "cure_bleed": 1
+  }
+ },
+ "field_dressing": {
+  "name": "Sahra Pansumanı",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 110,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Temizler, kapatır, enfeksiyonu önler.",
+  "effects": {
+   "heal": 30,
+   "cure_bleed": 1,
+   "cure_infection": 1
+  }
+ },
+ "iv_drip": {
+  "name": "Serum Seti",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 160,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Bir dakika boyunca güçlü iyileşme.",
+  "effects": {
+   "regen": 1.2,
+   "duration": 60
+  }
+ },
+ "vitamin_pack": {
+  "name": "Vitamin Tableti",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 50,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Uzun süreli hafif iyileşme.",
+  "effects": {
+   "regen": 0.3,
+   "duration": 120
+  }
+ },
+ "energy_drink": {
+  "name": "Enerji İçeceği",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 40,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Şeker ve kafein: hızlı kaç.",
+  "effects": {
+   "stamina": 50,
+   "speed_boost": 0.15,
+   "duration": 12
+  }
+ },
+ "adrenaline_shot": {
+  "name": "Adrenalin İğnesi",
+  "category": "consumable",
+  "tier": 4,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 180,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "20 sn hız: acil kaçış.",
+  "effects": {
+   "speed_boost": 0.4,
+   "heal": 10,
+   "duration": 20
+  }
+ },
+ "morphine": {
+  "name": "Morfin",
+  "category": "consumable",
+  "tier": 4,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 240,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Ağrıyı keser: 45 sn %30 hasar direnci.",
+  "effects": {
+   "heal": 45,
+   "fortify": 0.3,
+   "duration": 45
+  }
+ },
+ "charcoal_tabs": {
+  "name": "Aktif Kömür",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 20,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Mide bulantısını geçirir.",
+  "effects": {
+   "cure_sick": 1
+  }
+ },
+ "ors_solution": {
+  "name": "Tuz-Şeker Çözeltisi",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 15,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Sıvı kaybını durdurur, susuzluğu giderir.",
+  "effects": {
+   "cure_sick": 1
+  }
+ },
+ "focus_tonic": {
+  "name": "Odak Toniği",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 60,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Nişan titremesini azaltır.",
+  "effects": {
+   "focus": 0.3,
+   "duration": 90
+  }
+ },
+ "resist_syrup": {
+  "name": "Direnç Şurubu",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 60,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Ot ve bal: 90 sn dayanıklılık.",
+  "effects": {
+   "fortify": 0.15,
+   "regen": 0.2,
+   "duration": 90
+  }
+ },
+ "first_aid_small": {
+  "name": "Küçük Ecza Çantası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 90,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Sargı ve antiseptik: yolda can kurtarır.",
+  "effects": {
+   "heal": 40,
+   "cure_bleed": 1
+  }
+ },
+ "medkit_military": {
+  "name": "Askerî İlk Yardım",
+  "category": "consumable",
+  "tier": 5,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 400,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Tam tedavi: kan, kırık, can.",
+  "effects": {
+   "heal": 80,
+   "cure_bleed": 1,
+   "cure_fracture": 1
+  }
+ },
+ "wound_kit": {
+  "name": "Yara Bakım Seti",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 10,
+  "weight": 0.1,
+  "value": 140,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "description": "Temizle, kapat, koru.",
+  "effects": {
+   "heal": 30,
+   "cure_infection": 1,
+   "cure_bleed": 1
+  }
+ },
+ "leather_jacket": {
+  "name": "Deri Ceket",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 60,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Isırığa karşı ilk kat. Envanterde Kuşan.",
+  "effects": {
+   "armor": 2
+  },
+  "durability": 160,
+  "slot": "armor"
+ },
+ "padded_vest": {
+  "name": "Dolgulu Yelek",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 3.0,
+  "value": 120,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Sünger ve branda. Envanterde Kuşan.",
+  "effects": {
+   "armor": 3
+  },
+  "durability": 200,
+  "slot": "armor"
+ },
+ "riot_vest": {
+  "name": "Çevik Kuvvet Yeleği",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 5.0,
+  "value": 180,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Kalkan parçalarıyla sert kabuk. Envanterde Kuşan.",
+  "effects": {
+   "armor": 6
+  },
+  "durability": 280,
+  "slot": "armor"
+ },
+ "plate_carrier_heavy": {
+  "name": "Ağır Plaka Taşıyıcı",
+  "category": "tool",
+  "tier": 5,
+  "stack": 1,
+  "weight": 11.0,
+  "value": 300,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Çelik plaka + kevlar: ağır ama kale. Envanterde Kuşan.",
+  "effects": {
+   "armor": 12
+  },
+  "durability": 400,
+  "slot": "armor"
+ },
+ "scrap_helmet": {
+  "name": "Hurda Kask",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 60,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Tencere ve perçin. Envanterde Kuşan.",
+  "effects": {
+   "armor": 1.5
+  },
+  "durability": 150,
+  "slot": "helmet"
+ },
+ "moto_helmet": {
+  "name": "Motosiklet Kaskı",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.4,
+  "value": 120,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Isırığa dayanıklı kabuk. Envanterde Kuşan.",
+  "effects": {
+   "armor": 2
+  },
+  "durability": 180,
+  "slot": "helmet"
+ },
+ "riot_helmet": {
+  "name": "Çevik Kuvvet Kaskı",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 1.8,
+  "value": 180,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Vizörlü kask. Envanterde Kuşan.",
+  "effects": {
+   "armor": 3
+  },
+  "durability": 240,
+  "slot": "helmet"
+ },
+ "military_helmet": {
+  "name": "Askerî Kask",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 1.6,
+  "value": 240,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Kevlar kask. Envanterde Kuşan.",
+  "effects": {
+   "armor": 4.5
+  },
+  "durability": 320,
+  "slot": "helmet"
+ },
+ "cloth_mask": {
+  "name": "Bez Maske",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 0.1,
+  "value": 60,
+  "tags": [
+   "wearable",
+   "gear"
+  ],
+  "description": "Toz ve spreye karşı biraz korur. Envanterde Kuşan.",
+  "effects": {
+   "toxin_resist": 0.2
+  },
+  "durability": 80,
+  "slot": "mask"
+ },
+ "respirator": {
+  "name": "Solunum Maskesi",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.5,
+  "value": 120,
+  "tags": [
+   "wearable",
+   "gear"
+  ],
+  "description": "Filtreli yarım maske. Envanterde Kuşan.",
+  "effects": {
+   "toxin_resist": 0.5
+  },
+  "durability": 160,
+  "slot": "mask"
+ },
+ "hazmat_mask": {
+  "name": "Tam Yüz Koruyucu",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 1.4,
+  "value": 240,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Tükürükçü asidine karşı neredeyse tam koruma. Envanterde Kuşan.",
+  "effects": {
+   "toxin_resist": 0.9,
+   "armor": 0.5
+  },
+  "durability": 260,
+  "slot": "mask"
+ },
+ "work_clothes": {
+  "name": "İş Tulumu",
+  "category": "tool",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.5,
+  "value": 60,
+  "tags": [
+   "wearable",
+   "armor"
+  ],
+  "description": "Bol cepli tulum: +6 kg. Envanterde Kuşan.",
+  "effects": {
+   "capacity": 6,
+   "armor": 0.5
+  },
+  "durability": 200,
+  "slot": "clothing"
+ },
+ "field_uniform": {
+  "name": "Arazi Üniforması",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 180,
+  "tags": [
+   "wearable",
+   "gear"
+  ],
+  "description": "+8 kg, +10 nefes. Envanterde Kuşan.",
+  "effects": {
+   "capacity": 8,
+   "stamina_bonus": 10
+  },
+  "durability": 260,
+  "slot": "clothing"
+ },
+ "stealth_cloak": {
+  "name": "Sessiz Pelerin",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 180,
+  "tags": [
+   "wearable",
+   "gear"
+  ],
+  "description": "Ayak sesini %35 boğar. Envanterde Kuşan.",
+  "effects": {
+   "noise_bonus": 0.35
+  },
+  "durability": 200,
+  "slot": "clothing"
+ }
+}

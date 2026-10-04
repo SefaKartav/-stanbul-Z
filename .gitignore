@@ -1,0 +1,18 @@
+# Godot onbellegi ve disa aktarim
+.godot/
+build/
+*.exe
+*.pck
+
+# Python
+__pycache__/
+*.pyc
+
+# Gelistirme onbellekleri ve buyuk ham veri
+fps/tools/cache/
+*.osm.pbf
+
+# Kayitlar ve gecici dosyalar
+saves_fps/
+*.tmp
+*.log

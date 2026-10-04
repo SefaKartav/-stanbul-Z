@@ -1,0 +1,745 @@
+{
+ "scrap_metal": {
+  "name": "Hurda Metal",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.4,
+  "value": 2,
+  "tags": [
+   "structural_metal",
+   "metal",
+   "salvage"
+  ],
+  "description": "Bukulmus levha ve parca demir. Her seyin baslangici."
+ },
+ "pipe_steel": {
+  "name": "Celik Boru",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.1,
+  "value": 5,
+  "tags": [
+   "structural_metal",
+   "metal",
+   "tube",
+   "salvage"
+  ],
+  "description": "Yikik binalardan sokulmus tesisat borusu."
+ },
+ "sheet_aluminum": {
+  "name": "Aluminyum Levha",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.3,
+  "value": 4,
+  "tags": [
+   "structural_metal",
+   "metal",
+   "light_metal",
+   "salvage"
+  ],
+  "description": "Hafif ama yeterince saglam."
+ },
+ "rebar": {
+  "name": "Insaat Demiri",
+  "category": "material",
+  "tier": 1,
+  "stack": 15,
+  "weight": 1.8,
+  "value": 6,
+  "tags": [
+   "structural_metal",
+   "metal",
+   "heavy",
+   "salvage"
+  ],
+  "description": "Cikma insaatlardan. Agir ama ise yarar."
+ },
+ "copper_wire": {
+  "name": "Bakir Kablo",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.15,
+  "value": 6,
+  "tags": [
+   "conductive_metal",
+   "metal",
+   "wire",
+   "salvage"
+  ],
+  "description": "Duvardan sokulmus elektrik tesisati."
+ },
+ "wire_steel": {
+  "name": "Celik Tel",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.2,
+  "value": 3,
+  "tags": [
+   "conductive_metal",
+   "metal",
+   "wire",
+   "binding",
+   "salvage"
+  ],
+  "description": "Baglamak, sarmak, tuzak kurmak icin."
+ },
+ "solder": {
+  "name": "Lehim Teli",
+  "category": "material",
+  "tier": 2,
+  "stack": 30,
+  "weight": 0.1,
+  "value": 9,
+  "tags": [
+   "conductive_metal",
+   "metal",
+   "solder",
+   "salvage"
+  ],
+  "description": "Elektronik onarimin vazgecilmezi."
+ },
+ "nail": {
+  "name": "Civi",
+  "category": "material",
+  "tier": 1,
+  "stack": 99,
+  "weight": 0.02,
+  "value": 1,
+  "tags": [
+   "fastener",
+   "metal",
+   "sharp",
+   "salvage"
+  ],
+  "description": "Bir kutu dolusu. Sasirtici derecede kullanisli."
+ },
+ "screw": {
+  "name": "Vida",
+  "category": "material",
+  "tier": 1,
+  "stack": 99,
+  "weight": 0.02,
+  "value": 1,
+  "tags": [
+   "fastener",
+   "metal",
+   "salvage"
+  ],
+  "description": "Cikarilmasi cividen zor, tutmasi cok daha iyi."
+ },
+ "bolt_nut": {
+  "name": "Civata ve Somun",
+  "category": "material",
+  "tier": 1,
+  "stack": 60,
+  "weight": 0.05,
+  "value": 2,
+  "tags": [
+   "fastener",
+   "metal",
+   "salvage"
+  ],
+  "description": "Agir parcalari birbirine tutturur."
+ },
+ "duct_tape": {
+  "name": "Koli Bandi",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.2,
+  "value": 8,
+  "tags": [
+   "adhesive",
+   "binding",
+   "salvage"
+  ],
+  "description": "Kiyamet sonrasi medeniyetin temeli."
+ },
+ "epoxy_resin": {
+  "name": "Epoksi Recine",
+  "category": "material",
+  "tier": 2,
+  "stack": 15,
+  "weight": 0.25,
+  "value": 14,
+  "tags": [
+   "adhesive",
+   "chemical",
+   "salvage"
+  ],
+  "description": "Iki bilesenli. Kurudugunda metal gibi tutar."
+ },
+ "cloth_rag": {
+  "name": "Bez Parcasi",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.1,
+  "value": 1,
+  "tags": [
+   "fabric",
+   "soft",
+   "salvage"
+  ],
+  "description": "Perde, tisort, ne bulursan."
+ },
+ "canvas": {
+  "name": "Brandalik Kumas",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.35,
+  "value": 5,
+  "tags": [
+   "fabric",
+   "tough_fabric",
+   "salvage"
+  ],
+  "description": "Pazar tezgahi brandasindan. Yirtilmiyor."
+ },
+ "leather_scrap": {
+  "name": "Deri Parcasi",
+  "category": "material",
+  "tier": 1,
+  "stack": 25,
+  "weight": 0.3,
+  "value": 7,
+  "tags": [
+   "fabric",
+   "tough_fabric",
+   "leather",
+   "salvage"
+  ],
+  "description": "Eski bir ceket ya da koltuk doşemesi."
+ },
+ "foam_padding": {
+  "name": "Sunger Dolgu",
+  "category": "material",
+  "tier": 1,
+  "stack": 25,
+  "weight": 0.08,
+  "value": 3,
+  "tags": [
+   "fabric",
+   "soft",
+   "insulator",
+   "salvage"
+  ],
+  "description": "Darbe emer, ses yutar."
+ },
+ "plastic_shard": {
+  "name": "Plastik Parcasi",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.08,
+  "value": 1,
+  "tags": [
+   "polymer",
+   "insulator",
+   "salvage"
+  ],
+  "description": "Kirik kasa, bidon, ne olursa."
+ },
+ "rubber_strip": {
+  "name": "Lastik Serit",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.15,
+  "value": 4,
+  "tags": [
+   "polymer",
+   "insulator",
+   "elastic",
+   "salvage",
+   "rubber_raw"
+  ],
+  "description": "Ic lastikten kesilmis. Esner, yalitir."
+ },
+ "pvc_pipe": {
+  "name": "PVC Boru",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.25,
+  "value": 3,
+  "tags": [
+   "polymer",
+   "tube",
+   "insulator",
+   "salvage"
+  ],
+  "description": "Hafif, kesmesi kolay, her yerde var."
+ },
+ "glass_shard": {
+  "name": "Cam Kirigi",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.1,
+  "value": 1,
+  "tags": [
+   "glass",
+   "sharp",
+   "salvage"
+  ],
+  "description": "Dikkatli tut."
+ },
+ "bottle_empty": {
+  "name": "Bos Sise",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 2,
+  "tags": [
+   "glass",
+   "container",
+   "salvage"
+  ],
+  "description": "Icine bir seyler koymak icin bekliyor."
+ },
+ "lens_cracked": {
+  "name": "Catlak Mercek",
+  "category": "material",
+  "tier": 2,
+  "stack": 12,
+  "weight": 0.05,
+  "value": 16,
+  "tags": [
+   "glass",
+   "optics",
+   "salvage"
+  ],
+  "description": "Dürbunden ya da fotograf makinesinden."
+ },
+ "mirror_shard": {
+  "name": "Ayna Parcasi",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.12,
+  "value": 4,
+  "tags": [
+   "glass",
+   "optics",
+   "reflective",
+   "salvage"
+  ],
+  "description": "Kose donerken bakmak icin de ise yarar."
+ },
+ "wood_plank": {
+  "name": "Tahta",
+  "category": "material",
+  "tier": 1,
+  "stack": 25,
+  "weight": 0.9,
+  "value": 2,
+  "tags": [
+   "wood",
+   "structural",
+   "salvage",
+   "cook_fuel"
+  ],
+  "description": "Sokulmus mobilya ya da palet."
+ },
+ "battery_aa": {
+  "name": "Kalem Pil",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.03,
+  "value": 10,
+  "tags": [
+   "power_source",
+   "electronic",
+   "salvage"
+  ],
+  "description": "Yarisi bitmis ama hala bir seyler var."
+ },
+ "battery_car": {
+  "name": "Aku",
+  "category": "material",
+  "tier": 2,
+  "stack": 3,
+  "weight": 12.0,
+  "value": 45,
+  "tags": [
+   "power_source",
+   "electronic",
+   "heavy",
+   "salvage"
+  ],
+  "description": "Agir. Ama icinde ciddi enerji var."
+ },
+ "circuit_board_broken": {
+  "name": "Kirik Devre Karti",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 8,
+  "tags": [
+   "electronic",
+   "salvage"
+  ],
+  "description": "Uzerinde hala kullanilabilir parcalar var."
+ },
+ "capacitor_salvaged": {
+  "name": "Sokulmus Kondansator",
+  "category": "material",
+  "tier": 2,
+  "stack": 25,
+  "weight": 0.04,
+  "value": 12,
+  "tags": [
+   "electronic",
+   "energy_storage",
+   "salvage"
+  ],
+  "description": "Enerjiyi biriktirip bir anda birakir."
+ },
+ "transistor": {
+  "name": "Transistor",
+  "category": "material",
+  "tier": 2,
+  "stack": 30,
+  "weight": 0.01,
+  "value": 11,
+  "tags": [
+   "electronic",
+   "logic",
+   "salvage"
+  ],
+  "description": "Anahtarlar, yukseltir. Modern her seyin icinde."
+ },
+ "led": {
+  "name": "LED",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.01,
+  "value": 5,
+  "tags": [
+   "electronic",
+   "light_source",
+   "salvage"
+  ],
+  "description": "Az enerjiyle cok isik."
+ },
+ "fuse": {
+  "name": "Sigorta",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "electronic",
+   "safety",
+   "salvage"
+  ],
+  "description": "Kendini feda ederek devreyi kurtarir."
+ },
+ "motor_small": {
+  "name": "Kucuk Motor",
+  "category": "material",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.6,
+  "value": 28,
+  "tags": [
+   "mechanical",
+   "electronic",
+   "motor",
+   "salvage"
+  ],
+  "description": "Beyaz esyadan sokulmus. Icinde bakir sargi da var."
+ },
+ "spring": {
+  "name": "Yay",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.05,
+  "value": 4,
+  "tags": [
+   "mechanical",
+   "elastic",
+   "metal",
+   "salvage"
+  ],
+  "description": "Kalem yayindan silah yayina kadar."
+ },
+ "gear_small": {
+  "name": "Kucuk Disli",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.08,
+  "value": 7,
+  "tags": [
+   "mechanical",
+   "metal",
+   "salvage"
+  ],
+  "description": "Saatten, matkaptan, kim bilir nereden."
+ },
+ "bearing": {
+  "name": "Rulman",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.12,
+  "value": 15,
+  "tags": [
+   "mechanical",
+   "metal",
+   "precision",
+   "salvage"
+  ],
+  "description": "Puruzsuz donme. Hassas is icin sart."
+ },
+ "hinge": {
+  "name": "Menteşe",
+  "category": "material",
+  "tier": 1,
+  "stack": 25,
+  "weight": 0.1,
+  "value": 3,
+  "tags": [
+   "mechanical",
+   "metal",
+   "salvage"
+  ],
+  "description": "Kapidan sokulmus."
+ },
+ "magnet": {
+  "name": "Miknatis",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.06,
+  "value": 18,
+  "tags": [
+   "electronic",
+   "magnetic",
+   "salvage"
+  ],
+  "description": "Hoparlorden cikma neodyum."
+ },
+ "shell_casing": {
+  "name": "Bos Kovan",
+  "category": "material",
+  "tier": 1,
+  "stack": 99,
+  "weight": 0.01,
+  "value": 2,
+  "tags": [
+   "casing",
+   "metal",
+   "salvage"
+  ],
+  "description": "Toplamaya degdigini catisma sonrasi anlarsin."
+ },
+ "alcohol": {
+  "name": "Ispirto",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.5,
+  "value": 12,
+  "tags": [
+   "chemical",
+   "solvent",
+   "chemical_fuel",
+   "antiseptic_base",
+   "salvage",
+   "cook_fuel"
+  ],
+  "description": "Temizler, yakar, dezenfekte eder."
+ },
+ "bleach": {
+  "name": "Camasir Suyu",
+  "category": "material",
+  "tier": 1,
+  "stack": 15,
+  "weight": 0.8,
+  "value": 9,
+  "tags": [
+   "chemical",
+   "chemical_oxidizer",
+   "salvage"
+  ],
+  "description": "Dikkatli kullan. Ya da hic kullanma."
+ },
+ "fertilizer": {
+  "name": "Gubre",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.7,
+  "value": 11,
+  "tags": [
+   "chemical",
+   "chemical_oxidizer",
+   "nitrate",
+   "salvage",
+   "fertilizer"
+  ],
+  "description": "Balkon saksisindan. Nitrat bakimindan zengin."
+ },
+ "oil_can": {
+  "name": "Yag Bidonu",
+  "category": "material",
+  "tier": 1,
+  "stack": 12,
+  "weight": 1.2,
+  "value": 10,
+  "tags": [
+   "chemical",
+   "chemical_fuel",
+   "lubricant",
+   "salvage"
+  ],
+  "description": "Motor yagi. Yaglar, yanar, sizdirmaz."
+ },
+ "gasoline": {
+  "name": "Benzin",
+  "category": "material",
+  "tier": 2,
+  "stack": 10,
+  "weight": 1.5,
+  "value": 30,
+  "tags": [
+   "chemical",
+   "chemical_fuel",
+   "volatile",
+   "salvage"
+  ],
+  "description": "Artik para degil, benzin konusuluyor."
+ },
+ "gunpowder_loose": {
+  "name": "Dokme Barut",
+  "category": "material",
+  "tier": 2,
+  "stack": 30,
+  "weight": 0.05,
+  "value": 20,
+  "tags": [
+   "chemical",
+   "explosive_filler",
+   "volatile",
+   "salvage"
+  ],
+  "description": "Sokulmus fisenklerden toplanmis."
+ },
+ "match_heads": {
+  "name": "Kibrit Basi",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.01,
+  "value": 3,
+  "tags": [
+   "chemical",
+   "explosive_filler",
+   "salvage"
+  ],
+  "description": "Bir araya gelince ciddi is yapar."
+ },
+ "herbs": {
+  "name": "Sifali Ot",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.05,
+  "value": 8,
+  "tags": [
+   "medical",
+   "organic",
+   "salvage"
+  ],
+  "description": "Park ve balkonlardan. Nine bilirdi."
+ },
+ "painkiller": {
+  "name": "Agri Kesici",
+  "category": "material",
+  "tier": 1,
+  "stack": 25,
+  "weight": 0.02,
+  "value": 22,
+  "tags": [
+   "medical",
+   "pharma",
+   "salvage"
+  ],
+  "description": "Eczane raflari cabuk bosaldi."
+ },
+ "bandage_dirty": {
+  "name": "Kirli Sargi",
+  "category": "material",
+  "tier": 1,
+  "stack": 25,
+  "weight": 0.05,
+  "value": 3,
+  "tags": [
+   "medical",
+   "fabric",
+   "soft",
+   "salvage"
+  ],
+  "description": "Kaynatilmasi lazim."
+ },
+ "ceramic_shard": {
+  "name": "Seramik Parcasi",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.2,
+  "value": 4,
+  "tags": [
+   "ceramic",
+   "hard",
+   "salvage"
+  ],
+  "description": "Karo ve lavabo kirigi. Sasirtici sertlikte."
+ },
+ "sand": {
+  "name": "Kum",
+  "category": "material",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.6,
+  "value": 1,
+  "tags": [
+   "mineral",
+   "abrasive",
+   "salvage"
+  ],
+  "description": "Insaattan. Cam da olur, cuval da."
+ },
+ "charcoal": {
+  "name": "Kömür",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.2,
+  "value": 5,
+  "tags": [
+   "mineral",
+   "chemical_fuel",
+   "filter_medium",
+   "salvage",
+   "cook_fuel"
+  ],
+  "description": "Yakar, filtreler, cizer."
+ }
+}

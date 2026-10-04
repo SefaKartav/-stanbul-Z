@@ -1,0 +1,392 @@
+{
+  "ammo_9mm": {
+    "name": "9mm Fisek",
+    "category": "ammo",
+    "tier": 2,
+    "stack": 180,
+    "weight": 0.012,
+    "value": 4,
+    "ammo_type": "9mm",
+    "tags": [
+      "ammo",
+      "pistol_ammo"
+    ],
+    "description": "En yaygin cap. Bulmasi da yapmasi da en kolay."
+  },
+  "ammo_12ga": {
+    "name": "12 Kalibre Fisek",
+    "category": "ammo",
+    "tier": 2,
+    "stack": 90,
+    "weight": 0.04,
+    "value": 9,
+    "ammo_type": "12ga",
+    "tags": [
+      "ammo",
+      "shotgun_ammo"
+    ],
+    "description": "Kalabalik icin. Tek hedefe israf."
+  },
+  "ammo_762": {
+    "name": "7.62 Fisek",
+    "category": "ammo",
+    "tier": 3,
+    "stack": 120,
+    "weight": 0.025,
+    "value": 14,
+    "ammo_type": "762",
+    "tags": [
+      "ammo",
+      "rifle_ammo"
+    ],
+    "description": "Uzak mesafe. Her fiseği hak ederek harca."
+  },
+  "weapon_pistol": {
+    "name": "Kirikkale Tabanca",
+    "category": "weapon",
+    "tier": 3,
+    "stack": 1,
+    "weight": 1.1,
+    "value": 350,
+    "durability": 500,
+    "weapon_id": "pistol_kirikkale",
+    "tags": [
+      "weapon",
+      "firearm",
+      "pistol"
+    ],
+    "description": "Guvenilir, sessiz sayilir, mermisi her yerde."
+  },
+  "weapon_shotgun": {
+    "name": "Pompali",
+    "category": "weapon",
+    "tier": 4,
+    "stack": 1,
+    "weight": 3.4,
+    "value": 620,
+    "durability": 420,
+    "weapon_id": "shotgun_pump",
+    "tags": [
+      "weapon",
+      "firearm",
+      "shotgun"
+    ],
+    "description": "Dar sokakta krallık. Ses butun mahalleyi cagiriyor."
+  },
+  "weapon_smg": {
+    "name": "Akrep Hafif Makineli",
+    "category": "weapon",
+    "tier": 4,
+    "stack": 1,
+    "weight": 2.6,
+    "value": 780,
+    "durability": 380,
+    "weapon_id": "smg_scorpion",
+    "tags": [
+      "weapon",
+      "firearm",
+      "smg"
+    ],
+    "description": "Cok mermi, cok gurultu, cok cabuk biten sarjor."
+  },
+  "weapon_rifle": {
+    "name": "Nisanci Tufegi",
+    "category": "weapon",
+    "tier": 5,
+    "stack": 1,
+    "weight": 4.2,
+    "value": 1100,
+    "durability": 460,
+    "weapon_id": "rifle_marksman",
+    "tags": [
+      "weapon",
+      "firearm",
+      "rifle"
+    ],
+    "description": "Cati basindan sokagi temizler."
+  },
+  "mod_suppressor": {
+    "name": "Susturucu",
+    "category": "mod",
+    "tier": 4,
+    "stack": 1,
+    "weight": 0.5,
+    "value": 520,
+    "durability": 200,
+    "mod_slot": "barrel",
+    "mod_stats": {
+      "noise_radius": 0.32,
+      "damage": 0.92
+    },
+    "tags": [
+      "mod",
+      "barrel_mod"
+    ],
+    "description": "Sesi ucte bire indirir. Bu oyunda en degerli seyin bu olmasi tesaduf degil."
+  },
+  "mod_long_barrel": {
+    "name": "Uzun Namlu",
+    "category": "mod",
+    "tier": 3,
+    "stack": 1,
+    "weight": 0.7,
+    "value": 300,
+    "mod_slot": "barrel",
+    "mod_stats": {
+      "range": 1.35,
+      "spread": 0.7,
+      "noise_radius": 1.15
+    },
+    "tags": [
+      "mod",
+      "barrel_mod"
+    ],
+    "description": "Daha uzak, daha isabetli, daha gurultulu."
+  },
+  "mod_extended_mag": {
+    "name": "Genis Sarjor",
+    "category": "mod",
+    "tier": 3,
+    "stack": 1,
+    "weight": 0.3,
+    "value": 260,
+    "mod_slot": "magazine",
+    "mod_stats": {
+      "magazine": 1.6,
+      "reload_time": 1.2
+    },
+    "tags": [
+      "mod",
+      "magazine_mod"
+    ],
+    "description": "Daha cok mermi, daha uzun sarj."
+  },
+  "mod_quickdraw": {
+    "name": "Hizli Sarj Kiti",
+    "category": "mod",
+    "tier": 3,
+    "stack": 1,
+    "weight": 0.15,
+    "value": 240,
+    "mod_slot": "magazine",
+    "mod_stats": {
+      "reload_time": 0.62
+    },
+    "tags": [
+      "mod",
+      "magazine_mod"
+    ],
+    "description": "Sarjor degistirme suresini neredeyse yariya indirir."
+  },
+  "mod_stock": {
+    "name": "Dengeleyici Dipçik",
+    "category": "mod",
+    "tier": 3,
+    "stack": 1,
+    "weight": 0.6,
+    "value": 280,
+    "mod_slot": "stock",
+    "mod_stats": {
+      "recoil": 0.55,
+      "spread": 0.8
+    },
+    "tags": [
+      "mod",
+      "stock_mod"
+    ],
+    "description": "Seri atista dagilmayi toplar."
+  },
+  "mod_red_dot": {
+    "name": "Nisangah",
+    "category": "mod",
+    "tier": 4,
+    "stack": 1,
+    "weight": 0.2,
+    "value": 400,
+    "mod_slot": "sight",
+    "mod_stats": {
+      "spread": 0.6,
+      "range": 1.15
+    },
+    "tags": [
+      "mod",
+      "sight_mod"
+    ],
+    "description": "Kirmizi nokta. Karanlikta kendini de ele verir."
+  },
+  "mod_emp_barrel": {
+    "name": "EMP Namlu Modu",
+    "category": "mod",
+    "tier": 5,
+    "stack": 1,
+    "weight": 0.9,
+    "value": 950,
+    "durability": 120,
+    "mod_slot": "barrel",
+    "mod_stats": {
+      "damage": 1.25,
+      "noise_radius": 0.75,
+      "shock": 1.0
+    },
+    "tags": [
+      "mod",
+      "barrel_mod",
+      "energy_mod"
+    ],
+    "description": "Mermiyi elektrikle yukler. Zincirleme sok yapar."
+  },
+  "ammo_357": {
+    "name": ".357 Fisek",
+    "category": "ammo",
+    "tier": 3,
+    "stack": 90,
+    "weight": 0.021,
+    "value": 11,
+    "ammo_type": "357",
+    "tags": [
+      "ammo",
+      "pistol_ammo"
+    ],
+    "description": "Toplu tabanca capi. Az bulunur, vurdugunu devirir."
+  },
+  "weapon_knife": {
+    "name": "Mutfak Bicagi",
+    "category": "weapon",
+    "tier": 1,
+    "stack": 1,
+    "weight": 0.3,
+    "value": 25,
+    "durability": 180,
+    "weapon_id": "melee_knife",
+    "tags": [
+      "weapon",
+      "melee"
+    ],
+    "description": "Her mutfakta var. Sessiz ama yaklasmak gerekiyor."
+  },
+  "weapon_pipe": {
+    "name": "Demir Boru",
+    "category": "weapon",
+    "tier": 1,
+    "stack": 1,
+    "weight": 1.9,
+    "value": 40,
+    "durability": 320,
+    "weapon_id": "melee_pipe",
+    "tags": [
+      "weapon",
+      "melee"
+    ],
+    "description": "Agir, sessiz ve kirilmaz. Ilk gunlerin silahi."
+  },
+  "weapon_axe": {
+    "name": "Itfaiye Baltasi",
+    "category": "weapon",
+    "tier": 2,
+    "stack": 1,
+    "weight": 3.4,
+    "value": 140,
+    "durability": 400,
+    "weapon_id": "melee_axe",
+    "tags": [
+      "weapon",
+      "melee"
+    ],
+    "description": "Genis savurur, zirhi yarar. Yavas olmasi tek kusuru."
+  },
+  "weapon_sledge": {
+    "name": "Balyoz",
+    "category": "weapon",
+    "tier": 2,
+    "stack": 1,
+    "weight": 6.2,
+    "value": 160,
+    "durability": 520,
+    "weapon_id": "melee_sledge",
+    "tags": [
+      "weapon",
+      "melee"
+    ],
+    "description": "Vurdugunu savurur. Kalabaligi acmak icin; kacmak icin degil."
+  },
+  "weapon_makarov": {
+    "name": "Makarov",
+    "category": "weapon",
+    "tier": 2,
+    "stack": 1,
+    "weight": 0.72,
+    "value": 210,
+    "durability": 420,
+    "weapon_id": "pistol_makarov",
+    "tags": [
+      "weapon",
+      "firearm",
+      "pistol"
+    ],
+    "description": "Zayif ama her yerde. 9mm bulmak dert degil."
+  },
+  "weapon_revolver": {
+    "name": ".357 Toplu",
+    "category": "weapon",
+    "tier": 3,
+    "stack": 1,
+    "weight": 1.1,
+    "value": 480,
+    "durability": 600,
+    "weapon_id": "revolver_357",
+    "tags": [
+      "weapon",
+      "firearm",
+      "pistol"
+    ],
+    "description": "Alti mermi, alti karar. Sesi butun sokagi ayaga kaldirir."
+  },
+  "weapon_sawnoff": {
+    "name": "Kirma Cifte",
+    "category": "weapon",
+    "tier": 2,
+    "stack": 1,
+    "weight": 2.7,
+    "value": 320,
+    "durability": 380,
+    "weapon_id": "shotgun_sawnoff",
+    "tags": [
+      "weapon",
+      "firearm",
+      "shotgun"
+    ],
+    "description": "Iki fisek ve uzun bir doldurma. Yakinda affetmez, uzakta ise yaramaz."
+  },
+  "weapon_hunting": {
+    "name": "Av Tufegi",
+    "category": "weapon",
+    "tier": 3,
+    "stack": 1,
+    "weight": 3.6,
+    "value": 520,
+    "durability": 620,
+    "weapon_id": "rifle_hunting",
+    "tags": [
+      "weapon",
+      "firearm",
+      "rifle"
+    ],
+    "description": "Surgu tek tek. Sabirli olana uzaktan is gorur."
+  },
+  "weapon_auto_rifle": {
+    "name": "Piyade Tufegi",
+    "category": "weapon",
+    "tier": 4,
+    "stack": 1,
+    "weight": 4.1,
+    "value": 980,
+    "durability": 700,
+    "weapon_id": "rifle_auto",
+    "tags": [
+      "weapon",
+      "firearm",
+      "rifle"
+    ],
+    "description": "Surekli ates. Cephaneyi de dikkati de hizla toplar."
+  }
+}

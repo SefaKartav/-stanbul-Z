@@ -1,0 +1,147 @@
+{
+  "layout_id": "school_b",
+  "label_tr": "yokuş_okulu",
+  "type": "Okul",
+  "coordinate_system": "local X/Z meters; +Y up; forward -Z",
+  "floors": 3,
+  "modules": [
+    {
+      "asset_id": "iz3_school_classroom_01",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_hall_01",
+      "position_m": [
+        0,
+        0,
+        6
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_lab_01",
+      "position_m": [
+        6,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_library_01",
+      "position_m": [
+        6,
+        0,
+        6
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_desk_01",
+      "position_m": [
+        -1,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_board_01",
+      "position_m": [
+        1,
+        0,
+        -2
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_gym_01",
+      "position_m": [
+        10,
+        0,
+        8
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_school_bookcase_01",
+      "position_m": [
+        7,
+        4,
+        6
+      ],
+      "rotation_y_deg": 0,
+      "floor": 1
+    }
+  ],
+  "rooms": [
+    "sınıf",
+    "fen laboratuvarı",
+    "kütüphane",
+    "kantin/avlu",
+    "spor salonu"
+  ],
+  "entries": [
+    {
+      "position_m": [
+        0,
+        0,
+        4
+      ],
+      "width_m": 1.4,
+      "access": "ground entrance"
+    },
+    {
+      "position_m": [
+        6,
+        0,
+        -4
+      ],
+      "width_m": 2.0,
+      "access": "service entrance"
+    }
+  ],
+  "loot_interaction_points": [
+    {
+      "type": "loot",
+      "position_m": [
+        7,
+        0.8,
+        6
+      ]
+    },
+    {
+      "type": "interact",
+      "position_m": [
+        1,
+        1,
+        -2
+      ]
+    }
+  ],
+  "circulation_clearances": {
+    "main_corridor_min_m": 2.0,
+    "door_clear_m": [
+      1.1,
+      2.2
+    ],
+    "stair_clear_width_min_m": 1.4,
+    "accessible_route": "ground entrance to central corridor, stairs to upper floor and roof"
+  },
+  "footprint_m": [
+    18,
+    16
+  ]
+}

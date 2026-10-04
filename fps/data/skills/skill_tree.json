@@ -1,0 +1,720 @@
+{
+  "_aciklama": "Alti dal x 8 dugum = 48. Acma kosulu: beceri puani (cost) + onkosul dugum (requires) + karakter seviyesi (level) + uygulamali ustalik (mastery: sayac >= deger). Etkiler (effects) SkillProfile uzerinden sistemlere gider; 'behavior' dugumleri yeni eylem/erisim acar (kodda kimlikle sorulur); 'unlock' tarif semasi verir; 'power' aktif yetenegin rutbesini artirir. Toplam maliyet 102 puan; 50. seviyeye kadar ~49 puan + gorevlerden ~7: tek oyunda agacin yarisi kadar -- uzmanlasma zorunlu.",
+  "max_level": 50,
+  "xp_curve": [
+    80,
+    30,
+    2.2
+  ],
+  "points_per_level": 1,
+  "respec": {
+    "cooldown_days": 3,
+    "requires_base": true,
+    "cost_xp_ratio": 0.5
+  },
+  "branches": [
+    {
+      "id": "survival",
+      "name": "Hayatta kalma",
+      "color": [
+        120,
+        170,
+        110
+      ]
+    },
+    {
+      "id": "combat",
+      "name": "Catisma",
+      "color": [
+        214,
+        120,
+        80
+      ]
+    },
+    {
+      "id": "stealth",
+      "name": "Gizlilik ve kesif",
+      "color": [
+        120,
+        150,
+        200
+      ]
+    },
+    {
+      "id": "craft",
+      "name": "Zanaat ve muhendislik",
+      "color": [
+        190,
+        170,
+        100
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "Tip ve dayaniklilik",
+      "color": [
+        200,
+        110,
+        120
+      ]
+    },
+    {
+      "id": "leadership",
+      "name": "Liderlik ve lojistik",
+      "color": [
+        180,
+        150,
+        210
+      ]
+    }
+  ],
+  "nodes": {
+    "sv_boil": {
+      "branch": "survival",
+      "tier": 1,
+      "cost": 1,
+      "name": "Kaynatma verimi",
+      "behavior": "boil_bonus",
+      "desc": "Su kaynatinca 3 yerine 4 sise temiz su cikar (ayni yakitla)."
+    },
+    "sv_stomach": {
+      "branch": "survival",
+      "tier": 1,
+      "cost": 1,
+      "name": "Dayanikli mide",
+      "effects": {
+        "illness_risk": -0.5
+      },
+      "desc": "Kirli su ve bozuk yemekte mide bulantisi olasiligi yariya iner."
+    },
+    "sv_field_stove": {
+      "branch": "survival",
+      "tier": 2,
+      "cost": 2,
+      "level": 6,
+      "requires": [
+        "sv_boil"
+      ],
+      "name": "Sahra ocagi",
+      "unlock": [
+        "r_cook_field",
+        "r_boil_field"
+      ],
+      "desc": "Ocak olmadan, elde kucuk bir atesle yemek pisirir ve su kaynatirsin (daha az verimli)."
+    },
+    "sv_filter": {
+      "branch": "survival",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "sv_stomach"
+      ],
+      "name": "Filtre bakimi",
+      "behavior": "filter_saver",
+      "mastery": {
+        "counter": "water_purified",
+        "value": 12
+      },
+      "desc": "Filtre kartusu her kullanimda %50 olasilikla tukenmez. (Ustalik: 12 kez su arit.)"
+    },
+    "sv_tracking": {
+      "branch": "survival",
+      "tier": 3,
+      "cost": 2,
+      "level": 14,
+      "requires": [
+        "sv_field_stove"
+      ],
+      "name": "Iz okuma",
+      "behavior": "tracking",
+      "desc": "45 m icindeki en yakin uyanik zombinin yonu ve uzakligi ekranda gorunur."
+    },
+    "sv_salting": {
+      "branch": "survival",
+      "tier": 3,
+      "cost": 3,
+      "level": 18,
+      "requires": [
+        "sv_filter"
+      ],
+      "name": "Tuzlama",
+      "unlock": [
+        "r_salt_preserve"
+      ],
+      "mastery": {
+        "counter": "meals_cooked",
+        "value": 10
+      },
+      "desc": "Sicak yemegi tuzla kavurmaya cevirirsin: bozulmayan, tasinabilir erzak. (Ustalik: 10 yemek pisir.)"
+    },
+    "sv_expedition": {
+      "branch": "survival",
+      "tier": 4,
+      "cost": 3,
+      "level": 26,
+      "requires": [
+        "sv_tracking"
+      ],
+      "name": "Sefer hazirligi",
+      "effects": {
+        "food_need": -0.15,
+        "water_need": -0.15
+      },
+      "desc": "Aclik ve susuzluk %15 yavas ilerler."
+    },
+    "sv_rain": {
+      "branch": "survival",
+      "tier": 4,
+      "cost": 3,
+      "level": 30,
+      "requires": [
+        "sv_salting"
+      ],
+      "name": "Yagmur hasadi",
+      "behavior": "rain_bonus",
+      "desc": "Her yagmur varili gunde 2 sise fazla su toplar."
+    },
+    "sv_gardener": {
+      "branch": "survival",
+      "tier": 3,
+      "cost": 2,
+      "level": 12,
+      "requires": [
+        "sv_filter"
+      ],
+      "name": "Bahcivan",
+      "behavior": "green_thumb",
+      "desc": "Saksi ve tarla hasadi 1 urun fazla verir."
+    },
+    "cb_control": {
+      "branch": "combat",
+      "tier": 1,
+      "cost": 1,
+      "name": "Kontrollu seri",
+      "effects": {
+        "weapon_spread": -0.15
+      },
+      "desc": "Namlu dagilmasi %15 azalir."
+    },
+    "cb_reload": {
+      "branch": "combat",
+      "tier": 1,
+      "cost": 1,
+      "name": "Hazir cephane",
+      "effects": {
+        "weapon_reload": -0.2
+      },
+      "desc": "Sarjor degistirme %20 hizli."
+    },
+    "cb_shove": {
+      "branch": "combat",
+      "tier": 2,
+      "cost": 2,
+      "level": 5,
+      "requires": [
+        "cb_control"
+      ],
+      "name": "Baskidan cikis",
+      "power": {
+        "id": "shove",
+        "ranks": 2
+      },
+      "desc": "Itekleme (Q) iki rutbe artar: daha genis, daha sert, daha sik."
+    },
+    "cb_weakspot": {
+      "branch": "combat",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "cb_reload"
+      ],
+      "name": "Zayif nokta",
+      "effects": {
+        "headshot_damage": 0.25
+      },
+      "mastery": {
+        "counter": "kills_firearm",
+        "value": 40
+      },
+      "desc": "Kafaya isabet %25 fazla hasar. (Ustalik: atesli silahla 40 zombi.)"
+    },
+    "cb_maintenance": {
+      "branch": "combat",
+      "tier": 3,
+      "cost": 2,
+      "level": 14,
+      "requires": [
+        "cb_weakspot"
+      ],
+      "name": "Silah bakimi",
+      "effects": {
+        "durability_loss": -0.3
+      },
+      "desc": "Silahlar %30 yavas yipranir."
+    },
+    "cb_melee": {
+      "branch": "combat",
+      "tier": 3,
+      "cost": 3,
+      "level": 16,
+      "requires": [
+        "cb_shove"
+      ],
+      "name": "Yakin dovus",
+      "effects": {
+        "melee_damage": 0.25
+      },
+      "mastery": {
+        "counter": "kills_melee",
+        "value": 25
+      },
+      "desc": "Yakin dovus hasari %25 artar. (Ustalik: yakin dovusle 25 zombi.)"
+    },
+    "cb_silent": {
+      "branch": "combat",
+      "tier": 4,
+      "cost": 3,
+      "level": 24,
+      "requires": [
+        "cb_melee"
+      ],
+      "name": "Sessiz infaz",
+      "behavior": "silent_melee",
+      "desc": "Seni fark etmemis zombiye yakin dovus iki kat vurur ve gurultu yapmaz."
+    },
+    "cb_marksman": {
+      "branch": "combat",
+      "tier": 4,
+      "cost": 3,
+      "level": 30,
+      "requires": [
+        "cb_maintenance"
+      ],
+      "name": "Nisanci",
+      "effects": {
+        "weapon_damage": 0.1
+      },
+      "desc": "Atesli silah hasari %10 artar."
+    },
+    "st_quiet": {
+      "branch": "stealth",
+      "tier": 1,
+      "cost": 1,
+      "name": "Sessiz arama",
+      "effects": {
+        "search_noise": -0.6
+      },
+      "desc": "Dolap ararken cikan gurultu %60 azalir."
+    },
+    "st_light": {
+      "branch": "stealth",
+      "tier": 1,
+      "cost": 1,
+      "name": "Hafif adim",
+      "effects": {
+        "noise_radius": -0.3
+      },
+      "desc": "Deparda yaydigin gurultu %30 azalir."
+    },
+    "st_lockpick": {
+      "branch": "stealth",
+      "tier": 2,
+      "cost": 2,
+      "level": 6,
+      "requires": [
+        "st_quiet"
+      ],
+      "name": "Kilit acma",
+      "behavior": "lockpick",
+      "desc": "Kilitli kasa ve silah dolaplarini maymuncukla kirmadan acarsin (maymuncuk harcanir). Kilitliler daha iyi mal tasir."
+    },
+    "st_dodge": {
+      "branch": "stealth",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "st_light"
+      ],
+      "name": "Kacinma ustaligi",
+      "power": {
+        "id": "combat_roll",
+        "ranks": 2
+      },
+      "desc": "Kacinma (V) iki rutbe artar."
+    },
+    "st_marks": {
+      "branch": "stealth",
+      "tier": 3,
+      "cost": 2,
+      "level": 12,
+      "requires": [
+        "st_lockpick"
+      ],
+      "name": "Kesif isaretleri",
+      "behavior": "map_marks",
+      "mastery": {
+        "counter": "containers_searched",
+        "value": 60
+      },
+      "desc": "Haritada aradigin binalar, su noktalari ve gorev yerleri isaretlenir. (Ustalik: 60 dolap ara.)"
+    },
+    "st_shadow": {
+      "branch": "stealth",
+      "tier": 3,
+      "cost": 3,
+      "level": 16,
+      "requires": [
+        "st_dodge"
+      ],
+      "name": "Golge",
+      "effects": {
+        "detection_range": -0.15
+      },
+      "desc": "Zombiler seni %15 daha yakindan fark eder."
+    },
+    "st_distract": {
+      "branch": "stealth",
+      "tier": 4,
+      "cost": 3,
+      "level": 22,
+      "requires": [
+        "st_marks"
+      ],
+      "name": "Dikkat dagitma ustaligi",
+      "power": {
+        "id": "distraction",
+        "ranks": 2
+      },
+      "desc": "Dikkat dagitma (Z) iki rutbe artar."
+    },
+    "st_roofrunner": {
+      "branch": "stealth",
+      "tier": 4,
+      "cost": 3,
+      "level": 28,
+      "requires": [
+        "st_shadow"
+      ],
+      "name": "Cati kosucusu",
+      "effects": {
+        "fall_damage": -0.5
+      },
+      "desc": "Dusme hasari yariya iner."
+    },
+    "cr_salvage": {
+      "branch": "craft",
+      "tier": 1,
+      "cost": 1,
+      "name": "Geri donusum",
+      "behavior": "salvage_plus",
+      "desc": "Sokmede malzemenin %75'i geri gelir (normalde %55)."
+    },
+    "cr_repair": {
+      "branch": "craft",
+      "tier": 1,
+      "cost": 1,
+      "name": "Tamir ustasi",
+      "effects": {
+        "repair_amount": 0.5
+      },
+      "desc": "Tezgahta onarim dayanikliligin %60'ini geri verir (normalde %40)."
+    },
+    "cr_electric": {
+      "branch": "craft",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "cr_repair"
+      ],
+      "name": "Elektrik devresi",
+      "unlock": [
+        "r_cold_room_kit",
+        "r_relay_kit"
+      ],
+      "desc": "Soguk oda ve role kiti semalarini bilirsin."
+    },
+    "cr_water_eng": {
+      "branch": "craft",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "cr_salvage"
+      ],
+      "name": "Aritma muhendisligi",
+      "unlock": [
+        "r_filter_cartridge_bulk"
+      ],
+      "desc": "Tek seferde uc filtre kartusu dolduran toplu sema."
+    },
+    "cr_quality": {
+      "branch": "craft",
+      "tier": 3,
+      "cost": 2,
+      "level": 14,
+      "requires": [
+        "cr_electric"
+      ],
+      "name": "Hassas isleme",
+      "effects": {
+        "craft_quality": 0.1
+      },
+      "mastery": {
+        "counter": "crafted",
+        "value": 40
+      },
+      "desc": "Uretilen esya kalitesi +10. (Ustalik: 40 uretim.)"
+    },
+    "cr_field_repair": {
+      "branch": "craft",
+      "tier": 3,
+      "cost": 3,
+      "level": 16,
+      "requires": [
+        "cr_water_eng"
+      ],
+      "name": "Saha onarimi",
+      "behavior": "field_repair",
+      "desc": "Silah ve esya onarimi tezgah olmadan yapilir; araclar sahada onarilir."
+    },
+    "cr_automation": {
+      "branch": "craft",
+      "tier": 4,
+      "cost": 3,
+      "level": 24,
+      "requires": [
+        "cr_quality"
+      ],
+      "name": "Savunma otomasyonu",
+      "behavior": "turret_boost",
+      "desc": "Taretler %30 hizli atar ve menzilleri %20 artar."
+    },
+    "cr_builder": {
+      "branch": "craft",
+      "tier": 4,
+      "cost": 3,
+      "level": 28,
+      "requires": [
+        "cr_field_repair"
+      ],
+      "name": "Hizli insa",
+      "effects": {
+        "build_speed": 0.3,
+        "structure_health": 0.2
+      },
+      "desc": "Barikatlar %20 saglam, insa %30 hizli."
+    },
+    "md_bleed": {
+      "branch": "medicine",
+      "tier": 1,
+      "cost": 1,
+      "name": "Kanama mudahalesi",
+      "power": {
+        "id": "first_aid",
+        "ranks": 2
+      },
+      "desc": "Ilk yardim (G) iki rutbe artar."
+    },
+    "md_pain": {
+      "branch": "medicine",
+      "tier": 1,
+      "cost": 1,
+      "name": "Agri esigi",
+      "effects": {
+        "status_resistance": 0.15
+      },
+      "desc": "Kanama, yanik ve zehir etkileri daha az yakar, daha cabuk gecer."
+    },
+    "md_tea": {
+      "branch": "medicine",
+      "tier": 2,
+      "cost": 2,
+      "level": 6,
+      "requires": [
+        "md_pain"
+      ],
+      "name": "Bitki cayi",
+      "unlock": [
+        "r_herbal_tea"
+      ],
+      "desc": "Sifali otlar ve sicak sudan mide bulantisini gideren cay."
+    },
+    "md_stamina": {
+      "branch": "medicine",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "md_bleed"
+      ],
+      "name": "Dayaniklilik",
+      "effects": {
+        "stamina_max": 15.0
+      },
+      "desc": "Nefes tavani +15."
+    },
+    "md_stabilize": {
+      "branch": "medicine",
+      "tier": 3,
+      "cost": 3,
+      "level": 14,
+      "requires": [
+        "md_tea"
+      ],
+      "name": "Saha stabilizasyonu",
+      "behavior": "stabilize",
+      "mastery": {
+        "counter": "healed",
+        "value": 15
+      },
+      "desc": "Canin %20'nin altina dusunce 10 sn boyunca %30 az hasar alirsin (90 sn'de bir). (Ustalik: 15 tedavi.)"
+    },
+    "md_infirmary": {
+      "branch": "medicine",
+      "tier": 3,
+      "cost": 2,
+      "level": 16,
+      "requires": [
+        "md_stamina"
+      ],
+      "name": "Revir iyilestirmesi",
+      "effects": {
+        "infirmary_heal": 0.5
+      },
+      "desc": "Revirde iyilesme %50 hizli."
+    },
+    "md_adrenaline": {
+      "branch": "medicine",
+      "tier": 4,
+      "cost": 3,
+      "level": 22,
+      "requires": [
+        "md_infirmary"
+      ],
+      "name": "Adrenalin ustaligi",
+      "power": {
+        "id": "adrenaline",
+        "ranks": 2
+      },
+      "desc": "Adrenalin (X) iki rutbe artar."
+    },
+    "md_pharma": {
+      "branch": "medicine",
+      "tier": 4,
+      "cost": 3,
+      "level": 30,
+      "requires": [
+        "md_stabilize"
+      ],
+      "name": "Ilac bilgisi",
+      "effects": {
+        "healing": 0.25
+      },
+      "desc": "Ilac ve sargilar %25 fazla iyilestirir."
+    },
+    "ld_carry": {
+      "branch": "leadership",
+      "tier": 1,
+      "cost": 1,
+      "name": "Tasima organizasyonu",
+      "effects": {
+        "carry_capacity": 0.15
+      },
+      "desc": "Tasima kapasitesi %15 artar."
+    },
+    "ld_radio": {
+      "branch": "leadership",
+      "tier": 1,
+      "cost": 1,
+      "name": "Telsiz agi",
+      "behavior": "radio_all",
+      "desc": "El telsizi yardim bekleyen HERKESI gosterir (haritada da)."
+    },
+    "ld_routes": {
+      "branch": "leadership",
+      "tier": 2,
+      "cost": 2,
+      "level": 6,
+      "requires": [
+        "ld_radio"
+      ],
+      "name": "Rota raporlari",
+      "behavior": "danger_map",
+      "desc": "Haritada 150 m icindeki zombiler ve bolge tehlike seviyeleri gorunur."
+    },
+    "ld_depot": {
+      "branch": "leadership",
+      "tier": 2,
+      "cost": 2,
+      "level": 8,
+      "requires": [
+        "ld_carry"
+      ],
+      "name": "Ortak depo kurallari",
+      "behavior": "remote_depot",
+      "desc": "Ussun 80 m cevresinde, ussun deposundan uretim yapabilirsin."
+    },
+    "ld_specialist": {
+      "branch": "leadership",
+      "tier": 3,
+      "cost": 2,
+      "level": 14,
+      "requires": [
+        "ld_depot"
+      ],
+      "name": "NPC uzmanlasmasi",
+      "effects": {
+        "colony_output": 0.2
+      },
+      "mastery": {
+        "counter": "colonists",
+        "value": 3
+      },
+      "desc": "Sakinlerin is verimi %20 artar. (Ustalik: 3 kisiyi kurtar.)"
+    },
+    "ld_guards": {
+      "branch": "leadership",
+      "tier": 3,
+      "cost": 3,
+      "level": 16,
+      "requires": [
+        "ld_routes"
+      ],
+      "name": "Us koordinasyonu",
+      "effects": {
+        "guard_damage": 0.3
+      },
+      "desc": "Nobetcilerin atislari %30 fazla hasar verir."
+    },
+    "ld_morale": {
+      "branch": "leadership",
+      "tier": 4,
+      "cost": 3,
+      "level": 22,
+      "requires": [
+        "ld_specialist"
+      ],
+      "name": "Moral",
+      "effects": {
+        "colony_morale": 0.15
+      },
+      "desc": "Koloni moral tavani yukselir."
+    },
+    "ld_vehicles": {
+      "branch": "leadership",
+      "tier": 4,
+      "cost": 3,
+      "level": 26,
+      "requires": [
+        "ld_guards"
+      ],
+      "name": "Arac lojistigi",
+      "behavior": "vehicle_logistics",
+      "desc": "Araclar %25 az yakit harcar, bagaj %50 buyur."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_aciklama": "Eski (sikistirilmis, olcek 0.65) haritalarin koordinat donusumleri. Kayit gocu eski kayittaki konumu bu donusumle cografi koordinata, oradan GUNCEL haritanin donusumuyle yeni oyun konumuna cevirir. Degerler 25 Eylul 2026 yedeginden (_yedek/fps_600_oncesi_*.zip) alinmistir; eski harita dosyasi oyunda tutulmaz.",
+  "maltepe_besiktas": {
+    "generator_versions": [1, 2],
+    "bbox": {"min_lat": 40.91381047584585, "max_lat": 41.058689524154154, "min_lon": 28.995884781062443, "max_lon": 29.143115218937556},
+    "scale": 0.65
+  },
+  "kadikoy": {
+    "generator_versions": [1, 2],
+    "center": {"lat": 40.9903, "lon": 29.0243},
+    "size": [306, 306],
+    "scale": 0.65
+  }
+}

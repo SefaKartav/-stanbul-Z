@@ -1,0 +1,649 @@
+{
+ "wood_log": {
+  "name": "Kütük",
+  "category": "material",
+  "tier": 1,
+  "stack": 12,
+  "weight": 3.0,
+  "value": 2,
+  "tags": [
+   "wood_raw",
+   "wood",
+   "cook_fuel",
+   "organic"
+  ],
+  "description": "Ağaçtan baltayla kesilir. Marangozda kalas ve kirişe, ocakta kömüre dönüşür.",
+  "quality": false
+ },
+ "resin": {
+  "name": "Reçine",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.1,
+  "value": 4,
+  "tags": [
+   "resin",
+   "adhesive_base",
+   "organic"
+  ],
+  "description": "Çam ve çınar kütüğünden sızar. Tutkal ve meşalede kullanılır.",
+  "quality": false
+ },
+ "plant_fiber": {
+  "name": "Bitki Lifi",
+  "category": "material",
+  "tier": 1,
+  "stack": 60,
+  "weight": 0.03,
+  "value": 1,
+  "tags": [
+   "fiber",
+   "organic",
+   "cook_fuel"
+  ],
+  "description": "Ot, sarmaşık ve yaprak lifi. İp, sicim ve kompost için.",
+  "quality": false
+ },
+ "stone_chunk": {
+  "name": "Taş Parçası",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 1.2,
+  "value": 1,
+  "tags": [
+   "stone",
+   "aggregate",
+   "mineral"
+  ],
+  "description": "Kazmayla sökülen taş. Kesme taş, harç ve taş aletler için.",
+  "quality": false
+ },
+ "concrete_rubble": {
+  "name": "Beton Kırığı",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 1.5,
+  "value": 1,
+  "tags": [
+   "aggregate",
+   "mineral"
+  ],
+  "description": "Kırılmış beton. Yeni betona agrega olur; içinden inşaat demiri çıkabilir.",
+  "quality": false
+ },
+ "loose_brick": {
+  "name": "Sökülmüş Tuğla",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 1.4,
+  "value": 2,
+  "tags": [
+   "brick_material",
+   "mineral"
+  ],
+  "description": "Sağlam çıkmış eski tuğla. Harçla yeniden örülür.",
+  "quality": false
+ },
+ "lime_powder": {
+  "name": "Kireç",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.8,
+  "value": 3,
+  "tags": [
+   "lime",
+   "mineral"
+  ],
+  "description": "Sıva ve harcın bağlayıcısı. Dökülen sıvadan ve inşaat çuvallarından.",
+  "quality": false
+ },
+ "clay": {
+  "name": "Kil",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 1.0,
+  "value": 1,
+  "tags": [
+   "clay",
+   "mineral"
+  ],
+  "description": "Toprağın altından kürekle çıkar. Fırında tuğla ve kiremit olur.",
+  "quality": false
+ },
+ "asphalt_chunk": {
+  "name": "Asfalt Parçası",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 1.2,
+  "value": 1,
+  "tags": [
+   "bitumen",
+   "mineral"
+  ],
+  "description": "Yol kaplaması. Isıtılınca zifte döner: çatı ve su yalıtımı.",
+  "quality": false
+ },
+ "glass_pane": {
+  "name": "Sağlam Cam",
+  "category": "material",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.0,
+  "value": 6,
+  "tags": [
+   "glass",
+   "pane"
+  ],
+  "description": "Cam kesiciyle kırmadan sökülmüş tam levha. Pencere ve sera için.",
+  "quality": false
+ },
+ "tire_scrap": {
+  "name": "Lastik Parçası",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 1.6,
+  "value": 2,
+  "tags": [
+   "rubber_raw",
+   "polymer",
+   "elastic"
+  ],
+  "description": "Araç lastiğinden kesilmiş kauçuk. Kauçuk levha, conta ve sapan lastiği.",
+  "quality": false
+ },
+ "radiator_core": {
+  "name": "Radyatör Peteği",
+  "category": "material",
+  "tier": 2,
+  "stack": 6,
+  "weight": 2.5,
+  "value": 12,
+  "tags": [
+   "copper_source",
+   "conductive_metal",
+   "metal",
+   "light_metal"
+  ],
+  "description": "Araç radyatöründen. İçinde bakır ve alüminyum var.",
+  "quality": false
+ },
+ "alternator": {
+  "name": "Alternatör",
+  "category": "material",
+  "tier": 2,
+  "stack": 4,
+  "weight": 4.0,
+  "value": 40,
+  "tags": [
+   "electronic",
+   "motor",
+   "mechanical"
+  ],
+  "description": "Araçtan sökülmüş şarj dinamosu. Rüzgâr türbini ve jeneratörün kalbi.",
+  "quality": false
+ },
+ "motor_large": {
+  "name": "Büyük Motor",
+  "category": "material",
+  "tier": 3,
+  "stack": 2,
+  "weight": 7.0,
+  "value": 70,
+  "tags": [
+   "motor",
+   "mechanical",
+   "heavy",
+   "electronic"
+  ],
+  "description": "Sanayi tipi elektrik motoru. Torna, kırıcı ve pompa için.",
+  "quality": false
+ },
+ "gas_canister": {
+  "name": "Tüp Gaz",
+  "category": "material",
+  "tier": 2,
+  "stack": 4,
+  "weight": 2.5,
+  "value": 25,
+  "tags": [
+   "chemical_fuel",
+   "gas",
+   "volatile",
+   "cook_fuel"
+  ],
+  "description": "Mutfak tüpü. Ocak, kaynak şalomesi ve jeneratör yakıtı.",
+  "effects": {
+   "supply": 3.0
+  },
+  "quality": false
+ },
+ "diesel": {
+  "name": "Mazot",
+  "category": "material",
+  "tier": 2,
+  "stack": 10,
+  "weight": 1.6,
+  "value": 26,
+  "tags": [
+   "chemical_fuel",
+   "volatile"
+  ],
+  "description": "Ağır vasıta ve jeneratör yakıtı. Benzinden verimli yanar.",
+  "effects": {
+   "supply": 2.0
+  },
+  "quality": false
+ },
+ "solar_cell": {
+  "name": "Güneş Hücresi",
+  "category": "material",
+  "tier": 3,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 45,
+  "tags": [
+   "solar",
+   "electronic"
+  ],
+  "description": "Bahçe lambalarından ve hesap makinelerinden toplanmış hücreler.",
+  "quality": false
+ },
+ "lamp_bulb": {
+  "name": "Ampul",
+  "category": "material",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 4,
+  "tags": [
+   "light_source",
+   "electronic"
+  ],
+  "description": "Sağlam kalmış ampul. Basit lambalar için.",
+  "quality": false
+ },
+ "relay_switch": {
+  "name": "Sökülmüş Röle",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 14,
+  "tags": [
+   "electronic",
+   "logic"
+  ],
+  "description": "Sigorta panosundan. Anahtar ve sensör devrelerinde kullanılır.",
+  "quality": false
+ },
+ "paper": {
+  "name": "Kâğıt",
+  "category": "material",
+  "tier": 1,
+  "stack": 50,
+  "weight": 0.05,
+  "value": 1,
+  "tags": [
+   "paper",
+   "cook_fuel",
+   "organic"
+  ],
+  "description": "Defter, dosya, gazete. Tutuşturucu ve harita için.",
+  "quality": false
+ },
+ "kevlar_scrap": {
+  "name": "Kevlar Parçası",
+  "category": "material",
+  "tier": 3,
+  "stack": 15,
+  "weight": 0.4,
+  "value": 40,
+  "tags": [
+   "armor_raw",
+   "fabric",
+   "tough_fabric"
+  ],
+  "description": "Askerî yelek ve kasktan sökülmüş aramid dokuma.",
+  "quality": false
+ },
+ "riot_scrap": {
+  "name": "Kalkan Parçası",
+  "category": "material",
+  "tier": 2,
+  "stack": 15,
+  "weight": 0.9,
+  "value": 18,
+  "tags": [
+   "armor_raw",
+   "polymer"
+  ],
+  "description": "Çevik kuvvet kalkanı ve koruyucularından polikarbonat parça.",
+  "quality": false
+ },
+ "military_explosive": {
+  "name": "Askerî Patlayıcı",
+  "category": "material",
+  "tier": 4,
+  "stack": 10,
+  "weight": 0.5,
+  "value": 120,
+  "tags": [
+   "explosive_filler",
+   "military",
+   "volatile"
+  ],
+  "description": "Askerî tesis cephaneliğinden. Mayın ve güçlü bomba için; dikkatli taşı.",
+  "quality": false
+ },
+ "optic_scope": {
+  "name": "Dürbün Merceği",
+  "category": "material",
+  "tier": 3,
+  "stack": 8,
+  "weight": 0.3,
+  "value": 60,
+  "tags": [
+   "optics",
+   "precision",
+   "glass"
+  ],
+  "description": "Askerî dürbünden sağlam mercek grubu.",
+  "quality": false
+ },
+ "steel_bars": {
+  "name": "Demir Parmaklık",
+  "category": "material",
+  "tier": 2,
+  "stack": 10,
+  "weight": 3.0,
+  "value": 10,
+  "tags": [
+   "structural_metal",
+   "metal",
+   "heavy"
+  ],
+  "description": "Hapishane ve pencere parmaklığı. Eritilir ya da doğrudan kafes olur.",
+  "quality": false
+ },
+ "padlock": {
+  "name": "Asma Kilit",
+  "category": "material",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.3,
+  "value": 8,
+  "tags": [
+   "lock",
+   "metal",
+   "mechanical"
+  ],
+  "description": "Kilitli depo ve kapılar için.",
+  "quality": false
+ },
+ "saline_bag": {
+  "name": "Serum Torbası",
+  "category": "material",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.5,
+  "value": 20,
+  "tags": [
+   "medical",
+   "sterile"
+  ],
+  "description": "Hastane deposundan. Damar yolu serumu.",
+  "quality": false
+ },
+ "syringe": {
+  "name": "Enjektör",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "syringe",
+   "medical",
+   "sharp"
+  ],
+  "description": "Steril paketli enjektör.",
+  "quality": false
+ },
+ "tea_leaves": {
+  "name": "Çay",
+  "category": "material",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.25,
+  "value": 5,
+  "tags": [
+   "tea",
+   "organic"
+  ],
+  "description": "Rize çayı paketi. Demlenince içilir; ayıltır ve odaklar.",
+  "quality": false
+ },
+ "coffee_beans": {
+  "name": "Kahve",
+  "category": "material",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.25,
+  "value": 7,
+  "tags": [
+   "coffee",
+   "organic"
+  ],
+  "description": "Çekilmiş Türk kahvesi. Enerji verir.",
+  "quality": false
+ },
+ "wheat": {
+  "name": "Buğday",
+  "category": "material",
+  "tier": 1,
+  "stack": 30,
+  "weight": 0.5,
+  "value": 3,
+  "tags": [
+   "grain",
+   "organic"
+  ],
+  "description": "Hasat edilmiş başak. Değirmende un olur.",
+  "quality": false
+ },
+ "cement_bag": {
+  "name": "Çimento",
+  "category": "material",
+  "tier": 1,
+  "stack": 8,
+  "weight": 5.0,
+  "value": 8,
+  "tags": [
+   "cement",
+   "mineral"
+  ],
+  "description": "İnşaat çuvalı. Kum, agrega ve suyla beton olur.",
+  "quality": false
+ },
+ "textbook": {
+  "name": "Ders Kitabı",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 5,
+  "weight": 0.6,
+  "value": 20,
+  "tags": [
+   "paper",
+   "book"
+  ],
+  "description": "Fen ve teknik ders kitabı. Okumak deneyim kazandırır; kâğıdı tutuşturucu olur.",
+  "effects": {
+   "xp": 60
+  }
+ },
+ "tomato_seeds": {
+  "name": "Domates Tohumu",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "seed"
+  ],
+  "description": "Saksıya ya da tarlaya ekilir (E). Yaklaşık 48 oyun saatinde domates verir; su ister."
+ },
+ "tomato": {
+  "name": "Domates",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 3,
+  "tags": [
+   "vegetable",
+   "food",
+   "fruit",
+   "organic"
+  ],
+  "description": "Taze domates. Çiğ de yenir; yemekte daha doyurucu."
+ },
+ "pepper_seeds": {
+  "name": "Biber Tohumu",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "seed"
+  ],
+  "description": "Saksıya ya da tarlaya ekilir (E). Yaklaşık 48 oyun saatinde biber verir; su ister."
+ },
+ "pepper": {
+  "name": "Biber",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 3,
+  "tags": [
+   "vegetable",
+   "food",
+   "organic"
+  ],
+  "description": "Taze biber. Çiğ de yenir; yemekte daha doyurucu."
+ },
+ "bean_seeds": {
+  "name": "Fasulye Tohumu",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "seed"
+  ],
+  "description": "Saksıya ya da tarlaya ekilir (E). Yaklaşık 60 oyun saatinde taze fasulye verir; su ister."
+ },
+ "beans_fresh": {
+  "name": "Taze Fasulye",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 3,
+  "tags": [
+   "vegetable",
+   "food",
+   "organic"
+  ],
+  "description": "Taze taze fasulye. Çiğ yenmez: ocakta pişir."
+ },
+ "potato_seeds": {
+  "name": "Tohumluk Patates",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "seed"
+  ],
+  "description": "Saksıya ya da tarlaya ekilir (E). Yaklaşık 72 oyun saatinde patates verir; su ister."
+ },
+ "potato": {
+  "name": "Patates",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.3,
+  "value": 3,
+  "tags": [
+   "vegetable",
+   "food",
+   "organic"
+  ],
+  "description": "Taze patates. Çiğ yenmez: ocakta pişir."
+ },
+ "wheat_seeds": {
+  "name": "Buğday Tohumu",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "seed"
+  ],
+  "description": "Saksıya ya da tarlaya ekilir (E). Yaklaşık 96 oyun saatinde buğday verir; su ister."
+ },
+ "herb_seeds": {
+  "name": "Şifalı Ot Tohumu",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 40,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "seed"
+  ],
+  "description": "Saksıya ya da tarlaya ekilir (E). Yaklaşık 36 oyun saatinde şifalı ot verir; su ister."
+ },
+ "mixed_vegetables": {
+  "name": "Karışık Sebze",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.4,
+  "value": 4,
+  "tags": [
+   "vegetable",
+   "food",
+   "organic"
+  ],
+  "description": "Kabak, patlıcan, fasulye. Çiğ yenir; yahnide çok daha doyurucu."
+ },
+ "raw_fish": {
+  "name": "Çiğ Balık",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.5,
+  "value": 6,
+  "tags": [
+   "fish",
+   "food",
+   "organic"
+  ],
+  "description": "Oltayla tutulmuş istavrit, lüfer. Çiğ yenmez; ızgarada ya da çorbada pişir. Çabuk bozulur."
+ }
+}

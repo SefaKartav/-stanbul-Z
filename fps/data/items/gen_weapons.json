@@ -1,0 +1,946 @@
+{
+ "wood_stock": {
+  "name": "Ahşap Dipçik",
+  "category": "component",
+  "tier": 1,
+  "stack": 6,
+  "weight": 0.8,
+  "value": 8,
+  "tags": [
+   "stock",
+   "wood"
+  ],
+  "description": "Tüfek, arbalet ve dipçik modu için."
+ },
+ "trigger_group": {
+  "name": "Tetik Grubu",
+  "category": "component",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.2,
+  "value": 30,
+  "tags": [
+   "trigger",
+   "gun_part",
+   "mechanical"
+  ],
+  "description": "Basit tetik ve horoz: atölye tabancası ve tüfek için."
+ },
+ "magazine_blank": {
+  "name": "Şarjör Gövdesi",
+  "category": "component",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.2,
+  "value": 20,
+  "tags": [
+   "magazine_part",
+   "gun_part"
+  ],
+  "description": "Yaylı şarjör kutusu: geniş şarjör modları ve makineli."
+ },
+ "bowstring": {
+  "name": "Yay Kirişi",
+  "category": "component",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.05,
+  "value": 6,
+  "tags": [
+   "bowstring",
+   "binding"
+  ],
+  "description": "Yay ve arbalet kirişi."
+ },
+ "brass_stock": {
+  "name": "Pirinç Levha",
+  "category": "component",
+  "tier": 2,
+  "stack": 15,
+  "weight": 0.5,
+  "value": 18,
+  "tags": [
+   "metal",
+   "conductive_metal"
+  ],
+  "description": "Bakır ve çinko alaşımı: kovan ve süs."
+ },
+ "weapon_bat": {
+  "name": "Beyzbol Sopası",
+  "category": "weapon",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.0,
+  "value": 20,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 24 hasar, saniyede 1.8 vuruş, sessiz sayılır.",
+  "durability": 380,
+  "weapon_id": "melee_bat"
+ },
+ "weapon_nail_bat": {
+  "name": "Çivili Sopa",
+  "category": "weapon",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 28,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 32 hasar, saniyede 1.7 vuruş, sessiz sayılır.",
+  "durability": 380,
+  "weapon_id": "melee_nail_bat"
+ },
+ "weapon_spiked_club": {
+  "name": "Dikenli Topuz",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.4,
+  "value": 40,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 38 hasar, saniyede 1.3 vuruş, sessiz sayılır.",
+  "durability": 500,
+  "weapon_id": "melee_spiked_club"
+ },
+ "weapon_machete": {
+  "name": "Pala",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.9,
+  "value": 50,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 30 hasar, saniyede 2.4 vuruş, sessiz sayılır.",
+  "durability": 500,
+  "weapon_id": "melee_machete"
+ },
+ "weapon_cleaver": {
+  "name": "Satır",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.1,
+  "value": 45,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 34 hasar, saniyede 1.8 vuruş, sessiz sayılır.",
+  "durability": 500,
+  "weapon_id": "melee_cleaver"
+ },
+ "weapon_spear_wood": {
+  "name": "Sivri Mızrak",
+  "category": "weapon",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.4,
+  "value": 12,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 20 hasar, saniyede 1.5 vuruş, uzun menzil, sessiz sayılır.",
+  "durability": 380,
+  "weapon_id": "melee_spear_wood"
+ },
+ "weapon_spear_steel": {
+  "name": "Çelik Mızrak",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.8,
+  "value": 55,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 30 hasar, saniyede 1.6 vuruş, uzun menzil, sessiz sayılır.",
+  "durability": 500,
+  "weapon_id": "melee_spear_steel"
+ },
+ "weapon_yatagan": {
+  "name": "Yatağan",
+  "category": "weapon",
+  "tier": 3,
+  "stack": 1,
+  "weight": 1.2,
+  "value": 180,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 44 hasar, saniyede 2.0 vuruş, sessiz sayılır.",
+  "durability": 620,
+  "weapon_id": "melee_yatagan"
+ },
+ "weapon_mace": {
+  "name": "Gürz",
+  "category": "weapon",
+  "tier": 3,
+  "stack": 1,
+  "weight": 3.2,
+  "value": 140,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 50 hasar, saniyede 1.0 vuruş, sessiz sayılır.",
+  "durability": 620,
+  "weapon_id": "melee_mace"
+ },
+ "weapon_war_hammer": {
+  "name": "Savaş Çekici",
+  "category": "weapon",
+  "tier": 3,
+  "stack": 1,
+  "weight": 4.0,
+  "value": 160,
+  "tags": [
+   "weapon",
+   "melee"
+  ],
+  "description": "Yakın dövüş: 58 hasar, saniyede 0.9 vuruş, sessiz sayılır.",
+  "durability": 620,
+  "weapon_id": "melee_war_hammer"
+ },
+ "weapon_pipe_pistol": {
+  "name": "Boru Tabanca",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.3,
+  "value": 90,
+  "tags": [
+   "weapon",
+   "firearm"
+  ],
+  "description": "20 hasar, 1 atımlık, tek tek.",
+  "durability": 440,
+  "weapon_id": "craft_pipe_pistol"
+ },
+ "weapon_pipe_shotgun": {
+  "name": "Boru Tüfek",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 3.2,
+  "value": 150,
+  "tags": [
+   "weapon",
+   "firearm"
+  ],
+  "description": "13 hasar × 8 saçma, 1 atımlık, tek tek.",
+  "durability": 440,
+  "weapon_id": "craft_pipe_shotgun"
+ },
+ "weapon_pipe_rifle": {
+  "name": "Boru Karabina",
+  "category": "weapon",
+  "tier": 3,
+  "stack": 1,
+  "weight": 3.8,
+  "value": 260,
+  "tags": [
+   "weapon",
+   "firearm"
+  ],
+  "description": "44 hasar, 1 atımlık, tek tek.",
+  "durability": 540,
+  "weapon_id": "craft_pipe_rifle"
+ },
+ "weapon_smg_homemade": {
+  "name": "Atölye Makinelisi",
+  "category": "weapon",
+  "tier": 3,
+  "stack": 1,
+  "weight": 3.0,
+  "value": 520,
+  "tags": [
+   "weapon",
+   "firearm"
+  ],
+  "description": "13 hasar, 24 atımlık, otomatik.",
+  "durability": 540,
+  "weapon_id": "craft_smg_homemade"
+ },
+ "weapon_crossbow": {
+  "name": "Arbalet",
+  "category": "weapon",
+  "tier": 2,
+  "stack": 1,
+  "weight": 3.5,
+  "value": 220,
+  "tags": [
+   "weapon",
+   "bow"
+  ],
+  "description": "55 hasar, 1 atımlık, tek tek. Neredeyse sessiz.",
+  "durability": 440,
+  "weapon_id": "craft_crossbow"
+ },
+ "weapon_bow_wood": {
+  "name": "Ahşap Yay",
+  "category": "weapon",
+  "tier": 1,
+  "stack": 1,
+  "weight": 1.0,
+  "value": 40,
+  "tags": [
+   "weapon",
+   "bow"
+  ],
+  "description": "26 hasar, 1 atımlık, tek tek. Neredeyse sessiz.",
+  "durability": 340,
+  "weapon_id": "craft_bow_wood"
+ },
+ "weapon_bow_compound": {
+  "name": "Makaralı Yay",
+  "category": "weapon",
+  "tier": 3,
+  "stack": 1,
+  "weight": 1.6,
+  "value": 200,
+  "tags": [
+   "weapon",
+   "bow"
+  ],
+  "description": "38 hasar, 1 atımlık, tek tek. Neredeyse sessiz.",
+  "durability": 540,
+  "weapon_id": "craft_bow_compound"
+ },
+ "ammo_9mm_ap": {
+  "name": "9mm Zırh Delici",
+  "category": "ammo",
+  "tier": 3,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Çelik uç: zırhlı zombiyi ve ince duvarı deler.",
+  "ammo_type": "9mm",
+  "effects": {
+   "damage": 0.9,
+   "pierce": 1.0
+  }
+ },
+ "ammo_9mm_hp": {
+  "name": "9mm Oyuk Uçlu",
+  "category": "ammo",
+  "tier": 2,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 5,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Açılan uç: çıplak hedefe büyük hasar, delmez.",
+  "ammo_type": "9mm",
+  "effects": {
+   "damage": 1.3
+  }
+ },
+ "ammo_12ga_slug": {
+  "name": "12 Kalibre Tek Kurşun",
+  "category": "ammo",
+  "tier": 3,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 11,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Saçma değil tek iri kurşun: uzağa isabetli.",
+  "ammo_type": "12ga",
+  "effects": {
+   "damage": 1.1,
+   "spread": 0.3,
+   "pierce": 1.0
+  }
+ },
+ "ammo_12ga_dragon": {
+  "name": "Ejderha Nefesi",
+  "category": "ammo",
+  "tier": 4,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 18,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Magnezyumlu saçma: vurduğu yanar.",
+  "ammo_type": "12ga",
+  "effects": {
+   "damage": 0.8,
+   "incendiary": 1.0
+  }
+ },
+ "ammo_762_ap": {
+  "name": "7.62 Zırh Delici",
+  "category": "ammo",
+  "tier": 4,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 18,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Duvarı ve arkasındakini deler.",
+  "ammo_type": "762",
+  "effects": {
+   "damage": 1.0,
+   "pierce": 2.0
+  }
+ },
+ "ammo_762_hp": {
+  "name": "7.62 Oyuk Uçlu",
+  "category": "ammo",
+  "tier": 3,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 15,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Av mermisi: tek atışta devirir.",
+  "ammo_type": "762",
+  "effects": {
+   "damage": 1.35
+  }
+ },
+ "ammo_357_hp": {
+  "name": ".357 Oyuk Uçlu",
+  "category": "ammo",
+  "tier": 3,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 14,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Toplu için ağır uç.",
+  "ammo_type": "357",
+  "effects": {
+   "damage": 1.3
+  }
+ },
+ "arrow": {
+  "name": "Ok",
+  "category": "ammo",
+  "tier": 1,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 2,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Sessiz. Çoğu zaman geri toplanamaz ama ucuz.",
+  "ammo_type": "arrow",
+  "effects": {
+   "noise": 0.5
+  }
+ },
+ "arrow_fire": {
+  "name": "Ateşli Ok",
+  "category": "ammo",
+  "tier": 2,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 5,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Ucu yanar: vurduğunu tutuşturur.",
+  "ammo_type": "arrow",
+  "effects": {
+   "incendiary": 1.0,
+   "noise": 0.8
+  }
+ },
+ "bolt": {
+  "name": "Arbalet Oku",
+  "category": "ammo",
+  "tier": 1,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 3,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Kısa, ağır ok.",
+  "ammo_type": "bolt",
+  "effects": {
+   "noise": 0.5
+  }
+ },
+ "bolt_heavy": {
+  "name": "Çelik Arbalet Oku",
+  "category": "ammo",
+  "tier": 2,
+  "stack": 120,
+  "weight": 0.02,
+  "value": 6,
+  "tags": [
+   "ammo"
+  ],
+  "description": "Çelik uçlu: iki zombiyi deler.",
+  "ammo_type": "bolt",
+  "effects": {
+   "damage": 1.4,
+   "pierce": 1.0,
+   "noise": 0.5
+  }
+ },
+ "smoke_grenade": {
+  "name": "Duman Bombası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.4,
+  "value": 60,
+  "tags": [
+   "throwable",
+   "smoke"
+  ],
+  "description": "16 sn duman: içindeyken zombiler seni göremez. T ile fırlat.",
+  "effects": {
+   "smoke_radius": 140,
+   "duration": 16
+  }
+ },
+ "shock_grenade": {
+  "name": "Şok Bombası",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 110,
+  "tags": [
+   "throwable",
+   "electric"
+  ],
+  "description": "Elektrik şoku: çevredeki zombiler 5 sn yavaşlar. T ile fırlat.",
+  "effects": {
+   "shock": 5,
+   "damage": 18,
+   "radius": 110
+  }
+ },
+ "frag_grenade": {
+  "name": "El Bombası",
+  "category": "consumable",
+  "tier": 4,
+  "stack": 8,
+  "weight": 0.6,
+  "value": 260,
+  "tags": [
+   "throwable",
+   "explosive"
+  ],
+  "description": "Askerî el bombası: geniş parça tesiri. T ile fırlat.",
+  "effects": {
+   "damage": 150,
+   "radius": 150
+  }
+ },
+ "dynamite": {
+  "name": "Dinamit",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 140,
+  "tags": [
+   "throwable",
+   "explosive"
+  ],
+  "description": "Nitrat çubuğu: blokları da parçalar. T ile fırlat.",
+  "effects": {
+   "damage": 110,
+   "radius": 120
+  }
+ },
+ "napalm_bottle": {
+  "name": "Napalm Şişesi",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 8,
+  "weight": 0.8,
+  "value": 120,
+  "tags": [
+   "throwable",
+   "incendiary"
+  ],
+  "description": "Sabunla koyulaşmış benzin: uzun ve geniş yangın. T ile fırlat.",
+  "effects": {
+   "damage": 45,
+   "radius": 120,
+   "burn_duration": 10
+  }
+ },
+ "thermite_charge": {
+  "name": "Termit Kalıbı",
+  "category": "consumable",
+  "tier": 4,
+  "stack": 8,
+  "weight": 0.7,
+  "value": 150,
+  "tags": [
+   "throwable",
+   "incendiary"
+  ],
+  "description": "Yoğun ve sönmez yangın: dar alanda ölümcül. T ile fırlat.",
+  "effects": {
+   "damage": 70,
+   "radius": 60,
+   "burn_duration": 12
+  }
+ },
+ "tin_can_decoy": {
+  "name": "Teneke Yem",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 8,
+  "weight": 0.3,
+  "value": 10,
+  "tags": [
+   "throwable",
+   "utility"
+  ],
+  "description": "Çakıllı teneke: düştüğü yerde tıngırdar, sürüyü çeker. T ile fırlat.",
+  "effects": {
+   "noise_radius": 400,
+   "delay": 2
+  }
+ },
+ "mod_compensator": {
+  "name": "Kompansatör",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Geri tepmeyi %30 azaltır, biraz daha gürültülü.",
+  "mod_slot": "barrel",
+  "mod_stats": {
+   "recoil": 0.7,
+   "noise_radius": 1.1
+  },
+  "fits": [
+   "pistol",
+   "smg",
+   "rifle"
+  ],
+  "durability": 0
+ },
+ "mod_choke": {
+  "name": "Daraltıcı (Şok)",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Saçma dağılımını toplar, menzil artar.",
+  "mod_slot": "barrel",
+  "mod_stats": {
+   "spread": 0.65,
+   "range": 1.15
+  },
+  "fits": [
+   "shotgun"
+  ],
+  "durability": 0
+ },
+ "mod_muzzle_brake": {
+  "name": "Namlu Freni",
+  "category": "mod",
+  "tier": 3,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 300,
+  "tags": [
+   "mod"
+  ],
+  "description": "Tüfekte geri tepmeyi yarıya indirir; çok gürültülü.",
+  "mod_slot": "barrel",
+  "mod_stats": {
+   "recoil": 0.55,
+   "noise_radius": 1.3
+  },
+  "fits": [
+   "rifle"
+  ],
+  "durability": 0
+ },
+ "mod_suppressor_basic": {
+  "name": "El Yapımı Susturucu",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Sesi yarıya indirir; çabuk yıpranır.",
+  "mod_slot": "barrel",
+  "mod_stats": {
+   "noise_radius": 0.5,
+   "damage": 0.95
+  },
+  "fits": [
+   "pistol",
+   "smg"
+  ],
+  "durability": 0
+ },
+ "mod_scope_4x": {
+  "name": "4× Dürbün",
+  "category": "mod",
+  "tier": 3,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 300,
+  "tags": [
+   "mod"
+  ],
+  "description": "Uzak atışta isabet ve menzil.",
+  "mod_slot": "sight",
+  "mod_stats": {
+   "spread": 0.5,
+   "range": 1.4
+  },
+  "fits": [
+   "rifle"
+  ],
+  "durability": 0
+ },
+ "mod_holo_sight": {
+  "name": "Holografik Nişangâh",
+  "category": "mod",
+  "tier": 3,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 300,
+  "tags": [
+   "mod"
+  ],
+  "description": "Hızlı nişan.",
+  "mod_slot": "sight",
+  "mod_stats": {
+   "spread": 0.65
+  },
+  "fits": [
+   "pistol",
+   "smg",
+   "rifle",
+   "shotgun"
+  ],
+  "durability": 0
+ },
+ "mod_iron_sight": {
+  "name": "Ayarlı Gez-Arpacık",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 180,
+  "tags": [
+   "mod"
+  ],
+  "description": "Ucuz isabet artışı; her ateşli silaha.",
+  "mod_slot": "sight",
+  "mod_stats": {
+   "spread": 0.85
+  },
+  "durability": 0
+ },
+ "mod_drum_mag": {
+  "name": "Tambur Şarjör",
+  "category": "mod",
+  "tier": 3,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 300,
+  "tags": [
+   "mod"
+  ],
+  "description": "Şarjör 2,2 kat; doldurması uzun.",
+  "mod_slot": "magazine",
+  "mod_stats": {
+   "magazine": 2.2,
+   "reload_time": 1.5
+  },
+  "fits": [
+   "smg",
+   "rifle"
+  ],
+  "durability": 0
+ },
+ "mod_pistol_mag": {
+  "name": "Uzun Tabanca Şarjörü",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Tabancaya %50 fazla fişek.",
+  "mod_slot": "magazine",
+  "mod_stats": {
+   "magazine": 1.5,
+   "reload_time": 1.1
+  },
+  "fits": [
+   "pistol"
+  ],
+  "durability": 0
+ },
+ "mod_shotgun_tube": {
+  "name": "Uzatılmış Tüp",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Pompalıya fazladan fişek.",
+  "mod_slot": "magazine",
+  "mod_stats": {
+   "magazine": 1.5
+  },
+  "fits": [
+   "shotgun"
+  ],
+  "durability": 0
+ },
+ "mod_foregrip": {
+  "name": "Ön Kabza",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Seri atışta kontrol.",
+  "mod_slot": "grip",
+  "mod_stats": {
+   "recoil": 0.7,
+   "spread": 0.9
+  },
+  "fits": [
+   "smg",
+   "rifle",
+   "shotgun"
+  ],
+  "durability": 0
+ },
+ "mod_laser": {
+  "name": "Lazer İşaretleyici",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 240,
+  "tags": [
+   "mod"
+  ],
+  "description": "Kalçadan atışta isabet.",
+  "mod_slot": "grip",
+  "mod_stats": {
+   "spread": 0.75
+  },
+  "fits": [
+   "pistol",
+   "smg",
+   "shotgun"
+  ],
+  "durability": 0
+ },
+ "mod_sharpened": {
+  "name": "Bilenmiş Ağız",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 180,
+  "tags": [
+   "mod"
+  ],
+  "description": "Yakın dövüş hasarı %25 artar.",
+  "mod_slot": "edge",
+  "mod_stats": {
+   "damage": 1.25
+  },
+  "fits": [
+   "melee"
+  ],
+  "durability": 0
+ },
+ "mod_weighted": {
+  "name": "Ağırlıklı Baş",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 180,
+  "tags": [
+   "mod"
+  ],
+  "description": "Daha ağır vuruş, bir hedef daha deler.",
+  "mod_slot": "head",
+  "mod_stats": {
+   "damage": 1.15,
+   "pierce_add": 2.0
+  },
+  "fits": [
+   "melee"
+  ],
+  "durability": 0
+ },
+ "mod_barbed_wrap": {
+  "name": "Dikenli Tel Sargı",
+  "category": "mod",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.3,
+  "value": 180,
+  "tags": [
+   "mod"
+  ],
+  "description": "Sopa ve topuza diken sargısı.",
+  "mod_slot": "wrap",
+  "mod_stats": {
+   "damage": 1.12
+  },
+  "fits": [
+   "melee"
+  ],
+  "durability": 0
+ }
+}

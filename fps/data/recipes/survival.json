@@ -1,0 +1,675 @@
+{
+  "r_bandage_clean": {
+    "name": "Temiz Sargi",
+    "output": "bandage_clean",
+    "count": 3,
+    "station": "hands",
+    "time": 3.0,
+    "category": "tibbi",
+    "inputs": [
+      {
+        "item": "sterile_cloth",
+        "count": 1
+      },
+      {
+        "tag": "adhesive",
+        "count": 1
+      }
+    ],
+    "description": "En temel hayatta kalma esyasi. Her zaman uzerinde bulundur."
+  },
+  "r_medkit": {
+    "name": "Ilk Yardim Cantasi",
+    "output": "medkit",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 12.0,
+    "category": "tibbi",
+    "inputs": [
+      {
+        "item": "antiseptic",
+        "count": 2,
+        "min_quality": 25
+      },
+      {
+        "item": "sterile_cloth",
+        "count": 3
+      },
+      {
+        "item": "painkiller",
+        "count": 2
+      },
+      {
+        "item": "adhesive_compound",
+        "count": 1
+      }
+    ],
+    "description": "Ciddi yarayi kapatir. Bir tane bile cok degerli."
+  },
+  "r_stimulant": {
+    "name": "Uyarici",
+    "output": "stimulant",
+    "count": 2,
+    "station": "chemistry",
+    "station_tier": 3,
+    "time": 10.0,
+    "category": "tibbi",
+    "failure_chance": 0.1,
+    "inputs": [
+      {
+        "item": "painkiller",
+        "count": 3
+      },
+      {
+        "item": "herbs",
+        "count": 2
+      },
+      {
+        "tag": "solvent",
+        "count": 1
+      }
+    ],
+    "description": "On dort saniye boyunca yorulmazsin. Sonrasini dusunme."
+  },
+  "r_antidote": {
+    "name": "Panzehir",
+    "output": "antidote",
+    "count": 1,
+    "station": "chemistry",
+    "station_tier": 3,
+    "time": 20.0,
+    "category": "tibbi",
+    "failure_chance": 0.12,
+    "quality_bonus": 4,
+    "inputs": [
+      {
+        "item": "antiseptic",
+        "count": 2,
+        "min_quality": 40
+      },
+      {
+        "item": "herbs",
+        "count": 5
+      },
+      {
+        "item": "painkiller",
+        "count": 2
+      },
+      {
+        "item": "acid_concentrate",
+        "count": 1
+      }
+    ],
+    "description": "Isirildiysan sayili dakikan var. Bunu onceden yap."
+  },
+  "r_molotov": {
+    "name": "Molotof",
+    "output": "molotov",
+    "count": 2,
+    "station": "hands",
+    "time": 4.0,
+    "category": "atilabilir",
+    "inputs": [
+      {
+        "item": "bottle_empty",
+        "count": 1
+      },
+      {
+        "tag": "chemical_fuel",
+        "count": 1
+      },
+      {
+        "tag": "soft",
+        "count": 1
+      }
+    ],
+    "description": "Kalabaligi durdurmanin en ucuz yolu. Ic mekanda kullanma."
+  },
+  "r_pipe_bomb": {
+    "name": "Boru Bombasi",
+    "output": "pipe_bomb",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 12.0,
+    "category": "atilabilir",
+    "failure_chance": 0.07,
+    "inputs": [
+      {
+        "item": "pipe_steel",
+        "count": 1
+      },
+      {
+        "item": "refined_powder",
+        "count": 3
+      },
+      {
+        "item": "primer_compound",
+        "count": 1
+      },
+      {
+        "item": "nail",
+        "count": 8
+      }
+    ],
+    "description": "Gurultulu. Attiktan sonra kosmayi unutma."
+  },
+  "r_noise_maker": {
+    "name": "Ses Tuzagi",
+    "output": "noise_maker",
+    "count": 2,
+    "station": "workbench",
+    "station_tier": 1,
+    "time": 6.0,
+    "category": "atilabilir",
+    "inputs": [
+      {
+        "item": "battery_aa",
+        "count": 1
+      },
+      {
+        "item": "motor_small",
+        "count": 1
+      },
+      {
+        "tag": "structural_metal",
+        "count": 2
+      },
+      {
+        "item": "insulated_wire",
+        "count": 1
+      }
+    ],
+    "description": "Hordeyi istedigin yere cek. Bazen en iyi silah bu."
+  },
+  "r_flare": {
+    "name": "Isaret Fisegi",
+    "output": "flare",
+    "count": 3,
+    "station": "hands",
+    "time": 3.0,
+    "category": "atilabilir",
+    "inputs": [
+      {
+        "item": "match_heads",
+        "count": 4
+      },
+      {
+        "item": "pvc_pipe",
+        "count": 1
+      },
+      {
+        "tag": "soft",
+        "count": 1
+      }
+    ],
+    "description": "Karanlik sokakta hem yol gosterir hem dikkat ceker."
+  },
+  "r_lockpick": {
+    "name": "Maymuncuk",
+    "output": "lockpick",
+    "count": 3,
+    "station": "hands",
+    "time": 2.0,
+    "category": "alet",
+    "inputs": [
+      {
+        "tag": "wire",
+        "count": 2
+      }
+    ],
+    "description": "Kilitli dolabin arkasinda genelde iyi seyler olur."
+  },
+  "r_toolkit": {
+    "name": "Takim Cantasi",
+    "output": "toolkit",
+    "count": 1,
+    "station": "hands",
+    "time": 8.0,
+    "category": "alet",
+    "inputs": [
+      {
+        "tag": "structural_metal",
+        "count": 4
+      },
+      {
+        "item": "wood_plank",
+        "count": 2
+      },
+      {
+        "tag": "fastener",
+        "count": 6
+      },
+      {
+        "tag": "tough_fabric",
+        "count": 1
+      }
+    ],
+    "description": "Ilk yapman gereken sey bu. Tezgahin yarisi."
+  },
+  "r_soldering_iron": {
+    "name": "Havya",
+    "output": "soldering_iron",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 1,
+    "time": 9.0,
+    "category": "alet",
+    "inputs": [
+      {
+        "item": "insulated_wire",
+        "count": 2
+      },
+      {
+        "item": "wood_plank",
+        "count": 1
+      },
+      {
+        "item": "battery_aa",
+        "count": 2
+      },
+      {
+        "item": "solder",
+        "count": 1
+      }
+    ],
+    "description": "Elektronige gecisin anahtari."
+  },
+  "r_scrap_armor": {
+    "name": "Hurda Zirh",
+    "output": "scrap_armor",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 1,
+    "time": 14.0,
+    "category": "zirh",
+    "inputs": [
+      {
+        "item": "metal_plate",
+        "count": 4
+      },
+      {
+        "tag": "tough_fabric",
+        "count": 3
+      },
+      {
+        "tag": "adhesive",
+        "count": 2
+      },
+      {
+        "tag": "fastener",
+        "count": 6
+      }
+    ],
+    "description": "Cirkin. Agir. Ise yariyor."
+  },
+  "r_armor_vest": {
+    "name": "Balistik Yelek",
+    "output": "armor_vest",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 3,
+    "time": 26.0,
+    "category": "zirh",
+    "quality_bonus": 3,
+    "inputs": [
+      {
+        "item": "ballistic_weave",
+        "count": 3,
+        "min_quality": 35
+      },
+      {
+        "item": "ceramic_plate",
+        "count": 2,
+        "min_quality": 30
+      },
+      {
+        "item": "cured_leather",
+        "count": 2
+      },
+      {
+        "tag": "fastener",
+        "count": 6
+      }
+    ],
+    "description": "Isirik da mermi de gecmiyor. Kosmayi zorlastiriyor.",
+    "unlocked": false
+  },
+  "r_gas_mask": {
+    "name": "Gaz Maskesi",
+    "output": "gas_mask",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 3,
+    "time": 16.0,
+    "category": "zirh",
+    "inputs": [
+      {
+        "item": "filter_cartridge",
+        "count": 1,
+        "min_quality": 30
+      },
+      {
+        "item": "rubber_strip",
+        "count": 4
+      },
+      {
+        "tag": "optics",
+        "count": 1
+      },
+      {
+        "tag": "tough_fabric",
+        "count": 2
+      }
+    ],
+    "description": "Tukurukcunun bulutundan gecmeni saglar."
+  },
+  "r_backpack_large": {
+    "name": "Buyuk Sirt Cantasi",
+    "output": "backpack_large",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 1,
+    "time": 12.0,
+    "category": "alet",
+    "inputs": [
+      {
+        "tag": "tough_fabric",
+        "count": 5
+      },
+      {
+        "item": "adhesive_compound",
+        "count": 2
+      },
+      {
+        "tag": "fastener",
+        "count": 6
+      },
+      {
+        "item": "hinge",
+        "count": 1
+      }
+    ],
+    "description": "25 kilo daha. Yagma gezisinin uzunlugunu bu belirler."
+  },
+  "r_barricade_kit": {
+    "name": "Barikat Kiti",
+    "output": "barricade_kit",
+    "count": 2,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 10.0,
+    "category": "insaat",
+    "inputs": [
+      {
+        "item": "hardened_frame",
+        "count": 1
+      },
+      {
+        "item": "wood_plank",
+        "count": 4
+      },
+      {
+        "tag": "fastener",
+        "count": 8
+      },
+      {
+        "item": "hinge",
+        "count": 1
+      }
+    ],
+    "description": "Koridoru daralt, hordeyi istedigin yere yonlendir."
+  },
+  "r_spike_trap": {
+    "name": "Civili Tuzak",
+    "output": "spike_trap",
+    "count": 3,
+    "station": "hands",
+    "time": 5.0,
+    "category": "insaat",
+    "inputs": [
+      {
+        "tag": "sharp",
+        "count": 12
+      },
+      {
+        "item": "wood_plank",
+        "count": 2
+      },
+      {
+        "tag": "binding",
+        "count": 2
+      }
+    ],
+    "description": "Sessiz oldurur. Ates etmemek her zaman daha iyidir."
+  },
+  "r_auto_turret": {
+    "name": "Otomatik Taret",
+    "output": "auto_turret",
+    "count": 1,
+    "station": "electronics",
+    "station_tier": 3,
+    "time": 60.0,
+    "category": "insaat",
+    "failure_chance": 0.1,
+    "quality_bonus": 5,
+    "inputs": [
+      {
+        "item": "power_cell",
+        "count": 2,
+        "min_quality": 40
+      },
+      {
+        "item": "circuit_module",
+        "count": 2,
+        "min_quality": 40
+      },
+      {
+        "item": "machined_part",
+        "count": 4,
+        "min_quality": 35
+      },
+      {
+        "item": "gun_barrel",
+        "count": 1,
+        "min_quality": 30
+      },
+      {
+        "item": "firing_mechanism",
+        "count": 1,
+        "min_quality": 30
+      },
+      {
+        "item": "motor_small",
+        "count": 2
+      },
+      {
+        "item": "bearing",
+        "count": 2
+      }
+    ],
+    "description": "Ussun en pahalisi. Uyumaz, korkmaz, sarjoru bitince susar.",
+    "unlocked": false
+  },
+  "r_workbench_kit": {
+    "name": "Calisma Tezgahi",
+    "output": "workbench_kit",
+    "count": 1,
+    "station": "hands",
+    "time": 20.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "wood_plank",
+        "count": 8
+      },
+      {
+        "tag": "structural_metal",
+        "count": 6
+      },
+      {
+        "tag": "fastener",
+        "count": 12
+      },
+      {
+        "item": "toolkit",
+        "count": 1,
+        "consumed": false
+      }
+    ],
+    "description": "Buradan sonrasi ciddi is. Once bunu yap."
+  },
+  "r_forge_kit": {
+    "name": "Ocak",
+    "output": "forge_kit",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 30.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "ceramic_shard",
+        "count": 8
+      },
+      {
+        "tag": "structural_metal",
+        "count": 8
+      },
+      {
+        "item": "charcoal",
+        "count": 6
+      },
+      {
+        "item": "pipe_steel",
+        "count": 2
+      }
+    ],
+    "description": "Metali eritir. Sicak, gurultulu, dikkat cekici."
+  },
+  "r_electronics_bench": {
+    "name": "Elektronik Masasi",
+    "output": "electronics_bench",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 28.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "circuit_board_broken",
+        "count": 4
+      },
+      {
+        "item": "insulated_wire",
+        "count": 4
+      },
+      {
+        "item": "wood_plank",
+        "count": 4
+      },
+      {
+        "item": "soldering_iron",
+        "count": 1
+      },
+      {
+        "tag": "optics",
+        "count": 1
+      }
+    ],
+    "description": "Havya, buyutec ve cok sabir."
+  },
+  "r_chemistry_set": {
+    "name": "Kimya Seti",
+    "output": "chemistry_set",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 26.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "bottle_empty",
+        "count": 6
+      },
+      {
+        "item": "pvc_pipe",
+        "count": 2
+      },
+      {
+        "item": "metal_plate",
+        "count": 2
+      },
+      {
+        "item": "charcoal",
+        "count": 3
+      },
+      {
+        "tag": "elastic",
+        "count": 2
+      }
+    ],
+    "description": "Cam, ocak ve havalandirma. Ucunu de ihmal etme."
+  },
+  "r_gunsmith_bench": {
+    "name": "Silah Tezgahi",
+    "output": "gunsmith_bench",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 3,
+    "time": 40.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "machined_part",
+        "count": 4
+      },
+      {
+        "item": "steel_ingot",
+        "count": 3
+      },
+      {
+        "item": "wood_plank",
+        "count": 6
+      },
+      {
+        "item": "toolkit",
+        "count": 1
+      },
+      {
+        "item": "bearing",
+        "count": 2
+      }
+    ],
+    "description": "Mengene, ege, olcu aletleri. Silah yapmanin on sarti."
+  },
+  "r_radio_handheld": {
+    "name": "El Telsizi",
+    "output": "radio_handheld",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 1,
+    "time": 14.0,
+    "category": "alet",
+    "inputs": [
+      {
+        "item": "circuit_board_broken",
+        "count": 2
+      },
+      {
+        "item": "insulated_wire",
+        "count": 2
+      },
+      {
+        "item": "battery_aa",
+        "count": 2
+      },
+      {
+        "tag": "polymer",
+        "count": 1
+      }
+    ],
+    "description": "Sehirde hala birileri var. Onlari bulmanin yolu bu."
+  }
+}

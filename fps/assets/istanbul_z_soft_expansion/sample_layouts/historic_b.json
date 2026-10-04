@@ -1,0 +1,145 @@
+{
+  "layout_id": "historic_b",
+  "label_tr": "sütunlu_sarnıç_han",
+  "type": "Tarihî Kompleks",
+  "coordinate_system": "local X/Z meters; +Y up; forward -Z",
+  "floors": 3,
+  "modules": [
+    {
+      "asset_id": "iz3_historic_cistern_01",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_03",
+      "position_m": [
+        -1,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_03",
+      "position_m": [
+        1,
+        0,
+        -1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_03",
+      "position_m": [
+        -1,
+        0,
+        1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_03",
+      "position_m": [
+        1,
+        0,
+        1
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_caravanserai_02",
+      "position_m": [
+        6,
+        0,
+        0
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_01",
+      "position_m": [
+        6,
+        0,
+        3
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    },
+    {
+      "asset_id": "iz3_historic_detail_02",
+      "position_m": [
+        7,
+        0,
+        -2
+      ],
+      "rotation_y_deg": 0,
+      "floor": 0
+    }
+  ],
+  "rooms": [
+    "sarnıç galerisi",
+    "han avlusu",
+    "çeşme nişi"
+  ],
+  "entries": [
+    {
+      "position_m": [
+        0,
+        0,
+        4
+      ],
+      "width_m": 1.4,
+      "access": "ground entrance"
+    },
+    {
+      "position_m": [
+        6,
+        0,
+        -4
+      ],
+      "width_m": 2.0,
+      "access": "service entrance"
+    }
+  ],
+  "loot_interaction_points": [
+    {
+      "type": "loot",
+      "position_m": [
+        0,
+        0.7,
+        0
+      ]
+    },
+    {
+      "type": "interact",
+      "position_m": [
+        7,
+        1,
+        -2
+      ]
+    }
+  ],
+  "circulation_clearances": {
+    "main_corridor_min_m": 2.0,
+    "door_clear_m": [
+      1.1,
+      2.2
+    ],
+    "stair_clear_width_min_m": 1.4,
+    "accessible_route": "ground entrance to central corridor, stairs to upper floor and roof"
+  },
+  "footprint_m": [
+    18,
+    16
+  ]
+}

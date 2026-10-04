@@ -1,0 +1,446 @@
+{
+  "r_ammo_9mm": {
+    "name": "9mm Fisek Dolumu",
+    "output": "ammo_9mm",
+    "count": 30,
+    "station": "gunsmith",
+    "station_tier": 2,
+    "time": 10.0,
+    "category": "mermi",
+    "inputs": [
+      {
+        "item": "shell_casing",
+        "count": 10
+      },
+      {
+        "item": "refined_powder",
+        "count": 2,
+        "min_quality": 20
+      },
+      {
+        "item": "primer_compound",
+        "count": 2
+      },
+      {
+        "item": "metal_plate",
+        "count": 1
+      }
+    ],
+    "description": "Kovanlari toplamayi aliskanlik haline getir."
+  },
+  "r_ammo_12ga": {
+    "name": "12 Kalibre Dolumu",
+    "output": "ammo_12ga",
+    "count": 16,
+    "station": "gunsmith",
+    "station_tier": 2,
+    "time": 10.0,
+    "category": "mermi",
+    "inputs": [
+      {
+        "item": "shell_casing",
+        "count": 8
+      },
+      {
+        "item": "refined_powder",
+        "count": 3,
+        "min_quality": 20
+      },
+      {
+        "item": "primer_compound",
+        "count": 2
+      },
+      {
+        "tag": "polymer",
+        "count": 2
+      },
+      {
+        "tag": "sharp",
+        "count": 6
+      }
+    ],
+    "description": "Saçmayi cam kirigindan bile yapabilirsin. Namluya iyi gelmez."
+  },
+  "r_ammo_762": {
+    "name": "7.62 Fisek Dolumu",
+    "output": "ammo_762",
+    "count": 20,
+    "station": "gunsmith",
+    "station_tier": 3,
+    "time": 14.0,
+    "category": "mermi",
+    "inputs": [
+      {
+        "item": "shell_casing",
+        "count": 8
+      },
+      {
+        "item": "refined_powder",
+        "count": 4,
+        "min_quality": 40
+      },
+      {
+        "item": "primer_compound",
+        "count": 2
+      },
+      {
+        "item": "steel_ingot",
+        "count": 1
+      }
+    ],
+    "description": "Uzun mesafe icin barut kalitesi her seydir."
+  },
+  "r_weapon_pistol": {
+    "name": "Tabanca Montaji",
+    "output": "weapon_pistol",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 4,
+    "time": 30.0,
+    "category": "silah",
+    "inputs": [
+      {
+        "item": "gun_barrel",
+        "count": 1,
+        "min_quality": 25
+      },
+      {
+        "item": "firing_mechanism",
+        "count": 1,
+        "min_quality": 25
+      },
+      {
+        "item": "gun_frame",
+        "count": 1
+      },
+      {
+        "item": "machined_part",
+        "count": 2
+      },
+      {
+        "item": "spring",
+        "count": 2
+      }
+    ],
+    "description": "Ilk kendi silahin. Kalitesi parcalarinin kalitesidir."
+  },
+  "r_weapon_shotgun": {
+    "name": "Pompali Montaji",
+    "output": "weapon_shotgun",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 4,
+    "time": 34.0,
+    "category": "silah",
+    "inputs": [
+      {
+        "item": "gun_barrel",
+        "count": 1,
+        "min_quality": 20
+      },
+      {
+        "item": "firing_mechanism",
+        "count": 1,
+        "min_quality": 20
+      },
+      {
+        "item": "gun_frame",
+        "count": 1
+      },
+      {
+        "tag": "tube",
+        "count": 1
+      },
+      {
+        "item": "wood_plank",
+        "count": 2
+      },
+      {
+        "item": "spring",
+        "count": 3
+      }
+    ],
+    "description": "Basit, affedici, dar sokakta olumcul."
+  },
+  "r_weapon_smg": {
+    "name": "Hafif Makineli Montaji",
+    "output": "weapon_smg",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 4,
+    "time": 40.0,
+    "category": "silah",
+    "failure_chance": 0.06,
+    "inputs": [
+      {
+        "item": "gun_barrel",
+        "count": 1,
+        "min_quality": 40
+      },
+      {
+        "item": "firing_mechanism",
+        "count": 1,
+        "min_quality": 45
+      },
+      {
+        "item": "gun_frame",
+        "count": 1,
+        "min_quality": 30
+      },
+      {
+        "item": "machined_part",
+        "count": 3,
+        "min_quality": 35
+      },
+      {
+        "item": "bearing",
+        "count": 2
+      },
+      {
+        "item": "spring",
+        "count": 4
+      }
+    ],
+    "description": "Otomatik atis hassasiyet ister. Dusuk kaliteli parca tikanma demektir.",
+    "unlocked": false
+  },
+  "r_weapon_rifle": {
+    "name": "Nisanci Tufegi Montaji",
+    "output": "weapon_rifle",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 4,
+    "time": 48.0,
+    "category": "silah",
+    "failure_chance": 0.08,
+    "quality_bonus": 4,
+    "inputs": [
+      {
+        "item": "gun_barrel",
+        "count": 2,
+        "min_quality": 55
+      },
+      {
+        "item": "firing_mechanism",
+        "count": 1,
+        "min_quality": 50
+      },
+      {
+        "item": "gun_frame",
+        "count": 1,
+        "min_quality": 40
+      },
+      {
+        "item": "optic_assembly",
+        "count": 1,
+        "min_quality": 45
+      },
+      {
+        "item": "machined_part",
+        "count": 2,
+        "min_quality": 45
+      }
+    ],
+    "description": "Bu tufek ancak parcalarinin en kotusu kadar iyidir.",
+    "unlocked": false
+  },
+  "r_mod_suppressor": {
+    "name": "Susturucu",
+    "output": "mod_suppressor",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 4,
+    "time": 24.0,
+    "category": "modifikasyon",
+    "quality_bonus": 3,
+    "inputs": [
+      {
+        "item": "sound_baffle",
+        "count": 2,
+        "min_quality": 35
+      },
+      {
+        "tag": "tube",
+        "count": 1
+      },
+      {
+        "item": "machined_part",
+        "count": 1,
+        "min_quality": 30
+      },
+      {
+        "item": "foam_padding",
+        "count": 2
+      }
+    ],
+    "description": "Silah sesi zombileri cagirir. Bu parca oyunun kurallarini degistirir.",
+    "unlocked": false
+  },
+  "r_mod_long_barrel": {
+    "name": "Uzun Namlu",
+    "output": "mod_long_barrel",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 3,
+    "time": 16.0,
+    "category": "modifikasyon",
+    "inputs": [
+      {
+        "item": "gun_barrel",
+        "count": 1
+      },
+      {
+        "item": "machined_part",
+        "count": 1
+      }
+    ],
+    "description": "Menzil artar, dagilma azalir, ses buyur. Takas net."
+  },
+  "r_mod_extended_mag": {
+    "name": "Genis Sarjor",
+    "output": "mod_extended_mag",
+    "count": 1,
+    "station": "gunsmith",
+    "station_tier": 3,
+    "time": 12.0,
+    "category": "modifikasyon",
+    "inputs": [
+      {
+        "item": "metal_plate",
+        "count": 2
+      },
+      {
+        "item": "spring",
+        "count": 3
+      },
+      {
+        "item": "machined_part",
+        "count": 1
+      }
+    ],
+    "description": "Daha az sarj, daha agir silah."
+  },
+  "r_mod_quickdraw": {
+    "name": "Hizli Sarj Kiti",
+    "output": "mod_quickdraw",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 9.0,
+    "category": "modifikasyon",
+    "inputs": [
+      {
+        "item": "machined_part",
+        "count": 1
+      },
+      {
+        "item": "spring",
+        "count": 2
+      },
+      {
+        "tag": "polymer",
+        "count": 2
+      },
+      {
+        "tag": "adhesive",
+        "count": 1
+      }
+    ],
+    "description": "Sarjor yuvasini genisletip egimlendirmek."
+  },
+  "r_mod_stock": {
+    "name": "Dengeleyici Dipçik",
+    "output": "mod_stock",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 11.0,
+    "category": "modifikasyon",
+    "inputs": [
+      {
+        "item": "wood_plank",
+        "count": 2
+      },
+      {
+        "item": "metal_plate",
+        "count": 1
+      },
+      {
+        "item": "foam_padding",
+        "count": 2
+      },
+      {
+        "tag": "fastener",
+        "count": 4
+      }
+    ],
+    "description": "Omuza oturunca seri atis toplanir."
+  },
+  "r_mod_red_dot": {
+    "name": "Nisangah",
+    "output": "mod_red_dot",
+    "count": 1,
+    "station": "electronics",
+    "station_tier": 3,
+    "time": 18.0,
+    "category": "modifikasyon",
+    "inputs": [
+      {
+        "item": "optic_assembly",
+        "count": 1,
+        "min_quality": 30
+      },
+      {
+        "item": "led",
+        "count": 2
+      },
+      {
+        "item": "battery_aa",
+        "count": 1
+      },
+      {
+        "item": "machined_part",
+        "count": 1
+      }
+    ],
+    "description": "Kirmizi nokta. Karanlikta seni de ele verir."
+  },
+  "r_mod_emp_barrel": {
+    "name": "EMP Namlu Modu",
+    "output": "mod_emp_barrel",
+    "count": 1,
+    "station": "electronics",
+    "station_tier": 3,
+    "time": 45.0,
+    "category": "modifikasyon",
+    "failure_chance": 0.15,
+    "quality_bonus": 6,
+    "inputs": [
+      {
+        "item": "power_cell",
+        "count": 1,
+        "min_quality": 45
+      },
+      {
+        "item": "capacitor_salvaged",
+        "count": 4
+      },
+      {
+        "item": "gun_barrel",
+        "count": 1,
+        "min_quality": 40
+      },
+      {
+        "item": "circuit_module",
+        "count": 1,
+        "min_quality": 40
+      },
+      {
+        "item": "magnet",
+        "count": 2
+      }
+    ],
+    "description": "Agacin en tepesi: bakir kablodan buraya kadar yedi kademe var.",
+    "unlocked": false
+  }
+}

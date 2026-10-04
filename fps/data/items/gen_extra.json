@@ -1,0 +1,845 @@
+{
+ "bp_stone_wall_low": {
+  "name": "Alçak taş duvar 3×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.6,
+  "value": 15,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Bahçe duvarı: yarım boy, üstünden ateş. İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_wall_low"
+ },
+ "bp_brick_chimney": {
+  "name": "Tuğla baca",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.8,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "4 m tuğla kolon: taşıyıcı ve ocak bacası. İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_chimney"
+ },
+ "bp_wood_fence": {
+  "name": "Ahşap çit 3×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.6,
+  "value": 15,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Yarım boy tahta çit: sınır çizer, zombiyi yavaşlatır. İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_fence"
+ },
+ "bp_steel_catwalk": {
+  "name": "Çelik iskele 3×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.6,
+  "value": 15,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Yarım kalınlık çelik yürüme yolu: duvar üstü devriye. İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_catwalk"
+ },
+ "bp_log_floor": {
+  "name": "Kütük döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.8,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kütükten sal döşeme: kulübe ve iskele. İnşa kipinde (B) yerleştirilir.",
+  "build": "log_floor"
+ },
+ "bp_concrete_bench": {
+  "name": "Beton set 2×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 2.4,
+  "value": 10,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Yarım boy beton set: oturma ve alçak siper. İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_bench"
+ },
+ "bp_sandbag_ring": {
+  "name": "Kum torbası çember",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 9.6,
+  "value": 40,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tam çevrili makineli mevzisi (8 torba). İnşa kipinde (B) yerleştirilir.",
+  "build": "sandbag_ring"
+ },
+ "bp_sandbag_tall": {
+  "name": "Yüksek kum torbası 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 7.2,
+  "value": 30,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İki sıra torba: ayakta siper. İnşa kipinde (B) yerleştirilir.",
+  "build": "sandbag_tall"
+ },
+ "bp_gabion_wall": {
+  "name": "Gabion duvarı 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 7.2,
+  "value": 30,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Taş dolu tel kafes hattı: mermi yutar. İnşa kipinde (B) yerleştirilir.",
+  "build": "gabion_wall"
+ },
+ "bp_bars_window": {
+  "name": "Pencere parmaklığı",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 1.2,
+  "value": 5,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tek hücre demir parmaklık: bakılır, geçilmez. İnşa kipinde (B) yerleştirilir.",
+  "build": "bars_window"
+ },
+ "bp_bars_wall": {
+  "name": "Parmaklık duvarı 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 7.2,
+  "value": 30,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hapishane tipi demir parmaklık. İnşa kipinde (B) yerleştirilir.",
+  "build": "bars_wall"
+ },
+ "bp_mesh_gate_panel": {
+  "name": "Tel örgü panel 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.8,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hafif çit paneli. İnşa kipinde (B) yerleştirilir.",
+  "build": "mesh_gate_panel"
+ },
+ "bp_concrete_barrier_long": {
+  "name": "Uzun beton bariyer 4×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.8,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "New Jersey tipi bariyer hattı. İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_barrier_long"
+ },
+ "bp_steel_shutter": {
+  "name": "Çelik kepenk 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 7.2,
+  "value": 30,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Dükkân kepengi: cam ve kapıyı kapatır. İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_shutter"
+ },
+ "bp_log_barricade": {
+  "name": "Kütük barikat 3×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.6,
+  "value": 15,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Yatık kütük: ucuz, sağlam engel. İnşa kipinde (B) yerleştirilir.",
+  "build": "log_barricade"
+ },
+ "trap_glass_strip": {
+  "name": "Cam Kırığı Şeridi",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 40,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Kırık cam serpilmiş şerit: hafif yavaşlatır, sesi seni uyarır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 5,
+   "uses": 30
+  }
+ },
+ "trap_nail_board": {
+  "name": "Çivili Tahta",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 40,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Yere yatırılmış çivili tahta. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 10,
+   "uses": 12
+  }
+ },
+ "trap_caltrops": {
+  "name": "Dört Çatal Serpintisi",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 80,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Kaynaklı dört çatallar: geniş alanı yavaşlatır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 8,
+   "uses": 25
+  }
+ },
+ "trap_fire_ditch": {
+  "name": "Yakıtlı Hendek",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 80,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Yakıt dökülmüş hendek: yanar. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 16,
+   "uses": 10
+  }
+ },
+ "trap_spring_spear": {
+  "name": "Yaylı Mızrak",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 80,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Tetiklenince fırlayan mızrak. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 38,
+   "uses": 6
+  }
+ },
+ "trap_acid_sprayer": {
+  "name": "Asit Püskürtücü",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 120,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Pompayla akü asidi püskürtür (15 W). İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 20,
+   "uses": 10
+  }
+ },
+ "trap_flashbang": {
+  "name": "Flaş Tuzağı",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 80,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Parlak flaş ve patlama sesi: zombiler sersemler (5 W). İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 0,
+   "uses": 8
+  }
+ },
+ "trap_mine_nail": {
+  "name": "Çivili Mayın",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 120,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Konserve kutusu, barut, çivi. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 70,
+   "uses": 1
+  }
+ },
+ "lamp_candle": {
+  "name": "Mum Feneri",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 12,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Kavanozda mum: elektriksiz, zayıf ışık. İnşa kipinde (B) kurulur."
+ },
+ "lamp_emergency": {
+  "name": "Acil Durum Lambası",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 26,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Akülü ağda hep yanar (4 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_red": {
+  "name": "Kırmızı Gece Lambası",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 13,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Göz alıştırmayan kırmızı ışık, yalnız gece (3 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_garden_solar": {
+  "name": "Bahçe Lambası",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 3.0,
+  "value": 12,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Kendi paneli var: yalnız gece yanar. İnşa kipinde (B) kurulur."
+ },
+ "lamp_tower": {
+  "name": "Işık Kulesi",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 81,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Avluyu gündüz gibi aydınlatır (90 W). İnşa kipinde (B) kurulur."
+ },
+ "lamp_workshop": {
+  "name": "Atölye Lambası",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 34,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Tezgâh üstü güçlü ışık (20 W). İnşa kipinde (B) kurulur."
+ },
+ "solar_roof_tile": {
+  "name": "Güneş Kiremidi",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 4.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Çatıya: gündüz 35 W. İnşa kipinde (B) kurulur."
+ },
+ "water_wheel": {
+  "name": "Su Çarkı",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 30.0,
+  "value": 260,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "Dere/kıyı başında sürekli 120 W civarı. İnşa kipinde (B) kurulur."
+ },
+ "battery_bank_car": {
+  "name": "Araba Aküsü Rafı",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 20.0,
+  "value": 80,
+  "tags": [
+   "placeable",
+   "powered"
+  ],
+  "description": "600 Wh: iki araba aküsü. İnşa kipinde (B) kurulur."
+ },
+ "menemen_veg": {
+  "name": "Sebzeli Menemen",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 12,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Domates, biber: yumurtasız menemen. (+24 tokluk, +8 su)"
+ },
+ "potato_salad": {
+  "name": "Patates Salatası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Haşlanmış patates, yeşillik. (+20 tokluk, +4 su)"
+ },
+ "bean_salad": {
+  "name": "Piyaz",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 12,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Fasulye, sirke, soğansız. (+24 tokluk, +4 su)"
+ },
+ "pickled_fish": {
+  "name": "Lakerda",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 11,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Tuzlanmış balık: aylarca dayanır. (+22 tokluk, +0 su)"
+ },
+ "wheat_porridge": {
+  "name": "Buğday Lapası",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 11,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Buğday ve su: tok tutar. (+22 tokluk, +10 su)"
+ },
+ "linden_tea": {
+  "name": "Ihlamur ve Adaçayı",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 4,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Mideyi yatıştırır. (+0 tokluk, +14 su)",
+  "effects": {
+   "cure_sick": 1
+  }
+ },
+ "rice_pudding": {
+  "name": "Sütlaç (sütsüz)",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 10,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Pirinç, şeker, su. (+20 tokluk, +6 su)"
+ },
+ "fish_stew": {
+  "name": "Balık Buğulama",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 14,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Balık, domates, biber. (+30 tokluk, +10 su)"
+ },
+ "simit": {
+  "name": "Simit",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 9,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "Susamsız ama simit. (+16 tokluk, +0 su)"
+ },
+ "dried_pepper": {
+  "name": "Kurutulmuş Biber",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.5,
+  "value": 6,
+  "tags": [
+   "food",
+   "cooked"
+  ],
+  "description": "İpe dizilip kurutulmuş biber: çok dayanır. (+8 tokluk, +0 su)"
+ },
+ "engine_basic_tune": {
+  "name": "Temel Motor Ayarı",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Buji ve filtre değişimi: +%7 hız. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "engine",
+  "effects": {
+   "vehicle_speed": 1.07
+  }
+ },
+ "engine_military": {
+  "name": "Askerî Motor",
+  "category": "vehicle_part",
+  "tier": 4,
+  "stack": 1,
+  "weight": 70.0,
+  "value": 240,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Turbolu dizel: +%45 hız, gürültülü. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "engine",
+  "effects": {
+   "vehicle_speed": 1.45,
+   "vehicle_noise": 1.2
+  }
+ },
+ "tires_patched": {
+  "name": "Yamalı Lastikler",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 26.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Yamalanmış lastik: patlamaya biraz dayanır. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tires",
+  "effects": {
+   "vehicle_armor": 5
+  }
+ },
+ "tires_military": {
+  "name": "Askerî Lastik",
+  "category": "vehicle_part",
+  "tier": 4,
+  "stack": 1,
+  "weight": 44.0,
+  "value": 240,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Zırhlı jant ve dolgulu lastik. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tires",
+  "effects": {
+   "vehicle_armor": 35,
+   "vehicle_speed": 1.05
+  }
+ },
+ "armor_wood_car": {
+  "name": "Tahta Kaplama",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Camlara çakılmış kalas: ilk günlerin zırhı. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "armor",
+  "effects": {
+   "vehicle_armor": 15,
+   "vehicle_speed": 0.97
+  }
+ },
+ "armor_military_car": {
+  "name": "Askerî Zırh Seti",
+  "category": "vehicle_part",
+  "tier": 4,
+  "stack": 1,
+  "weight": 110.0,
+  "value": 240,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Balistik plakalar: +130 sağlamlık. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "armor",
+  "effects": {
+   "vehicle_armor": 130,
+   "vehicle_speed": 0.85,
+   "vehicle_ram": 1.3
+  }
+ },
+ "tank_jerry_rack": {
+  "name": "Bidon Askısı",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 8.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Arkaya iki bidon: +15 birim. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tank",
+  "effects": {
+   "vehicle_tank": 15
+  }
+ },
+ "tank_military": {
+  "name": "Askerî Yakıt Tankı",
+  "category": "vehicle_part",
+  "tier": 4,
+  "stack": 1,
+  "weight": 36.0,
+  "value": 240,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "+100 birim: şehri baştan başa geçer. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "tank",
+  "effects": {
+   "vehicle_tank": 100
+  }
+ },
+ "roof_rack_wood": {
+  "name": "Ahşap Tavan Sepeti",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 10.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "+35 kg bagaj. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "rack",
+  "effects": {
+   "vehicle_capacity": 35
+  }
+ },
+ "bumper_pipe": {
+  "name": "Boru Tampon",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 18.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Boru kaynaklı tampon: ezme ×1,25. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "bumper",
+  "effects": {
+   "vehicle_ram": 1.25
+  }
+ },
+ "bumper_spiked": {
+  "name": "Çivili Tampon",
+  "category": "vehicle_part",
+  "tier": 2,
+  "stack": 1,
+  "weight": 26.0,
+  "value": 120,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Sivri çubuklu tampon: ezme ×1,8. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "bumper",
+  "effects": {
+   "vehicle_ram": 1.8,
+   "vehicle_armor": 5
+  }
+ },
+ "lights_work": {
+  "name": "Çalışma Farı",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "25 m far. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "lights",
+  "effects": {
+   "vehicle_light": 25
+  }
+ },
+ "muffler_patched": {
+  "name": "Yamalı Egzoz",
+  "category": "vehicle_part",
+  "tier": 1,
+  "stack": 1,
+  "weight": 8.0,
+  "value": 60,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Delikleri kapatılmış egzoz: gürültü −%15. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "muffler",
+  "effects": {
+   "vehicle_noise": 0.85
+  }
+ },
+ "muffler_military": {
+  "name": "Askerî Susturucu",
+  "category": "vehicle_part",
+  "tier": 4,
+  "stack": 1,
+  "weight": 22.0,
+  "value": 240,
+  "tags": [
+   "vehicle_part"
+  ],
+  "description": "Gürültü −%70. Aracın yanında envanterde \"Araca tak\".",
+  "slot": "muffler",
+  "effects": {
+   "vehicle_noise": 0.3
+  }
+ },
+ "backpack_hiking": {
+  "name": "Dağcı Çantası",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 2.3,
+  "value": 80,
+  "tags": [
+   "wearable"
+  ],
+  "description": "+18 kg taşıma.",
+  "effects": {
+   "capacity": 18
+  },
+  "slot": "backpack"
+ },
+ "backpack_frame": {
+  "name": "Çerçeveli Yük Çantası",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 3.1,
+  "value": 160,
+  "tags": [
+   "wearable"
+  ],
+  "description": "+40 kg taşıma.",
+  "effects": {
+   "capacity": 40
+  },
+  "slot": "backpack"
+ }
+}

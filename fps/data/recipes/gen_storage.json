@@ -1,0 +1,1073 @@
+{
+ "r_workbench_basic": {
+  "name": "Basit Tezgâh",
+  "output": "workbench_basic",
+  "count": 1,
+  "station": "hands",
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Kalas ve çividen ilk tezgâh."
+ },
+ "r_workbench_heavy": {
+  "name": "Ağır Tezgâh",
+  "output": "workbench_heavy",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 32,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "workbench_kit",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   },
+   {
+    "item": "bolt_nut",
+    "count": 8
+   }
+  ],
+  "description": "Mengene ve çelik tabla: T3 tarifler.",
+  "learn": "level:8"
+ },
+ "r_carpentry_bench": {
+  "name": "Marangoz Tezgâhı",
+  "output": "carpentry_bench",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "hand_saw",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Kütük biçer, kalas ve kiriş keser."
+ },
+ "r_carpentry_pro": {
+  "name": "Kereste Tezgâhı",
+  "output": "carpentry_pro",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "carpentry_bench",
+    "count": 1
+   },
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "blade_blank",
+    "count": 2
+   },
+   {
+    "item": "axle",
+    "count": 1
+   }
+  ],
+  "description": "Motorlu testere: T2 marangoz işleri."
+ },
+ "r_forge_stone": {
+  "name": "Taş Ocak",
+  "output": "forge_stone",
+  "count": 1,
+  "station": "hands",
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 10
+   },
+   {
+    "item": "clay",
+    "count": 6
+   },
+   {
+    "item": "charcoal",
+    "count": 4
+   }
+  ],
+  "description": "Taş ve kilden ilk ocak: dövme ve eritme T1."
+ },
+ "r_forge_brick": {
+  "name": "Tuğla Ocak",
+  "output": "forge_brick",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "fired_brick",
+    "count": 16
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   },
+   {
+    "item": "pipe_steel",
+    "count": 2
+   },
+   {
+    "item": "canvas",
+    "count": 2
+   }
+  ],
+  "description": "Körüklü tuğla ocak: T2."
+ },
+ "r_masonry_bench": {
+  "name": "Taş ve Beton Tezgâhı",
+  "output": "masonry_bench",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 8
+   },
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "trowel",
+    "count": 1
+   }
+  ],
+  "description": "Harç, briket, kesme taş."
+ },
+ "r_masonry_mixer": {
+  "name": "Beton Karıştırıcı",
+  "output": "masonry_mixer",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "masonry_bench",
+    "count": 1
+   },
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   }
+  ],
+  "description": "Tamburlu karıştırıcı: T2 beton işleri."
+ },
+ "r_masonry_plant": {
+  "name": "Beton Santrali",
+  "output": "masonry_plant",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 32,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "masonry_mixer",
+    "count": 1
+   },
+   {
+    "item": "pump_unit",
+    "count": 1
+   },
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 2
+   }
+  ],
+  "description": "Betonarme ve ağır döküm: T3.",
+  "learn": "level:14"
+ },
+ "r_mechanic_bench": {
+  "name": "Mekanik Atölye",
+  "output": "mechanic_bench",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "workbench_basic",
+    "count": 1
+   },
+   {
+    "item": "iron_bar",
+    "count": 4
+   },
+   {
+    "item": "wrench_set",
+    "count": 1
+   }
+  ],
+  "description": "Mengene, eğe, anahtar: dişli ve vida."
+ },
+ "r_mechanic_lathe": {
+  "name": "Torna Tezgâhı",
+  "output": "mechanic_lathe",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "mechanic_bench",
+    "count": 1
+   },
+   {
+    "item": "motor_large",
+    "count": 1
+   },
+   {
+    "item": "axle",
+    "count": 1
+   },
+   {
+    "item": "steel_ingot",
+    "count": 2
+   }
+  ],
+  "description": "Aks, piston, pompa: T2."
+ },
+ "r_mechanic_heavy": {
+  "name": "Ağır Makine Atölyesi",
+  "output": "mechanic_heavy",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 32,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "mechanic_lathe",
+    "count": 1
+   },
+   {
+    "item": "transformer_coil",
+    "count": 1
+   },
+   {
+    "item": "gear_large",
+    "count": 2
+   },
+   {
+    "item": "steel_sheet",
+    "count": 3
+   }
+  ],
+  "description": "Motorlu alet ve jeneratör: T3 (ELEKTRİK ister).",
+  "learn": "level:12"
+ },
+ "r_gunsmith_basic": {
+  "name": "Basit Silah Tezgâhı",
+  "output": "gunsmith_basic",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "workbench_kit",
+    "count": 1
+   },
+   {
+    "item": "file_set",
+    "count": 1
+   },
+   {
+    "item": "iron_bar",
+    "count": 3
+   }
+  ],
+  "description": "Tetik grubu, atölye silahı ve fişek: T2."
+ },
+ "r_gunsmith_mid": {
+  "name": "Silah Tezgâhı II",
+  "output": "gunsmith_mid",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 32,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "gunsmith_basic",
+    "count": 1
+   },
+   {
+    "item": "machined_part",
+    "count": 3
+   },
+   {
+    "item": "steel_ingot",
+    "count": 2
+   }
+  ],
+  "description": "Namlu işleme ve AP fişek: T3.",
+  "learn": "level:10"
+ },
+ "r_electronics_basic": {
+  "name": "Lehim Masası",
+  "output": "electronics_basic",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "soldering_iron",
+    "count": 1
+   },
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "circuit_board_broken",
+    "count": 2
+   }
+  ],
+  "description": "Havya ve büyüteç: basit devreler."
+ },
+ "r_electronics_mid": {
+  "name": "Elektronik Tezgâhı",
+  "output": "electronics_mid",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 1,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "electronics_basic",
+    "count": 1
+   },
+   {
+    "item": "multimeter",
+    "count": 1
+   },
+   {
+    "item": "insulated_wire",
+    "count": 4
+   }
+  ],
+  "description": "Ölçü aletli tezgâh: T2."
+ },
+ "r_electronics_lab": {
+  "name": "Elektronik Laboratuvarı",
+  "output": "electronics_lab",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 38,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "electronics_bench",
+    "count": 1
+   },
+   {
+    "item": "transformer_coil",
+    "count": 1
+   },
+   {
+    "item": "circuit_module",
+    "count": 3
+   },
+   {
+    "item": "glass_lens",
+    "count": 1
+   }
+  ],
+  "description": "Osiloskop ve trafo: T4 (ELEKTRİK ister).",
+  "learn": "skill:cr_quality"
+ },
+ "r_chemistry_basic": {
+  "name": "Damıtma Seti",
+  "output": "chemistry_basic",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "bottle_empty",
+    "count": 4
+   },
+   {
+    "item": "pvc_pipe",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 2
+   }
+  ],
+  "description": "Cam balon ve soğutucu: temel kimya."
+ },
+ "r_chemistry_mid": {
+  "name": "Kimya Tezgâhı",
+  "output": "chemistry_mid",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "chemistry_basic",
+    "count": 1
+   },
+   {
+    "item": "glass_pane",
+    "count": 2
+   },
+   {
+    "item": "metal_plate",
+    "count": 2
+   },
+   {
+    "item": "valve",
+    "count": 1
+   }
+  ],
+  "description": "Isıtıcı ve süzgeç: T2."
+ },
+ "r_chemistry_lab": {
+  "name": "Kimya Laboratuvarı",
+  "output": "chemistry_lab",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 3,
+  "time": 38,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "chemistry_set",
+    "count": 1
+   },
+   {
+    "item": "pump_unit",
+    "count": 1
+   },
+   {
+    "item": "glass_pane",
+    "count": 4
+   },
+   {
+    "item": "circuit_module",
+    "count": 1
+   }
+  ],
+  "description": "Çeker ocak: ilaç ve patlayıcı T4.",
+  "learn": "skill:md_pharma"
+ },
+ "r_kitchen_stove": {
+  "name": "Mutfak Ocağı",
+  "output": "kitchen_stove",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 4
+   },
+   {
+    "item": "fired_brick",
+    "count": 6
+   },
+   {
+    "item": "gas_canister",
+    "count": 1
+   },
+   {
+    "item": "valve",
+    "count": 1
+   }
+  ],
+  "description": "Fırınlı ocak: ekmek ve fırın yemekleri (T2). Üste mutfak kapasitesi verir."
+ },
+ "r_stove_electric": {
+  "name": "Elektrikli Ocak",
+  "output": "stove_electric",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 32,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "kitchen_stove",
+    "count": 1
+   },
+   {
+    "item": "copper_coil",
+    "count": 3
+   },
+   {
+    "item": "relay_unit",
+    "count": 1
+   }
+  ],
+  "description": "Yakıtsız pişirme (T3)."
+ },
+ "r_water_ceramic_station": {
+  "name": "Seramik Arıtma İstasyonu",
+  "output": "water_ceramic_station",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "water_tank_part",
+    "count": 1
+   },
+   {
+    "item": "ceramic_filter",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   }
+  ],
+  "description": "Seramik mumlu arıtma (T2)."
+ },
+ "r_farming_bench": {
+  "name": "Tarım ve İşleme Tezgâhı",
+  "output": "farming_bench",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 20,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "stone_chunk",
+    "count": 4
+   },
+   {
+    "tag": "fastener",
+    "count": 6
+   }
+  ],
+  "description": "Tohum ayıklama, değirmen, turşu, kurutma."
+ },
+ "r_farming_pro": {
+  "name": "Tütsü ve Mayalama Odası",
+  "output": "farming_pro",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 26,
+  "category": "istasyon",
+  "family": "storage",
+  "subcategory": "İstasyon",
+  "inputs": [
+   {
+    "item": "farming_bench",
+    "count": 1
+   },
+   {
+    "item": "fired_brick",
+    "count": 8
+   },
+   {
+    "item": "glass_pane",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   }
+  ],
+  "description": "Tütsü, konserve ve fermantasyon (T2)."
+ },
+ "r_crate_small": {
+  "name": "Küçük Sandık",
+  "output": "crate_small",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 20,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "Yere konan kapaklı sandık: 40 kg, 16 yuva. E ile aç."
+ },
+ "r_chest_wood": {
+  "name": "Ahşap Sandık",
+  "output": "chest_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 26,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "plywood",
+    "count": 2
+   },
+   {
+    "item": "hinge",
+    "count": 2
+   },
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "70 kg, 24 yuva. E ile aç."
+ },
+ "r_locker_metal": {
+  "name": "Metal Dolap",
+  "output": "locker_metal",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 26,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 4
+   },
+   {
+    "item": "hinge",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 6
+   }
+  ],
+  "description": "90 kg, 30 yuva; zombiye dayanıklı. E ile aç."
+ },
+ "r_gun_safe": {
+  "name": "Silah Kasası",
+  "output": "gun_safe",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 32,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 3
+   },
+   {
+    "item": "padlock",
+    "count": 1
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 2
+   }
+  ],
+  "description": "Ağır çelik kasa: zor kırılır. E ile aç."
+ },
+ "r_shelf_unit": {
+  "name": "Raf Ünitesi",
+  "output": "shelf_unit",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 26,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "metal_bracket",
+    "count": 4
+   },
+   {
+    "item": "plywood",
+    "count": 3
+   }
+  ],
+  "description": "Açık raf: 120 kg, 40 yuva. E ile aç."
+ },
+ "r_barrel_storage": {
+  "name": "Varil Depo",
+  "output": "barrel_storage",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 20,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "plastic_sheet",
+    "count": 3
+   },
+   {
+    "item": "metal_bracket",
+    "count": 1
+   }
+  ],
+  "description": "Kapaklı varil: 60 kg, az yuva. E ile aç."
+ },
+ "r_warehouse_rack": {
+  "name": "Depo Rafı",
+  "output": "warehouse_rack",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 32,
+  "category": "depolama",
+  "family": "storage",
+  "subcategory": "Depo",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 6
+   },
+   {
+    "item": "metal_plate",
+    "count": 4
+   },
+   {
+    "item": "bolt_nut",
+    "count": 12
+   }
+  ],
+  "description": "Endüstriyel raf: 200 kg, 60 yuva. E ile aç."
+ },
+ "r_bedroll": {
+  "name": "Uyku Tulumu",
+  "output": "bedroll",
+  "count": 1,
+  "station": "hands",
+  "time": 20,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "cloth_bolt",
+    "count": 1
+   },
+   {
+    "item": "padding_pad",
+    "count": 1
+   }
+  ],
+  "description": "Yere serilir: uyu (E), üste 1 yatak."
+ },
+ "r_cot": {
+  "name": "Portatif Yatak",
+  "output": "cot",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 20,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "wooden_frame",
+    "count": 1
+   },
+   {
+    "item": "canvas_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Katlanır karyola."
+ },
+ "r_bunk_bed": {
+  "name": "Ranza",
+  "output": "bunk_bed",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 26,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 4
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   },
+   {
+    "item": "wood_plank",
+    "count": 4
+   }
+  ],
+  "description": "İki kişilik: üste 2 yatak."
+ },
+ "r_hospital_bed": {
+  "name": "Hastane Yatağı",
+  "output": "hospital_bed",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 32,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 4
+   },
+   {
+    "item": "padding_pad",
+    "count": 3
+   },
+   {
+    "item": "gear_small",
+    "count": 2
+   },
+   {
+    "item": "canvas_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Uyurken çok iyileşir; üste revir kapasitesi."
+ },
+ "r_medical_table": {
+  "name": "Muayene Masası",
+  "output": "medical_table",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 32,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "padding_pad",
+    "count": 2
+   },
+   {
+    "item": "surgical_kit",
+    "count": 1
+   }
+  ],
+  "description": "Revir kapasitesi +1,5: doktor ve iyileşme."
+ },
+ "r_dining_table": {
+  "name": "Yemekhane Masası",
+  "output": "dining_table",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 20,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "nail",
+    "count": 10
+   }
+  ],
+  "description": "Mutfak kapasitesi +0,25."
+ },
+ "r_craftsman_bench": {
+  "name": "Zanaatkâr Tezgâhı",
+  "output": "craftsman_bench",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 26,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "wood_beam",
+    "count": 2
+   },
+   {
+    "item": "plywood",
+    "count": 2
+   },
+   {
+    "item": "metal_bracket",
+    "count": 2
+   },
+   {
+    "item": "claw_hammer",
+    "count": 1
+   }
+  ],
+  "description": "Atölye kapasitesi +1: zanaatkâr iş emirleri."
+ },
+ "r_colony_rack": {
+  "name": "Ortak Depo Rafı",
+  "output": "colony_rack",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 26,
+  "category": "koloni",
+  "family": "storage",
+  "subcategory": "Koloni",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 4
+   },
+   {
+    "item": "plywood",
+    "count": 4
+   },
+   {
+    "item": "bolt_nut",
+    "count": 8
+   }
+  ],
+  "description": "Üssün ortak deposuna +150 kg."
+ }
+}

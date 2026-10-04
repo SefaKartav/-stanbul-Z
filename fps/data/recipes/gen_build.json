@@ -1,0 +1,4185 @@
+{
+ "r_bp_frame_block": {
+  "name": "İskelet blok",
+  "output": "bp_frame_block",
+  "count": 1,
+  "station": "hands",
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "item": "nail",
+    "count": 1
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Tek blok."
+ },
+ "r_bp_frame_wall2": {
+  "name": "İskelet duvar 2×2",
+  "output": "bp_frame_wall2",
+  "count": 1,
+  "station": "hands",
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "İskelet (60 HP/blok): 2×2 duvar: tek hamlede dört blok."
+ },
+ "r_bp_frame_wall3": {
+  "name": "İskelet duvar 3×3",
+  "output": "bp_frame_wall3",
+  "count": 1,
+  "station": "hands",
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "nail",
+    "count": 8
+   }
+  ],
+  "description": "İskelet (60 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası."
+ },
+ "r_bp_frame_floor2": {
+  "name": "İskelet döşeme 2×2",
+  "output": "bp_frame_floor2",
+  "count": 1,
+  "station": "hands",
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Yatay döşeme: kat, köprü, çatı."
+ },
+ "r_bp_frame_floor3": {
+  "name": "İskelet döşeme 3×3",
+  "output": "bp_frame_floor3",
+  "count": 1,
+  "station": "hands",
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "nail",
+    "count": 8
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Geniş döşeme."
+ },
+ "r_bp_frame_pillar": {
+  "name": "İskelet kolon",
+  "output": "bp_frame_pillar",
+  "count": 1,
+  "station": "hands",
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "nail",
+    "count": 3
+   }
+  ],
+  "description": "İskelet (60 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur."
+ },
+ "r_bp_frame_corner": {
+  "name": "İskelet köşe",
+  "output": "bp_frame_corner",
+  "count": 1,
+  "station": "hands",
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "İskelet (60 HP/blok): L biçimli köşe: iki duvarı bağlar."
+ },
+ "r_bp_frame_doorway": {
+  "name": "İskelet kapı boşluğu",
+  "output": "bp_frame_doorway",
+  "count": 1,
+  "station": "hands",
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır."
+ },
+ "r_bp_frame_window": {
+  "name": "İskelet pencereli duvar",
+  "output": "bp_frame_window",
+  "count": 1,
+  "station": "hands",
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "nail",
+    "count": 8
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir)."
+ },
+ "r_bp_frame_slit": {
+  "name": "İskelet mazgal",
+  "output": "bp_frame_slit",
+  "count": 1,
+  "station": "hands",
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz."
+ },
+ "r_bp_frame_parapet": {
+  "name": "İskelet siper",
+  "output": "bp_frame_parapet",
+  "count": 1,
+  "station": "hands",
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "İskelet (60 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş."
+ },
+ "r_bp_frame_half": {
+  "name": "İskelet yarım blok",
+  "output": "bp_frame_half",
+  "count": 1,
+  "station": "hands",
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "item": "nail",
+    "count": 1
+   }
+  ],
+  "description": "İskelet: 0,5 m blok: basamak, set, alçak siper."
+ },
+ "r_bp_frame_lowcover": {
+  "name": "İskelet alçak siper",
+  "output": "bp_frame_lowcover",
+  "count": 1,
+  "station": "hands",
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "item": "nail",
+    "count": 2
+   }
+  ],
+  "description": "İskelet: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel."
+ },
+ "r_bp_frame_stairs": {
+  "name": "İskelet merdiven",
+  "output": "bp_frame_stairs",
+  "count": 1,
+  "station": "hands",
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "İskelet: 0,5 m basamaklar: yürüyerek bir kat çıkılır."
+ },
+ "r_bp_frame_ramp": {
+  "name": "İskelet araç rampası",
+  "output": "bp_frame_ramp",
+  "count": 1,
+  "station": "hands",
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 10
+   },
+   {
+    "item": "nail",
+    "count": 10
+   }
+  ],
+  "description": "İskelet: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar."
+ },
+ "r_upgrade_frame_wood": {
+  "name": "Ahşap kaplama kiti",
+  "output": "upgrade_frame_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "İskelet",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "tag": "fastener",
+    "count": 2
+   }
+  ],
+  "description": "İskelet → Ahşap yükseltmesi için bir blokluk kit."
+ },
+ "r_bp_wood_block": {
+  "name": "Ahşap blok",
+  "output": "bp_wood_block",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "tag": "fastener",
+    "count": 2
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Tek blok."
+ },
+ "r_bp_wood_wall2": {
+  "name": "Ahşap duvar 2×2",
+  "output": "bp_wood_wall2",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): 2×2 duvar: tek hamlede dört blok."
+ },
+ "r_bp_wood_wall3": {
+  "name": "Ahşap duvar 3×3",
+  "output": "bp_wood_wall3",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 16
+   },
+   {
+    "tag": "fastener",
+    "count": 16
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası."
+ },
+ "r_bp_wood_floor2": {
+  "name": "Ahşap döşeme 2×2",
+  "output": "bp_wood_floor2",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Yatay döşeme: kat, köprü, çatı."
+ },
+ "r_bp_wood_floor3": {
+  "name": "Ahşap döşeme 3×3",
+  "output": "bp_wood_floor3",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 16
+   },
+   {
+    "tag": "fastener",
+    "count": 16
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Geniş döşeme."
+ },
+ "r_bp_wood_pillar": {
+  "name": "Ahşap kolon",
+  "output": "bp_wood_pillar",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "tag": "fastener",
+    "count": 6
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur."
+ },
+ "r_bp_wood_corner": {
+  "name": "Ahşap köşe",
+  "output": "bp_wood_corner",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 11
+   },
+   {
+    "tag": "fastener",
+    "count": 11
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): L biçimli köşe: iki duvarı bağlar."
+ },
+ "r_bp_wood_doorway": {
+  "name": "Ahşap kapı boşluğu",
+  "output": "bp_wood_doorway",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 13
+   },
+   {
+    "tag": "fastener",
+    "count": 13
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır."
+ },
+ "r_bp_wood_window": {
+  "name": "Ahşap pencereli duvar",
+  "output": "bp_wood_window",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 16
+   },
+   {
+    "tag": "fastener",
+    "count": 16
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir)."
+ },
+ "r_bp_wood_slit": {
+  "name": "Ahşap mazgal",
+  "output": "bp_wood_slit",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 9
+   },
+   {
+    "tag": "fastener",
+    "count": 9
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz."
+ },
+ "r_bp_wood_parapet": {
+  "name": "Ahşap siper",
+  "output": "bp_wood_parapet",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 9
+   },
+   {
+    "tag": "fastener",
+    "count": 9
+   }
+  ],
+  "description": "Ahşap (220 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş."
+ },
+ "r_bp_wood_half": {
+  "name": "Ahşap yarım blok",
+  "output": "bp_wood_half",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 1
+   }
+  ],
+  "description": "Ahşap: 0,5 m blok: basamak, set, alçak siper."
+ },
+ "r_bp_wood_lowcover": {
+  "name": "Ahşap alçak siper",
+  "output": "bp_wood_lowcover",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "tag": "fastener",
+    "count": 3
+   }
+  ],
+  "description": "Ahşap: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel."
+ },
+ "r_bp_wood_stairs": {
+  "name": "Ahşap merdiven",
+  "output": "bp_wood_stairs",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 13
+   },
+   {
+    "tag": "fastener",
+    "count": 13
+   }
+  ],
+  "description": "Ahşap: 0,5 m basamaklar: yürüyerek bir kat çıkılır."
+ },
+ "r_bp_wood_ramp": {
+  "name": "Ahşap araç rampası",
+  "output": "bp_wood_ramp",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 19
+   },
+   {
+    "tag": "fastener",
+    "count": 19
+   }
+  ],
+  "description": "Ahşap: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar."
+ },
+ "r_upgrade_wood_woodr": {
+  "name": "Ahşap güçlendirme kiti",
+  "output": "upgrade_wood_woodr",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "metal_bracket",
+    "count": 1
+   },
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 2
+   }
+  ],
+  "description": "Ahşap → Güçlendirilmiş ahşap yükseltmesi için bir blokluk kit."
+ },
+ "r_bp_woodr_block": {
+  "name": "Güçlendirilmiş ahşap blok",
+  "output": "bp_woodr_block",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "item": "metal_bracket",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 2
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Tek blok.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_wall2": {
+  "name": "Güçlendirilmiş ahşap duvar 2×2",
+  "output": "bp_woodr_wall2",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "metal_bracket",
+    "count": 4
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_wall3": {
+  "name": "Güçlendirilmiş ahşap duvar 3×3",
+  "output": "bp_woodr_wall3",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 16
+   },
+   {
+    "item": "metal_bracket",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 16
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_floor2": {
+  "name": "Güçlendirilmiş ahşap döşeme 2×2",
+  "output": "bp_woodr_floor2",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "metal_bracket",
+    "count": 4
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_floor3": {
+  "name": "Güçlendirilmiş ahşap döşeme 3×3",
+  "output": "bp_woodr_floor3",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 16
+   },
+   {
+    "item": "metal_bracket",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 16
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Geniş döşeme.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_pillar": {
+  "name": "Güçlendirilmiş ahşap kolon",
+  "output": "bp_woodr_pillar",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "metal_bracket",
+    "count": 3
+   },
+   {
+    "tag": "fastener",
+    "count": 6
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_corner": {
+  "name": "Güçlendirilmiş ahşap köşe",
+  "output": "bp_woodr_corner",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 11
+   },
+   {
+    "item": "metal_bracket",
+    "count": 6
+   },
+   {
+    "tag": "fastener",
+    "count": 11
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_doorway": {
+  "name": "Güçlendirilmiş ahşap kapı boşluğu",
+  "output": "bp_woodr_doorway",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 13
+   },
+   {
+    "item": "metal_bracket",
+    "count": 6
+   },
+   {
+    "tag": "fastener",
+    "count": 13
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_window": {
+  "name": "Güçlendirilmiş ahşap pencereli duvar",
+  "output": "bp_woodr_window",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 16
+   },
+   {
+    "item": "metal_bracket",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 16
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_slit": {
+  "name": "Güçlendirilmiş ahşap mazgal",
+  "output": "bp_woodr_slit",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 9
+   },
+   {
+    "item": "metal_bracket",
+    "count": 4
+   },
+   {
+    "tag": "fastener",
+    "count": 9
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_parapet": {
+  "name": "Güçlendirilmiş ahşap siper",
+  "output": "bp_woodr_parapet",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 9
+   },
+   {
+    "item": "metal_bracket",
+    "count": 4
+   },
+   {
+    "tag": "fastener",
+    "count": 9
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_half": {
+  "name": "Güçlendirilmiş ahşap yarım blok",
+  "output": "bp_woodr_half",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   },
+   {
+    "item": "metal_bracket",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 1
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_lowcover": {
+  "name": "Güçlendirilmiş ahşap alçak siper",
+  "output": "bp_woodr_lowcover",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "metal_bracket",
+    "count": 2
+   },
+   {
+    "tag": "fastener",
+    "count": 3
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_stairs": {
+  "name": "Güçlendirilmiş ahşap merdiven",
+  "output": "bp_woodr_stairs",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 13
+   },
+   {
+    "item": "metal_bracket",
+    "count": 6
+   },
+   {
+    "tag": "fastener",
+    "count": 13
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:3"
+ },
+ "r_bp_woodr_ramp": {
+  "name": "Güçlendirilmiş ahşap araç rampası",
+  "output": "bp_woodr_ramp",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 19
+   },
+   {
+    "item": "metal_bracket",
+    "count": 10
+   },
+   {
+    "tag": "fastener",
+    "count": 19
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:3"
+ },
+ "r_upgrade_woodr_brick": {
+  "name": "Tuğla örme kiti",
+  "output": "upgrade_woodr_brick",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Güçlendirilmiş ahşap",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 3
+   },
+   {
+    "item": "mortar",
+    "count": 1
+   }
+  ],
+  "description": "Güçlendirilmiş ahşap → Tuğla yükseltmesi için bir blokluk kit.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_block": {
+  "name": "Hurda sac blok",
+  "output": "bp_scrap_block",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 3
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Tek blok.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_wall2": {
+  "name": "Hurda sac duvar 2×2",
+  "output": "bp_scrap_wall2",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 11
+   },
+   {
+    "item": "rivets",
+    "count": 11
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_wall3": {
+  "name": "Hurda sac duvar 3×3",
+  "output": "bp_scrap_wall3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 24
+   },
+   {
+    "item": "rivets",
+    "count": 24
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_floor2": {
+  "name": "Hurda sac döşeme 2×2",
+  "output": "bp_scrap_floor2",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 11
+   },
+   {
+    "item": "rivets",
+    "count": 11
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_floor3": {
+  "name": "Hurda sac döşeme 3×3",
+  "output": "bp_scrap_floor3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 24
+   },
+   {
+    "item": "rivets",
+    "count": 24
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Geniş döşeme.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_pillar": {
+  "name": "Hurda sac kolon",
+  "output": "bp_scrap_pillar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 9
+   },
+   {
+    "item": "rivets",
+    "count": 9
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_corner": {
+  "name": "Hurda sac köşe",
+  "output": "bp_scrap_corner",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 17
+   },
+   {
+    "item": "rivets",
+    "count": 17
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_doorway": {
+  "name": "Hurda sac kapı boşluğu",
+  "output": "bp_scrap_doorway",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 19
+   },
+   {
+    "item": "rivets",
+    "count": 19
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_window": {
+  "name": "Hurda sac pencereli duvar",
+  "output": "bp_scrap_window",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 24
+   },
+   {
+    "item": "rivets",
+    "count": 24
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_slit": {
+  "name": "Hurda sac mazgal",
+  "output": "bp_scrap_slit",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 14
+   },
+   {
+    "item": "rivets",
+    "count": 14
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_parapet": {
+  "name": "Hurda sac siper",
+  "output": "bp_scrap_parapet",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 14
+   },
+   {
+    "item": "rivets",
+    "count": 14
+   }
+  ],
+  "description": "Hurda sac (500 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_half": {
+  "name": "Hurda sac yarım blok",
+  "output": "bp_scrap_half",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 2
+   }
+  ],
+  "description": "Hurda sac: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_lowcover": {
+  "name": "Hurda sac alçak siper",
+  "output": "bp_scrap_lowcover",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 5
+   },
+   {
+    "item": "rivets",
+    "count": 5
+   }
+  ],
+  "description": "Hurda sac: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_stairs": {
+  "name": "Hurda sac merdiven",
+  "output": "bp_scrap_stairs",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 19
+   },
+   {
+    "item": "rivets",
+    "count": 19
+   }
+  ],
+  "description": "Hurda sac: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:3"
+ },
+ "r_bp_scrap_ramp": {
+  "name": "Hurda sac araç rampası",
+  "output": "bp_scrap_ramp",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 29
+   },
+   {
+    "item": "rivets",
+    "count": 29
+   }
+  ],
+  "description": "Hurda sac: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:3"
+ },
+ "r_upgrade_scrap_steel": {
+  "name": "Çelik kaplama kiti",
+  "output": "upgrade_scrap_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Hurda sac",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Hurda sac → Çelik yükseltmesi için bir blokluk kit.",
+  "learn": "level:3"
+ },
+ "r_bp_brick_block": {
+  "name": "Tuğla blok",
+  "output": "bp_brick_block",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 4
+   },
+   {
+    "item": "mortar",
+    "count": 1
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Tek blok.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_wall2": {
+  "name": "Tuğla duvar 2×2",
+  "output": "bp_brick_wall2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 15
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_wall3": {
+  "name": "Tuğla duvar 3×3",
+  "output": "bp_brick_wall3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 32
+   },
+   {
+    "item": "mortar",
+    "count": 8
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_floor2": {
+  "name": "Tuğla döşeme 2×2",
+  "output": "bp_brick_floor2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 15
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_floor3": {
+  "name": "Tuğla döşeme 3×3",
+  "output": "bp_brick_floor3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 32
+   },
+   {
+    "item": "mortar",
+    "count": 8
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Geniş döşeme.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_pillar": {
+  "name": "Tuğla kolon",
+  "output": "bp_brick_pillar",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 11
+   },
+   {
+    "item": "mortar",
+    "count": 3
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_corner": {
+  "name": "Tuğla köşe",
+  "output": "bp_brick_corner",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 23
+   },
+   {
+    "item": "mortar",
+    "count": 6
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_doorway": {
+  "name": "Tuğla kapı boşluğu",
+  "output": "bp_brick_doorway",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 25
+   },
+   {
+    "item": "mortar",
+    "count": 6
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_window": {
+  "name": "Tuğla pencereli duvar",
+  "output": "bp_brick_window",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 32
+   },
+   {
+    "item": "mortar",
+    "count": 8
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:6"
+ },
+ "r_bp_brick_slit": {
+  "name": "Tuğla mazgal",
+  "output": "bp_brick_slit",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 18
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_parapet": {
+  "name": "Tuğla siper",
+  "output": "bp_brick_parapet",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 18
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Tuğla (700 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_half": {
+  "name": "Tuğla yarım blok",
+  "output": "bp_brick_half",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 2
+   },
+   {
+    "item": "mortar",
+    "count": 1
+   }
+  ],
+  "description": "Tuğla: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_lowcover": {
+  "name": "Tuğla alçak siper",
+  "output": "bp_brick_lowcover",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 7
+   },
+   {
+    "item": "mortar",
+    "count": 2
+   }
+  ],
+  "description": "Tuğla: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_stairs": {
+  "name": "Tuğla merdiven",
+  "output": "bp_brick_stairs",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 26
+   },
+   {
+    "item": "mortar",
+    "count": 6
+   }
+  ],
+  "description": "Tuğla: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:6"
+ },
+ "r_bp_brick_ramp": {
+  "name": "Tuğla araç rampası",
+  "output": "bp_brick_ramp",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 38
+   },
+   {
+    "item": "mortar",
+    "count": 10
+   }
+  ],
+  "description": "Tuğla: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:6"
+ },
+ "r_upgrade_brick_concrete": {
+  "name": "Beton döküm kiti",
+  "output": "upgrade_brick_concrete",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   },
+   {
+    "item": "cinder_block",
+    "count": 1
+   }
+  ],
+  "description": "Tuğla → Beton yükseltmesi için bir blokluk kit.",
+  "learn": "level:6"
+ },
+ "r_bp_stone_block": {
+  "name": "Kesme taş blok",
+  "output": "bp_stone_block",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 1
+   },
+   {
+    "item": "mortar",
+    "count": 1
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Tek blok.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_wall2": {
+  "name": "Kesme taş duvar 2×2",
+  "output": "bp_stone_wall2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 4
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_wall3": {
+  "name": "Kesme taş duvar 3×3",
+  "output": "bp_stone_wall3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 8
+   },
+   {
+    "item": "mortar",
+    "count": 8
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_floor2": {
+  "name": "Kesme taş döşeme 2×2",
+  "output": "bp_stone_floor2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 4
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_floor3": {
+  "name": "Kesme taş döşeme 3×3",
+  "output": "bp_stone_floor3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 8
+   },
+   {
+    "item": "mortar",
+    "count": 8
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Geniş döşeme.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_pillar": {
+  "name": "Kesme taş kolon",
+  "output": "bp_stone_pillar",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 3
+   },
+   {
+    "item": "mortar",
+    "count": 3
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_corner": {
+  "name": "Kesme taş köşe",
+  "output": "bp_stone_corner",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 6
+   },
+   {
+    "item": "mortar",
+    "count": 6
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_doorway": {
+  "name": "Kesme taş kapı boşluğu",
+  "output": "bp_stone_doorway",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 6
+   },
+   {
+    "item": "mortar",
+    "count": 6
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_window": {
+  "name": "Kesme taş pencereli duvar",
+  "output": "bp_stone_window",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 8
+   },
+   {
+    "item": "mortar",
+    "count": 8
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:8"
+ },
+ "r_bp_stone_slit": {
+  "name": "Kesme taş mazgal",
+  "output": "bp_stone_slit",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 4
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_parapet": {
+  "name": "Kesme taş siper",
+  "output": "bp_stone_parapet",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 4
+   },
+   {
+    "item": "mortar",
+    "count": 4
+   }
+  ],
+  "description": "Kesme taş (900 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_half": {
+  "name": "Kesme taş yarım blok",
+  "output": "bp_stone_half",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 1
+   },
+   {
+    "item": "mortar",
+    "count": 1
+   }
+  ],
+  "description": "Kesme taş: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_lowcover": {
+  "name": "Kesme taş alçak siper",
+  "output": "bp_stone_lowcover",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 2
+   },
+   {
+    "item": "mortar",
+    "count": 2
+   }
+  ],
+  "description": "Kesme taş: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_stairs": {
+  "name": "Kesme taş merdiven",
+  "output": "bp_stone_stairs",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 6
+   },
+   {
+    "item": "mortar",
+    "count": 6
+   }
+  ],
+  "description": "Kesme taş: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:8"
+ },
+ "r_bp_stone_ramp": {
+  "name": "Kesme taş araç rampası",
+  "output": "bp_stone_ramp",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 10
+   },
+   {
+    "item": "mortar",
+    "count": 10
+   }
+  ],
+  "description": "Kesme taş: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:8"
+ },
+ "r_upgrade_stone_concrete": {
+  "name": "Taş üstü beton kiti",
+  "output": "upgrade_stone_concrete",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   }
+  ],
+  "description": "Kesme taş → Beton yükseltmesi için bir blokluk kit.",
+  "learn": "level:8"
+ },
+ "r_bp_concrete_block": {
+  "name": "Beton blok",
+  "output": "bp_concrete_block",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   },
+   {
+    "item": "cinder_block",
+    "count": 1
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Tek blok.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_wall2": {
+  "name": "Beton duvar 2×2",
+  "output": "bp_concrete_wall2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 4
+   },
+   {
+    "item": "cinder_block",
+    "count": 4
+   }
+  ],
+  "description": "Beton (1300 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_wall3": {
+  "name": "Beton duvar 3×3",
+  "output": "bp_concrete_wall3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 8
+   },
+   {
+    "item": "cinder_block",
+    "count": 8
+   }
+  ],
+  "description": "Beton (1300 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_floor2": {
+  "name": "Beton döşeme 2×2",
+  "output": "bp_concrete_floor2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 4
+   },
+   {
+    "item": "cinder_block",
+    "count": 4
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_floor3": {
+  "name": "Beton döşeme 3×3",
+  "output": "bp_concrete_floor3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 8
+   },
+   {
+    "item": "cinder_block",
+    "count": 8
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Geniş döşeme.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_pillar": {
+  "name": "Beton kolon",
+  "output": "bp_concrete_pillar",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 3
+   },
+   {
+    "item": "cinder_block",
+    "count": 3
+   }
+  ],
+  "description": "Beton (1300 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_corner": {
+  "name": "Beton köşe",
+  "output": "bp_concrete_corner",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 6
+   },
+   {
+    "item": "cinder_block",
+    "count": 6
+   }
+  ],
+  "description": "Beton (1300 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_doorway": {
+  "name": "Beton kapı boşluğu",
+  "output": "bp_concrete_doorway",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 6
+   },
+   {
+    "item": "cinder_block",
+    "count": 6
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_window": {
+  "name": "Beton pencereli duvar",
+  "output": "bp_concrete_window",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 8
+   },
+   {
+    "item": "cinder_block",
+    "count": 8
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_slit": {
+  "name": "Beton mazgal",
+  "output": "bp_concrete_slit",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 4
+   },
+   {
+    "item": "cinder_block",
+    "count": 4
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_parapet": {
+  "name": "Beton siper",
+  "output": "bp_concrete_parapet",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 4
+   },
+   {
+    "item": "cinder_block",
+    "count": 4
+   }
+  ],
+  "description": "Beton (1300 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_half": {
+  "name": "Beton yarım blok",
+  "output": "bp_concrete_half",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   },
+   {
+    "item": "cinder_block",
+    "count": 1
+   }
+  ],
+  "description": "Beton: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_lowcover": {
+  "name": "Beton alçak siper",
+  "output": "bp_concrete_lowcover",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 2
+   },
+   {
+    "item": "cinder_block",
+    "count": 2
+   }
+  ],
+  "description": "Beton: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_stairs": {
+  "name": "Beton merdiven",
+  "output": "bp_concrete_stairs",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 6
+   },
+   {
+    "item": "cinder_block",
+    "count": 6
+   }
+  ],
+  "description": "Beton: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:10"
+ },
+ "r_bp_concrete_ramp": {
+  "name": "Beton araç rampası",
+  "output": "bp_concrete_ramp",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 10
+   },
+   {
+    "item": "cinder_block",
+    "count": 10
+   }
+  ],
+  "description": "Beton: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:10"
+ },
+ "r_upgrade_concrete_rconcrete": {
+  "name": "Betonarme kiti",
+  "output": "upgrade_concrete_rconcrete",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 1
+   }
+  ],
+  "description": "Beton → Betonarme yükseltmesi için bir blokluk kit.",
+  "learn": "level:10"
+ },
+ "r_bp_rconcrete_block": {
+  "name": "Betonarme blok",
+  "output": "bp_rconcrete_block",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 2
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 1
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Tek blok.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_wall2": {
+  "name": "Betonarme duvar 2×2",
+  "output": "bp_rconcrete_wall2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 8
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 4
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_wall3": {
+  "name": "Betonarme duvar 3×3",
+  "output": "bp_rconcrete_wall3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 16
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 8
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_floor2": {
+  "name": "Betonarme döşeme 2×2",
+  "output": "bp_rconcrete_floor2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 8
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 4
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_floor3": {
+  "name": "Betonarme döşeme 3×3",
+  "output": "bp_rconcrete_floor3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 16
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 8
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Geniş döşeme.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_pillar": {
+  "name": "Betonarme kolon",
+  "output": "bp_rconcrete_pillar",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 6
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 3
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_corner": {
+  "name": "Betonarme köşe",
+  "output": "bp_rconcrete_corner",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 11
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 6
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_doorway": {
+  "name": "Betonarme kapı boşluğu",
+  "output": "bp_rconcrete_doorway",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 13
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 6
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_window": {
+  "name": "Betonarme pencereli duvar",
+  "output": "bp_rconcrete_window",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 16
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 8
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_slit": {
+  "name": "Betonarme mazgal",
+  "output": "bp_rconcrete_slit",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 9
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 4
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_parapet": {
+  "name": "Betonarme siper",
+  "output": "bp_rconcrete_parapet",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 9
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 4
+   }
+  ],
+  "description": "Betonarme (2000 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_half": {
+  "name": "Betonarme yarım blok",
+  "output": "bp_rconcrete_half",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 1
+   }
+  ],
+  "description": "Betonarme: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_lowcover": {
+  "name": "Betonarme alçak siper",
+  "output": "bp_rconcrete_lowcover",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 3
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 2
+   }
+  ],
+  "description": "Betonarme: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_stairs": {
+  "name": "Betonarme merdiven",
+  "output": "bp_rconcrete_stairs",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 13
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 6
+   }
+  ],
+  "description": "Betonarme: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:16"
+ },
+ "r_bp_rconcrete_ramp": {
+  "name": "Betonarme araç rampası",
+  "output": "bp_rconcrete_ramp",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 3,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 19
+   },
+   {
+    "item": "rebar_mesh",
+    "count": 10
+   }
+  ],
+  "description": "Betonarme: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:16"
+ },
+ "r_upgrade_rconcrete_steel": {
+  "name": "Çelik zırh kiti",
+  "output": "upgrade_rconcrete_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 6,
+  "category": "yukseltme",
+  "family": "build",
+  "subcategory": "Betonarme",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Betonarme → Çelik yükseltmesi için bir blokluk kit.",
+  "learn": "level:16"
+ },
+ "r_bp_steel_block": {
+  "name": "Çelik blok",
+  "output": "bp_steel_block",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Tek blok.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_wall2": {
+  "name": "Çelik duvar 2×2",
+  "output": "bp_steel_wall2",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "rivets",
+    "count": 15
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): 2×2 duvar: tek hamlede dört blok.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_wall3": {
+  "name": "Çelik duvar 3×3",
+  "output": "bp_steel_wall3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 8
+   },
+   {
+    "item": "rivets",
+    "count": 32
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_floor2": {
+  "name": "Çelik döşeme 2×2",
+  "output": "bp_steel_floor2",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "rivets",
+    "count": 15
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Yatay döşeme: kat, köprü, çatı.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_floor3": {
+  "name": "Çelik döşeme 3×3",
+  "output": "bp_steel_floor3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 8
+   },
+   {
+    "item": "rivets",
+    "count": 32
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Geniş döşeme.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_pillar": {
+  "name": "Çelik kolon",
+  "output": "bp_steel_pillar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 11
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_corner": {
+  "name": "Çelik köşe",
+  "output": "bp_steel_corner",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 8.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 6
+   },
+   {
+    "item": "rivets",
+    "count": 23
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): L biçimli köşe: iki duvarı bağlar.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_doorway": {
+  "name": "Çelik kapı boşluğu",
+  "output": "bp_steel_doorway",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 6
+   },
+   {
+    "item": "rivets",
+    "count": 25
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_window": {
+  "name": "Çelik pencereli duvar",
+  "output": "bp_steel_window",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 8
+   },
+   {
+    "item": "rivets",
+    "count": 32
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir).",
+  "learn": "level:20"
+ },
+ "r_bp_steel_slit": {
+  "name": "Çelik mazgal",
+  "output": "bp_steel_slit",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "rivets",
+    "count": 18
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_parapet": {
+  "name": "Çelik siper",
+  "output": "bp_steel_parapet",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 8.0,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "rivets",
+    "count": 18
+   }
+  ],
+  "description": "Çelik (3000 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_half": {
+  "name": "Çelik yarım blok",
+  "output": "bp_steel_half",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 2
+   }
+  ],
+  "description": "Çelik: 0,5 m blok: basamak, set, alçak siper.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_lowcover": {
+  "name": "Çelik alçak siper",
+  "output": "bp_steel_lowcover",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 7
+   }
+  ],
+  "description": "Çelik: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_stairs": {
+  "name": "Çelik merdiven",
+  "output": "bp_steel_stairs",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 10.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 6
+   },
+   {
+    "item": "rivets",
+    "count": 26
+   }
+  ],
+  "description": "Çelik: 0,5 m basamaklar: yürüyerek bir kat çıkılır.",
+  "learn": "level:20"
+ },
+ "r_bp_steel_ramp": {
+  "name": "Çelik araç rampası",
+  "output": "bp_steel_ramp",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 13.600000000000001,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çelik",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 10
+   },
+   {
+    "item": "rivets",
+    "count": 38
+   }
+  ],
+  "description": "Çelik: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar.",
+  "learn": "level:20"
+ },
+ "r_bp_glass_reinforced_block": {
+  "name": "Takviyeli cam blok",
+  "output": "bp_glass_reinforced_block",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Takviyeli cam",
+  "inputs": [
+   {
+    "item": "glass_pane",
+    "count": 1
+   },
+   {
+    "item": "mesh_wire",
+    "count": 1
+   }
+  ],
+  "description": "Takviyeli cam: görüş açık; mermiye ve zombiye dayanıklı cam."
+ },
+ "r_bp_glass_reinforced_wall2": {
+  "name": "Takviyeli cam duvar 2×2",
+  "output": "bp_glass_reinforced_wall2",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Takviyeli cam",
+  "inputs": [
+   {
+    "item": "glass_pane",
+    "count": 4
+   },
+   {
+    "item": "mesh_wire",
+    "count": 2
+   }
+  ],
+  "description": "Takviyeli cam: görüş açık; mermiye ve zombiye dayanıklı cam."
+ },
+ "r_bp_glass_reinforced_wall3": {
+  "name": "Takviyeli cam duvar 3×3",
+  "output": "bp_glass_reinforced_wall3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Takviyeli cam",
+  "inputs": [
+   {
+    "item": "glass_pane",
+    "count": 8
+   },
+   {
+    "item": "mesh_wire",
+    "count": 4
+   }
+  ],
+  "description": "Takviyeli cam: görüş açık; mermiye ve zombiye dayanıklı cam."
+ },
+ "r_bp_bars_block": {
+  "name": "Demir parmaklık blok",
+  "output": "bp_bars_block",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Demir parmaklık",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   }
+  ],
+  "description": "Demir parmaklık: görüş açık; mermi aradan geçer, zombi geçemez."
+ },
+ "r_bp_bars_wall2": {
+  "name": "Demir parmaklık duvar 2×2",
+  "output": "bp_bars_wall2",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Demir parmaklık",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 8
+   }
+  ],
+  "description": "Demir parmaklık: görüş açık; mermi aradan geçer, zombi geçemez."
+ },
+ "r_bp_bars_wall3": {
+  "name": "Demir parmaklık duvar 3×3",
+  "output": "bp_bars_wall3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Demir parmaklık",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 16
+   }
+  ],
+  "description": "Demir parmaklık: görüş açık; mermi aradan geçer, zombi geçemez."
+ },
+ "r_bp_mesh_block": {
+  "name": "Tel örgü blok",
+  "output": "bp_mesh_block",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tel örgü",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 1
+   }
+  ],
+  "description": "Tel örgü: görüş açık; ucuz çit; ok ve mermi geçer, zombi geçemez."
+ },
+ "r_bp_mesh_wall2": {
+  "name": "Tel örgü duvar 2×2",
+  "output": "bp_mesh_wall2",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tel örgü",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 4
+   }
+  ],
+  "description": "Tel örgü: görüş açık; ucuz çit; ok ve mermi geçer, zombi geçemez."
+ },
+ "r_bp_mesh_wall3": {
+  "name": "Tel örgü duvar 3×3",
+  "output": "bp_mesh_wall3",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tel örgü",
+  "inputs": [
+   {
+    "item": "mesh_wire",
+    "count": 8
+   }
+  ],
+  "description": "Tel örgü: görüş açık; ucuz çit; ok ve mermi geçer, zombi geçemez."
+ },
+ "r_bp_door_wood": {
+  "name": "Ahşap kapı",
+  "output": "bp_door_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 5.6,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 6
+   },
+   {
+    "item": "hinge",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 4
+   }
+  ],
+  "description": "Hafif kapı: çabuk kırılır. E ile açılıp kapanır."
+ },
+ "r_bp_door_reinforced": {
+  "name": "Takviyeli ahşap kapı",
+  "output": "bp_door_reinforced",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 5.6,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "plywood",
+    "count": 2
+   },
+   {
+    "item": "metal_bracket",
+    "count": 2
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 1
+   }
+  ],
+  "description": "Köşebentli kapı. E ile açılıp kapanır."
+ },
+ "r_bp_door_metal": {
+  "name": "Sac kapı",
+  "output": "bp_door_metal",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 5.6,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 4
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 6
+   }
+  ],
+  "description": "Sac kaplı kapı. E ile açılıp kapanır."
+ },
+ "r_bp_door_steel": {
+  "name": "Çelik kapı",
+  "output": "bp_door_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 5.6,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 4
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 8
+   }
+  ],
+  "description": "Ağır çelik kapı: sürüye uzun dayanır. E ile açılıp kapanır."
+ },
+ "r_bp_gate_wood": {
+  "name": "Ahşap avlu kapısı",
+  "output": "bp_gate_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "hinge",
+    "count": 2
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "2×2 çift kanat: el arabası ve kalabalık geçer. E ile açılıp kapanır."
+ },
+ "r_bp_gate_steel": {
+  "name": "Çelik bahçe kapısı",
+  "output": "bp_gate_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 7.2,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 6
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 12
+   }
+  ],
+  "description": "2×2 çelik kapı. E ile açılıp kapanır."
+ },
+ "r_bp_garage_door": {
+  "name": "Çelik garaj kapısı",
+  "output": "bp_garage_door",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 11.2,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 11
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 27
+   }
+  ],
+  "description": "3×3: araç girer, kapanınca kale. E ile açılıp kapanır."
+ },
+ "r_bp_hatch_wood": {
+  "name": "Ahşap kapak",
+  "output": "bp_hatch_wood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 4.8,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "hinge",
+    "count": 1
+   }
+  ],
+  "description": "Döşemeye takılan kapak: çatı ve bodrum girişi. E ile açılıp kapanır."
+ },
+ "r_bp_hatch_steel": {
+  "name": "Çelik kapak",
+  "output": "bp_hatch_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 4.8,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 1
+   }
+  ],
+  "description": "Çelik döşeme kapağı. E ile açılıp kapanır."
+ },
+ "r_bp_shutter_steel": {
+  "name": "Çelik kepenk",
+  "output": "bp_shutter_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 4.8,
+  "category": "kapi",
+  "family": "build",
+  "subcategory": "Kapı",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   },
+   {
+    "item": "hinge_heavy",
+    "count": 1
+   }
+  ],
+  "description": "Pencereye takılan açılır kepenk. E ile açılıp kapanır."
+ },
+ "r_bp_roof_tile_roof2": {
+  "name": "Kiremit çatı 2×2",
+  "output": "bp_roof_tile_roof2",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "roof_tile_item",
+    "count": 12
+   },
+   {
+    "item": "wood_plank",
+    "count": 4
+   }
+  ],
+  "description": "Kiremit çatı: yağmuru keser, yukarıdan geleni durdurur."
+ },
+ "r_bp_roof_tile_roof3": {
+  "name": "Kiremit çatı 3×3",
+  "output": "bp_roof_tile_roof3",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "roof_tile_item",
+    "count": 27
+   },
+   {
+    "item": "wood_plank",
+    "count": 9
+   }
+  ],
+  "description": "Kiremit çatı: yağmuru keser, yukarıdan geleni durdurur."
+ },
+ "r_bp_roof_sheet_roof2": {
+  "name": "Sac çatı 2×2",
+  "output": "bp_roof_sheet_roof2",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "sheet_aluminum",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 8
+   }
+  ],
+  "description": "Sac çatı: yağmuru keser, yukarıdan geleni durdurur."
+ },
+ "r_bp_roof_sheet_roof3": {
+  "name": "Sac çatı 3×3",
+  "output": "bp_roof_sheet_roof3",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "sheet_aluminum",
+    "count": 18
+   },
+   {
+    "tag": "fastener",
+    "count": 18
+   }
+  ],
+  "description": "Sac çatı: yağmuru keser, yukarıdan geleni durdurur."
+ },
+ "r_bp_roof_shingle_roof2": {
+  "name": "Ahşap kiremit çatı 2×2",
+  "output": "bp_roof_shingle_roof2",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "wood_shingle",
+    "count": 16
+   },
+   {
+    "item": "nail",
+    "count": 8
+   }
+  ],
+  "description": "Ahşap kiremit çatı: yağmuru keser, yukarıdan geleni durdurur."
+ },
+ "r_bp_roof_shingle_roof3": {
+  "name": "Ahşap kiremit çatı 3×3",
+  "output": "bp_roof_shingle_roof3",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 11.2,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "wood_shingle",
+    "count": 36
+   },
+   {
+    "item": "nail",
+    "count": 18
+   }
+  ],
+  "description": "Ahşap kiremit çatı: yağmuru keser, yukarıdan geleni durdurur."
+ },
+ "r_bp_ladder_wood3": {
+  "name": "Ahşap merdiven (3 m)",
+  "output": "bp_ladder_wood3",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Merdiven",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye."
+ },
+ "r_bp_ladder_wood5": {
+  "name": "Ahşap merdiven (5 m)",
+  "output": "bp_ladder_wood5",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 8.0,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Merdiven",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 5
+   },
+   {
+    "item": "nail",
+    "count": 10
+   }
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye."
+ },
+ "r_bp_ladder_steel3": {
+  "name": "Çelik merdiven (3 m)",
+  "output": "bp_ladder_steel3",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 6.4,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Merdiven",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 3
+   },
+   {
+    "item": "rivets",
+    "count": 6
+   }
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye."
+ },
+ "r_bp_ladder_steel5": {
+  "name": "Çelik merdiven (5 m)",
+  "output": "bp_ladder_steel5",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 8.0,
+  "category": "cati",
+  "family": "build",
+  "subcategory": "Merdiven",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 5
+   },
+   {
+    "item": "rivets",
+    "count": 10
+   }
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye."
+ },
+ "r_bp_watch_platform": {
+  "name": "Gözetleme platformu",
+  "output": "bp_watch_platform",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 20.8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Özel",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 29
+   },
+   {
+    "item": "metal_bracket",
+    "count": 8
+   },
+   {
+    "tag": "fastener",
+    "count": 21
+   }
+  ],
+  "description": "Dört kolonlu 3×3 yüksek platform: kuşatmada ateş noktası."
+ },
+ "r_bp_plank_bridge": {
+  "name": "Kalas köprü (4 m)",
+  "output": "bp_plank_bridge",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 7.2,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Özel",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 8
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "4 m kalas geçit: iki çatı arası köprü."
+ },
+ "r_bp_brick_arch": {
+  "name": "Tuğla kemer",
+  "output": "bp_brick_arch",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 28
+   },
+   {
+    "item": "mortar",
+    "count": 7
+   }
+  ],
+  "description": "Tarihî kemerli geçit: kapı boşluğu gibi, daha sağlam taç."
+ },
+ "r_bp_stone_arch": {
+  "name": "Kesme taş kemer",
+  "output": "bp_stone_arch",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 9.600000000000001,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kesme taş",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 7
+   },
+   {
+    "item": "mortar",
+    "count": 7
+   }
+  ],
+  "description": "Tarihî kemerli geçit: kapı boşluğu gibi, daha sağlam taç."
+ },
+ "r_bp_railing_steel": {
+  "name": "Çelik korkuluk 3 m",
+  "output": "bp_railing_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6.4,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Özel",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 3
+   }
+  ],
+  "description": "Çatı ve platform kenarı: düşmeyi önler, mermi geçer."
+ },
+ "r_bp_stone_wall_low": {
+  "name": "Alçak taş duvar 3×1",
+  "output": "bp_stone_wall_low",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 9,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Duvar",
+  "inputs": [
+   {
+    "item": "stone_block",
+    "count": 2
+   },
+   {
+    "item": "mortar",
+    "count": 1
+   }
+  ],
+  "description": "Bahçe duvarı: yarım boy, üstünden ateş."
+ },
+ "r_bp_brick_chimney": {
+  "name": "Tuğla baca",
+  "output": "bp_brick_chimney",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Kolon",
+  "inputs": [
+   {
+    "tag": "brick_material",
+    "count": 12
+   },
+   {
+    "item": "mortar",
+    "count": 3
+   }
+  ],
+  "description": "4 m tuğla kolon: taşıyıcı ve ocak bacası."
+ },
+ "r_bp_wood_fence": {
+  "name": "Ahşap çit 3×1",
+  "output": "bp_wood_fence",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 9,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Duvar",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "Yarım boy tahta çit: sınır çizer, zombiyi yavaşlatır."
+ },
+ "r_bp_steel_catwalk": {
+  "name": "Çelik iskele 3×1",
+  "output": "bp_steel_catwalk",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 9,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Döşeme",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 6
+   }
+  ],
+  "description": "Yarım kalınlık çelik yürüme yolu: duvar üstü devriye.",
+  "learn": "level:10"
+ },
+ "r_bp_log_floor": {
+  "name": "Kütük döşeme 2×2",
+  "output": "bp_log_floor",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Döşeme",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 4
+   },
+   {
+    "item": "rope",
+    "count": 1
+   }
+  ],
+  "description": "Kütükten sal döşeme: kulübe ve iskele."
+ },
+ "r_bp_concrete_bench": {
+  "name": "Beton set 2×1",
+  "output": "bp_concrete_bench",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 2,
+  "time": 8,
+  "category": "yapi",
+  "family": "build",
+  "subcategory": "Set",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   }
+  ],
+  "description": "Yarım boy beton set: oturma ve alçak siper."
+ }
+}

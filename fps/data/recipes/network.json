@@ -1,0 +1,9 @@
+{
+  "r_relay_kit": {
+    "name": "Role kiti", "output": "relay_kit", "count": 1, "station": "electronics", "time": 30.0,
+    "category": "elektronik", "unlocked": false,
+    "inputs": [{"item": "insulated_wire", "count": 4}, {"item": "battery_car", "count": 1},
+      {"item": "circuit_board_broken", "count": 2}, {"item": "pvc_pipe", "count": 2}, {"tag": "fastener", "count": 4}],
+    "description": "Telsiz agi icin role. Semasi karakol telsiz konsolundan gelir (gorev: Telsiz ustasi)."
+  }
+}

@@ -1,0 +1,73 @@
+{
+ "_aciklama": "Tohum -> ekin: yield (urun), count [min,max], hours (buyume oyun saati), water_per_day, seed_return (tohum geri donme olasiligi). tools/content_gen uretir.",
+ "tomato_seeds": {
+  "yield": "tomato",
+  "count": [
+   2,
+   4
+  ],
+  "hours": 48,
+  "water_per_day": 1.0,
+  "seed_return": 0.6
+ },
+ "pepper_seeds": {
+  "yield": "pepper",
+  "count": [
+   2,
+   4
+  ],
+  "hours": 48,
+  "water_per_day": 1.0,
+  "seed_return": 0.6
+ },
+ "bean_seeds": {
+  "yield": "beans_fresh",
+  "count": [
+   3,
+   5
+  ],
+  "hours": 60,
+  "water_per_day": 1.2,
+  "seed_return": 0.7
+ },
+ "potato_seeds": {
+  "yield": "potato",
+  "count": [
+   3,
+   6
+  ],
+  "hours": 72,
+  "water_per_day": 1.0,
+  "seed_return": 0.8
+ },
+ "wheat_seeds": {
+  "yield": "wheat",
+  "count": [
+   3,
+   6
+  ],
+  "hours": 96,
+  "water_per_day": 0.8,
+  "seed_return": 0.9
+ },
+ "herb_seeds": {
+  "yield": "herbs",
+  "count": [
+   2,
+   3
+  ],
+  "hours": 36,
+  "water_per_day": 0.8,
+  "seed_return": 0.5
+ },
+ "vegetable_seeds": {
+  "yield": "mixed_vegetables",
+  "count": [
+   2,
+   4
+  ],
+  "hours": 54,
+  "water_per_day": 1.0,
+  "seed_return": 0.5
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "_aciklama": "Gorev yer kimlikleri yeni sabit haritanin (yeni_istanbul) POI kimlikleridir. Eski haritalar icin: kimlik -> eski yer adi (places) ve gosterilen metnin geri cevirisi (text: [yeni, eski]).",
+ "maltepe_besiktas": {
+  "places": {
+   "rihtim_iskele": "Kadikoy iskele meydani",
+   "feneralti_burnu": "Moda burnu",
+   "liman_gari": "Haydarpasa gari",
+   "carsibasi_meydan": "Uskudar meydan",
+   "saraykapi_iskele": "Besiktas iskele",
+   "bademlik_sahil": "Caddebostan",
+   "kalebend_sahil": "Bostanci sahil",
+   "martikoy_sahil": "Maltepe sahil"
+  },
+  "text": [
+   [
+    "Martı Köprüsü",
+    "15 Temmuz Sehitler Koprusu"
+   ],
+   [
+    "Rıhtım'ın",
+    "Kadikoy'un"
+   ],
+   [
+    "Feneraltı'ndaki",
+    "Moda'daki"
+   ],
+   [
+    "Feneraltı'nda",
+    "Moda'da"
+   ],
+   [
+    "Bademlik'te",
+    "Caddebostan'da"
+   ],
+   [
+    "Çarşıbaşı'nda",
+    "Uskudar'da"
+   ],
+   [
+    "Saraykapı'daki",
+    "Besiktas'taki"
+   ],
+   [
+    "Kalebend'in bostanları eskiden bütün yakayı doyururdu.",
+    "Bostanci'nin adi bostandan gelir."
+   ],
+   [
+    "Kalebend karakolunun",
+    "Bostanci karakolunun"
+   ],
+   [
+    "Kalebend bostanı",
+    "Bostanci bostani"
+   ],
+   [
+    "batı yakasına",
+    "Avrupa yakasina"
+   ],
+   [
+    "batı yakasında",
+    "Avrupa yakasinda"
+   ],
+   [
+    "Su İdaresi'nde",
+    "ISKI'de"
+   ],
+   [
+    "Rıhtım İskele Meydanı",
+    "Kadikoy iskele meydani"
+   ],
+   [
+    "Martıköy sahili",
+    "Maltepe sahil"
+   ],
+   [
+    "Kalebend sahili",
+    "Bostanci sahil"
+   ],
+   [
+    "Çarşıbaşı meydanı",
+    "Uskudar meydan"
+   ],
+   [
+    "Liman",
+    "Haydarpasa"
+   ],
+   [
+    "Saraykapı",
+    "Besiktas"
+   ],
+   [
+    "Çarşıbaşı",
+    "Uskudar"
+   ],
+   [
+    "Bademlik",
+    "Caddebostan"
+   ],
+   [
+    "Feneraltı",
+    "Moda"
+   ],
+   [
+    "Rıhtım",
+    "Kadikoy"
+   ],
+   [
+    "Kalebend",
+    "Bostanci"
+   ],
+   [
+    "Martıköy",
+    "Maltepe"
+   ]
+  ]
+ },
+ "kadikoy": {
+  "places": {
+   "rihtim_iskele": "Kadikoy iskele meydani",
+   "feneralti_burnu": "Moda burnu",
+   "liman_gari": "Haydarpasa gari",
+   "carsibasi_meydan": "Uskudar meydan",
+   "saraykapi_iskele": "Besiktas iskele",
+   "bademlik_sahil": "Caddebostan",
+   "kalebend_sahil": "Bostanci sahil",
+   "martikoy_sahil": "Maltepe sahil"
+  },
+  "text": [
+   [
+    "Martı Köprüsü",
+    "15 Temmuz Sehitler Koprusu"
+   ],
+   [
+    "Rıhtım'ın",
+    "Kadikoy'un"
+   ],
+   [
+    "Feneraltı'ndaki",
+    "Moda'daki"
+   ],
+   [
+    "Feneraltı'nda",
+    "Moda'da"
+   ],
+   [
+    "Bademlik'te",
+    "Caddebostan'da"
+   ],
+   [
+    "Çarşıbaşı'nda",
+    "Uskudar'da"
+   ],
+   [
+    "Saraykapı'daki",
+    "Besiktas'taki"
+   ],
+   [
+    "Kalebend'in bostanları eskiden bütün yakayı doyururdu.",
+    "Bostanci'nin adi bostandan gelir."
+   ],
+   [
+    "Kalebend karakolunun",
+    "Bostanci karakolunun"
+   ],
+   [
+    "Kalebend bostanı",
+    "Bostanci bostani"
+   ],
+   [
+    "batı yakasına",
+    "Avrupa yakasina"
+   ],
+   [
+    "batı yakasında",
+    "Avrupa yakasinda"
+   ],
+   [
+    "Su İdaresi'nde",
+    "ISKI'de"
+   ],
+   [
+    "Rıhtım İskele Meydanı",
+    "Kadikoy iskele meydani"
+   ],
+   [
+    "Martıköy sahili",
+    "Maltepe sahil"
+   ],
+   [
+    "Kalebend sahili",
+    "Bostanci sahil"
+   ],
+   [
+    "Çarşıbaşı meydanı",
+    "Uskudar meydan"
+   ],
+   [
+    "Liman",
+    "Haydarpasa"
+   ],
+   [
+    "Saraykapı",
+    "Besiktas"
+   ],
+   [
+    "Çarşıbaşı",
+    "Uskudar"
+   ],
+   [
+    "Bademlik",
+    "Caddebostan"
+   ],
+   [
+    "Feneraltı",
+    "Moda"
+   ],
+   [
+    "Rıhtım",
+    "Kadikoy"
+   ],
+   [
+    "Kalebend",
+    "Bostanci"
+   ],
+   [
+    "Martıköy",
+    "Maltepe"
+   ]
+  ]
+ }
+}

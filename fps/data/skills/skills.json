@@ -1,0 +1,67 @@
+{
+  "marksmanship": {
+    "name": "Nisancilik",
+    "description": "Namluyu daha iyi tutarsin. Hasar artar, geri tepme azalir.",
+    "color": [214, 158, 62],
+    "effects": {
+      "weapon_damage": 0.07,
+      "weapon_spread": -0.10,
+      "weapon_reload": -0.06
+    }
+  },
+  "stealth": {
+    "name": "Gizlilik",
+    "description": "Sessiz hareket edersin. Yaydigin gurultu azalir, zombiler seni gec fark eder.",
+    "color": [120, 150, 190],
+    "effects": {
+      "noise_radius": -0.09,
+      "detection_range": -0.07
+    }
+  },
+  "scavenging": {
+    "name": "Toplayicilik",
+    "description": "Nerede ne aranacagini bilirsin. Arama hizlanir ve daha iyi mal cikar.",
+    "color": [186, 170, 96],
+    "effects": {
+      "search_speed": 0.10,
+      "loot_luck": 0.06,
+      "carry_capacity": 0.05
+    }
+  },
+  "repair": {
+    "name": "Tamir",
+    "description": "Elindeki alet daha uzun dayanir; sokup takmayi bilirsin.",
+    "color": [150, 140, 130],
+    "effects": {
+      "durability_loss": -0.09,
+      "craft_quality": 0.05
+    }
+  },
+  "medicine": {
+    "name": "Tip",
+    "description": "Yarayi dogru sararsin. Ilaclar daha cok iyilestirir, kanama ve enfeksiyon cabuk geper.",
+    "color": [180, 96, 96],
+    "effects": {
+      "healing": 0.14,
+      "status_resistance": 0.10
+    }
+  },
+  "construction": {
+    "name": "Insaat",
+    "description": "Kurdugun barikat daha saglam, daha ucuza cikar.",
+    "color": [140, 120, 88],
+    "effects": {
+      "structure_health": 0.12,
+      "build_speed": 0.08
+    }
+  },
+  "leadership": {
+    "name": "Liderlik",
+    "description": "Insanlar sana guvenir. Kolonideki moral tavani ve verim yukselir.",
+    "color": [190, 170, 210],
+    "effects": {
+      "colony_morale": 0.08,
+      "colony_output": 0.07
+    }
+  }
+}

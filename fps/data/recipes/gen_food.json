@@ -1,0 +1,1879 @@
+{
+ "r_lentil_soup": {
+  "name": "Mercimek Çorbası",
+  "output": "lentil_soup",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "lentil_bag",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Sıcak, doyurucu, bol su. (+22 tokluk, +14 su)"
+ },
+ "r_rice_pilaf": {
+  "name": "Pirinç Pilavı",
+  "output": "rice_pilaf",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "rice_bag",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Tereyağsız ama doyurucu pilav. (+30 tokluk, +0 su)"
+ },
+ "r_bulgur_pilaf": {
+  "name": "Domatesli Bulgur Pilavı",
+  "output": "bulgur_pilaf",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "dry_goods",
+    "count": 2
+   },
+   {
+    "item": "tomato",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Bulgur ve taze domates. (+28 tokluk, +4 su)"
+ },
+ "r_pasta_sauce": {
+  "name": "Salçalı Makarna",
+  "output": "pasta_sauce",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "pasta_pack",
+    "count": 1
+   },
+   {
+    "item": "tomato_paste",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Salça ve makarna: klasik. (+30 tokluk, +2 su)"
+ },
+ "r_flatbread": {
+  "name": "Bazlama",
+  "output": "flatbread",
+  "count": 4,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Sacda pişmiş ekmek: yolda yenir. (+18 tokluk, +0 su)"
+ },
+ "r_bread_loaf": {
+  "name": "Somun Ekmek",
+  "output": "bread_loaf",
+  "count": 5,
+  "station": "cooking",
+  "station_tier": 2,
+  "time": 12,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Fırında somun: uzun dayanır. (+20 tokluk, +0 su)"
+ },
+ "r_bean_stew": {
+  "name": "Kuru Fasulye",
+  "output": "bean_stew",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "beans_fresh",
+    "count": 3
+   },
+   {
+    "item": "tomato_paste",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Fasulye, salça, yağ: en doyurucu tencere. (+36 tokluk, +6 su)"
+ },
+ "r_potato_saute": {
+  "name": "Patates Kavurma",
+  "output": "potato_saute",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "potato",
+    "count": 3
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Yağda kızarmış patates. (+30 tokluk, +0 su)"
+ },
+ "r_baked_potato": {
+  "name": "Közde Patates",
+  "output": "baked_potato",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "potato",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Ateşin külünde pişer. (+22 tokluk, +2 su)"
+ },
+ "r_pepper_saute": {
+  "name": "Biberli Domates Sote",
+  "output": "pepper_saute",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "tomato",
+    "count": 2
+   },
+   {
+    "item": "pepper",
+    "count": 2
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Menemenin yumurtasız hali. (+22 tokluk, +10 su)"
+ },
+ "r_stuffed_pepper": {
+  "name": "Zeytinyağlı Biber Dolması",
+  "output": "stuffed_pepper",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 2,
+  "time": 12,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "pepper",
+    "count": 3
+   },
+   {
+    "item": "rice_bag",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Pirinç dolgulu biber: soğuk da yenir. (+32 tokluk, +4 su)"
+ },
+ "r_veg_stew": {
+  "name": "Sebze Yahnisi",
+  "output": "veg_stew",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "mixed_vegetables",
+    "count": 2
+   },
+   {
+    "item": "potato",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Sebze ve patates: iyileştirir. (+34 tokluk, +12 su)"
+ },
+ "r_tomato_soup": {
+  "name": "Domates Çorbası",
+  "output": "tomato_soup",
+  "count": 4,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "tomato",
+    "count": 3
+   },
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Hafif, bol sulu çorba. (+16 tokluk, +18 su)"
+ },
+ "r_fish_grilled": {
+  "name": "Izgara Balık",
+  "output": "fish_grilled",
+  "count": 1,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Tuzlu, közde. (+26 tokluk, +2 su)"
+ },
+ "r_fish_bread": {
+  "name": "Balık Ekmek",
+  "output": "fish_bread",
+  "count": 1,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 1
+   },
+   {
+    "item": "flatbread",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "İskele usulü: ekmek arası balık. Moral verir. (+40 tokluk, +2 su)"
+ },
+ "r_fish_soup": {
+  "name": "Balık Çorbası",
+  "output": "fish_soup",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 1
+   },
+   {
+    "item": "potato",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Balık, patates, su. (+24 tokluk, +16 su)"
+ },
+ "r_helva": {
+  "name": "Un Helvası",
+  "output": "helva",
+  "count": 4,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Şekerli, yağlı: hızlı toparlar. (+20 tokluk, +0 su)"
+ },
+ "r_compote": {
+  "name": "Hoşaf",
+  "output": "compote",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "dried_fruit",
+    "count": 2
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Kuru meyve şurubu. (+8 tokluk, +22 su)"
+ },
+ "r_tea_brewed": {
+  "name": "Demli Çay",
+  "output": "tea_brewed",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "tea_leaves",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "İnce belli bardakta: ayıltır, odaklar. (+0 tokluk, +12 su)"
+ },
+ "r_turkish_coffee": {
+  "name": "Türk Kahvesi",
+  "output": "turkish_coffee",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "coffee_beans",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Enerji ve odak. (+0 tokluk, +5 su)"
+ },
+ "r_gozleme": {
+  "name": "Patatesli Gözleme",
+  "output": "gozleme",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "potato",
+    "count": 2
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Hamur arası patates. (+34 tokluk, +0 su)"
+ },
+ "r_chickpea_stew": {
+  "name": "Nohut Yemeği",
+  "output": "chickpea_stew",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "chickpea_can",
+    "count": 2
+   },
+   {
+    "item": "tomato_paste",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Salçalı nohut. (+30 tokluk, +6 su)"
+ },
+ "r_tarhana": {
+  "name": "Tarhana Çorbası",
+  "output": "tarhana",
+  "count": 4,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "tomato_paste",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Un ve salça: kış çorbası. (+16 tokluk, +14 su)"
+ },
+ "r_grilled_veg": {
+  "name": "Közlenmiş Sebze",
+  "output": "grilled_veg",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "mixed_vegetables",
+    "count": 2
+   },
+   {
+    "item": "pepper",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Közlenmiş sebze ve biber. (+20 tokluk, +6 su)"
+ },
+ "r_potato_soup": {
+  "name": "Patates Çorbası",
+  "output": "potato_soup",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "potato",
+    "count": 3
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Sade, sıcak, tok tutar. (+20 tokluk, +14 su)"
+ },
+ "r_rice_soup": {
+  "name": "Yayla Çorbası",
+  "output": "rice_soup",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 2,
+  "time": 12,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "rice_bag",
+    "count": 1
+   },
+   {
+    "item": "herbs",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Pirinçli, naneli çorba: mideyi yatıştırır. (+18 tokluk, +14 su)"
+ },
+ "r_field_ration": {
+  "name": "Sahra Kumanyası",
+  "output": "field_ration",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Kumanya",
+  "inputs": [
+   {
+    "item": "flatbread",
+    "count": 2
+   },
+   {
+    "item": "dried_fruit",
+    "count": 1
+   },
+   {
+    "item": "preserved_meat",
+    "count": 1
+   }
+  ],
+  "description": "Bazlama, kuru meyve, kavurma: bozulmaz, tam bir öğün."
+ },
+ "r_energy_bar_home": {
+  "name": "Ev yapımı enerji barı",
+  "output": "energy_bar",
+  "count": 4,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Kumanya",
+  "inputs": [
+   {
+    "item": "dried_fruit",
+    "count": 2
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "flour_sack",
+    "count": 1
+   }
+  ],
+  "description": "Kuru meyve, şeker ve un preslenir."
+ },
+ "r_tomato_paste": {
+  "name": "Salça kaynatma",
+  "output": "tomato_paste",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 12,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Konserve",
+  "inputs": [
+   {
+    "item": "tomato",
+    "count": 4
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Domates güneşte ya da ocakta koyulaşır."
+ },
+ "r_vinegar": {
+  "name": "Sirke mayalama",
+  "output": "vinegar",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 16,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Fermente",
+  "inputs": [
+   {
+    "item": "dried_fruit",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 2
+   }
+  ],
+  "description": "Kuru meyve suyla mayalanır."
+ },
+ "r_pickles": {
+  "name": "Turşu",
+  "output": "pickles",
+  "count": 3,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 10,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Konserve",
+  "inputs": [
+   {
+    "item": "mixed_vegetables",
+    "count": 2
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "item": "vinegar",
+    "count": 1
+   }
+  ],
+  "description": "Tuz ve sirkeyle kurulmuş sebze: bozulmaz."
+ },
+ "r_jam": {
+  "name": "Reçel",
+  "output": "jam",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Konserve",
+  "inputs": [
+   {
+    "item": "dried_fruit",
+    "count": 2
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Şekerli meyve: bozulmaz, enerji verir."
+ },
+ "r_dried_tomato": {
+  "name": "Kuru Domates",
+  "output": "dried_tomato",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 10,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Kurutma",
+  "inputs": [
+   {
+    "item": "tomato",
+    "count": 3
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   }
+  ],
+  "description": "Güneşte kurutulmuş: hafif ve bozulmaz."
+ },
+ "r_smoked_fish": {
+  "name": "Tütsülenmiş Balık",
+  "output": "smoked_fish",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 2,
+  "time": 12,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Kurutma",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 2
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Tuz ve dumanla korunmuş balık."
+ },
+ "r_home_canning": {
+  "name": "Kavanoz konserve",
+  "output": "canned_food",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 2,
+  "time": 14,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Konserve",
+  "inputs": [
+   {
+    "item": "veg_stew",
+    "count": 2
+   },
+   {
+    "item": "bottle_empty",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Sıcak yahni kavanozlanır: yıllarca dayanır."
+ },
+ "r_water_ceramic": {
+  "name": "Seramik filtreyle arıtma",
+  "output": "water_bottle",
+  "count": 4,
+  "station": "water",
+  "station_tier": 2,
+  "time": 12,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Arıtma",
+  "inputs": [
+   {
+    "item": "water_dirty",
+    "count": 4
+   },
+   {
+    "item": "ceramic_filter",
+    "count": 1
+   }
+  ],
+  "description": "Seramik mum bakteriyi tutar; mum tükenir."
+ },
+ "r_water_sand": {
+  "name": "Kum filtresiyle arıtma",
+  "output": "water_bottle",
+  "count": 3,
+  "station": "water",
+  "station_tier": 1,
+  "time": 10,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Arıtma",
+  "inputs": [
+   {
+    "item": "water_dirty",
+    "count": 3
+   },
+   {
+    "item": "sand_filter_pack",
+    "count": 1
+   }
+  ],
+  "description": "Kum ve kömür katmanı."
+ },
+ "r_sea_salt": {
+  "name": "Deniz tuzu",
+  "output": "salt_pack",
+  "count": 1,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 16,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Tuz",
+  "inputs": [
+   {
+    "item": "water_dirty",
+    "count": 4
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 2
+   }
+  ],
+  "description": "Deniz suyu kaynatılıp kristallenir."
+ },
+ "r_water_pouch_fill": {
+  "name": "Su kesesi doldurma",
+  "output": "water_pouch",
+  "count": 4,
+  "station": "hands",
+  "time": 6,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Taşıma",
+  "inputs": [
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Temiz su hafif keselere bölünür."
+ },
+ "r_canister_fill": {
+  "name": "Bidon doldurma",
+  "output": "water_canister",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 8,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Taşıma",
+  "inputs": [
+   {
+    "item": "water_bottle",
+    "count": 5
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 2
+   }
+  ],
+  "description": "Beş şişe tek bidonda: depo için."
+ },
+ "r_compost": {
+  "name": "Kompost yapma",
+  "output": "compost",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 12,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Gübre",
+  "inputs": [
+   {
+    "item": "spoiled_food",
+    "count": 3
+   },
+   {
+    "item": "plant_fiber",
+    "count": 2
+   }
+  ],
+  "description": "Bozuk yemek boşa gitmez."
+ },
+ "r_fertilizer_mix": {
+  "name": "Gübre karışımı",
+  "output": "fertilizer",
+  "count": 3,
+  "station": "farming",
+  "station_tier": 2,
+  "time": 10,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Gübre",
+  "inputs": [
+   {
+    "item": "compost",
+    "count": 2
+   },
+   {
+    "item": "nitrate",
+    "count": 1
+   }
+  ],
+  "description": "Kompost ve nitrat: kimyada da kullanılır."
+ },
+ "r_bait": {
+  "name": "Yem hazırlama",
+  "output": "bait",
+  "count": 4,
+  "station": "hands",
+  "time": 3,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Balıkçılık",
+  "inputs": [
+   {
+    "item": "spoiled_food",
+    "count": 1
+   }
+  ],
+  "description": "Bozuk yemek balığın sevdiği şeydir."
+ },
+ "r_bait_bread": {
+  "name": "Hamur yemi",
+  "output": "bait",
+  "count": 6,
+  "station": "hands",
+  "time": 4,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Balıkçılık",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Un ve su topaklanır."
+ },
+ "r_seeds_tomato_seeds": {
+  "name": "Tohum ayıklama: Domates Tohumu",
+  "output": "tomato_seeds",
+  "count": 3,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Tohum",
+  "inputs": [
+   {
+    "item": "tomato",
+    "count": 1
+   }
+  ],
+  "description": "Hasattan tohum ayırıp yeniden ekersin."
+ },
+ "r_seeds_pepper_seeds": {
+  "name": "Tohum ayıklama: Biber Tohumu",
+  "output": "pepper_seeds",
+  "count": 3,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Tohum",
+  "inputs": [
+   {
+    "item": "pepper",
+    "count": 1
+   }
+  ],
+  "description": "Hasattan tohum ayırıp yeniden ekersin."
+ },
+ "r_seeds_bean_seeds": {
+  "name": "Tohum ayıklama: Fasulye Tohumu",
+  "output": "bean_seeds",
+  "count": 4,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Tohum",
+  "inputs": [
+   {
+    "item": "beans_fresh",
+    "count": 2
+   }
+  ],
+  "description": "Hasattan tohum ayırıp yeniden ekersin."
+ },
+ "r_seeds_potato_seeds": {
+  "name": "Tohum ayıklama: Tohumluk Patates",
+  "output": "potato_seeds",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Tohum",
+  "inputs": [
+   {
+    "item": "potato",
+    "count": 1
+   }
+  ],
+  "description": "Hasattan tohum ayırıp yeniden ekersin."
+ },
+ "r_seeds_wheat_seeds": {
+  "name": "Tohum ayıklama: Buğday Tohumu",
+  "output": "wheat_seeds",
+  "count": 4,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Tohum",
+  "inputs": [
+   {
+    "item": "wheat",
+    "count": 3
+   }
+  ],
+  "description": "Hasattan tohum ayırıp yeniden ekersin."
+ },
+ "r_seeds_herb_seeds": {
+  "name": "Tohum ayıklama: Şifalı Ot Tohumu",
+  "output": "herb_seeds",
+  "count": 3,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 6,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Tohum",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 2
+   }
+  ],
+  "description": "Hasattan tohum ayırıp yeniden ekersin."
+ },
+ "r_flour_mill": {
+  "name": "Un öğütme",
+  "output": "flour_sack",
+  "count": 1,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 12,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Değirmen",
+  "inputs": [
+   {
+    "item": "wheat",
+    "count": 4
+   }
+  ],
+  "description": "Buğday taşta öğütülür."
+ },
+ "r_planter_box": {
+  "name": "Saksı",
+  "output": "planter_box",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 14,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Ekim",
+  "inputs": [
+   {
+    "item": "wooden_frame",
+    "count": 1
+   },
+   {
+    "item": "clay",
+    "count": 2
+   }
+  ],
+  "description": "Tek ekimlik saksı: tohum ek, sula, hasat et (E)."
+ },
+ "r_raised_bed": {
+  "name": "Yükseltilmiş Yatak",
+  "output": "raised_bed",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 18,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Ekim",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "clay",
+    "count": 4
+   },
+   {
+    "item": "compost",
+    "count": 2
+   }
+  ],
+  "description": "Gübreli toprak: %25 hızlı büyür."
+ },
+ "r_farm_plot": {
+  "name": "Tarla Parseli",
+  "output": "farm_plot",
+  "count": 1,
+  "station": "hands",
+  "time": 14,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Ekim",
+  "inputs": [
+   {
+    "item": "clay",
+    "count": 6
+   },
+   {
+    "item": "fertilizer",
+    "count": 1
+   }
+  ],
+  "description": "Toprağa açılmış parsel: %10 hızlı."
+ },
+ "r_greenhouse_bed": {
+  "name": "Sera Yatağı",
+  "output": "greenhouse_bed",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 22,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Ekim",
+  "inputs": [
+   {
+    "item": "glass_pane",
+    "count": 2
+   },
+   {
+    "item": "wooden_frame",
+    "count": 2
+   },
+   {
+    "item": "clay",
+    "count": 4
+   },
+   {
+    "item": "compost",
+    "count": 2
+   }
+  ],
+  "description": "Cam örtülü yatak: %50 hızlı büyür.",
+  "learn": "level:8"
+ },
+ "r_rain_tarp": {
+  "name": "Brandalı Toplayıcı",
+  "output": "rain_tarp",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 14,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Toplama",
+  "inputs": [
+   {
+    "item": "canvas_sheet",
+    "count": 1
+   },
+   {
+    "item": "pvc_pipe",
+    "count": 1
+   },
+   {
+    "item": "wooden_frame",
+    "count": 1
+   }
+  ],
+  "description": "Üste kurulur: her gün 1-3 şişe kirli su toplar."
+ },
+ "r_rain_cistern": {
+  "name": "Katlanır Sarnıç",
+  "output": "rain_cistern",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 22,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Toplama",
+  "inputs": [
+   {
+    "item": "canvas_sheet",
+    "count": 2
+   },
+   {
+    "item": "tar",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   },
+   {
+    "item": "wood_beam",
+    "count": 2
+   }
+  ],
+  "description": "Her gün 3-7 şişe kirli su."
+ },
+ "r_solar_still": {
+  "name": "Güneş Damıtıcı",
+  "output": "solar_still",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 18,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Arıtma",
+  "inputs": [
+   {
+    "item": "glass_pane",
+    "count": 2
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 1
+   }
+  ],
+  "description": "Elektriksiz: üs deposundaki kirli sudan her gün 2 şişe temizler."
+ },
+ "r_sand_filter_barrel": {
+  "name": "Kum Filtreli Varil",
+  "output": "sand_filter_barrel",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 18,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Arıtma",
+  "inputs": [
+   {
+    "item": "water_tank_part",
+    "count": 1
+   },
+   {
+    "item": "sand_filter_pack",
+    "count": 2
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   }
+  ],
+  "description": "Her gün 4 şişe temizler; günde 1 kum filtre paketi harcar."
+ },
+ "r_water_tank_part": {
+  "name": "Tank gövdesi",
+  "output": "water_tank_part",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 8,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "plastic_sheet",
+    "count": 4
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   }
+  ],
+  "description": "Plastik levhalar kaynatılır."
+ },
+ "r_compost_bin": {
+  "name": "Kompost Kutusu",
+  "output": "compost_bin",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 14,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Gübre",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 4
+   },
+   {
+    "item": "nail",
+    "count": 6
+   }
+  ],
+  "description": "Her gün üs deposundaki 3 bozuk yemeği komposta çevirir."
+ },
+ "r_menemen_veg": {
+  "name": "Sebzeli Menemen",
+  "output": "menemen_veg",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "tomato",
+    "count": 2
+   },
+   {
+    "item": "pepper",
+    "count": 1
+   },
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Domates, biber: yumurtasız menemen."
+ },
+ "r_potato_salad": {
+  "name": "Patates Salatası",
+  "output": "potato_salad",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "potato",
+    "count": 2
+   },
+   {
+    "item": "herbs",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Haşlanmış patates, yeşillik."
+ },
+ "r_bean_salad": {
+  "name": "Piyaz",
+  "output": "bean_salad",
+  "count": 2,
+  "station": "hands",
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "beans_fresh",
+    "count": 2
+   },
+   {
+    "item": "vinegar",
+    "count": 1
+   }
+  ],
+  "description": "Fasulye, sirke, soğansız."
+ },
+ "r_pickled_fish": {
+  "name": "Lakerda",
+  "output": "pickled_fish",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 10,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Saklama",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 2
+   },
+   {
+    "item": "salt_pack",
+    "count": 1
+   }
+  ],
+  "description": "Tuzlanmış balık: aylarca dayanır."
+ },
+ "r_wheat_porridge": {
+  "name": "Buğday Lapası",
+  "output": "wheat_porridge",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "wheat",
+    "count": 3
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Buğday ve su: tok tutar."
+ },
+ "r_linden_tea": {
+  "name": "Ihlamur ve Adaçayı",
+  "output": "linden_tea",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "herbs",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Mideyi yatıştırır."
+ },
+ "r_rice_pudding": {
+  "name": "Sütlaç (sütsüz)",
+  "output": "rice_pudding",
+  "count": 3,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "rice_bag",
+    "count": 1
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Pirinç, şeker, su."
+ },
+ "r_fish_stew": {
+  "name": "Balık Buğulama",
+  "output": "fish_stew",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 1
+   },
+   {
+    "item": "tomato",
+    "count": 1
+   },
+   {
+    "item": "pepper",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Balık, domates, biber."
+ },
+ "r_simit": {
+  "name": "Simit",
+  "output": "simit",
+  "count": 4,
+  "station": "cooking",
+  "station_tier": 2,
+  "time": 12,
+  "category": "yemek",
+  "family": "food",
+  "subcategory": "Yemek",
+  "inputs": [
+   {
+    "item": "flour_sack",
+    "count": 1
+   },
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "water_bottle",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Susamsız ama simit."
+ },
+ "r_dried_pepper": {
+  "name": "Kurutulmuş Biber",
+  "output": "dried_pepper",
+  "count": 2,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 10,
+  "category": "saklama",
+  "family": "food",
+  "subcategory": "Saklama",
+  "inputs": [
+   {
+    "item": "pepper",
+    "count": 4
+   },
+   {
+    "item": "rope",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "İpe dizilip kurutulmuş biber: çok dayanır."
+ },
+ "rx_water_boil_pot": {
+  "name": "Tencerede su kaynatma",
+  "output": "water_bottle",
+  "count": 3,
+  "station": "hands",
+  "time": 10,
+  "category": "su",
+  "family": "food",
+  "subcategory": "Su",
+  "inputs": [
+   {
+    "item": "water_dirty",
+    "count": 3
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   },
+   {
+    "item": "cooking_pot",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Tencereyle ateşte: üç şişe birden."
+ },
+ "rx_flour_potato": {
+  "name": "Patates unu",
+  "output": "flour_sack",
+  "count": 1,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 10,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Değirmen",
+  "inputs": [
+   {
+    "item": "potato",
+    "count": 4
+   }
+  ],
+  "description": "Kurutulup dövülen patates: un yerine geçer."
+ },
+ "rx_compost_fiber": {
+  "name": "Lif kompostu",
+  "output": "compost",
+  "count": 1,
+  "station": "farming",
+  "station_tier": 1,
+  "time": 10,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Gübre",
+  "inputs": [
+   {
+    "item": "plant_fiber",
+    "count": 6
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Ot ve lif çürütülerek."
+ },
+ "rx_bait_fish": {
+  "name": "Balık artığı yemi",
+  "output": "bait",
+  "count": 6,
+  "station": "hands",
+  "time": 10,
+  "category": "tarim",
+  "family": "food",
+  "subcategory": "Balıkçılık",
+  "inputs": [
+   {
+    "item": "raw_fish",
+    "count": 1
+   }
+  ],
+  "description": "Bir balık, altı yem."
+ }
+}

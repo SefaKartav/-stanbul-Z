@@ -1,0 +1,2303 @@
+{
+ "bp_frame_block": {
+  "name": "İskelet blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_block"
+ },
+ "bp_frame_wall2": {
+  "name": "İskelet duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_wall2"
+ },
+ "bp_frame_wall3": {
+  "name": "İskelet duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_wall3"
+ },
+ "bp_frame_floor2": {
+  "name": "İskelet döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_floor2"
+ },
+ "bp_frame_floor3": {
+  "name": "İskelet döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_floor3"
+ },
+ "bp_frame_pillar": {
+  "name": "İskelet kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_pillar"
+ },
+ "bp_frame_corner": {
+  "name": "İskelet köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_corner"
+ },
+ "bp_frame_doorway": {
+  "name": "İskelet kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_doorway"
+ },
+ "bp_frame_window": {
+  "name": "İskelet pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_window"
+ },
+ "bp_frame_slit": {
+  "name": "İskelet mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_slit"
+ },
+ "bp_frame_parapet": {
+  "name": "İskelet siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet (60 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_parapet"
+ },
+ "bp_frame_half": {
+  "name": "İskelet yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_half"
+ },
+ "bp_frame_lowcover": {
+  "name": "İskelet alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_lowcover"
+ },
+ "bp_frame_stairs": {
+  "name": "İskelet merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_stairs"
+ },
+ "bp_frame_ramp": {
+  "name": "İskelet araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "İskelet: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "frame_ramp"
+ },
+ "upgrade_frame_wood": {
+  "name": "Ahşap kaplama kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan i̇skelet bloğunu ahşap yapar (60 → 220 HP).",
+  "quality": false
+ },
+ "bp_wood_block": {
+  "name": "Ahşap blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_block"
+ },
+ "bp_wood_wall2": {
+  "name": "Ahşap duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_wall2"
+ },
+ "bp_wood_wall3": {
+  "name": "Ahşap duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_wall3"
+ },
+ "bp_wood_floor2": {
+  "name": "Ahşap döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_floor2"
+ },
+ "bp_wood_floor3": {
+  "name": "Ahşap döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_floor3"
+ },
+ "bp_wood_pillar": {
+  "name": "Ahşap kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_pillar"
+ },
+ "bp_wood_corner": {
+  "name": "Ahşap köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_corner"
+ },
+ "bp_wood_doorway": {
+  "name": "Ahşap kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_doorway"
+ },
+ "bp_wood_window": {
+  "name": "Ahşap pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_window"
+ },
+ "bp_wood_slit": {
+  "name": "Ahşap mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_slit"
+ },
+ "bp_wood_parapet": {
+  "name": "Ahşap siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap (220 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_parapet"
+ },
+ "bp_wood_half": {
+  "name": "Ahşap yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_half"
+ },
+ "bp_wood_lowcover": {
+  "name": "Ahşap alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_lowcover"
+ },
+ "bp_wood_stairs": {
+  "name": "Ahşap merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_stairs"
+ },
+ "bp_wood_ramp": {
+  "name": "Ahşap araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "wood_ramp"
+ },
+ "upgrade_wood_woodr": {
+  "name": "Ahşap güçlendirme kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan ahşap bloğunu güçlendirilmiş ahşap yapar (220 → 420 HP).",
+  "quality": false
+ },
+ "bp_woodr_block": {
+  "name": "Güçlendirilmiş ahşap blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_block"
+ },
+ "bp_woodr_wall2": {
+  "name": "Güçlendirilmiş ahşap duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_wall2"
+ },
+ "bp_woodr_wall3": {
+  "name": "Güçlendirilmiş ahşap duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_wall3"
+ },
+ "bp_woodr_floor2": {
+  "name": "Güçlendirilmiş ahşap döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_floor2"
+ },
+ "bp_woodr_floor3": {
+  "name": "Güçlendirilmiş ahşap döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_floor3"
+ },
+ "bp_woodr_pillar": {
+  "name": "Güçlendirilmiş ahşap kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_pillar"
+ },
+ "bp_woodr_corner": {
+  "name": "Güçlendirilmiş ahşap köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_corner"
+ },
+ "bp_woodr_doorway": {
+  "name": "Güçlendirilmiş ahşap kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_doorway"
+ },
+ "bp_woodr_window": {
+  "name": "Güçlendirilmiş ahşap pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_window"
+ },
+ "bp_woodr_slit": {
+  "name": "Güçlendirilmiş ahşap mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_slit"
+ },
+ "bp_woodr_parapet": {
+  "name": "Güçlendirilmiş ahşap siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap (420 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_parapet"
+ },
+ "bp_woodr_half": {
+  "name": "Güçlendirilmiş ahşap yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_half"
+ },
+ "bp_woodr_lowcover": {
+  "name": "Güçlendirilmiş ahşap alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_lowcover"
+ },
+ "bp_woodr_stairs": {
+  "name": "Güçlendirilmiş ahşap merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_stairs"
+ },
+ "bp_woodr_ramp": {
+  "name": "Güçlendirilmiş ahşap araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Güçlendirilmiş ahşap: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "woodr_ramp"
+ },
+ "upgrade_woodr_brick": {
+  "name": "Tuğla örme kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan güçlendirilmiş ahşap bloğunu tuğla yapar (420 → 700 HP).",
+  "quality": false
+ },
+ "bp_scrap_block": {
+  "name": "Hurda sac blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_block"
+ },
+ "bp_scrap_wall2": {
+  "name": "Hurda sac duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_wall2"
+ },
+ "bp_scrap_wall3": {
+  "name": "Hurda sac duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_wall3"
+ },
+ "bp_scrap_floor2": {
+  "name": "Hurda sac döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_floor2"
+ },
+ "bp_scrap_floor3": {
+  "name": "Hurda sac döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_floor3"
+ },
+ "bp_scrap_pillar": {
+  "name": "Hurda sac kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_pillar"
+ },
+ "bp_scrap_corner": {
+  "name": "Hurda sac köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_corner"
+ },
+ "bp_scrap_doorway": {
+  "name": "Hurda sac kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_doorway"
+ },
+ "bp_scrap_window": {
+  "name": "Hurda sac pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_window"
+ },
+ "bp_scrap_slit": {
+  "name": "Hurda sac mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_slit"
+ },
+ "bp_scrap_parapet": {
+  "name": "Hurda sac siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac (500 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_parapet"
+ },
+ "bp_scrap_half": {
+  "name": "Hurda sac yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_half"
+ },
+ "bp_scrap_lowcover": {
+  "name": "Hurda sac alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_lowcover"
+ },
+ "bp_scrap_stairs": {
+  "name": "Hurda sac merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_stairs"
+ },
+ "bp_scrap_ramp": {
+  "name": "Hurda sac araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hurda sac: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "scrap_ramp"
+ },
+ "upgrade_scrap_steel": {
+  "name": "Çelik kaplama kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan hurda sac bloğunu çelik yapar (500 → 3000 HP).",
+  "quality": false
+ },
+ "bp_brick_block": {
+  "name": "Tuğla blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_block"
+ },
+ "bp_brick_wall2": {
+  "name": "Tuğla duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_wall2"
+ },
+ "bp_brick_wall3": {
+  "name": "Tuğla duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_wall3"
+ },
+ "bp_brick_floor2": {
+  "name": "Tuğla döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_floor2"
+ },
+ "bp_brick_floor3": {
+  "name": "Tuğla döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_floor3"
+ },
+ "bp_brick_pillar": {
+  "name": "Tuğla kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_pillar"
+ },
+ "bp_brick_corner": {
+  "name": "Tuğla köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_corner"
+ },
+ "bp_brick_doorway": {
+  "name": "Tuğla kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_doorway"
+ },
+ "bp_brick_window": {
+  "name": "Tuğla pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_window"
+ },
+ "bp_brick_slit": {
+  "name": "Tuğla mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_slit"
+ },
+ "bp_brick_parapet": {
+  "name": "Tuğla siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla (700 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_parapet"
+ },
+ "bp_brick_half": {
+  "name": "Tuğla yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_half"
+ },
+ "bp_brick_lowcover": {
+  "name": "Tuğla alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_lowcover"
+ },
+ "bp_brick_stairs": {
+  "name": "Tuğla merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_stairs"
+ },
+ "bp_brick_ramp": {
+  "name": "Tuğla araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tuğla: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_ramp"
+ },
+ "upgrade_brick_concrete": {
+  "name": "Beton döküm kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan tuğla bloğunu beton yapar (700 → 1300 HP).",
+  "quality": false
+ },
+ "bp_stone_block": {
+  "name": "Kesme taş blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_block"
+ },
+ "bp_stone_wall2": {
+  "name": "Kesme taş duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_wall2"
+ },
+ "bp_stone_wall3": {
+  "name": "Kesme taş duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_wall3"
+ },
+ "bp_stone_floor2": {
+  "name": "Kesme taş döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_floor2"
+ },
+ "bp_stone_floor3": {
+  "name": "Kesme taş döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_floor3"
+ },
+ "bp_stone_pillar": {
+  "name": "Kesme taş kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_pillar"
+ },
+ "bp_stone_corner": {
+  "name": "Kesme taş köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_corner"
+ },
+ "bp_stone_doorway": {
+  "name": "Kesme taş kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_doorway"
+ },
+ "bp_stone_window": {
+  "name": "Kesme taş pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_window"
+ },
+ "bp_stone_slit": {
+  "name": "Kesme taş mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_slit"
+ },
+ "bp_stone_parapet": {
+  "name": "Kesme taş siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş (900 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_parapet"
+ },
+ "bp_stone_half": {
+  "name": "Kesme taş yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_half"
+ },
+ "bp_stone_lowcover": {
+  "name": "Kesme taş alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_lowcover"
+ },
+ "bp_stone_stairs": {
+  "name": "Kesme taş merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_stairs"
+ },
+ "bp_stone_ramp": {
+  "name": "Kesme taş araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kesme taş: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_ramp"
+ },
+ "upgrade_stone_concrete": {
+  "name": "Taş üstü beton kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan kesme taş bloğunu beton yapar (900 → 1300 HP).",
+  "quality": false
+ },
+ "bp_concrete_block": {
+  "name": "Beton blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_block"
+ },
+ "bp_concrete_wall2": {
+  "name": "Beton duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_wall2"
+ },
+ "bp_concrete_wall3": {
+  "name": "Beton duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_wall3"
+ },
+ "bp_concrete_floor2": {
+  "name": "Beton döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_floor2"
+ },
+ "bp_concrete_floor3": {
+  "name": "Beton döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_floor3"
+ },
+ "bp_concrete_pillar": {
+  "name": "Beton kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_pillar"
+ },
+ "bp_concrete_corner": {
+  "name": "Beton köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_corner"
+ },
+ "bp_concrete_doorway": {
+  "name": "Beton kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_doorway"
+ },
+ "bp_concrete_window": {
+  "name": "Beton pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_window"
+ },
+ "bp_concrete_slit": {
+  "name": "Beton mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_slit"
+ },
+ "bp_concrete_parapet": {
+  "name": "Beton siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton (1300 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_parapet"
+ },
+ "bp_concrete_half": {
+  "name": "Beton yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_half"
+ },
+ "bp_concrete_lowcover": {
+  "name": "Beton alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_lowcover"
+ },
+ "bp_concrete_stairs": {
+  "name": "Beton merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_stairs"
+ },
+ "bp_concrete_ramp": {
+  "name": "Beton araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Beton: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_ramp"
+ },
+ "upgrade_concrete_rconcrete": {
+  "name": "Betonarme kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan beton bloğunu betonarme yapar (1300 → 2000 HP).",
+  "quality": false
+ },
+ "bp_rconcrete_block": {
+  "name": "Betonarme blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_block"
+ },
+ "bp_rconcrete_wall2": {
+  "name": "Betonarme duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_wall2"
+ },
+ "bp_rconcrete_wall3": {
+  "name": "Betonarme duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_wall3"
+ },
+ "bp_rconcrete_floor2": {
+  "name": "Betonarme döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_floor2"
+ },
+ "bp_rconcrete_floor3": {
+  "name": "Betonarme döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_floor3"
+ },
+ "bp_rconcrete_pillar": {
+  "name": "Betonarme kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_pillar"
+ },
+ "bp_rconcrete_corner": {
+  "name": "Betonarme köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_corner"
+ },
+ "bp_rconcrete_doorway": {
+  "name": "Betonarme kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_doorway"
+ },
+ "bp_rconcrete_window": {
+  "name": "Betonarme pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_window"
+ },
+ "bp_rconcrete_slit": {
+  "name": "Betonarme mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_slit"
+ },
+ "bp_rconcrete_parapet": {
+  "name": "Betonarme siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme (2000 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_parapet"
+ },
+ "bp_rconcrete_half": {
+  "name": "Betonarme yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_half"
+ },
+ "bp_rconcrete_lowcover": {
+  "name": "Betonarme alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_lowcover"
+ },
+ "bp_rconcrete_stairs": {
+  "name": "Betonarme merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_stairs"
+ },
+ "bp_rconcrete_ramp": {
+  "name": "Betonarme araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Betonarme: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "rconcrete_ramp"
+ },
+ "upgrade_rconcrete_steel": {
+  "name": "Çelik zırh kiti",
+  "category": "material",
+  "tier": 2,
+  "stack": 20,
+  "weight": 1.5,
+  "value": 12,
+  "tags": [
+   "upgrade_kit"
+  ],
+  "description": "İnşa kipinde (B) \"Yükselt\": bakılan betonarme bloğunu çelik yapar (2000 → 3000 HP).",
+  "quality": false
+ },
+ "bp_steel_block": {
+  "name": "Çelik blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Tek blok. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_block"
+ },
+ "bp_steel_wall2": {
+  "name": "Çelik duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): 2×2 duvar: tek hamlede dört blok. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_wall2"
+ },
+ "bp_steel_wall3": {
+  "name": "Çelik duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): 3×3 duvar: bir sokak ağzının bir parçası. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_wall3"
+ },
+ "bp_steel_floor2": {
+  "name": "Çelik döşeme 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Yatay döşeme: kat, köprü, çatı. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_floor2"
+ },
+ "bp_steel_floor3": {
+  "name": "Çelik döşeme 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Geniş döşeme. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_floor3"
+ },
+ "bp_steel_pillar": {
+  "name": "Çelik kolon",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): 3 m taşıyıcı kolon: döşemeye destek olur. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_pillar"
+ },
+ "bp_steel_corner": {
+  "name": "Çelik köşe",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.8,
+  "value": 24,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): L biçimli köşe: iki duvarı bağlar. (6 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_corner"
+ },
+ "bp_steel_doorway": {
+  "name": "Çelik kapı boşluğu",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Ortası açık 3×3 duvar: kapı parçası buraya takılır. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_doorway"
+ },
+ "bp_steel_window": {
+  "name": "Çelik pencereli duvar",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Ortası cam: içerisi görülür, mermi ve zombi geçmez (cam kırılabilir). (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_window"
+ },
+ "bp_steel_slit": {
+  "name": "Çelik mazgal",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Tek hücrelik atış deliği: sen ateş edersin, zombi sığmaz. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_slit"
+ },
+ "bp_steel_parapet": {
+  "name": "Çelik siper",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik (3000 HP/blok): Alt sıra dolu, üst sıra seyrek: arkasında çömelip ateş. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_parapet"
+ },
+ "bp_steel_half": {
+  "name": "Çelik yarım blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik: 0,5 m blok: basamak, set, alçak siper. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_half"
+ },
+ "bp_steel_lowcover": {
+  "name": "Çelik alçak siper",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik: 0,5 m yüksek 3 blok: üstünden ateş, arkasında çömel. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_lowcover"
+ },
+ "bp_steel_stairs": {
+  "name": "Çelik merdiven",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 7.4,
+  "value": 32,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik: 0,5 m basamaklar: yürüyerek bir kat çıkılır. (8 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_stairs"
+ },
+ "bp_steel_ramp": {
+  "name": "Çelik araç rampası",
+  "category": "building",
+  "tier": 4,
+  "stack": 5,
+  "weight": 10.6,
+  "value": 48,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik: 3 geniş, 0,5 m basamaklı: araç ve yaya çıkar. (12 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "steel_ramp"
+ },
+ "bp_glass_reinforced_block": {
+  "name": "Takviyeli cam blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Takviyeli cam: görüş açık; mermiye ve zombiye dayanıklı cam. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "glass_reinforced_block"
+ },
+ "bp_glass_reinforced_wall2": {
+  "name": "Takviyeli cam duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Takviyeli cam: görüş açık; mermiye ve zombiye dayanıklı cam. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "glass_reinforced_wall2"
+ },
+ "bp_glass_reinforced_wall3": {
+  "name": "Takviyeli cam duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Takviyeli cam: görüş açık; mermiye ve zombiye dayanıklı cam. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "glass_reinforced_wall3"
+ },
+ "bp_bars_block": {
+  "name": "Demir parmaklık blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Demir parmaklık: görüş açık; mermi aradan geçer, zombi geçemez. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "bars_block"
+ },
+ "bp_bars_wall2": {
+  "name": "Demir parmaklık duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Demir parmaklık: görüş açık; mermi aradan geçer, zombi geçemez. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "bars_wall2"
+ },
+ "bp_bars_wall3": {
+  "name": "Demir parmaklık duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Demir parmaklık: görüş açık; mermi aradan geçer, zombi geçemez. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "bars_wall3"
+ },
+ "bp_mesh_block": {
+  "name": "Tel örgü blok",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tel örgü: görüş açık; ucuz çit; ok ve mermi geçer, zombi geçemez. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "mesh_block"
+ },
+ "bp_mesh_wall2": {
+  "name": "Tel örgü duvar 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tel örgü: görüş açık; ucuz çit; ok ve mermi geçer, zombi geçemez. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "mesh_wall2"
+ },
+ "bp_mesh_wall3": {
+  "name": "Tel örgü duvar 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tel örgü: görüş açık; ucuz çit; ok ve mermi geçer, zombi geçemez. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "mesh_wall3"
+ },
+ "bp_door_wood": {
+  "name": "Ahşap kapı",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 2.6,
+  "value": 8,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Hafif kapı: çabuk kırılır. E ile açılıp kapanır. (2 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "door_wood"
+ },
+ "bp_door_reinforced": {
+  "name": "Takviyeli ahşap kapı",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 2.6,
+  "value": 8,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Köşebentli kapı. E ile açılıp kapanır. (2 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "door_reinforced"
+ },
+ "bp_door_metal": {
+  "name": "Sac kapı",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 2.6,
+  "value": 8,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Sac kaplı kapı. E ile açılıp kapanır. (2 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "door_metal"
+ },
+ "bp_door_steel": {
+  "name": "Çelik kapı",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 2.6,
+  "value": 8,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ağır çelik kapı: sürüye uzun dayanır. E ile açılıp kapanır. (2 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "door_steel"
+ },
+ "bp_gate_wood": {
+  "name": "Ahşap avlu kapısı",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "2×2 çift kanat: el arabası ve kalabalık geçer. E ile açılıp kapanır. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "gate_wood"
+ },
+ "bp_gate_steel": {
+  "name": "Çelik bahçe kapısı",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "2×2 çelik kapı. E ile açılıp kapanır. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "gate_steel"
+ },
+ "bp_garage_door": {
+  "name": "Çelik garaj kapısı",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "3×3: araç girer, kapanınca kale. E ile açılıp kapanır. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "garage_door"
+ },
+ "bp_hatch_wood": {
+  "name": "Ahşap kapak",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Döşemeye takılan kapak: çatı ve bodrum girişi. E ile açılıp kapanır. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "hatch_wood"
+ },
+ "bp_hatch_steel": {
+  "name": "Çelik kapak",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çelik döşeme kapağı. E ile açılıp kapanır. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "hatch_steel"
+ },
+ "bp_shutter_steel": {
+  "name": "Çelik kepenk",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 1.8,
+  "value": 4,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Pencereye takılan açılır kepenk. E ile açılıp kapanır. (1 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "shutter_steel"
+ },
+ "bp_roof_tile_roof2": {
+  "name": "Kiremit çatı 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kiremit çatı: yağmuru keser, yukarıdan geleni durdurur. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "roof_tile_roof2"
+ },
+ "bp_roof_tile_roof3": {
+  "name": "Kiremit çatı 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Kiremit çatı: yağmuru keser, yukarıdan geleni durdurur. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "roof_tile_roof3"
+ },
+ "bp_roof_sheet_roof2": {
+  "name": "Sac çatı 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Sac çatı: yağmuru keser, yukarıdan geleni durdurur. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "roof_sheet_roof2"
+ },
+ "bp_roof_sheet_roof3": {
+  "name": "Sac çatı 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Sac çatı: yağmuru keser, yukarıdan geleni durdurur. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "roof_sheet_roof3"
+ },
+ "bp_roof_shingle_roof2": {
+  "name": "Ahşap kiremit çatı 2×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap kiremit çatı: yağmuru keser, yukarıdan geleni durdurur. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "roof_shingle_roof2"
+ },
+ "bp_roof_shingle_roof3": {
+  "name": "Ahşap kiremit çatı 3×3",
+  "category": "building",
+  "tier": 3,
+  "stack": 5,
+  "weight": 8.2,
+  "value": 36,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Ahşap kiremit çatı: yağmuru keser, yukarıdan geleni durdurur. (9 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "roof_shingle_roof3"
+ },
+ "bp_ladder_wood3": {
+  "name": "Ahşap merdiven (3 m)",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "ladder_wood3"
+ },
+ "bp_ladder_wood5": {
+  "name": "Ahşap merdiven (5 m)",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "ladder_wood5"
+ },
+ "bp_ladder_steel3": {
+  "name": "Çelik merdiven (3 m)",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "ladder_steel3"
+ },
+ "bp_ladder_steel5": {
+  "name": "Çelik merdiven (5 m)",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 5.0,
+  "value": 20,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Dikey tırmanma merdiveni: çatıya ya da kuleye. (5 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "ladder_steel5"
+ },
+ "bp_watch_platform": {
+  "name": "Gözetleme platformu",
+  "category": "building",
+  "tier": 5,
+  "stack": 5,
+  "weight": 17.8,
+  "value": 84,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Dört kolonlu 3×3 yüksek platform: kuşatmada ateş noktası. (21 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "watch_platform"
+ },
+ "bp_plank_bridge": {
+  "name": "Kalas köprü (4 m)",
+  "category": "building",
+  "tier": 2,
+  "stack": 10,
+  "weight": 4.2,
+  "value": 16,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "4 m kalas geçit: iki çatı arası köprü. (4 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "plank_bridge"
+ },
+ "bp_brick_arch": {
+  "name": "Tuğla kemer",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tarihî kemerli geçit: kapı boşluğu gibi, daha sağlam taç. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "brick_arch"
+ },
+ "bp_stone_arch": {
+  "name": "Kesme taş kemer",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 6.6,
+  "value": 28,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Tarihî kemerli geçit: kapı boşluğu gibi, daha sağlam taç. (7 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "stone_arch"
+ },
+ "bp_railing_steel": {
+  "name": "Çelik korkuluk 3 m",
+  "category": "building",
+  "tier": 1,
+  "stack": 10,
+  "weight": 3.4,
+  "value": 12,
+  "tags": [
+   "building_piece"
+  ],
+  "description": "Çatı ve platform kenarı: düşmeyi önler, mermi geçer. (3 hücre) İnşa kipinde (B) yerleştirilir.",
+  "build": "railing_steel"
+ }
+}

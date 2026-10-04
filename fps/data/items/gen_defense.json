@@ -1,0 +1,602 @@
+{
+ "trap_wood_spikes": {
+  "name": "Ahşap Kazık Hattı",
+  "category": "station",
+  "tier": 1,
+  "stack": 6,
+  "weight": 3.0,
+  "value": 40,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Sivri kazıklar: sessiz, ucuz, çabuk tükenir. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 14,
+   "uses": 10
+  }
+ },
+ "trap_steel_spikes": {
+  "name": "Çelik Kazık Hattı",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 120,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Kaynaklı çelik şişler. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 26,
+   "uses": 24
+  }
+ },
+ "trap_barbed_wire": {
+  "name": "Dikenli Tel Engeli",
+  "category": "station",
+  "tier": 1,
+  "stack": 6,
+  "weight": 2.5,
+  "value": 50,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Zombileri %50 yavaşlatır ve hafif yaralar. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 4,
+   "uses": 40
+  }
+ },
+ "trap_razor_wire": {
+  "name": "Jiletli Tel",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 3.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Jiletli sarma: %65 yavaşlatır, keser. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 10,
+   "uses": 40
+  }
+ },
+ "trap_bear": {
+  "name": "Ayı Kapanı",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 4.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Bacağı kıskaca alır: ağır hasar, zombi neredeyse durur. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 45,
+   "uses": 3
+  }
+ },
+ "trap_blade": {
+  "name": "Döner Bıçak Tuzağı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 12.0,
+  "value": 240,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Motorlu bıçaklar: ELEKTRİK ister (40 W). İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 35,
+   "uses": 30
+  }
+ },
+ "trap_dart": {
+  "name": "Ok Tuzağı",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 4.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Tetik teline basan zombiye yaylı ok. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 30,
+   "uses": 12
+  }
+ },
+ "trap_flame": {
+  "name": "Alev Tuzağı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Tetiklenince yakıt püskürtür ve tutuşturur. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 22,
+   "uses": 15
+  }
+ },
+ "trap_electric_fence": {
+  "name": "Elektrikli Çit",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 8.0,
+  "value": 180,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Sürekli çarpar: ELEKTRİK ister (80 W). Sensörlü ağda yalnızca tetiklenince çeker. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 18,
+   "uses": 999
+  }
+ },
+ "trap_shock_floor": {
+  "name": "Elektrikli Zemin",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Metal ızgaraya akım: geniş alanı çarpar (50 W). İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 12,
+   "uses": 999
+  }
+ },
+ "trap_landmine": {
+  "name": "Kara Mayını",
+  "category": "station",
+  "tier": 4,
+  "stack": 6,
+  "weight": 1.5,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Üstüne basınca patlar: geniş alan, blok da kırar. Tek kullanımlık. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 150,
+   "uses": 1
+  }
+ },
+ "trap_pipe_mine": {
+  "name": "Boru Mayını",
+  "category": "station",
+  "tier": 3,
+  "stack": 6,
+  "weight": 1.5,
+  "value": 120,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "El yapımı mayın: boru, barut, çivi. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 90,
+   "uses": 1
+  }
+ },
+ "trap_tar_pit": {
+  "name": "Katran Çukuru",
+  "category": "station",
+  "tier": 1,
+  "stack": 2,
+  "weight": 5.0,
+  "value": 40,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Yapışkan zift: zombiler %75 yavaşlar. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 0,
+   "uses": 60
+  }
+ },
+ "trap_punji_pit": {
+  "name": "Kazıklı Çukur",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 4.0,
+  "value": 70,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Kamufle çukur: düşen zombi yaralanır ve takılır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 30,
+   "uses": 8
+  }
+ },
+ "turret_12ga": {
+  "name": "Pompalı Taret",
+  "category": "station",
+  "tier": 4,
+  "stack": 2,
+  "weight": 14.0,
+  "value": 700,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Yakın mesafe: kalabalığı durdurur. 12 kalibre harcar. Şarjörü E ile doldur; boşsa üs deposundan alır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 34,
+   "fire_rate": 1.2,
+   "range": 180
+  }
+ },
+ "turret_762": {
+  "name": "Tüfek Tareti",
+  "category": "station",
+  "tier": 5,
+  "stack": 2,
+  "weight": 16.0,
+  "value": 950,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Uzun menzil, deler. 7.62 harcar. Şarjörü E ile doldur; boşsa üs deposundan alır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 46,
+   "fire_rate": 1.4,
+   "range": 520
+  }
+ },
+ "turret_dart": {
+  "name": "Arbalet Tareti",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 10.0,
+  "value": 380,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Neredeyse SESSİZ taret: arbalet oku harcar. Şarjörü E ile doldur; boşsa üs deposundan alır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 30,
+   "fire_rate": 1.0,
+   "range": 260
+  }
+ },
+ "turret_smg": {
+  "name": "Makineli Taret",
+  "category": "station",
+  "tier": 4,
+  "stack": 2,
+  "weight": 12.0,
+  "value": 620,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Hızlı atar, çabuk bitirir. 9mm harcar. Şarjörü E ile doldur; boşsa üs deposundan alır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 12,
+   "fire_rate": 6.0,
+   "range": 280
+  }
+ },
+ "turret_tesla": {
+  "name": "Tesla Bobini",
+  "category": "station",
+  "tier": 5,
+  "stack": 2,
+  "weight": 20.0,
+  "value": 1200,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Mermisiz: ELEKTRİK ile çarpar (250 W). Güçlü ağ ister. Şarjörü E ile doldur; boşsa üs deposundan alır. İnşa kipinde (B) kurulur.",
+  "effects": {
+   "damage": 22,
+   "fire_rate": 2.0,
+   "range": 120
+  }
+ },
+ "alarm_tripwire": {
+  "name": "Teneke Alarmı",
+  "category": "station",
+  "tier": 1,
+  "stack": 6,
+  "weight": 1.0,
+  "value": 15,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Tele takılan zombi teneke şıngırdatır: uyarı + dikkat çeken ses. İnşa kipinde (B) kurulur."
+ },
+ "alarm_bell": {
+  "name": "Çan Alarmı",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 3.0,
+  "value": 40,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Menzilde zombi: çan çalar. Koloni uyanır, sürü de duyar. İnşa kipinde (B) kurulur."
+ },
+ "alarm_siren": {
+  "name": "Elektrikli Siren",
+  "category": "station",
+  "tier": 3,
+  "stack": 6,
+  "weight": 4.0,
+  "value": 120,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Geniş menzil, çok gürültülü (20 W). İnşa kipinde (B) kurulur."
+ },
+ "alarm_silent": {
+  "name": "Sessiz Hareket Alarmı",
+  "category": "station",
+  "tier": 3,
+  "stack": 6,
+  "weight": 2.0,
+  "value": 140,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Yalnızca sana haber verir: ses yok (5 W). İnşa kipinde (B) kurulur."
+ },
+ "decoy_radio": {
+  "name": "Radyo Yemi",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 3.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Aralıklı müzik: zombileri üssünden uzağa toplar (10 W). İnşa kipinde (B) kurulur."
+ },
+ "decoy_clockwork": {
+  "name": "Kurmalı Yem",
+  "category": "station",
+  "tier": 1,
+  "stack": 6,
+  "weight": 2.0,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Yaylı saat mekanizması: elektrik istemez. İnşa kipinde (B) kurulur."
+ },
+ "bp_sandbag_1": {
+  "name": "Kum torbası",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 1.5,
+  "value": 6,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Kurşun tutan tek torba. İnşa kipinde (B) yerleştirilir.",
+  "build": "sandbag_1"
+ },
+ "bp_sandbag_wall": {
+  "name": "Kum torbası duvarı 3×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.5,
+  "value": 18,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Diz boyu siper hattı. İnşa kipinde (B) yerleştirilir.",
+  "build": "sandbag_wall"
+ },
+ "bp_sandbag_bunker": {
+  "name": "Kum torbası mevzisi",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 12.0,
+  "value": 48,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "L biçimli 2 kat mevzi. İnşa kipinde (B) yerleştirilir.",
+  "build": "sandbag_bunker"
+ },
+ "bp_concrete_barrier": {
+  "name": "Beton bariyer",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.0,
+  "value": 12,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "2×1 yol bariyeri: aracı ve sürüyü keser. İnşa kipinde (B) yerleştirilir.",
+  "build": "concrete_barrier"
+ },
+ "bp_tank_trap": {
+  "name": "Tanksavar",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 1.5,
+  "value": 6,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Çelik çapraz: araç geçemez, zombi takılır. İnşa kipinde (B) yerleştirilir.",
+  "build": "tank_trap"
+ },
+ "bp_palisade": {
+  "name": "Palisat kütüğü",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.5,
+  "value": 18,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "3 m kütük direk. İnşa kipinde (B) yerleştirilir.",
+  "build": "palisade"
+ },
+ "bp_palisade_wall": {
+  "name": "Palisat duvarı 3×3",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 13.5,
+  "value": 54,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Kütük duvar: ucuz ve sağlam. İnşa kipinde (B) yerleştirilir.",
+  "build": "palisade_wall"
+ },
+ "bp_gabion": {
+  "name": "Gabion",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 3.0,
+  "value": 12,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Taş dolu tel kafes: 1×2, mermiyi yutar. İnşa kipinde (B) yerleştirilir.",
+  "build": "gabion"
+ },
+ "bp_barricade_spiked": {
+  "name": "Kazıklı barikat 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 9.0,
+  "value": 36,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Sivri kazıklı ahşap barikat. İnşa kipinde (B) yerleştirilir.",
+  "build": "barricade_spiked"
+ },
+ "bp_barricade_steel": {
+  "name": "Çelik barikat 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 9.0,
+  "value": 36,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Sac ve demir: uzun dayanır. İnşa kipinde (B) yerleştirilir.",
+  "build": "barricade_steel"
+ },
+ "bp_chainlink_fence": {
+  "name": "Tel örgü çit 3×2",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 9.0,
+  "value": 36,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Görüş açık çit; zombi geçemez. İnşa kipinde (B) yerleştirilir.",
+  "build": "chainlink_fence"
+ },
+ "bp_firing_step": {
+  "name": "Atış basamağı 3×1",
+  "category": "building",
+  "tier": 2,
+  "stack": 5,
+  "weight": 4.5,
+  "value": 18,
+  "tags": [
+   "building_piece",
+   "defense_piece"
+  ],
+  "description": "Duvar arkasına yarım basamak: siperden ateş. İnşa kipinde (B) yerleştirilir.",
+  "build": "firing_step"
+ },
+ "spotlight": {
+  "name": "Projektör",
+  "category": "station",
+  "tier": 2,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 180,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Güçlü savunma ışığı (60 W, 26 m). İnşa kipinde (B) kurulur."
+ },
+ "searchlight": {
+  "name": "Arama Işığı",
+  "category": "station",
+  "tier": 3,
+  "stack": 2,
+  "weight": 6.0,
+  "value": 270,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "description": "Güçlü savunma ışığı (120 W, 40 m). İnşa kipinde (B) kurulur."
+ }
+}

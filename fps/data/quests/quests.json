@@ -1,0 +1,1017 @@
+{
+ "_aciklama": "Gorev omurgasi. Ana amac: mahalleleri temiz su, enerji, haberlesme ve guvenli ikmal hatlariyla birbirine baglayan kalici bir hayatta kalan agi kurmak. Adimlar SIRAYLA acilir; yan gorevler 'requires' adimi bitince acilir. Hedef turleri: event (olay sayaci), state (dunya durumu), reach (konuma var), interact (gorev nesnesiyle etkilesim; needs harcanir, keep:true takimdir; defend: etkilesimden sonra gelen zombi dalgasi), fetch (gorev esyasini al; kaybolursa ayni yerden yeniden alinir), rescue (belirli kisiyi usse getir). Konum (anchor): place:<ad>, class:<sinif|sinif>:<yer>:<sira>, roof:<en az kat>:<yer>, bridge:asia|europe, water:<yer>, base:<sira>.",
+ "stages": [
+  {
+   "id": "tutunma",
+   "name": "Tutunma",
+   "goal": "Guvenli barinak, temiz su, ilk uretim ve ilk kurtarma."
+  },
+  {
+   "id": "mahalle",
+   "name": "Mahalle",
+   "goal": "Su pompasi, aritma, atolye ve revir: ussun kendi ayakta durmasi."
+  },
+  {
+   "id": "haberlesme",
+   "name": "Haberlesme",
+   "goal": "Uc ayri semtte yuksek catilara role kurup telsiz agini ac."
+  },
+  {
+   "id": "ikmal",
+   "name": "Ikmal",
+   "goal": "Ikinci us ve iki us arasinda isleyen, korunan bir kara rotasi."
+  },
+  {
+   "id": "operasyon",
+   "name": "Buyuk operasyon",
+   "goal": "Martı Köprüsü gecisini ve Saraykapı haberlesme merkezini guvenceye al."
+  }
+ ],
+ "main": [
+  {
+   "id": "m01",
+   "stage": "tutunma",
+   "title": "Ilk yudum",
+   "text": "Musluklardan su akmiyor. Rıhtım'ın cesmeleri ve cami sadirvanlari hala akiyor ama su arıtılmıyor. Bos siselerini doldur.",
+   "objectives": [
+    {
+     "type": "event",
+     "event": "water_filled",
+     "count": 1,
+     "label": "Bir cesme, sadirvan ya da pompadan sise doldur",
+     "anchor": "water:rihtim_iskele"
+    }
+   ],
+   "rewards": {
+    "xp": 60,
+    "items": [
+     [
+      "purification_tabs",
+      3
+     ],
+     [
+      "bottle_empty",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "m02",
+   "stage": "tutunma",
+   "title": "Temiz su",
+   "text": "Kirli su midenden once moralini bozar. Tabletle, kaynatarak ya da filtreyle en az bir sise temiz su hazirla.",
+   "objectives": [
+    {
+     "type": "event",
+     "event": "craft",
+     "recipes": [
+      "r_purify_tablet",
+      "r_boil_water",
+      "r_filter_water"
+     ],
+     "count": 1,
+     "label": "Kirli suyu arit (C: uretim)"
+    }
+   ],
+   "rewards": {
+    "xp": 80
+   }
+  },
+  {
+   "id": "m03",
+   "stage": "tutunma",
+   "title": "Komsularin mutfaklari",
+   "text": "Apartman mutfaklarinda konserve, kuru gida ve bos sise kalmis olabilir. Ust katlara merdivenle cik; yagmalanmamis daireler yukaridadir.",
+   "objectives": [
+    {
+     "type": "event",
+     "event": "search",
+     "classes": [
+      "residential"
+     ],
+     "count": 5,
+     "label": "Konutlarda 5 dolap ara",
+     "anchor": "class:residential:rihtim_iskele:1"
+    },
+    {
+     "type": "event",
+     "event": "floor_reached",
+     "min_floor": 2,
+     "count": 1,
+     "label": "Bir apartmanin en az 3. katina cik"
+    }
+   ],
+   "rewards": {
+    "xp": 120,
+    "items": [
+     [
+      "pasta_pack",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "m04",
+   "stage": "tutunma",
+   "title": "Ates",
+   "text": "Kaynatilmis su ve sicak yemek icin bir ocak gerekiyor. Sac levha ve seramik parcalarindan roket ocagi yap.",
+   "objectives": [
+    {
+     "type": "event",
+     "event": "craft",
+     "recipes": [
+      "r_cookstove_kit"
+     ],
+     "count": 1,
+     "label": "Roket ocagi yap"
+    }
+   ],
+   "rewards": {
+    "xp": 100
+   }
+  },
+  {
+   "id": "m05",
+   "stage": "tutunma",
+   "title": "Barinak",
+   "text": "Bir sokagin iki ucunu barikatla kapat ve orayi us ilan et (L). Olursen artik burada uyanirsin.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "bases",
+     "value": 1,
+     "label": "Bir us kur (L)"
+    }
+   ],
+   "rewards": {
+    "xp": 200,
+    "items": [
+     [
+      "nail",
+      20
+     ]
+    ]
+   }
+  },
+  {
+   "id": "m06",
+   "stage": "tutunma",
+   "title": "Ilk sicak yemek",
+   "text": "Ocagi ussun icine kur, bakliyati suyla pisir. Pisirmek kuru gidanin degerini dort katina cikarir.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "station_in_base",
+     "value": "cooking",
+     "label": "Roket ocagini usse yerlestir (B)"
+    },
+    {
+     "type": "event",
+     "event": "craft",
+     "recipes": [
+      "r_cook_staple",
+      "r_cook_dry_goods"
+     ],
+     "count": 1,
+     "label": "Sicak yemek pisir"
+    }
+   ],
+   "rewards": {
+    "xp": 150
+   }
+  },
+  {
+   "id": "m07",
+   "stage": "tutunma",
+   "title": "Su ustasi",
+   "text": "El telsizinde bir ses: 'Ben Hakan, Su İdaresi'nde calisiyordum. Feneraltı'ndaki terfi istasyonunu calistirabilirim.' Onu bul ve usse getir.",
+   "objectives": [
+    {
+     "type": "rescue",
+     "profile": "hakan",
+     "anchor": "class:residential:rihtim_iskele:4",
+     "label": "Hakan'i bul, ikna et (E) ve usse getir"
+    }
+   ],
+   "rewards": {
+    "xp": 250
+   }
+  },
+  {
+   "id": "m08",
+   "stage": "mahalle",
+   "title": "Eksik pervane",
+   "text": "Hakan: 'Terfi istasyonunun pervanesini sokup Liman yakinindaki atolyeye koymustuk. Onu getir.'",
+   "objectives": [
+    {
+     "type": "fetch",
+     "item": "pump_impeller",
+     "asset": "iz2_mission_pump_impeller",
+     "anchor": "class:workshop|garage|industrial|market:liman_gari:0",
+     "label": "Pompa pervanesini atolyeden al"
+    }
+   ],
+   "rewards": {
+    "xp": 150
+   }
+  },
+  {
+   "id": "m09",
+   "stage": "mahalle",
+   "title": "Feneraltı terfi istasyonu",
+   "text": "Pervaneyi tak, vanalari ac. Pompa gurultu yapar: sokaktakiler gelecek.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_water_controls",
+     "anchor": "place:feneralti_burnu",
+     "label": "Pompa kontrol panelini onar",
+     "needs": [
+      {
+       "item": "pump_impeller",
+       "count": 1
+      },
+      {
+       "item": "pvc_pipe",
+       "count": 3
+      },
+      {
+       "tag": "fastener",
+       "count": 4
+      }
+     ],
+     "time": 5.0,
+     "defend": 8
+    }
+   ],
+   "rewards": {
+    "xp": 450,
+    "flag": "water_line",
+    "items": [
+     [
+      "filter_cartridge",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "m10",
+   "stage": "mahalle",
+   "title": "Aritma",
+   "text": "Hat suyu da temiz degil. Kum-komur aritici kur; kartuslar tukenince yenisini tezgahta yap.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "station_in_base",
+     "value": "water",
+     "label": "Su aritici kur ve usse yerlestir"
+    }
+   ],
+   "rewards": {
+    "xp": 200
+   }
+  },
+  {
+   "id": "m11",
+   "stage": "mahalle",
+   "title": "Atolye",
+   "text": "Us kendi aletini yapmali. Bir tezgah kur ve bir hayatta kalana zanaatkar gorevi ver.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "station_in_base",
+     "value": "workbench",
+     "label": "Calisma tezgahini usse yerlestir"
+    },
+    {
+     "type": "state",
+     "check": "role",
+     "value": "crafter",
+     "label": "Bir sakine Zanaatkar rolu ver (L)"
+    }
+   ],
+   "rewards": {
+    "xp": 250
+   }
+  },
+  {
+   "id": "m12",
+   "stage": "mahalle",
+   "title": "Revir",
+   "text": "Yarali biri geldiginde nereye yatiracagiz? Bir binayi revir yap, bir sakini doktor ata.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "building_role",
+     "value": "infirmary",
+     "label": "Bir binaya Revir rolu ver (L)"
+    },
+    {
+     "type": "state",
+     "check": "role",
+     "value": "doctor",
+     "label": "Bir sakine Doktor rolu ver"
+    }
+   ],
+   "rewards": {
+    "xp": 300,
+    "items": [
+     [
+      "medkit",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "m13",
+   "stage": "haberlesme",
+   "title": "Telsiz konsolu",
+   "text": "Karakolun telsiz konsolunda role semalari ve frekans listesi olmali. Karakola gir, konsolu calistir.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_radio_console",
+     "anchor": "class:police|civic|hospital:rihtim_iskele:0",
+     "label": "Telsiz konsolunu calistir",
+     "needs": [],
+     "time": 4.0
+    }
+   ],
+   "rewards": {
+    "xp": 250,
+    "unlock": [
+     "r_relay_kit"
+    ],
+    "flag": "radio_found"
+   }
+  },
+  {
+   "id": "m14",
+   "stage": "haberlesme",
+   "title": "Uc role",
+   "text": "Konsoldaki sema: kablo, araba akusu ve bozuk devre kartlarindan role kiti. Uc tane lazim.",
+   "objectives": [
+    {
+     "type": "event",
+     "event": "craft",
+     "recipes": [
+      "r_relay_kit"
+     ],
+     "count": 3,
+     "label": "Elektronik masasinda 3 role kiti yap"
+    }
+   ],
+   "rewards": {
+    "xp": 300
+   }
+  },
+  {
+   "id": "m15",
+   "stage": "haberlesme",
+   "title": "Feneraltı rolesi",
+   "text": "Role yuksekte calisir: en az 6 katli bir binanin catisina cik (merdiven cekirdegi catiya acilir) ve roleyi kur.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_radio_repeater",
+     "anchor": "roof:6:feneralti_burnu",
+     "label": "Feneraltı'nda cataya role kur",
+     "needs": [
+      {
+       "item": "relay_kit",
+       "count": 1
+      }
+     ],
+     "time": 6.0
+    }
+   ],
+   "rewards": {
+    "xp": 350,
+    "flag": "relay_1"
+   }
+  },
+  {
+   "id": "m16",
+   "stage": "haberlesme",
+   "title": "Bademlik rolesi",
+   "text": "Ikinci role Bademlik'te. Sinyal acilinca bolgedeki kalabalik anteni duyacak.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_radio_repeater",
+     "anchor": "roof:6:bademlik_sahil",
+     "label": "Bademlik'te cataya role kur",
+     "needs": [
+      {
+       "item": "relay_kit",
+       "count": 1
+      }
+     ],
+     "time": 6.0,
+     "defend": 10
+    }
+   ],
+   "rewards": {
+    "xp": 400,
+    "flag": "relay_2"
+   }
+  },
+  {
+   "id": "m17",
+   "stage": "haberlesme",
+   "title": "Çarşıbaşı rolesi",
+   "text": "Ucuncu role Çarşıbaşı'nda, yedi kilometre kuzeyde. Yol uzun: arac hazirla ya da ara guvenli evlerde dinlen.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_radio_repeater",
+     "anchor": "roof:6:carsibasi_meydan",
+     "label": "Çarşıbaşı'nda cataya role kur",
+     "needs": [
+      {
+       "item": "relay_kit",
+       "count": 1
+      }
+     ],
+     "time": 6.0,
+     "defend": 10
+    }
+   ],
+   "rewards": {
+    "xp": 600,
+    "flag": "network",
+    "points": 1
+   }
+  },
+  {
+   "id": "m18",
+   "stage": "ikmal",
+   "title": "Ikinci us",
+   "text": "Ag acildi ama tek us tek hedeftir. Ilk ussunden en az 1.5 km uzakta ikinci bir us kur.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "bases",
+     "value": 2,
+     "label": "Ikinci bir us kur"
+    },
+    {
+     "type": "state",
+     "check": "bases_apart",
+     "value": 1500,
+     "label": "Iki us arasi en az 1.5 km"
+    }
+   ],
+   "rewards": {
+    "xp": 400
+   }
+  },
+  {
+   "id": "m19",
+   "stage": "ikmal",
+   "title": "Ikmal hatti",
+   "text": "Ikinci ussu yasatacak kadar yiyecek ve suyu arabayla ya da sirtinda tasi.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "stock_tag",
+     "base": 1,
+     "tag": "food",
+     "value": 8,
+     "label": "Ikinci ussun deposunda 8 yiyecek"
+    },
+    {
+     "type": "state",
+     "check": "stock_tag",
+     "base": 1,
+     "tag": "water",
+     "value": 8,
+     "label": "Ikinci ussun deposunda 8 temiz su"
+    }
+   ],
+   "rewards": {
+    "xp": 450,
+    "items": [
+     [
+      "gasoline",
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "id": "m20",
+   "stage": "ikmal",
+   "title": "Rota guvenligi",
+   "text": "Buyuk dalga geldiginde iki us da ayakta kalmali.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "waves_survived",
+     "value": 1,
+     "label": "Bir buyuk dalgayi atlat"
+    },
+    {
+     "type": "state",
+     "check": "bases",
+     "value": 2,
+     "label": "Iki us da ayakta"
+    }
+   ],
+   "rewards": {
+    "xp": 500,
+    "points": 1
+   }
+  },
+  {
+   "id": "m21",
+   "stage": "operasyon",
+   "title": "Kopru kontrol odasi",
+   "text": "Anadolu yakasi kopru basindaki kontrol odasi bariyerleri ve ana verici cekirdegini tutuyor. Paneli ac, cekirdegi al.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_bridge_control",
+     "anchor": "bridge:asia",
+     "label": "Kopru kontrol panelini ac",
+     "needs": [
+      {
+       "item": "toolkit",
+       "count": 1,
+       "keep": true
+      },
+      {
+       "item": "insulated_wire",
+       "count": 3
+      }
+     ],
+     "time": 8.0,
+     "defend": 18,
+     "gives": [
+      [
+       "relay_core",
+       1
+      ]
+     ]
+    }
+   ],
+   "rewards": {
+    "xp": 700
+   }
+  },
+  {
+   "id": "m22",
+   "stage": "operasyon",
+   "title": "Karsi yaka",
+   "text": "Tabliye boyunca batı yakasına gec. Kopru kilidini kapat ki gecis ikmal hattina acik kalsin.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_bridge_lock",
+     "anchor": "bridge:europe",
+     "label": "batı yakasında kopru kilidini kur",
+     "needs": [
+      {
+       "tag": "fastener",
+       "count": 6
+      }
+     ],
+     "time": 6.0,
+     "defend": 14
+    }
+   ],
+   "rewards": {
+    "xp": 700,
+    "flag": "bridge"
+   }
+  },
+  {
+   "id": "m23",
+   "stage": "operasyon",
+   "title": "Anten ayarlayici",
+   "text": "Merkez verici ayarsiz calismaz. Saraykapı'daki elektronikcide son bir ayarlayici kalmis.",
+   "objectives": [
+    {
+     "type": "fetch",
+     "item": "antenna_tuner",
+     "asset": "iz2_mission_antenna_tuner",
+     "anchor": "class:electronics|market|civic:saraykapi_iskele:0",
+     "label": "Anten ayarlayiciyi al"
+    }
+   ],
+   "rewards": {
+    "xp": 400
+   }
+  },
+  {
+   "id": "m24",
+   "stage": "operasyon",
+   "title": "Saraykapı haberlesme merkezi",
+   "text": "Cekirdegi ve ayarlayiciyi merkeze kur. Butun sehir sesini duyacak -- ve butun sehir gelecek.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_relay_core",
+     "anchor": "class:civic|police|hospital|market:saraykapi_iskele:0",
+     "label": "Ana roleyi kur ve savun",
+     "needs": [
+      {
+       "item": "relay_core",
+       "count": 1
+      },
+      {
+       "item": "antenna_tuner",
+       "count": 1
+      }
+     ],
+     "time": 10.0,
+     "defend": 30
+    }
+   ],
+   "rewards": {
+    "xp": 1500,
+    "flag": "campaign_done",
+    "points": 2
+   }
+  }
+ ],
+ "side": [
+  {
+   "id": "s01",
+   "requires": "m03",
+   "title": "Eczacinin listesi",
+   "text": "Eczane tezgahinda bir not: 'Agri kesici ve antiseptik getiren ilk yardim cantasi alir.'",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_pharmacy_compound_bench",
+     "anchor": "class:pharmacy:rihtim_iskele:0",
+     "label": "Eczaneye ilaclari birak",
+     "needs": [
+      {
+       "item": "painkiller",
+       "count": 3
+      },
+      {
+       "item": "antiseptic",
+       "count": 1
+      }
+     ],
+     "time": 3.0
+    }
+   ],
+   "rewards": {
+    "xp": 180,
+    "items": [
+     [
+      "medkit",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s02",
+   "requires": "m05",
+   "title": "Kayip kurye",
+   "text": "Motokurye Emre'nin kayit cihazi Bademlik'te kalmis. Icinde yagmalanmamis binalarin listesi var.",
+   "objectives": [
+    {
+     "type": "fetch",
+     "item": "data_recorder",
+     "asset": "iz2_mission_data_recorder",
+     "anchor": "class:residential:bademlik_sahil:3",
+     "label": "Kayit cihazini bul"
+    },
+    {
+     "type": "reach",
+     "anchor": "base:0",
+     "radius": 25,
+     "label": "Cihazi usse getir"
+    }
+   ],
+   "rewards": {
+    "xp": 250,
+    "items": [
+     [
+      "ammo_9mm",
+      40
+     ]
+    ],
+    "flag": "intel_1"
+   }
+  },
+  {
+   "id": "s03",
+   "requires": "m06",
+   "title": "Mahalle mutfagi",
+   "text": "Sicak yemek kokusu insanlari toplar. Ussun deposunda alti porsiyon yemek biriktir.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "stock_item",
+     "base": 0,
+     "item": "cooked_meal",
+     "value": 6,
+     "label": "Us deposunda 6 sicak yemek"
+    }
+   ],
+   "rewards": {
+    "xp": 200,
+    "items": [
+     [
+      "vegetable_seeds",
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "requires": "m07",
+   "title": "Bagis dolabi",
+   "text": "Iskele meydanindaki bagis dolabina su birakanlarin kapisi calinir: yardim isteyenler usse gelir.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_donation_locker",
+     "anchor": "place:rihtim_iskele",
+     "label": "Bagis dolabina 6 sise su birak",
+     "needs": [
+      {
+       "item": "water_bottle",
+       "count": 6
+      }
+     ],
+     "time": 3.0
+    }
+   ],
+   "rewards": {
+    "xp": 220,
+    "flag": "donation",
+    "rescue": "gul"
+   }
+  },
+  {
+   "id": "s05",
+   "requires": "m08",
+   "title": "Anma tahtalari",
+   "text": "Semtlerde kaybedilenlerin adlarini yazan tahtalar var. Her biri o mahallenin hikayesini ve bir ipucunu tasir.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_memorial_board",
+     "anchor": "place:liman_gari",
+     "label": "Liman anma tahtasi",
+     "needs": [],
+     "time": 2.0
+    },
+    {
+     "type": "interact",
+     "asset": "iz2_mission_memorial_board",
+     "anchor": "place:feneralti_burnu",
+     "label": "Feneraltı anma tahtasi",
+     "needs": [],
+     "time": 2.0
+    },
+    {
+     "type": "interact",
+     "asset": "iz2_mission_memorial_board",
+     "anchor": "place:bademlik_sahil",
+     "label": "Bademlik anma tahtasi",
+     "needs": [],
+     "time": 2.0
+    }
+   ],
+   "rewards": {
+    "xp": 350,
+    "points": 1
+   }
+  },
+  {
+   "id": "s06",
+   "requires": "m12",
+   "title": "Soguk zincir",
+   "text": "Hastane laboratuvarinda panzehir formulu ve numuneler bir soguk cantada. Hastane tehlikeli.",
+   "objectives": [
+    {
+     "type": "fetch",
+     "item": "medical_coolcase",
+     "asset": "iz2_mission_medical_coolcase",
+     "anchor": "class:hospital|civic:rihtim_iskele:0",
+     "label": "Soguk cantayi al"
+    },
+    {
+     "type": "reach",
+     "anchor": "base:0",
+     "radius": 25,
+     "label": "Cantayi usse getir"
+    }
+   ],
+   "rewards": {
+    "xp": 400,
+    "unlock": [
+     "r_antidote"
+    ],
+    "items": [
+     [
+      "antidote",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s07",
+   "requires": "m13",
+   "title": "Catidaki isaret",
+   "text": "Yuksek bir cataya sinyal isareti koyarsan telsiz menzili buyur, kaybolanlar seni bulur.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_signal_beacon",
+     "anchor": "roof:9:rihtim_iskele",
+     "label": "En az 9 katli bir catiya isaret kur",
+     "needs": [
+      {
+       "item": "battery_car",
+       "count": 1
+      }
+     ],
+     "time": 5.0
+    }
+   ],
+   "rewards": {
+    "xp": 350,
+    "flag": "beacon"
+   }
+  },
+  {
+   "id": "s08",
+   "requires": "m15",
+   "title": "Catidaki hemsire",
+   "text": "Bademlik'te bir catidan ayna isigi: hemsire Melek merdiven boslugunda mahsur kalmis.",
+   "objectives": [
+    {
+     "type": "rescue",
+     "profile": "melek",
+     "anchor": "roof:5:bademlik_sahil",
+     "label": "Melek'i catidan indir ve usse getir"
+    }
+   ],
+   "rewards": {
+    "xp": 400
+   }
+  },
+  {
+   "id": "s09",
+   "requires": "m17",
+   "title": "Rota defteri",
+   "text": "Rehber Yusuf'un defteri: kiyi boyunca guvenli duraklar. Dort noktayi kendin dogrula.",
+   "objectives": [
+    {
+     "type": "reach",
+     "anchor": "place:martikoy_sahil",
+     "radius": 40,
+     "label": "Martıköy sahili"
+    },
+    {
+     "type": "reach",
+     "anchor": "place:kalebend_sahil",
+     "radius": 40,
+     "label": "Kalebend sahili"
+    },
+    {
+     "type": "reach",
+     "anchor": "place:bademlik_sahil",
+     "radius": 40,
+     "label": "Bademlik"
+    },
+    {
+     "type": "reach",
+     "anchor": "place:carsibasi_meydan",
+     "radius": 40,
+     "label": "Çarşıbaşı meydanı"
+    }
+   ],
+   "rewards": {
+    "xp": 450,
+    "items": [
+     [
+      "gasoline",
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "id": "s10",
+   "requires": "m18",
+   "title": "Muhurlu ikmal",
+   "text": "Kalebend karakolunun ikmal kafesi muhurlu. Muhru bulan kafesi acar.",
+   "objectives": [
+    {
+     "type": "fetch",
+     "item": "supply_seal",
+     "asset": "iz2_mission_supply_seal",
+     "anchor": "class:police|military|civic:kalebend_sahil:0",
+     "label": "Muhru bul"
+    },
+    {
+     "type": "interact",
+     "asset": "iz2_logistics_supply_cage",
+     "anchor": "class:police|military|civic:kalebend_sahil:0",
+     "label": "Ikmal kafesini ac",
+     "needs": [
+      {
+       "item": "supply_seal",
+       "count": 1
+      }
+     ],
+     "time": 4.0,
+     "defend": 8,
+     "gives": [
+      [
+       "ammo_9mm",
+       60
+      ],
+      [
+       "ammo_12ga",
+       16
+      ],
+      [
+       "armor_vest",
+       1
+      ]
+     ]
+    }
+   ],
+   "rewards": {
+    "xp": 400
+   }
+  },
+  {
+   "id": "s11",
+   "requires": "m11",
+   "title": "Sebeke izolatoru",
+   "text": "Trafo binasindaki izolatoru devre disi birakirsan jenerator yakiti daha uzun gider.",
+   "objectives": [
+    {
+     "type": "interact",
+     "asset": "iz2_mission_grid_isolator",
+     "anchor": "class:industrial|workshop|garage|civic:kalebend_sahil:0",
+     "label": "Izolatoru ayir",
+     "needs": [
+      {
+       "item": "insulated_wire",
+       "count": 4
+      },
+      {
+       "item": "toolkit",
+       "count": 1,
+       "keep": true
+      }
+     ],
+     "time": 6.0
+    }
+   ],
+   "rewards": {
+    "xp": 300,
+    "items": [
+     [
+      "power_cell",
+      2
+     ]
+    ],
+    "flag": "grid"
+   }
+  },
+  {
+   "id": "s12",
+   "requires": "m10",
+   "title": "Kalebend bostanı",
+   "text": "Kalebend'in bostanları eskiden bütün yakayı doyururdu. Ussun icinde bir tarla ac ve tohum ek.",
+   "objectives": [
+    {
+     "type": "state",
+     "check": "fields",
+     "value": 1,
+     "label": "Us icinde tarla ac (L: koloni -> ek)"
+    }
+   ],
+   "rewards": {
+    "xp": 250,
+    "items": [
+     [
+      "vegetable_seeds",
+      8
+     ]
+    ]
+   }
+  }
+ ]
+}

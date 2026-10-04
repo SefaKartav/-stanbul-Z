@@ -1,0 +1,43 @@
+{
+  "combat_roll": {
+    "name": "Yuvarlanma", "strategy": "dash",
+    "cooldown": 4.0, "cost": 18, "range": 132, "speed": 820,
+    "damage": 0, "damage_type": "physical", "knockback": 0,
+    "noise_radius": 70, "shake": 0.08, "color": [186, 190, 196],
+    "tags": ["mobility", "escape"],
+    "description": "Imlec yonunde kisa bir yuvarlanma. Kusatmadan cikmanin en hizli yolu; duvardan gecirmez."
+  },
+  "shove": {
+    "name": "Itekleme", "strategy": "shockwave",
+    "cooldown": 6.0, "cost": 16, "radius": 62,
+    "damage": 6, "damage_type": "physical", "knockback": 280,
+    "noise_radius": 110, "shake": 0.18, "color": [206, 200, 184],
+    "tags": ["control", "panic_button"],
+    "description": "Etrafindakileri omuzla iter. Oldurmez, YER ACAR -- sikistiginda tek caren."
+  },
+  "first_aid": {
+    "name": "Ilk Yardim", "strategy": "heal",
+    "cooldown": 26.0, "cost": 30, "cast_time": 1.4,
+    "damage": 34, "damage_type": "physical",
+    "noise_radius": 0, "shake": 0.0, "color": [214, 96, 96],
+    "tags": ["support", "survival"],
+    "description": "Yarani sararsin: can yeniler, kanamayi ve enfeksiyonu keser. Tip becerisi etkiyi buyutur."
+  },
+  "adrenaline": {
+    "name": "Adrenalin", "strategy": "self_buff",
+    "cooldown": 34.0, "cost": 25,
+    "damage": 0, "damage_type": "physical",
+    "noise_radius": 0, "shake": 0.0, "color": [255, 220, 140],
+    "tags": ["support", "mobility"],
+    "self_status": [{ "kind": "adrenaline", "duration": 6.0, "magnitude": 0.45 }],
+    "description": "Alti saniye boyunca belirgin hizlanma. Kacmak icin de yetismek icin de."
+  },
+  "distraction": {
+    "name": "Dikkat Dagitma", "strategy": "lure",
+    "cooldown": 12.0, "cost": 12, "range": 340,
+    "damage": 0, "damage_type": "physical",
+    "noise_radius": 420, "shake": 0.0, "color": [160, 176, 190],
+    "tags": ["stealth", "control"],
+    "description": "Eline gecen seyi uzaga firlatirsin. Gurultu ORAYA gider, zombiler de. Bosalan koridordan gecersin."
+  }
+}

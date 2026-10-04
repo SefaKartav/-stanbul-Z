@@ -1,0 +1,597 @@
+{
+ "workbench_basic": {
+  "name": "Basit Tezgâh",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 10.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Kalas ve çividen ilk tezgâh. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "workbench_heavy": {
+  "name": "Ağır Tezgâh",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Mengene ve çelik tabla: T3 tarifler. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 3
+  }
+ },
+ "carpentry_bench": {
+  "name": "Marangoz Tezgâhı",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 16.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Kütük biçer, kalas ve kiriş keser. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "carpentry_pro": {
+  "name": "Kereste Tezgâhı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Motorlu testere: T2 marangoz işleri. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "forge_stone": {
+  "name": "Taş Ocak",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 40.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Taş ve kilden ilk ocak: dövme ve eritme T1. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "forge_brick": {
+  "name": "Tuğla Ocak",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 60.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Körüklü tuğla ocak: T2. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "masonry_bench": {
+  "name": "Taş ve Beton Tezgâhı",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Harç, briket, kesme taş. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "masonry_mixer": {
+  "name": "Beton Karıştırıcı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 55.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Tamburlu karıştırıcı: T2 beton işleri. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "masonry_plant": {
+  "name": "Beton Santrali",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 90.0,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Betonarme ve ağır döküm: T3. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 3
+  }
+ },
+ "mechanic_bench": {
+  "name": "Mekanik Atölye",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Mengene, eğe, anahtar: dişli ve vida. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "mechanic_lathe": {
+  "name": "Torna Tezgâhı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 60.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Aks, piston, pompa: T2. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "mechanic_heavy": {
+  "name": "Ağır Makine Atölyesi",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 90.0,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Motorlu alet ve jeneratör: T3 (ELEKTRİK ister). İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 3
+  }
+ },
+ "gunsmith_basic": {
+  "name": "Basit Silah Tezgâhı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 20.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Tetik grubu, atölye silahı ve fişek: T2. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "gunsmith_mid": {
+  "name": "Silah Tezgâhı II",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Namlu işleme ve AP fişek: T3. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 3
+  }
+ },
+ "electronics_basic": {
+  "name": "Lehim Masası",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 8.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Havya ve büyüteç: basit devreler. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "electronics_mid": {
+  "name": "Elektronik Tezgâhı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 14.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Ölçü aletli tezgâh: T2. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "electronics_lab": {
+  "name": "Elektronik Laboratuvarı",
+  "category": "station",
+  "tier": 4,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 280,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Osiloskop ve trafo: T4 (ELEKTRİK ister). İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 4
+  }
+ },
+ "chemistry_basic": {
+  "name": "Damıtma Seti",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 6.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Cam balon ve soğutucu: temel kimya. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "chemistry_mid": {
+  "name": "Kimya Tezgâhı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 10.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Isıtıcı ve süzgeç: T2. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "chemistry_lab": {
+  "name": "Kimya Laboratuvarı",
+  "category": "station",
+  "tier": 4,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 280,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Çeker ocak: ilaç ve patlayıcı T4. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 4
+  }
+ },
+ "kitchen_stove": {
+  "name": "Mutfak Ocağı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Fırınlı ocak: ekmek ve fırın yemekleri (T2). Üste mutfak kapasitesi verir. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "stove_electric": {
+  "name": "Elektrikli Ocak",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 220,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Yakıtsız pişirme (T3). İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 3
+  }
+ },
+ "water_ceramic_station": {
+  "name": "Seramik Arıtma İstasyonu",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 14.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Seramik mumlu arıtma (T2). İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "farming_bench": {
+  "name": "Tarım ve İşleme Tezgâhı",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 14.0,
+  "value": 100,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Tohum ayıklama, değirmen, turşu, kurutma. İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 1
+  }
+ },
+ "farming_pro": {
+  "name": "Tütsü ve Mayalama Odası",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 160,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "description": "Tütsü, konserve ve fermantasyon (T2). İnşa kipinde (B) kurulur; yanında (4 m) o istasyonun tarifleri açılır.",
+  "effects": {
+   "station_tier": 2
+  }
+ },
+ "crate_small": {
+  "name": "Küçük Sandık",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 6.0,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Yere konan kapaklı sandık: 40 kg, 16 yuva. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "chest_wood": {
+  "name": "Ahşap Sandık",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 12.0,
+  "value": 57,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "70 kg, 24 yuva. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "locker_metal": {
+  "name": "Metal Dolap",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 20.0,
+  "value": 62,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "90 kg, 30 yuva; zombiye dayanıklı. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "gun_safe": {
+  "name": "Silah Kasası",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 60.0,
+  "value": 75,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Ağır çelik kasa: zor kırılır. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "shelf_unit": {
+  "name": "Raf Ünitesi",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 16.0,
+  "value": 70,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Açık raf: 120 kg, 40 yuva. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "barrel_storage": {
+  "name": "Varil Depo",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 8.0,
+  "value": 35,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Kapaklı varil: 60 kg, az yuva. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "warehouse_rack": {
+  "name": "Depo Rafı",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 40.0,
+  "value": 110,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Endüstriyel raf: 200 kg, 60 yuva. E ile aç. İnşa kipinde (B) kurulur."
+ },
+ "bedroll": {
+  "name": "Uyku Tulumu",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 2.0,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Yere serilir: uyu (E), üste 1 yatak. İnşa kipinde (B) kurulur."
+ },
+ "cot": {
+  "name": "Portatif Yatak",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 8.0,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Katlanır karyola. İnşa kipinde (B) kurulur."
+ },
+ "bunk_bed": {
+  "name": "Ranza",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 20.0,
+  "value": 60,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "İki kişilik: üste 2 yatak. İnşa kipinde (B) kurulur."
+ },
+ "hospital_bed": {
+  "name": "Hastane Yatağı",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Uyurken çok iyileşir; üste revir kapasitesi. İnşa kipinde (B) kurulur."
+ },
+ "medical_table": {
+  "name": "Muayene Masası",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 90,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Revir kapasitesi +1,5: doktor ve iyileşme. İnşa kipinde (B) kurulur."
+ },
+ "dining_table": {
+  "name": "Yemekhane Masası",
+  "category": "station",
+  "tier": 1,
+  "stack": 1,
+  "weight": 20.0,
+  "value": 30,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Mutfak kapasitesi +0,25. İnşa kipinde (B) kurulur."
+ },
+ "craftsman_bench": {
+  "name": "Zanaatkâr Tezgâhı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 25.0,
+  "value": 60,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Atölye kapasitesi +1: zanaatkâr iş emirleri. İnşa kipinde (B) kurulur."
+ },
+ "colony_rack": {
+  "name": "Ortak Depo Rafı",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 20.0,
+  "value": 60,
+  "tags": [
+   "placeable",
+   "colony"
+  ],
+  "description": "Üssün ortak deposuna +150 kg. İnşa kipinde (B) kurulur."
+ }
+}

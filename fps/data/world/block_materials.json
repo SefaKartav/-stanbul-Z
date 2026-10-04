@@ -1,0 +1,1949 @@
+{
+ "_readme": "Dunya bloklarinin malzemeleri. 'index' KAYIT DOSYASINDA saklanir; asla degistirme, yeni malzemeye yeni sayi ver (1-254). HP ve silah carpani AYRI: ayni tabanca tahtayi 3, betonu 20 atista kirar. salvage: vurulup yok edilen DUNYA blogunun (oyuncunun koydugu degil) nadir dususu. zombie_breakable: kusatmada zombilerin saldirabilecegi malzeme (yalnizca oyuncunun koydugu bloklarda gecerli).",
+ "asphalt": {
+  "index": 1,
+  "name": "Asfalt",
+  "max_hp": 250,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.9,
+  "texture": {
+   "all": "asphalt"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   58,
+   60,
+   64
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.04,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "sidewalk": {
+  "index": 2,
+  "name": "Kaldirim",
+  "max_hp": 200,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.9,
+  "shape": "slab",
+  "texture": {
+   "top": "sidewalk",
+   "side": "curb",
+   "bottom": "curb"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   146,
+   138
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "dirt": {
+  "index": 3,
+  "name": "Toprak",
+  "max_hp": 40,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.5,
+  "texture": {
+   "all": "dirt"
+  },
+  "impact_sound_id": "impact_dirt",
+  "color": [
+   104,
+   80,
+   58
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.08,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "grass": {
+  "index": 4,
+  "name": "Cimen",
+  "max_hp": 40,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.5,
+  "texture": {
+   "top": "grass_top",
+   "side": "grass_side",
+   "bottom": "dirt"
+  },
+  "impact_sound_id": "impact_dirt",
+  "color": [
+   84,
+   120,
+   62
+  ],
+  "salvage": [
+   {
+    "item": "herbs",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "stone": {
+  "index": 5,
+  "name": "Tas",
+  "max_hp": 250,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "stone"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   120,
+   118,
+   112
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "brick": {
+  "index": 6,
+  "name": "Tugla",
+  "max_hp": 150,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "brick"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   150,
+   76,
+   58
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.08,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "concrete": {
+  "index": 7,
+  "name": "Beton",
+  "max_hp": 300,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "concrete"
+  },
+  "impact_sound_id": "impact_concrete",
+  "color": [
+   150,
+   150,
+   146
+  ],
+  "salvage": [
+   {
+    "item": "rebar",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "sand",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "plaster_cream": {
+  "index": 8,
+  "name": "Sivali cephe (krem)",
+  "max_hp": 120,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "plaster_cream"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   214,
+   200,
+   168
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "plaster_blue": {
+  "index": 9,
+  "name": "Sivali cephe (mavi)",
+  "max_hp": 120,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "plaster_blue"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   96,
+   132,
+   150
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "plaster_rose": {
+  "index": 10,
+  "name": "Sivali cephe (gul)",
+  "max_hp": 120,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "plaster_rose"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   184,
+   112,
+   104
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "plaster_white": {
+  "index": 11,
+  "name": "Sivali cephe (beyaz)",
+  "max_hp": 120,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "plaster_white"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   220,
+   218,
+   210
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "wood": {
+  "index": 12,
+  "name": "Ahsap",
+  "max_hp": 60,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.35,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   108,
+   66
+  ],
+  "zombie_breakable": true,
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.15,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "nail",
+    "chance": 0.1,
+    "count": [
+     1,
+     3
+    ]
+   }
+  ]
+ },
+ "glass": {
+  "index": 13,
+  "name": "Cam",
+  "max_hp": 10,
+  "bullet_damage_multiplier": 1.5,
+  "penetration_resistance": 0.05,
+  "texture": {
+   "all": "glass"
+  },
+  "transparent": true,
+  "fragile": true,
+  "impact_sound_id": "impact_glass",
+  "color": [
+   150,
+   190,
+   210
+  ],
+  "zombie_breakable": true,
+  "salvage": [
+   {
+    "item": "glass_shard",
+    "chance": 0.2,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "steel": {
+  "index": 14,
+  "name": "Celik",
+  "max_hp": 600,
+  "bullet_damage_multiplier": 0.45,
+  "penetration_resistance": 1.6,
+  "texture": {
+   "all": "steel"
+  },
+  "impact_sound_id": "impact_metal",
+  "color": [
+   104,
+   112,
+   120
+  ],
+  "zombie_breakable": true,
+  "salvage": [
+   {
+    "item": "scrap_metal",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "roof_tile": {
+  "index": 15,
+  "name": "Kiremit",
+  "max_hp": 80,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.5,
+  "texture": {
+   "all": "roof_tile"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   164,
+   82,
+   60
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "wood_old": {
+  "index": 16,
+  "name": "Eski ahsap cephe",
+  "max_hp": 70,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "wood_old"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   118,
+   86,
+   60
+  ],
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.12,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "limestone": {
+  "index": 17,
+  "name": "Kesme tas (tarihi)",
+  "max_hp": 350,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.1,
+  "texture": {
+   "all": "limestone"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   206,
+   196,
+   170
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "water": {
+  "index": 18,
+  "name": "Su",
+  "max_hp": 0,
+  "bullet_damage_multiplier": 0.0,
+  "penetration_resistance": 0.0,
+  "texture": {
+   "all": "water"
+  },
+  "liquid": true,
+  "transparent": true,
+  "impact_sound_id": "impact_water",
+  "color": [
+   46,
+   96,
+   128
+  ]
+ },
+ "sand": {
+  "index": 19,
+  "name": "Kum",
+  "max_hp": 30,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.6,
+  "texture": {
+   "all": "sand"
+  },
+  "impact_sound_id": "impact_dirt",
+  "color": [
+   200,
+   184,
+   140
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.12,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "rubble": {
+  "index": 20,
+  "name": "Moloz",
+  "max_hp": 80,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.7,
+  "texture": {
+   "all": "rubble"
+  },
+  "impact_sound_id": "impact_concrete",
+  "color": [
+   128,
+   120,
+   110
+  ],
+  "salvage": [
+   {
+    "item": "scrap_metal",
+    "chance": 0.06,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "rebar",
+    "chance": 0.03,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "metal_sheet": {
+  "index": 21,
+  "name": "Sac / kepenk",
+  "max_hp": 200,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.6,
+  "texture": {
+   "all": "metal_sheet"
+  },
+  "impact_sound_id": "impact_metal",
+  "color": [
+   110,
+   116,
+   118
+  ],
+  "zombie_breakable": true,
+  "salvage": [
+   {
+    "item": "sheet_aluminum",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "interior": {
+  "index": 22,
+  "name": "Bina ici yapi",
+  "max_hp": 100,
+  "bullet_damage_multiplier": 0.9,
+  "penetration_resistance": 0.7,
+  "texture": {
+   "all": "interior"
+  },
+  "impact_sound_id": "impact_brick",
+  "color": [
+   170,
+   160,
+   146
+  ],
+  "salvage": [
+   {
+    "item": "plastic_shard",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "cloth_rag",
+    "chance": 0.04,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "sandbag": {
+  "index": 23,
+  "name": "Kum torbasi",
+  "max_hp": 220,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.2,
+  "texture": {
+   "all": "sandbag"
+  },
+  "impact_sound_id": "impact_dirt",
+  "color": [
+   168,
+   150,
+   108
+  ],
+  "zombie_breakable": true
+ },
+ "concrete_block": {
+  "index": 24,
+  "name": "Briket duvar",
+  "max_hp": 300,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "cinderblock"
+  },
+  "impact_sound_id": "impact_concrete",
+  "color": [
+   140,
+   140,
+   136
+  ],
+  "zombie_breakable": true
+ },
+ "window_frame": {
+  "index": 25,
+  "name": "Pencere dogramasi",
+  "max_hp": 50,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.3,
+  "texture": {
+   "all": "window_frame"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   230,
+   226,
+   214
+  ],
+  "salvage": [
+   {
+    "item": "plastic_shard",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "cobblestone": {
+  "index": 26,
+  "name": "Arnavut kaldirimi",
+  "max_hp": 260,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "cobblestone"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   112,
+   108,
+   100
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.04,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "leaves": {
+  "index": 27,
+  "name": "Yaprak",
+  "max_hp": 12,
+  "bullet_damage_multiplier": 1.5,
+  "penetration_resistance": 0.05,
+  "texture": {
+   "all": "leaves"
+  },
+  "fragile": true,
+  "impact_sound_id": "impact_leaves",
+  "color": [
+   72,
+   108,
+   58
+  ],
+  "salvage": [
+   {
+    "item": "herbs",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "log": {
+  "index": 28,
+  "name": "Agac govdesi",
+  "max_hp": 120,
+  "bullet_damage_multiplier": 0.9,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "top": "log_top",
+   "side": "log_side",
+   "bottom": "log_top"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   96,
+   72,
+   50
+  ],
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.2,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "roof_flat": {
+  "index": 29,
+  "name": "Duz dam (zift)",
+  "max_hp": 220,
+  "bullet_damage_multiplier": 0.7,
+  "penetration_resistance": 0.9,
+  "texture": {
+   "all": "roof_flat"
+  },
+  "impact_sound_id": "impact_concrete",
+  "color": [
+   84,
+   84,
+   86
+  ],
+  "salvage": [
+   {
+    "item": "rebar",
+    "chance": 0.03,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "railing": {
+  "index": 30,
+  "name": "Korkuluk",
+  "max_hp": 90,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.2,
+  "texture": {
+   "all": "railing"
+  },
+  "transparent": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   60,
+   64,
+   66
+  ],
+  "zombie_breakable": true,
+  "salvage": [
+   {
+    "item": "pipe_steel",
+    "chance": 0.08,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "_egim": "Yarim bloklar: arazi 0.5 m adimla yukselir; yuruyen egimde tam blokluk basamak olusmaz.",
+ "asphalt_half": {
+  "index": 31,
+  "name": "Asfalt (egim)",
+  "max_hp": 150,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.9,
+  "shape": "slab",
+  "texture": {
+   "all": "asphalt"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   58,
+   60,
+   64
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.03,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "cobble_half": {
+  "index": 32,
+  "name": "Arnavut kaldirimi (egim)",
+  "max_hp": 160,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.0,
+  "shape": "slab",
+  "texture": {
+   "all": "cobblestone"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   112,
+   108,
+   100
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.03,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "grass_half": {
+  "index": 33,
+  "name": "Cimen (egim)",
+  "max_hp": 30,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.5,
+  "shape": "slab",
+  "texture": {
+   "top": "grass_top",
+   "side": "grass_side",
+   "bottom": "dirt"
+  },
+  "impact_sound_id": "impact_dirt",
+  "color": [
+   84,
+   120,
+   62
+  ],
+  "salvage": [
+   {
+    "item": "herbs",
+    "chance": 0.04,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "curb_block": {
+  "index": 34,
+  "name": "Kaldirim (tam)",
+  "max_hp": 220,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.9,
+  "texture": {
+   "top": "sidewalk",
+   "side": "curb",
+   "bottom": "curb"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   146,
+   138
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "pier_deck": {
+  "index": 35,
+  "name": "Iskele guvertesi",
+  "max_hp": 90,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   140,
+   104,
+   70
+  ],
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "gravestone": {
+  "index": 36,
+  "name": "Mezar tasi",
+  "max_hp": 180,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "limestone"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   206,
+   196,
+   170
+  ]
+ },
+ "barricade": {
+  "index": 37,
+  "name": "Civili barikat",
+  "max_hp": 160,
+  "bullet_damage_multiplier": 0.9,
+  "penetration_resistance": 0.5,
+  "texture": {
+   "all": "barricade"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   128,
+   92,
+   58
+  ],
+  "zombie_breakable": true
+ },
+ "sheet_wall": {
+  "index": 38,
+  "name": "Sac levha duvar",
+  "max_hp": 260,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.7,
+  "texture": {
+   "all": "metal_sheet"
+  },
+  "impact_sound_id": "impact_metal",
+  "color": [
+   110,
+   116,
+   118
+  ],
+  "zombie_breakable": true
+ },
+ "_kopru": "15 Temmuz Sehitler Koprusu: kule/tabliye celigi (celik kurali 600 HP) ve tabliye serit cizgisi. Halatlar voxel degil (BridgeDecor).",
+ "bridge_steel": {
+  "index": 39,
+  "name": "Kopru celigi",
+  "max_hp": 600,
+  "bullet_damage_multiplier": 0.45,
+  "penetration_resistance": 1.6,
+  "texture": {
+   "all": "bridge_steel"
+  },
+  "impact_sound_id": "impact_metal",
+  "color": [
+   196,
+   198,
+   196
+  ],
+  "salvage": [
+   {
+    "item": "scrap_metal",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "_ic_mekan": "Girilebilir bina icleri: ic siva duvar, parke/fayans doseme, merdiven basamagi. Gorunmez (render: none) malzemeler mobilya ve kapilarin CARPISMA hacmidir: fizik, mermi, gorus ve yol bulma ayni voxel verisini okur; gorunen yuz GLB modeldir.",
+ "interior_plaster": {
+  "index": 41,
+  "name": "Ic duvar (siva)",
+  "max_hp": 90,
+  "bullet_damage_multiplier": 0.9,
+  "penetration_resistance": 0.6,
+  "texture": {
+   "all": "interior_plaster"
+  },
+  "impact_sound_id": "impact_concrete",
+  "color": [
+   214,
+   206,
+   188
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.04,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ],
+  "interior_only": true
+ },
+ "parquet": {
+  "index": 42,
+  "name": "Parke doseme",
+  "max_hp": 200,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "top": "interior_parquet",
+   "side": "concrete",
+   "bottom": "interior_plaster"
+  },
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   112,
+   72
+  ],
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.05,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ],
+  "interior_only": true
+ },
+ "floor_tile": {
+  "index": 43,
+  "name": "Fayans doseme",
+  "max_hp": 220,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "top": "interior_tile",
+   "side": "concrete",
+   "bottom": "interior_plaster"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   206,
+   204,
+   196
+  ],
+  "salvage": [
+   {
+    "item": "ceramic_shard",
+    "chance": 0.1,
+    "count": [
+     1,
+     2
+    ]
+   }
+  ],
+  "interior_only": true
+ },
+ "stair_step": {
+  "index": 44,
+  "name": "Merdiven",
+  "max_hp": 250,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "top": "stair_tread",
+   "side": "concrete",
+   "bottom": "interior_plaster"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   176,
+   170,
+   160
+  ],
+  "interior_only": true
+ },
+ "stair_step_half": {
+  "index": 45,
+  "name": "Merdiven (yarim)",
+  "max_hp": 180,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "shape": "slab",
+  "texture": {
+   "top": "stair_tread",
+   "side": "concrete",
+   "bottom": "interior_plaster"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   176,
+   170,
+   160
+  ],
+  "interior_only": true
+ },
+ "furniture_wood": {
+  "index": 46,
+  "name": "Ahsap mobilya",
+  "max_hp": 60,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "render": "none",
+  "impact_sound_id": "impact_wood",
+  "color": [
+   128,
+   92,
+   60
+  ],
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.25,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "furniture_metal": {
+  "index": 47,
+  "name": "Metal mobilya",
+  "max_hp": 260,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "metal_sheet"
+  },
+  "render": "none",
+  "impact_sound_id": "impact_metal",
+  "color": [
+   120,
+   124,
+   128
+  ],
+  "salvage": [
+   {
+    "item": "scrap_metal",
+    "chance": 0.25,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "door_wood": {
+  "index": 48,
+  "name": "Ahsap kapi",
+  "max_hp": 60,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "render": "none",
+  "impact_sound_id": "impact_wood",
+  "color": [
+   128,
+   92,
+   60
+  ],
+  "salvage": [
+   {
+    "item": "wood_plank",
+    "chance": 0.2,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "door_metal": {
+  "index": 49,
+  "name": "Metal kapi",
+  "max_hp": 400,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.2,
+  "texture": {
+   "all": "steel"
+  },
+  "render": "none",
+  "impact_sound_id": "impact_metal",
+  "color": [
+   90,
+   96,
+   102
+  ],
+  "salvage": [
+   {
+    "item": "scrap_metal",
+    "chance": 0.2,
+    "count": [
+     1,
+     1
+    ]
+   },
+   {
+    "item": "hinge",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "door_glass": {
+  "index": 50,
+  "name": "Cam dukkan kapisi",
+  "max_hp": 10,
+  "bullet_damage_multiplier": 1.5,
+  "penetration_resistance": 0.05,
+  "texture": {
+   "all": "glass"
+  },
+  "render": "none",
+  "transparent": true,
+  "fragile": true,
+  "impact_sound_id": "impact_glass",
+  "color": [
+   150,
+   190,
+   210
+  ],
+  "salvage": [
+   {
+    "item": "glass_shard",
+    "chance": 0.3,
+    "count": [
+     1,
+     2
+    ]
+   }
+  ]
+ },
+ "asphalt_line": {
+  "index": 40,
+  "name": "Asfalt (serit cizgisi)",
+  "max_hp": 250,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.9,
+  "texture": {
+   "top": "asphalt_line",
+   "side": "asphalt",
+   "bottom": "asphalt"
+  },
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   150,
+   146
+  ],
+  "salvage": [
+   {
+    "item": "sand",
+    "chance": 0.03,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "ladder": {
+  "index": 51,
+  "name": "Tirmanma merdiveni",
+  "max_hp": 80,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.1,
+  "texture": {
+   "all": "ladder"
+  },
+  "transparent": true,
+  "passable": true,
+  "climbable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   92,
+   96,
+   98
+  ],
+  "salvage": [
+   {
+    "item": "pipe_steel",
+    "chance": 0.1,
+    "count": [
+     1,
+     1
+    ]
+   }
+  ],
+  "interior_only": true
+ },
+ "pb_frame": {
+  "index": 62,
+  "name": "İskelet",
+  "max_hp": 60,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.2,
+  "texture": {
+   "all": "pb_frame"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "transparent": true
+ },
+ "pb_wood": {
+  "index": 63,
+  "name": "Ahşap",
+  "max_hp": 220,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_woodr": {
+  "index": 64,
+  "name": "Güçlendirilmiş ahşap",
+  "max_hp": 420,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.6,
+  "texture": {
+   "all": "pb_wood_reinforced"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_scrap": {
+  "index": 65,
+  "name": "Hurda sac",
+  "max_hp": 500,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.8,
+  "texture": {
+   "all": "pb_scrap"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_brick": {
+  "index": 66,
+  "name": "Tuğla",
+  "max_hp": 700,
+  "bullet_damage_multiplier": 0.7,
+  "penetration_resistance": 0.9,
+  "texture": {
+   "all": "brick"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_stone": {
+  "index": 67,
+  "name": "Kesme taş",
+  "max_hp": 900,
+  "bullet_damage_multiplier": 0.55,
+  "penetration_resistance": 1.1,
+  "texture": {
+   "all": "pb_stone_block"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_concrete": {
+  "index": 68,
+  "name": "Beton",
+  "max_hp": 1300,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 1.2,
+  "texture": {
+   "all": "concrete"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_rconcrete": {
+  "index": 69,
+  "name": "Betonarme",
+  "max_hp": 2000,
+  "bullet_damage_multiplier": 0.4,
+  "penetration_resistance": 1.5,
+  "texture": {
+   "all": "pb_rconcrete"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_steel": {
+  "index": 70,
+  "name": "Çelik",
+  "max_hp": 3000,
+  "bullet_damage_multiplier": 0.35,
+  "penetration_resistance": 1.8,
+  "texture": {
+   "all": "pb_steel_plate"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_frame_slab": {
+  "index": 71,
+  "name": "İskelet (yarım)",
+  "max_hp": 36,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.13999999999999999,
+  "texture": {
+   "all": "pb_frame"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_wood_slab": {
+  "index": 72,
+  "name": "Ahşap (yarım)",
+  "max_hp": 132,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.27999999999999997,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_woodr_slab": {
+  "index": 73,
+  "name": "Güçlendirilmiş ahşap (yarım)",
+  "max_hp": 252,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.42,
+  "texture": {
+   "all": "pb_wood_reinforced"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_scrap_slab": {
+  "index": 74,
+  "name": "Hurda sac (yarım)",
+  "max_hp": 300,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.5599999999999999,
+  "texture": {
+   "all": "pb_scrap"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_brick_slab": {
+  "index": 75,
+  "name": "Tuğla (yarım)",
+  "max_hp": 420,
+  "bullet_damage_multiplier": 0.7,
+  "penetration_resistance": 0.63,
+  "texture": {
+   "all": "brick"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_stone_slab": {
+  "index": 76,
+  "name": "Kesme taş (yarım)",
+  "max_hp": 540,
+  "bullet_damage_multiplier": 0.55,
+  "penetration_resistance": 0.77,
+  "texture": {
+   "all": "pb_stone_block"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_concrete_slab": {
+  "index": 77,
+  "name": "Beton (yarım)",
+  "max_hp": 780,
+  "bullet_damage_multiplier": 0.5,
+  "penetration_resistance": 0.84,
+  "texture": {
+   "all": "concrete"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_rconcrete_slab": {
+  "index": 78,
+  "name": "Betonarme (yarım)",
+  "max_hp": 1200,
+  "bullet_damage_multiplier": 0.4,
+  "penetration_resistance": 1.0499999999999998,
+  "texture": {
+   "all": "pb_rconcrete"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_steel_slab": {
+  "index": 79,
+  "name": "Çelik (yarım)",
+  "max_hp": 1800,
+  "bullet_damage_multiplier": 0.35,
+  "penetration_resistance": 1.26,
+  "texture": {
+   "all": "pb_steel_plate"
+  },
+  "shape": "slab",
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_glass_reinforced": {
+  "index": 80,
+  "name": "Takviyeli cam",
+  "max_hp": 160,
+  "bullet_damage_multiplier": 1.2,
+  "penetration_resistance": 0.3,
+  "texture": {
+   "all": "pb_glass_reinforced"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "break_glass",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "transparent": true
+ },
+ "pb_bars": {
+  "index": 81,
+  "name": "Demir parmaklık",
+  "max_hp": 600,
+  "bullet_damage_multiplier": 0.3,
+  "penetration_resistance": 0.1,
+  "texture": {
+   "all": "pb_bars"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "transparent": true
+ },
+ "pb_mesh": {
+  "index": 82,
+  "name": "Tel örgü",
+  "max_hp": 250,
+  "bullet_damage_multiplier": 0.4,
+  "penetration_resistance": 0.05,
+  "texture": {
+   "all": "pb_mesh"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "transparent": true
+ },
+ "pb_log": {
+  "index": 83,
+  "name": "Kütük palisat",
+  "max_hp": 500,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.9,
+  "texture": {
+   "top": "log_top",
+   "side": "log_side",
+   "bottom": "log_top"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_gabion": {
+  "index": 84,
+  "name": "Gabion",
+  "max_hp": 900,
+  "bullet_damage_multiplier": 0.4,
+  "penetration_resistance": 1.4,
+  "texture": {
+   "all": "pb_gabion"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_door_wood": {
+  "index": 85,
+  "name": "Ahşap kapı",
+  "max_hp": 250,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "pb_door_wood"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_door_reinforced": {
+  "index": 86,
+  "name": "Takviyeli ahşap kapı",
+  "max_hp": 520,
+  "bullet_damage_multiplier": 0.8,
+  "penetration_resistance": 0.7,
+  "texture": {
+   "all": "pb_door_reinforced"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_door_metal": {
+  "index": 87,
+  "name": "Sac kapı",
+  "max_hp": 900,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "pb_door_metal"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_door_steel": {
+  "index": 88,
+  "name": "Çelik kapı",
+  "max_hp": 1800,
+  "bullet_damage_multiplier": 0.4,
+  "penetration_resistance": 1.6,
+  "texture": {
+   "all": "pb_door_steel"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_roof_tile": {
+  "index": 89,
+  "name": "Kiremit çatı",
+  "max_hp": 300,
+  "bullet_damage_multiplier": 0.9,
+  "penetration_resistance": 0.6,
+  "texture": {
+   "all": "roof_tile"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_stone",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_roof_sheet": {
+  "index": 90,
+  "name": "Sac çatı",
+  "max_hp": 400,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.7,
+  "texture": {
+   "all": "metal_sheet"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_roof_shingle": {
+  "index": 91,
+  "name": "Ahşap kiremit çatı",
+  "max_hp": 240,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.4,
+  "texture": {
+   "all": "pb_shingle"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ]
+ },
+ "pb_ladder_wood": {
+  "index": 92,
+  "name": "Ahşap merdiven",
+  "max_hp": 150,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.1,
+  "texture": {
+   "all": "pb_ladder_wood"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "transparent": true,
+  "passable": true,
+  "climbable": true
+ },
+ "pb_ladder_steel": {
+  "index": 93,
+  "name": "Çelik merdiven",
+  "max_hp": 450,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 0.1,
+  "texture": {
+   "all": "ladder"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "transparent": true,
+  "passable": true,
+  "climbable": true
+ },
+ "placed_light": {
+  "index": 94,
+  "name": "Yapı (hafif)",
+  "max_hp": 150,
+  "bullet_damage_multiplier": 1.0,
+  "penetration_resistance": 0.5,
+  "texture": {
+   "all": "wood_plank"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_wood",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "render": "none"
+ },
+ "placed_heavy": {
+  "index": 95,
+  "name": "Yapı (ağır)",
+  "max_hp": 450,
+  "bullet_damage_multiplier": 0.6,
+  "penetration_resistance": 1.0,
+  "texture": {
+   "all": "steel"
+  },
+  "zombie_breakable": true,
+  "impact_sound_id": "impact_metal",
+  "color": [
+   150,
+   140,
+   128
+  ],
+  "render": "none"
+ }
+}

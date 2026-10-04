@@ -1,0 +1,419 @@
+{
+ "medkit": {
+  "name": "Ilk Yardim Cantasi",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 5,
+  "weight": 0.7,
+  "value": 180,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "effects": {
+   "heal": 65,
+   "cure_bleed": 1
+  },
+  "description": "Ciddi yarayi kapatir. Bulmasi zor, yapmasi daha zor."
+ },
+ "bandage_clean": {
+  "name": "Temiz Sargi",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 15,
+  "weight": 0.08,
+  "value": 35,
+  "tags": [
+   "medical",
+   "healing"
+  ],
+  "effects": {
+   "heal": 22,
+   "cure_bleed": 1
+  },
+  "description": "Kanamayi durdurur, gerisi sana kalmis."
+ },
+ "stimulant": {
+  "name": "Uyarici",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 10,
+  "weight": 0.05,
+  "value": 150,
+  "tags": [
+   "medical",
+   "buff",
+   "pharma"
+  ],
+  "effects": {
+   "heal": 12,
+   "speed_boost": 0.35,
+   "duration": 14
+  },
+  "description": "14 saniye boyunca yorulmazsin. Sonrasi baska konu."
+ },
+ "antidote": {
+  "name": "Panzehir",
+  "category": "consumable",
+  "tier": 4,
+  "stack": 8,
+  "weight": 0.1,
+  "value": 240,
+  "tags": [
+   "medical",
+   "cure"
+  ],
+  "effects": {
+   "cure_infection": 1,
+   "heal": 15
+  },
+  "description": "Isirildiysan tek sansin bu."
+ },
+ "energy_bar": {
+  "name": "Enerji Bari",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 20,
+  "weight": 0.1,
+  "value": 20,
+  "tags": [
+   "food"
+  ],
+  "effects": {
+   "heal": 8,
+   "stamina": 40
+  },
+  "description": "Son kullanma tarihi gecmis. Onemli degil."
+ },
+ "molotov": {
+  "name": "Molotof",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 8,
+  "weight": 0.7,
+  "value": 90,
+  "tags": [
+   "throwable",
+   "incendiary"
+  ],
+  "effects": {
+   "damage": 30,
+   "radius": 90,
+   "burn_duration": 6
+  },
+  "description": "Kalabaligi durdurmanin en ucuz yolu."
+ },
+ "pipe_bomb": {
+  "name": "Boru Bombasi",
+  "category": "consumable",
+  "tier": 3,
+  "stack": 6,
+  "weight": 1.0,
+  "value": 210,
+  "tags": [
+   "throwable",
+   "explosive"
+  ],
+  "effects": {
+   "damage": 120,
+   "radius": 130
+  },
+  "description": "Gurultulu. Cok gurultulu."
+ },
+ "noise_maker": {
+  "name": "Ses Tuzagi",
+  "category": "consumable",
+  "tier": 2,
+  "stack": 10,
+  "weight": 0.3,
+  "value": 70,
+  "tags": [
+   "throwable",
+   "utility"
+  ],
+  "effects": {
+   "noise_radius": 620,
+   "delay": 3
+  },
+  "description": "Hordeyi istedigin yere cek. En degerli esya bu olabilir."
+ },
+ "flare": {
+  "name": "Isaret Fiseği",
+  "category": "consumable",
+  "tier": 1,
+  "stack": 12,
+  "weight": 0.15,
+  "value": 40,
+  "tags": [
+   "throwable",
+   "light_source",
+   "utility"
+  ],
+  "effects": {
+   "light_radius": 180,
+   "duration": 25
+  },
+  "description": "Karanlik sokakta hem dost hem dusman."
+ },
+ "armor_vest": {
+  "name": "Balistik Yelek",
+  "category": "tool",
+  "tier": 4,
+  "stack": 1,
+  "weight": 4.5,
+  "value": 420,
+  "durability": 260,
+  "tags": [
+   "armor",
+   "wearable"
+  ],
+  "effects": {
+   "armor": 9
+  },
+  "description": "Agir. Ama isirik da mermi de gecmiyor."
+ },
+ "scrap_armor": {
+  "name": "Hurda Zirh",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 6.0,
+  "value": 120,
+  "durability": 140,
+  "tags": [
+   "armor",
+   "wearable"
+  ],
+  "effects": {
+   "armor": 4
+  },
+  "description": "Levha ve bant. Cirkin ama ise yariyor."
+ },
+ "gas_mask": {
+  "name": "Gaz Maskesi",
+  "category": "tool",
+  "tier": 3,
+  "stack": 1,
+  "weight": 1.1,
+  "value": 300,
+  "durability": 180,
+  "tags": [
+   "protective",
+   "wearable"
+  ],
+  "effects": {
+   "toxin_resist": 0.8
+  },
+  "description": "Tukurukcunun bulutundan gecmeni saglar."
+ },
+ "backpack_large": {
+  "name": "Buyuk Sirt Cantasi",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 1.5,
+  "value": 200,
+  "tags": [
+   "container",
+   "wearable"
+  ],
+  "effects": {
+   "capacity": 25
+  },
+  "description": "25 kilo daha tasiyabilirsin."
+ },
+ "toolkit": {
+  "name": "Takim Cantasi",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 3.0,
+  "value": 260,
+  "durability": 400,
+  "tags": [
+   "tool",
+   "repair_tool",
+   "tool_hammer",
+   "tool_pliers",
+   "tool_file",
+   "tool_wrench"
+  ],
+  "description": "Pense, tornavida, ege. Tezgahin yarisi."
+ },
+ "soldering_iron": {
+  "name": "Havya",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.5,
+  "value": 180,
+  "durability": 300,
+  "tags": [
+   "tool",
+   "electronics_tool",
+   "tool_solder"
+  ],
+  "description": "Elektronik isin var mi? O zaman bu sart."
+ },
+ "lockpick": {
+  "name": "Maymuncuk",
+  "category": "tool",
+  "tier": 1,
+  "stack": 10,
+  "weight": 0.02,
+  "value": 45,
+  "tags": [
+   "tool",
+   "utility"
+  ],
+  "description": "Kilitli dolaplarin arkasinda iyi seyler olur."
+ },
+ "barricade_kit": {
+  "name": "Barikat Kiti",
+  "category": "station",
+  "tier": 2,
+  "stack": 4,
+  "weight": 5.0,
+  "value": 150,
+  "tags": [
+   "placeable",
+   "defense"
+  ],
+  "effects": {
+   "health": 260,
+   "path_cost": 30
+  },
+  "description": "Kapiyi kapat, koridoru daralt, hordeyi yonlendir."
+ },
+ "spike_trap": {
+  "name": "Civili Tuzak",
+  "category": "station",
+  "tier": 2,
+  "stack": 6,
+  "weight": 2.2,
+  "value": 130,
+  "tags": [
+   "placeable",
+   "defense",
+   "trap"
+  ],
+  "effects": {
+   "damage": 22,
+   "uses": 12
+  },
+  "description": "Sessiz. Zombi ustune basar, sen ates etmezsin."
+ },
+ "auto_turret": {
+  "name": "Otomatik Taret",
+  "category": "station",
+  "tier": 5,
+  "stack": 2,
+  "weight": 14.0,
+  "value": 900,
+  "tags": [
+   "placeable",
+   "defense",
+   "powered"
+  ],
+  "effects": {
+   "damage": 16,
+   "fire_rate": 3.5,
+   "range": 320
+  },
+  "description": "Uyumaz, korkmaz, sarjoru bitince susar."
+ },
+ "workbench_kit": {
+  "name": "Calisma Tezgahi",
+  "category": "station",
+  "tier": 2,
+  "stack": 1,
+  "weight": 18.0,
+  "value": 320,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "effects": {
+   "station_tier": 2
+  },
+  "description": "Ussun kalbi. Buradan sonrasi ciddi is."
+ },
+ "electronics_bench": {
+  "name": "Elektronik Masasi",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 12.0,
+  "value": 480,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "effects": {
+   "station_tier": 3
+  },
+  "description": "Havya, buyutec, dagitilmis parcalar."
+ },
+ "chemistry_set": {
+  "name": "Kimya Seti",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 10.0,
+  "value": 460,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "effects": {
+   "station_tier": 3
+  },
+  "description": "Cam, ocak ve cok dikkat."
+ },
+ "gunsmith_bench": {
+  "name": "Silah Tezgahi",
+  "category": "station",
+  "tier": 4,
+  "stack": 1,
+  "weight": 22.0,
+  "value": 780,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "effects": {
+   "station_tier": 4
+  },
+  "description": "Mengene, ege, olcu aletleri."
+ },
+ "forge_kit": {
+  "name": "Ocak",
+  "category": "station",
+  "tier": 3,
+  "stack": 1,
+  "weight": 30.0,
+  "value": 600,
+  "tags": [
+   "placeable",
+   "crafting_station"
+  ],
+  "effects": {
+   "station_tier": 3
+  },
+  "description": "Metali eritir. Sicak, gurultulu, dikkat ceker."
+ },
+ "radio_handheld": {
+  "name": "El Telsizi",
+  "category": "tool",
+  "tier": 2,
+  "stack": 1,
+  "weight": 0.6,
+  "value": 180,
+  "tags": [
+   "tool",
+   "radio",
+   "electronic_device"
+  ],
+  "description": "Cantadayken yardim bekleyen hayatta kalanlarin sinyalini yakalar: yon ve uzaklik."
+ }
+}

@@ -1,0 +1,366 @@
+{
+  "r_boil_water": {
+    "name": "Su kaynat",
+    "output": "water_bottle",
+    "count": 3,
+    "station": "cooking",
+    "time": 18.0,
+    "category": "hayatta_kalma",
+    "inputs": [
+      {
+        "item": "water_dirty",
+        "count": 3
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 1
+      }
+    ],
+    "description": "Uc sise kirli suyu ocakta kaynatir. Siseler yeniden kullanilir; yakit harcanir."
+  },
+  "r_purify_tablet": {
+    "name": "Tabletle arit",
+    "output": "water_bottle",
+    "count": 1,
+    "station": "hands",
+    "time": 6.0,
+    "category": "hayatta_kalma",
+    "inputs": [
+      {
+        "item": "water_dirty",
+        "count": 1
+      },
+      {
+        "item": "purification_tabs",
+        "count": 1
+      }
+    ],
+    "description": "Sahada, atesiz. Tablet basina bir sise."
+  },
+  "r_filter_water": {
+    "name": "Filtreden gecir",
+    "output": "water_bottle",
+    "count": 6,
+    "station": "water",
+    "time": 24.0,
+    "category": "hayatta_kalma",
+    "inputs": [
+      {
+        "item": "water_dirty",
+        "count": 6
+      },
+      {
+        "item": "filter_cartridge",
+        "count": 1
+      }
+    ],
+    "description": "Aritici altı siseyi yakitsiz temizler; kartus bu sirada tukenir."
+  },
+  "r_cook_staple": {
+    "name": "Guvec pisir",
+    "output": "cooked_meal",
+    "count": 3,
+    "station": "cooking",
+    "time": 25.0,
+    "category": "hayatta_kalma",
+    "inputs": [
+      {
+        "tag": "staple",
+        "count": 2
+      },
+      {
+        "item": "water_bottle",
+        "count": 1
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 1
+      }
+    ],
+    "byproducts": {
+      "bottle_empty": 1
+    },
+    "description": "Iki paket bakliyat/tahil + bir sise temiz su: uc porsiyon sicak yemek. Sise geri doner."
+  },
+  "r_cook_dry_goods": {
+    "name": "Kuru gidayi pisir",
+    "output": "cooked_meal",
+    "count": 2,
+    "station": "cooking",
+    "time": 20.0,
+    "category": "hayatta_kalma",
+    "inputs": [
+      {
+        "item": "dry_goods",
+        "count": 2
+      },
+      {
+        "item": "water_bottle",
+        "count": 1
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 1
+      }
+    ],
+    "byproducts": {
+      "bottle_empty": 1
+    },
+    "description": "Karisik kuru gidadan iki porsiyon."
+  },
+  "r_decant_canister": {
+    "name": "Bidonu siselere bosalt",
+    "output": "water_bottle",
+    "count": 5,
+    "station": "hands",
+    "time": 5.0,
+    "category": "hayatta_kalma",
+    "inputs": [
+      {
+        "item": "water_canister",
+        "count": 1
+      },
+      {
+        "item": "bottle_empty",
+        "count": 5
+      }
+    ],
+    "description": "Bes litrelik bidon bes siseye bolunur; bidon tasima icin artik yirtiktir."
+  },
+  "r_cookstove_kit": {
+    "name": "Roket ocagi yap",
+    "output": "cookstove_kit",
+    "count": 1,
+    "station": "hands",
+    "time": 12.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "metal_plate",
+        "count": 2
+      },
+      {
+        "item": "ceramic_shard",
+        "count": 4
+      },
+      {
+        "tag": "fastener",
+        "count": 3
+      }
+    ],
+    "description": "Ilk usun ilk isi: kaynatilmis su ve sicak yemek."
+  },
+  "r_water_filter_kit": {
+    "name": "Su aritici kur",
+    "output": "water_filter_kit",
+    "count": 1,
+    "station": "workbench",
+    "time": 22.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "pvc_pipe",
+        "count": 3
+      },
+      {
+        "item": "bottle_empty",
+        "count": 4
+      },
+      {
+        "item": "charcoal",
+        "count": 3
+      },
+      {
+        "item": "sand",
+        "count": 3
+      },
+      {
+        "tag": "fastener",
+        "count": 4
+      }
+    ],
+    "description": "Yakitsiz temiz su. Kartus harcar."
+  },
+  "r_rain_barrel_kit": {
+    "name": "Yagmur varili yap",
+    "output": "rain_barrel_kit",
+    "count": 1,
+    "station": "hands",
+    "time": 10.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "tag": "polymer",
+        "count": 4
+      },
+      {
+        "item": "pvc_pipe",
+        "count": 1
+      },
+      {
+        "tag": "fastener",
+        "count": 2
+      }
+    ],
+    "description": "Ussun su kaynagi: her gun ortak depoya kirli su."
+  },
+  "r_cold_room_kit": {
+    "name": "Soguk oda kur",
+    "output": "cold_room_kit",
+    "count": 1,
+    "station": "workbench",
+    "station_tier": 2,
+    "time": 40.0,
+    "category": "istasyon",
+    "inputs": [
+      {
+        "item": "metal_plate",
+        "count": 6
+      },
+      {
+        "item": "insulated_wire",
+        "count": 4
+      },
+      {
+        "item": "motor_small",
+        "count": 1
+      },
+      {
+        "tag": "insulator",
+        "count": 4
+      },
+      {
+        "tag": "fastener",
+        "count": 8
+      }
+    ],
+    "description": "Pisirilmis yemegin bozulmasini yavaslatir; yakitla calisir.",
+    "unlocked": false
+  },
+  "r_cook_field": {
+    "name": "Atesle pisir (sahra)",
+    "output": "cooked_meal",
+    "count": 2,
+    "station": "hands",
+    "time": 35.0,
+    "category": "hayatta_kalma",
+    "unlocked": false,
+    "inputs": [
+      {
+        "tag": "staple",
+        "count": 2
+      },
+      {
+        "item": "water_bottle",
+        "count": 1
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 2
+      }
+    ],
+    "byproducts": {
+      "bottle_empty": 1
+    },
+    "description": "Ocaksiz, kucuk bir atesle: iki porsiyon, iki kat yakit."
+  },
+  "r_boil_field": {
+    "name": "Atesle su kaynat (sahra)",
+    "output": "water_bottle",
+    "count": 2,
+    "station": "hands",
+    "time": 25.0,
+    "category": "hayatta_kalma",
+    "unlocked": false,
+    "inputs": [
+      {
+        "item": "water_dirty",
+        "count": 2
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 2
+      }
+    ],
+    "description": "Yolda: iki sise, iki yakit."
+  },
+  "r_salt_preserve": {
+    "name": "Tuzla kavur",
+    "output": "preserved_meat",
+    "count": 3,
+    "station": "cooking",
+    "time": 30.0,
+    "category": "hayatta_kalma",
+    "unlocked": false,
+    "inputs": [
+      {
+        "item": "cooked_meal",
+        "count": 3
+      },
+      {
+        "item": "salt_pack",
+        "count": 1
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 1
+      }
+    ],
+    "description": "Bozulacak yemegi aylarca dayanan kavurmaya cevirir."
+  },
+  "r_filter_cartridge_bulk": {
+    "name": "Toplu filtre kartusu",
+    "output": "filter_cartridge",
+    "count": 3,
+    "station": "workbench",
+    "time": 22.0,
+    "category": "hayatta_kalma",
+    "unlocked": false,
+    "inputs": [
+      {
+        "item": "charcoal",
+        "count": 5
+      },
+      {
+        "item": "sand",
+        "count": 5
+      },
+      {
+        "tag": "soft",
+        "count": 2
+      },
+      {
+        "item": "pvc_pipe",
+        "count": 2
+      }
+    ],
+    "description": "Uc kartus, tek seferde; malzemede tasarruf."
+  },
+  "r_herbal_tea": {
+    "name": "Bitki cayi demle",
+    "output": "herbal_tea",
+    "count": 2,
+    "station": "cooking",
+    "time": 12.0,
+    "category": "tibbi",
+    "unlocked": false,
+    "inputs": [
+      {
+        "item": "herbs",
+        "count": 2
+      },
+      {
+        "item": "water_bottle",
+        "count": 1
+      },
+      {
+        "tag": "cook_fuel",
+        "count": 1
+      }
+    ],
+    "byproducts": {
+      "bottle_empty": 1
+    },
+    "description": "Mide bulantisini gecirir, biraz da su verir."
+  }
+}

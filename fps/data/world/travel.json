@@ -1,0 +1,40 @@
+{
+  "vehicles": {
+    "sedan": {
+      "name": "Sedan",
+      "speed": 420,
+      "acceleration": 260,
+      "fuel_per_km": 1.2,
+      "capacity_kg": 120,
+      "noise_radius": 520,
+      "durability": 100,
+      "description": "Sokak arası için ideal. Tıkalı yollarda sıkışır."
+    },
+    "minibus": {
+      "name": "Minibüs",
+      "speed": 340,
+      "acceleration": 180,
+      "fuel_per_km": 2.1,
+      "capacity_kg": 320,
+      "noise_radius": 680,
+      "durability": 160,
+      "description": "Yavaş ama çok taşır. Koloni taşımacılığının belkemiği."
+    },
+    "pickup": {
+      "name": "Kamyonet",
+      "speed": 380,
+      "acceleration": 220,
+      "fuel_per_km": 1.7,
+      "capacity_kg": 240,
+      "noise_radius": 600,
+      "durability": 200,
+      "description": "Sağlam. Hafif barikatları ezip geçer."
+    }
+  },
+  "fast_travel": {
+    "fuel_per_km": 0.8,
+    "minutes_per_km": 3.5,
+    "min_minutes": 20,
+    "description": "Kendi üsleri arasında. Zaman ve yakıt ister; risksiz değildir."
+  }
+}

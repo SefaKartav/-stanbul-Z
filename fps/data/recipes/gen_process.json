@@ -1,0 +1,1866 @@
+{
+ "r_iron_bar": {
+  "name": "Demir çubuk dövme",
+  "output": "iron_bar",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Dövme",
+  "inputs": [
+   {
+    "item": "scrap_metal",
+    "count": 3
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Hurda metali ocakta ısıtıp çubuğa çekersin."
+ },
+ "r_iron_bar_bars": {
+  "name": "Parmaklık eritme",
+  "output": "iron_bar",
+  "count": 3,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Dövme",
+  "inputs": [
+   {
+    "item": "steel_bars",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Hapishane parmaklığı temiz demirdir: hurdadan verimli."
+ },
+ "r_steel_from_rebar": {
+  "name": "İnşaat demirinden çelik",
+  "output": "steel_ingot",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 12,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Eritme",
+  "inputs": [
+   {
+    "item": "rebar",
+    "count": 3
+   },
+   {
+    "item": "charcoal",
+    "count": 2
+   }
+  ],
+  "description": "Kömürle karbonlanan demir çeliğe döner."
+ },
+ "r_aluminum_ingot": {
+  "name": "Alüminyum eritme",
+  "output": "aluminum_ingot",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 8,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Eritme",
+  "inputs": [
+   {
+    "item": "sheet_aluminum",
+    "count": 3
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Alüminyum düşük ısıda erir; hafif parçalar için."
+ },
+ "r_copper_ingot": {
+  "name": "Bakır eritme (kablo)",
+  "output": "copper_ingot",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 8,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Eritme",
+  "inputs": [
+   {
+    "item": "copper_wire",
+    "count": 6
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Kabloların yalıtımı yanar, bakır kalır."
+ },
+ "r_copper_radiator": {
+  "name": "Radyatör sökme",
+  "output": "copper_ingot",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 10,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Eritme",
+  "inputs": [
+   {
+    "item": "radiator_core",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Radyatör peteğinden bakır ve alüminyum ayrılır.",
+  "byproducts": {
+   "aluminum_ingot": 1
+  }
+ },
+ "r_steel_sheet": {
+  "name": "Çelik sac haddeleme",
+  "output": "steel_sheet",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 10,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Dövme",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Külçeyi ince levhaya çekersin."
+ },
+ "r_rivets": {
+  "name": "Perçin dövme",
+  "output": "rivets",
+  "count": 12,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 5,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Bir çubuktan bir avuç perçin."
+ },
+ "r_nails_forge": {
+  "name": "Çivi dövme",
+  "output": "nail",
+  "count": 20,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 5,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Duvar ve barikat için çivi."
+ },
+ "r_screws_lathe": {
+  "name": "Vida açma",
+  "output": "screw",
+  "count": 15,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Torna ile diş açılmış vida."
+ },
+ "r_bolts_lathe": {
+  "name": "Cıvata ve somun",
+  "output": "bolt_nut",
+  "count": 10,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Ağır parçaları tutturan cıvata."
+ },
+ "r_metal_bracket": {
+  "name": "Köşebent bükme",
+  "output": "metal_bracket",
+  "count": 3,
+  "station": "workbench",
+  "station_tier": 2,
+  "time": 4,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 2
+   }
+  ],
+  "description": "Güçlendirilmiş ahşabın sırrı."
+ },
+ "r_hinge_heavy": {
+  "name": "Ağır menteşe",
+  "output": "hinge_heavy",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "hinge",
+    "count": 1
+   }
+  ],
+  "description": "Kapı ve kapaklar için."
+ },
+ "r_gear_large": {
+  "name": "Büyük dişli işleme",
+  "output": "gear_large",
+  "count": 2,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 10,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "İşleme",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Çelikten dişli kesersin."
+ },
+ "r_gear_small_alu": {
+  "name": "Küçük dişli (alüminyum)",
+  "output": "gear_small",
+  "count": 4,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 6,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "İşleme",
+  "inputs": [
+   {
+    "item": "aluminum_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Hafif mekanizmalar için dişli."
+ },
+ "r_axle": {
+  "name": "Aks yapımı",
+  "output": "axle",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 10,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "İşleme",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   },
+   {
+    "item": "bearing",
+    "count": 2
+   }
+  ],
+  "description": "Dönen her şeyin mili."
+ },
+ "r_spring_heavy": {
+  "name": "Ağır yay sarma",
+  "output": "spring_heavy",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 6,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Yay",
+  "inputs": [
+   {
+    "item": "wire_steel",
+    "count": 2
+   },
+   {
+    "item": "iron_bar",
+    "count": 1
+   }
+  ],
+  "description": "Isıl işlemli çelik yay."
+ },
+ "r_spring_coil": {
+  "name": "Yay sarma",
+  "output": "spring",
+  "count": 3,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 4,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Yay",
+  "inputs": [
+   {
+    "item": "wire_steel",
+    "count": 2
+   }
+  ],
+  "description": "Telden küçük yay."
+ },
+ "r_blade_blank": {
+  "name": "Bıçak dövme",
+  "output": "blade_blank",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 8,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Dövme",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Çelik sacı keskin bir ağıza çekersin."
+ },
+ "r_pipe_fitting": {
+  "name": "Boru bağlantısı",
+  "output": "pipe_fitting",
+  "count": 3,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 4,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Tesisat",
+  "inputs": [
+   {
+    "item": "pipe_steel",
+    "count": 1
+   },
+   {
+    "tag": "fastener",
+    "count": 2
+   }
+  ],
+  "description": "Boruyu kesip diş açarsın."
+ },
+ "r_valve": {
+  "name": "Vana yapımı",
+  "output": "valve",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 6,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Tesisat",
+  "inputs": [
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   },
+   {
+    "item": "spring",
+    "count": 1
+   }
+  ],
+  "description": "Şalome ve pompa için."
+ },
+ "r_chain": {
+  "name": "Zincir dövme",
+  "output": "chain",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 8,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Dövme",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 2
+   }
+  ],
+  "description": "Halka halka zincir."
+ },
+ "r_welding_rod": {
+  "name": "Kaynak çubuğu",
+  "output": "welding_rod",
+  "count": 6,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 5,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Dekapan kaplı çubuk."
+ },
+ "r_mesh_wire": {
+  "name": "Tel örme",
+  "output": "mesh_wire",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Tel",
+  "inputs": [
+   {
+    "item": "wire_steel",
+    "count": 6
+   }
+  ],
+  "description": "Telleri eşkenar dörtgen örersin."
+ },
+ "r_barbed_wire": {
+  "name": "Dikenli tel",
+  "output": "barbed_wire_coil",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 6,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Tel",
+  "inputs": [
+   {
+    "item": "wire_steel",
+    "count": 4
+   },
+   {
+    "tag": "sharp",
+    "count": 4
+   }
+  ],
+  "description": "Tele diken sarılır."
+ },
+ "r_armor_plate_steel": {
+  "name": "Zırh plakası",
+  "output": "armor_plate_steel",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 12,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Zırh",
+  "inputs": [
+   {
+    "item": "steel_sheet",
+    "count": 2
+   },
+   {
+    "item": "rivets",
+    "count": 6
+   }
+  ],
+  "description": "Çift kat çelik, perçinli."
+ },
+ "r_reinforced_plate": {
+  "name": "Takviyeli plaka",
+  "output": "reinforced_plate",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 8,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Zırh",
+  "inputs": [
+   {
+    "item": "metal_plate",
+    "count": 2
+   },
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "rivets",
+    "count": 4
+   }
+  ],
+  "description": "Levhaya çubuk kaynatılır."
+ },
+ "r_planks_from_log": {
+  "name": "Kütük biçme",
+  "output": "wood_plank",
+  "count": 4,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 5,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Kereste",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 1
+   }
+  ],
+  "description": "Marangoz tezgâhında kütükten dört kalas."
+ },
+ "r_planks_hand": {
+  "name": "Elde kalas biçme",
+  "output": "wood_plank",
+  "count": 2,
+  "station": "hands",
+  "time": 8,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Kereste",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 1
+   },
+   {
+    "tag": "tool_saw",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "El testeresiyle: yavaş ve fireli."
+ },
+ "r_wood_beam": {
+  "name": "Kiriş kesme",
+  "output": "wood_beam",
+  "count": 2,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 6,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Kereste",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 1
+   }
+  ],
+  "description": "Kütükten kare kiriş."
+ },
+ "r_plywood": {
+  "name": "Kontrplak presleme",
+  "output": "plywood",
+  "count": 2,
+  "station": "carpentry",
+  "station_tier": 2,
+  "time": 8,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Levha",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   }
+  ],
+  "description": "İnce kalaslar yapıştırılıp preslenir."
+ },
+ "r_wooden_frame": {
+  "name": "Çerçeve çakma",
+  "output": "wooden_frame",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 5,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Çatkı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   },
+   {
+    "item": "nail",
+    "count": 4
+   }
+  ],
+  "description": "Dört kalas, köşeleri çivili."
+ },
+ "r_dowels": {
+  "name": "Kavela yontma",
+  "output": "dowels",
+  "count": 12,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 4,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   }
+  ],
+  "description": "Çivi bitince ahşap kavela."
+ },
+ "r_tool_handle": {
+  "name": "Sap yontma",
+  "output": "tool_handle",
+  "count": 2,
+  "station": "hands",
+  "time": 4,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Alet parçası",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 1
+   }
+  ],
+  "description": "Bıçakla yontulmuş sap."
+ },
+ "r_charcoal_kiln": {
+  "name": "Odun kömürü",
+  "output": "charcoal",
+  "count": 4,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 12,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 2
+   }
+  ],
+  "description": "Havasız yakılan kütük kömüre döner: ocak yakıtı ve filtre."
+ },
+ "r_wood_shingle": {
+  "name": "Ahşap kiremit",
+  "output": "wood_shingle",
+  "count": 6,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 5,
+  "category": "ahsap",
+  "family": "process",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 2
+   }
+  ],
+  "description": "İnce yarılmış kalas."
+ },
+ "r_mortar": {
+  "name": "Harç karma",
+  "output": "mortar",
+  "count": 3,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 5,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Harç",
+  "inputs": [
+   {
+    "tag": "lime",
+    "count": 1
+   },
+   {
+    "item": "sand",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Kireç, kum ve su."
+ },
+ "r_concrete_mix": {
+  "name": "Beton karma",
+  "output": "concrete_mix",
+  "count": 4,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "cement_bag",
+    "count": 1
+   },
+   {
+    "tag": "aggregate",
+    "count": 2
+   },
+   {
+    "item": "sand",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Bir çuval çimentodan dört kova beton."
+ },
+ "r_cement_kiln": {
+  "name": "Ev yapımı çimento",
+  "output": "cement_bag",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 16,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "lime_powder",
+    "count": 2
+   },
+   {
+    "item": "clay",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 2
+   }
+  ],
+  "description": "Kireç ve kil yüksek ısıda pişirilir."
+ },
+ "r_fired_brick": {
+  "name": "Tuğla pişirme",
+  "output": "fired_brick",
+  "count": 4,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Tuğla",
+  "inputs": [
+   {
+    "item": "clay",
+    "count": 3
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Kil kalıplanıp pişirilir."
+ },
+ "r_stone_block": {
+  "name": "Taş kesme",
+  "output": "stone_block",
+  "count": 1,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 8,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Taş",
+  "inputs": [
+   {
+    "item": "stone_chunk",
+    "count": 3
+   },
+   {
+    "tag": "tool_chisel",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Sur taşı gibi köşeli blok."
+ },
+ "r_rebar_mesh": {
+  "name": "Hasır çelik bağlama",
+  "output": "rebar_mesh",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 8,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "rebar",
+    "count": 3
+   },
+   {
+    "item": "wire_steel",
+    "count": 2
+   }
+  ],
+  "description": "İnşaat demirleri telle bağlanır."
+ },
+ "r_cinder_block": {
+  "name": "Briket dökme",
+  "output": "cinder_block",
+  "count": 2,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 6,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Beton",
+  "inputs": [
+   {
+    "item": "concrete_mix",
+    "count": 1
+   },
+   {
+    "tag": "aggregate",
+    "count": 1
+   }
+  ],
+  "description": "Kalıba dökülüp kurutulur."
+ },
+ "r_roof_tile": {
+  "name": "Kiremit pişirme",
+  "output": "roof_tile_item",
+  "count": 4,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 8,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Çatı",
+  "inputs": [
+   {
+    "item": "clay",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Oluklu kalıpta pişmiş kil."
+ },
+ "r_glass_cast": {
+  "name": "Cam dökme",
+  "output": "glass_pane",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 3,
+  "time": 14,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Cam",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 4
+   },
+   {
+    "tag": "lime",
+    "count": 1
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 2
+   }
+  ],
+  "description": "Kum ve kireç çok yüksek ısıda cama döner."
+ },
+ "r_tar": {
+  "name": "Zift kaynatma",
+  "output": "tar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6,
+  "category": "yapi_malzemesi",
+  "family": "process",
+  "subcategory": "Yalıtım",
+  "inputs": [
+   {
+    "item": "asphalt_chunk",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Asfalt eritilip süzülür."
+ },
+ "r_twine": {
+  "name": "Sicim bükme",
+  "output": "twine",
+  "count": 2,
+  "station": "hands",
+  "time": 3,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "İp",
+  "inputs": [
+   {
+    "item": "plant_fiber",
+    "count": 3
+   }
+  ],
+  "description": "Lifleri elde bükersin."
+ },
+ "r_rope": {
+  "name": "Halat örme",
+  "output": "rope",
+  "count": 1,
+  "station": "hands",
+  "time": 5,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "İp",
+  "inputs": [
+   {
+    "item": "twine",
+    "count": 3
+   }
+  ],
+  "description": "Üç kat sicim."
+ },
+ "r_cloth_bolt": {
+  "name": "Kumaş dikme",
+  "output": "cloth_bolt",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 6,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Kumaş",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 4
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Bezler dikilip top olur."
+ },
+ "r_padding_pad": {
+  "name": "Dolgu pedi",
+  "output": "padding_pad",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 4,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Dolgu",
+  "inputs": [
+   {
+    "item": "foam_padding",
+    "count": 2
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "Sünger bez içine dikilir."
+ },
+ "r_leather_strap": {
+  "name": "Kayış kesme",
+  "output": "leather_strap",
+  "count": 3,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 4,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Deri",
+  "inputs": [
+   {
+    "item": "cured_leather",
+    "count": 1
+   }
+  ],
+  "description": "İşlenmiş deriden şerit."
+ },
+ "r_canvas_sheet": {
+  "name": "Branda dikme",
+  "output": "canvas_sheet",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 8,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Kumaş",
+  "inputs": [
+   {
+    "item": "canvas",
+    "count": 3
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Kat kat dikilip yapıştırılır."
+ },
+ "r_kevlar_panel": {
+  "name": "Kevlar panel",
+  "output": "kevlar_panel",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 3,
+  "time": 12,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Zırh",
+  "inputs": [
+   {
+    "item": "kevlar_scrap",
+    "count": 3
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   },
+   {
+    "tag": "tool_sewing",
+    "count": 1,
+    "consumed": false
+   }
+  ],
+  "description": "Askerî yelek parçaları yeniden katlanır."
+ },
+ "r_rubber_sheet": {
+  "name": "Kauçuk levha",
+  "output": "rubber_sheet",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Kauçuk",
+  "inputs": [
+   {
+    "tag": "rubber_raw",
+    "count": 2
+   }
+  ],
+  "description": "Lastik ısıtılıp düzlenir."
+ },
+ "r_plastic_sheet": {
+  "name": "Plastik eritme",
+  "output": "plastic_sheet",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 6,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Plastik",
+  "inputs": [
+   {
+    "item": "plastic_shard",
+    "count": 6
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Kırık plastik levhaya dökülür."
+ },
+ "r_insulated_rubber": {
+  "name": "Kablo kaplama",
+  "output": "insulated_wire",
+  "count": 3,
+  "station": "hands",
+  "time": 5,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Kauçuk",
+  "inputs": [
+   {
+    "item": "copper_wire",
+    "count": 2
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Kauçukla kaplanmış bakır: güvenli tesisat."
+ },
+ "r_nitrate": {
+  "name": "Nitrat süzme",
+  "output": "nitrate",
+  "count": 3,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 10,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Tuz",
+  "inputs": [
+   {
+    "item": "fertilizer",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Gübre suda çözülüp kristallenir."
+ },
+ "r_black_powder": {
+  "name": "Kara barut",
+  "output": "refined_powder",
+  "count": 6,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 12,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Barut",
+  "inputs": [
+   {
+    "item": "nitrate",
+    "count": 2
+   },
+   {
+    "item": "charcoal",
+    "count": 1
+   }
+  ],
+  "description": "Klasik barut: nitrat ve kömür."
+ },
+ "r_loose_powder": {
+  "name": "Dökme barut",
+  "output": "gunpowder_loose",
+  "count": 3,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 8,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Barut",
+  "inputs": [
+   {
+    "item": "nitrate",
+    "count": 1
+   },
+   {
+    "item": "charcoal",
+    "count": 1
+   }
+  ],
+  "description": "Kaba barut: bomba ve kapsül için yeterli."
+ },
+ "r_ethanol": {
+  "name": "Etanol damıtma",
+  "output": "ethanol",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 16,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Alkol",
+  "inputs": [
+   {
+    "tag": "sugar_source",
+    "count": 3
+   },
+   {
+    "tag": "water_raw",
+    "count": 2
+   }
+  ],
+  "description": "Mayalanır, damıtılır."
+ },
+ "r_lye": {
+  "name": "Kül suyu",
+  "output": "lye",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 8,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Baz",
+  "inputs": [
+   {
+    "item": "charcoal",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Kül suyu kaynatılıp koyulaştırılır."
+ },
+ "r_soap": {
+  "name": "Sabun kaynatma",
+  "output": "soap",
+  "count": 3,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Temizlik",
+  "inputs": [
+   {
+    "item": "cooking_oil",
+    "count": 1
+   },
+   {
+    "item": "lye",
+    "count": 1
+   }
+  ],
+  "description": "Yağ ve kostik."
+ },
+ "r_glue": {
+  "name": "Tutkal kaynatma",
+  "output": "glue",
+  "count": 2,
+  "station": "cooking",
+  "station_tier": 1,
+  "time": 6,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Yapıştırıcı",
+  "inputs": [
+   {
+    "item": "resin",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Reçine suyla eritilir."
+ },
+ "r_epoxy_resin": {
+  "name": "Epoksi karışımı",
+  "output": "epoxy_resin",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 10,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Yapıştırıcı",
+  "inputs": [
+   {
+    "item": "resin",
+    "count": 2
+   },
+   {
+    "item": "acid_concentrate",
+    "count": 1
+   }
+  ],
+  "description": "Sertleştiricili reçine."
+ },
+ "r_battery_acid": {
+  "name": "Asit seyreltme",
+  "output": "battery_acid",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 6,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Asit",
+  "inputs": [
+   {
+    "item": "acid_concentrate",
+    "count": 1
+   },
+   {
+    "tag": "water_raw",
+    "count": 2
+   }
+  ],
+  "description": "Derişik asit dikkatle sulandırılır."
+ },
+ "r_acid_from_battery": {
+  "name": "Akü boşaltma",
+  "output": "acid_concentrate",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 10,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Asit",
+  "inputs": [
+   {
+    "item": "battery_car",
+    "count": 1
+   }
+  ],
+  "description": "Eski aküden asit ve kurşun.",
+  "byproducts": {
+   "scrap_metal": 2
+  }
+ },
+ "r_thermite": {
+  "name": "Termit karışımı",
+  "output": "thermite",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 3,
+  "time": 10,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Yanıcı",
+  "inputs": [
+   {
+    "item": "aluminum_ingot",
+    "count": 1
+   },
+   {
+    "item": "scrap_metal",
+    "count": 2
+   }
+  ],
+  "description": "Alüminyum toz, pas tozu.",
+  "failure_chance": 0.05
+ },
+ "r_smoke_compound": {
+  "name": "Duman karışımı",
+  "output": "smoke_compound",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 8,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Yanıcı",
+  "inputs": [
+   {
+    "item": "sugar_pack",
+    "count": 1
+   },
+   {
+    "item": "nitrate",
+    "count": 1
+   }
+  ],
+  "description": "Yavaş yanan karışım."
+ },
+ "r_chlorine_tabs": {
+  "name": "Klor tableti",
+  "output": "purification_tabs",
+  "count": 6,
+  "station": "chemistry",
+  "station_tier": 1,
+  "time": 8,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Su",
+  "inputs": [
+   {
+    "item": "bleach",
+    "count": 1
+   }
+  ],
+  "description": "Çamaşır suyu kurutulup tabletlenir."
+ },
+ "r_antiseptic_ethanol": {
+  "name": "Etanollü antiseptik",
+  "output": "antiseptic",
+  "count": 2,
+  "station": "chemistry",
+  "station_tier": 2,
+  "time": 8,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Tıbbi",
+  "inputs": [
+   {
+    "item": "ethanol",
+    "count": 1
+   },
+   {
+    "item": "herbs",
+    "count": 1
+   }
+  ],
+  "description": "Etanol ve şifalı ot."
+ },
+ "r_pulley": {
+  "name": "Makara",
+  "output": "pulley",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 1,
+  "time": 6,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Parça",
+  "inputs": [
+   {
+    "item": "iron_bar",
+    "count": 1
+   },
+   {
+    "item": "bearing",
+    "count": 1
+   }
+  ],
+  "description": "Rulmanlı makara."
+ },
+ "r_piston": {
+  "name": "Piston işleme",
+  "output": "piston",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 12,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Motor",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   },
+   {
+    "item": "spring_heavy",
+    "count": 1
+   }
+  ],
+  "description": "Silindire oturan çelik piston."
+ },
+ "r_pump_unit": {
+  "name": "Pompa kurma",
+  "output": "pump_unit",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 2,
+  "time": 14,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Tesisat",
+  "inputs": [
+   {
+    "item": "motor_small",
+    "count": 1
+   },
+   {
+    "item": "pipe_fitting",
+    "count": 2
+   },
+   {
+    "item": "valve",
+    "count": 1
+   },
+   {
+    "item": "rubber_sheet",
+    "count": 1
+   }
+  ],
+  "description": "Motora çark ve conta."
+ },
+ "r_crank_shaft": {
+  "name": "Krank mili",
+  "output": "crank_shaft",
+  "count": 1,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 14,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Motor",
+  "inputs": [
+   {
+    "item": "axle",
+    "count": 1
+   },
+   {
+    "item": "gear_large",
+    "count": 1
+   }
+  ],
+  "description": "Aks ve dişli birleşir."
+ },
+ "r_bearing_lathe": {
+  "name": "Rulman işleme",
+  "output": "bearing",
+  "count": 3,
+  "station": "mechanic",
+  "station_tier": 3,
+  "time": 12,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "İşleme",
+  "inputs": [
+   {
+    "item": "steel_ingot",
+    "count": 1
+   }
+  ],
+  "description": "Bilyalı rulman."
+ },
+ "r_filter_housing": {
+  "name": "Filtre gövdesi",
+  "output": "filter_housing",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 6,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Filtre",
+  "inputs": [
+   {
+    "item": "pvc_pipe",
+    "count": 1
+   },
+   {
+    "item": "plastic_sheet",
+    "count": 1
+   },
+   {
+    "tag": "adhesive",
+    "count": 1
+   }
+  ],
+  "description": "Boru içine yuva."
+ },
+ "r_ceramic_filter": {
+  "name": "Seramik filtre",
+  "output": "ceramic_filter",
+  "count": 2,
+  "station": "forge",
+  "station_tier": 2,
+  "time": 10,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Filtre",
+  "inputs": [
+   {
+    "item": "clay",
+    "count": 2
+   },
+   {
+    "item": "charcoal",
+    "count": 1
+   }
+  ],
+  "description": "Kömür tozlu kil pişirilir."
+ },
+ "r_sand_filter_pack": {
+  "name": "Kum filtre paketi",
+  "output": "sand_filter_pack",
+  "count": 2,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 6,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Filtre",
+  "inputs": [
+   {
+    "item": "sand",
+    "count": 3
+   },
+   {
+    "item": "charcoal",
+    "count": 2
+   },
+   {
+    "item": "cloth_rag",
+    "count": 1
+   }
+  ],
+  "description": "Bez torbaya katman katman."
+ },
+ "r_glass_lens": {
+  "name": "Mercek taşlama",
+  "output": "glass_lens",
+  "count": 1,
+  "station": "electronics",
+  "station_tier": 2,
+  "time": 10,
+  "category": "mekanik",
+  "family": "process",
+  "subcategory": "Optik",
+  "inputs": [
+   {
+    "item": "glass_pane",
+    "count": 1
+   },
+   {
+    "item": "sand",
+    "count": 1
+   }
+  ],
+  "description": "Cam kum ile saatlerce taşlanır."
+ },
+ "rx_plywood_glue": {
+  "name": "Tutkallı kontrplak",
+  "output": "plywood",
+  "count": 1,
+  "station": "carpentry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Ahşap",
+  "inputs": [
+   {
+    "item": "wood_plank",
+    "count": 3
+   },
+   {
+    "item": "glue",
+    "count": 1
+   }
+  ],
+  "description": "Kalası tutkalla preslemek: vidasız kontrplak."
+ },
+ "rx_rope_rags": {
+  "name": "Paçavradan halat",
+  "output": "rope",
+  "count": 1,
+  "station": "hands",
+  "time": 10,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "İp",
+  "inputs": [
+   {
+    "item": "cloth_rag",
+    "count": 4
+   }
+  ],
+  "description": "Paçavraları örerek halat."
+ },
+ "rx_charcoal_logs": {
+  "name": "Kütükten kömür",
+  "output": "charcoal",
+  "count": 4,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "kimya",
+  "family": "process",
+  "subcategory": "Yakıt",
+  "inputs": [
+   {
+    "item": "wood_log",
+    "count": 2
+   }
+  ],
+  "description": "Kapalı ocakta kütük yakma: bol kömür."
+ },
+ "rx_iron_from_rebar": {
+  "name": "İnşaat demirinden çubuk",
+  "output": "iron_bar",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Metal",
+  "inputs": [
+   {
+    "item": "rebar",
+    "count": 2
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Hurda inşaat demirini döverek düzeltmek."
+ },
+ "rx_copper_from_wire": {
+  "name": "Kablodan bakır külçe",
+  "output": "copper_ingot",
+  "count": 1,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Metal",
+  "inputs": [
+   {
+    "item": "copper_wire",
+    "count": 6
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Kabloyu soyup eritmek."
+ },
+ "rx_rivets_nails": {
+  "name": "Çividen perçin",
+  "output": "rivets",
+  "count": 6,
+  "station": "forge",
+  "station_tier": 1,
+  "time": 10,
+  "category": "metal",
+  "family": "process",
+  "subcategory": "Bağlantı",
+  "inputs": [
+   {
+    "item": "nail",
+    "count": 8
+   },
+   {
+    "tag": "cook_fuel",
+    "count": 1
+   }
+  ],
+  "description": "Çivi başlarını ezip perçine çevirmek."
+ },
+ "rx_cloth_from_fiber": {
+  "name": "Liften bez",
+  "output": "cloth_bolt",
+  "count": 1,
+  "station": "workbench",
+  "station_tier": 1,
+  "time": 10,
+  "category": "kumas",
+  "family": "process",
+  "subcategory": "Kumaş",
+  "inputs": [
+   {
+    "item": "plant_fiber",
+    "count": 10
+   }
+  ],
+  "description": "Bitki lifinden kaba dokuma."
+ },
+ "rx_mortar_clay": {
+  "name": "Kil harcı",
+  "output": "mortar",
+  "count": 2,
+  "station": "masonry",
+  "station_tier": 1,
+  "time": 10,
+  "category": "insaat",
+  "family": "process",
+  "subcategory": "Harç",
+  "inputs": [
+   {
+    "item": "clay",
+    "count": 3
+   },
+   {
+    "item": "sand",
+    "count": 2
+   },
+   {
+    "tag": "water_raw",
+    "count": 1
+   }
+  ],
+  "description": "Kireçsiz, kille bağlanan harç: yavaş kurur ama tutar."
+ }
+}
